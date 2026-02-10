@@ -1,0 +1,273 @@
+/**
+ * Global Styles
+ * 
+ * This file uses PostCSS directives (@tailwind, @layer) for Tailwind CSS integration.
+ * These directives are processed by PostCSS before SCSS compilation.
+ * 
+ * Note: The @tailwind directives are valid PostCSS directives and will be processed
+ * by the Tailwind CSS PostCSS plugin. The SCSS linter may show warnings about
+ * unknown at-rules, which can be safely ignored.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .dark body {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
+  }
+
+  .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background-color: #ea580c;
+    color: #ffffff;
+  }
+
+  .btn-primary:hover {
+    background-color: #c2410c;
+  }
+
+  .btn-primary:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
+  }
+
+  .dark .btn-primary {
+    background-color: #f97316;
+  }
+
+  .dark .btn-primary:hover {
+    background-color: #ea580c;
+  }
+
+  .btn-secondary {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+
+  .btn-secondary:hover {
+    background-color: #d1d5db;
+  }
+
+  .btn-secondary:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #6b7280;
+  }
+
+  .dark .btn-secondary {
+    background-color: #374151;
+    color: #f3f4f6;
+  }
+
+  .dark .btn-secondary:hover {
+    background-color: #4b5563;
+  }
+
+  .btn-accent {
+    background-color: #ef4444;
+    color: #ffffff;
+  }
+
+  .btn-accent:hover {
+    background-color: #dc2626;
+  }
+
+  .btn-accent:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ef4444;
+  }
+
+  .btn-outline {
+    border: 2px solid #ea580c;
+    color: #ea580c;
+    background-color: transparent;
+  }
+
+  .btn-outline:hover {
+    background-color: #fff7ed;
+  }
+
+  .btn-outline:focus {
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
+  }
+
+  .dark .btn-outline {
+    border-color: #fb923c;
+    color: #fb923c;
+  }
+
+  .dark .btn-outline:hover {
+    background-color: rgba(234, 88, 12, 0.2);
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    border: 1px solid #e5e7eb;
+  }
+
+  .dark .card {
+    background-color: #1f2937;
+    border-color: #374151;
+  }
+
+  .input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+  }
+
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ea580c;
+    border-color: transparent;
+  }
+
+  .dark .input {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #ffffff;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.625rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .badge-primary {
+    background-color: #ffedd5;
+    color: #9a3412;
+  }
+
+  .dark .badge-primary {
+    background-color: rgba(124, 45, 18, 0.3);
+    color: #fed7aa;
+  }
+
+  .badge-secondary {
+    background-color: #dcfce7;
+    color: #166534;
+  }
+
+  .dark .badge-secondary {
+    background-color: rgba(20, 83, 45, 0.3);
+    color: #bbf7d0;
+  }
+
+  .badge-accent {
+    background-color: #fee2e2;
+    color: #991b1b;
+  }
+
+  .dark .badge-accent {
+    background-color: rgba(127, 29, 29, 0.3);
+    color: #fecaca;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+  }
+
+  .dark .glass {
+    background-color: rgba(17, 24, 39, 0.8);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f3f4f6;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background-color: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #6b7280;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.2s;
+}
+
+/* Animation utilities */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

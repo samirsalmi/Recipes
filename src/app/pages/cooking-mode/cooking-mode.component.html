@@ -1,0 +1,112 @@
+<div *ngIf="recipe" class="min-h-screen bg-gray-900 text-white">
+  <!-- Header -->
+  <div class="bg-gray-800 border-b border-gray-700 py-4 px-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <button
+        (click)="exitCookingMode()"
+        class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+        </svg>
+        <span>Exit</span>
+      </button>
+      <h1 class="font-display text-xl font-semibold">{{ recipe.name }}</h1>
+      <div class="w-20"></div>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="bg-gray-800 h-2">
+    <div class="bg-primary-500 h-full transition-all duration-300" [style.width.%]="progress"></div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8 max-w-4xl">
+    <!-- Step Indicator -->
+    <div class="text-center mb-8">
+      <span class="text-gray-400">Step</span>
+      <span class="text-4xl font-bold mx-2">{{ currentStep + 1 }}</span>
+      <span class="text-gray-400">of {{ recipe.steps.length }}</span>
+    </div>
+
+    <!-- Current Step -->
+    <div *ngIf="currentStepData" class="bg-gray-800 rounded-2xl p-8 mb-8">
+      <div class="text-3xl md:text-4xl leading-relaxed text-center mb-8">
+        {{ currentStepData.instruction }}
+      </div>
+
+      <!-- Timer -->
+      <div *ngIf="currentStepData.timer" class="flex flex-col items-center gap-4 mb-8">
+        <div class="text-6xl font-mono font-bold text-primary-400">{{ timerDisplay }}</div>
+        <div class="flex gap-4">
+          <button
+            *ngIf="!timerRunning"
+            (click)="startTimer(currentStepData.timer!)"
+            class="btn btn-primary text-lg px-8 py-3"
+          >
+            Start {{ currentStepData.timer }} min Timer
+          </button>
+          <button
+            *ngIf="timerRunning"
+            (click)="stopTimer()"
+            class="btn btn-accent text-lg px-8 py-3"
+          >
+            Stop Timer
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="flex items-center justify-between gap-4">
+      <button
+        (click)="previousStep()"
+        [disabled]="currentStep === 0"
+        class="btn btn-secondary flex-1 text-lg py-4"
+        [class.opacity-50]="currentStep === 0"
+        [class.cursor-not-allowed]="currentStep === 0"
+      >
+        ← Previous
+      </button>
+
+      <!-- Step Dots -->
+      <div class="hidden md:flex gap-2">
+        <button
+          *ngFor="let step of recipe.steps; let i = index"
+          (click)="goToStep(i)"
+          class="w-3 h-3 rounded-full transition-all"
+          [class.bg-primary-500]="i === currentStep"
+          [class.bg-gray-600]="i !== currentStep"
+          [class.w-6]="i === currentStep"
+        ></button>
+      </div>
+
+      <button
+        *ngIf="currentStep < recipe.steps.length - 1"
+        (click)="nextStep()"
+        class="btn btn-primary flex-1 text-lg py-4"
+      >
+        Next →
+      </button>
+      <button
+        *ngIf="currentStep === recipe.steps.length - 1"
+        (click)="exitCookingMode()"
+        class="btn btn-accent flex-1 text-lg py-4"
+      >
+        Finish! 🎉
+      </button>
+    </div>
+
+    <!-- Mobile Step Dots -->
+    <div class="flex justify-center gap-2 mt-6 md:hidden">
+      <button
+        *ngFor="let step of recipe.steps; let i = index"
+        (click)="goToStep(i)"
+        class="w-3 h-3 rounded-full transition-all"
+        [class.bg-primary-500]="i === currentStep"
+        [class.bg-gray-600]="i !== currentStep"
+        [class.w-6]="i === currentStep"
+      ></button>
+    </div>
+  </div>
+</div>

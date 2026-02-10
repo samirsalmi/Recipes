@@ -1,0 +1,121 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 pb-12">
+  <!-- Header -->
+  <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 py-8 px-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <div>
+        <h1 class="font-display text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+          Meal Plan
+        </h1>
+        <p class="text-gray-600 dark:text-gray-400">
+          Plan your week ahead
+        </p>
+      </div>
+      <button
+        (click)="generateShoppingList()"
+        class="btn btn-primary flex items-center gap-2"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+        </svg>
+        Generate Shopping List
+      </button>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+    <!-- Add Meal Form -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-8">
+      <h2 class="font-display text-lg font-semibold text-gray-900 dark:text-white mb-4">Add Meal</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Date</label>
+          <select [(ngModel)]="selectedDate" class="input">
+            <option value="">Select date</option>
+            <option *ngFor="let date of getWeekDates()" [value]="date">
+              {{ formatDate(date) }} {{ isToday(date) ? '(Today)' : '' }}
+            </option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Meal Type</label>
+          <select [(ngModel)]="selectedMealType" class="input">
+            <option *ngFor="let type of mealTypes" [value]="type">{{ type }}</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Recipe</label>
+          <select [(ngModel)]="selectedRecipeId" class="input">
+            <option value="">Select recipe</option>
+            <option *ngFor="let recipe of recipes()" [value]="recipe.id">
+              {{ recipe.name }}
+            </option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Servings</label>
+          <input type="number" [(ngModel)]="selectedServings" min="1" max="20" class="input" />
+        </div>
+      </div>
+      <button
+        (click)="addMeal()"
+        [disabled]="!selectedDate || !selectedRecipeId"
+        class="btn btn-primary mt-4"
+        [class.opacity-50]="!selectedDate || !selectedRecipeId"
+        [class.cursor-not-allowed]="!selectedDate || !selectedRecipeId"
+      >
+        Add to Plan
+      </button>
+    </div>
+
+    <!-- Weekly Calendar -->
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div *ngFor="let date of getWeekDates()" class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <!-- Day Header -->
+        <div class="p-4 border-b border-gray-200 dark:border-gray-700" [class.bg-primary-50]="isToday(date)" [class.dark:bg-primary-900/20]="isToday(date)">
+          <h3 class="font-semibold text-gray-900 dark:text-white">{{ formatDate(date) }}</h3>
+          <p *ngIf="isToday(date)" class="text-sm text-primary-600 dark:text-primary-400">Today</p>
+        </div>
+
+        <!-- Meals -->
+        <div class="p-4 space-y-3 min-h-[200px]">
+          <div *ngFor="let meal of getMealsForDate(date)" class="relative group">
+            <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+              <div class="flex-grow">
+                <span class="badge {{ getMealTypeColor(meal.mealType) }} text-xs mb-1">
+                  {{ meal.mealType }}
+                </span>
+                <p *ngIf="getRecipeById(meal.recipeId)" class="font-medium text-gray-900 dark:text-white text-sm">
+                  {{ getRecipeById(meal.recipeId)?.name }}
+                </p>
+                <p *ngIf="meal.servings > 1" class="text-xs text-gray-500 dark:text-gray-400">
+                  {{ meal.servings }} servings
+                </p>
+              </div>
+              <button
+                (click)="removeMeal(meal.id)"
+                class="opacity-0 group-hover:opacity-100 text-gray-400 hover:text-red-500 transition-all"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div *ngIf="getMealsForDate(date).length === 0" class="text-center py-8 text-gray-400 dark:text-gray-500 text-sm">
+            No meals planned
+          </div>
+        </div>
+
+        <!-- Clear Day Button -->
+        <div class="p-4 border-t border-gray-200 dark:border-gray-700">
+          <button
+            (click)="clearDay(date)"
+            class="text-sm text-gray-500 hover:text-red-500 transition-colors"
+          >
+            Clear Day
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

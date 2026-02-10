@@ -1,0 +1,60 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="plateGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f3f4f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="350" cy="250" r="100" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Plate -->
+  <ellipse cx="200" cy="180" rx="120" ry="40" fill="url(#plateGradient)" stroke="#e5e7eb" stroke-width="2"/>
+  <ellipse cx="200" cy="175" rx="100" ry="30" fill="#f9fafb"/>
+  
+  <!-- Food items on plate -->
+  <!-- Pasta/food mound -->
+  <ellipse cx="200" cy="165" rx="70" ry="25" fill="#fef3c7"/>
+  <ellipse cx="200" cy="160" rx="60" ry="20" fill="#fde68a"/>
+  
+  <!-- Tomato slices -->
+  <circle cx="170" cy="155" r="12" fill="#ef4444"/>
+  <circle cx="170" cy="155" r="8" fill="#fca5a5"/>
+  <circle cx="230" cy="160" r="10" fill="#ef4444"/>
+  <circle cx="230" cy="160" r="6" fill="#fca5a5"/>
+  
+  <!-- Basil leaves -->
+  <path d="M185 150 Q180 140 190 145 Q200 140 195 150 Q200 160 190 155 Q180 160 185 150" fill="#22c55e"/>
+  <path d="M215 155 Q210 145 220 150 Q230 145 225 155 Q230 165 220 160 Q210 165 215 155" fill="#22c55e"/>
+  
+  <!-- Fork -->
+  <g transform="translate(280, 120) rotate(30)">
+    <rect x="0" y="0" width="8" height="80" rx="2" fill="#9ca3af"/>
+    <rect x="-2" y="0" width="4" height="20" rx="1" fill="#9ca3af"/>
+    <rect x="2" y="0" width="4" height="20" rx="1" fill="#9ca3af"/>
+    <rect x="6" y="0" width="4" height="20" rx="1" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Knife -->
+  <g transform="translate(100, 120) rotate(-30)">
+    <rect x="0" y="0" width="6" height="80" rx="2" fill="#9ca3af"/>
+    <rect x="-1" y="0" width="8" height="50" rx="1" fill="#d1d5db"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    Recipe Image
+  </text>
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.8)">
+    Coming Soon
+  </text>
+</svg>

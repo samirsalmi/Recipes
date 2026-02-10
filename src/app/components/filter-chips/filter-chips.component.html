@@ -1,0 +1,16 @@
+<div class="filter-chips">
+  <label *ngIf="label()" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+    {{ label() }}
+  </label>
+  <div class="flex flex-wrap gap-2">
+    <button
+      *ngFor="let option of options()"
+      (click)="toggleSelection(option.value)"
+      class="filter-chip"
+      [class.selected]="isSelected(option.value)"
+    >
+      <span>{{ option.label }}</span>
+      <span *ngIf="option.count !== undefined" class="count">({{ option.count }})</span>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,168 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 pb-12">
+  <!-- Header -->
+  <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 py-8 px-4">
+    <div class="container mx-auto">
+      <h1 class="font-display text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+        All Recipes
+      </h1>
+      <p class="text-gray-600 dark:text-gray-400">
+        {{ filteredRecipes().length }} recipes found
+      </p>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+    <div class="flex flex-col lg:flex-row gap-8">
+      <!-- Filters Sidebar -->
+      <aside class="lg:w-72 flex-shrink-0">
+        <div class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6 sticky top-20">
+          <div class="flex items-center justify-between mb-6">
+            <h2 class="font-semibold text-lg text-gray-900 dark:text-white">Filters</h2>
+            <button
+              *ngIf="hasActiveFilters()"
+              (click)="resetFilters()"
+              class="text-sm text-primary-600 dark:text-primary-400 hover:underline"
+            >
+              Reset All
+            </button>
+          </div>
+
+          <!-- Search -->
+          <div class="mb-6">
+            <app-search-bar
+              [placeholder]="'Search recipes...'"
+              [value]="searchQuery"
+              (searchChanged)="onSearchChanged($event)"
+              (cleared)="onSearchCleared()"
+            ></app-search-bar>
+          </div>
+
+          <!-- Categories -->
+          <div class="mb-6">
+            <app-filter-chips
+              [options]="categoryOptions()"
+              [selectedValues]="filter().categories"
+              [label]="'Category'"
+              (selectionChanged)="onCategorySelectionChanged($event)"
+            ></app-filter-chips>
+          </div>
+
+          <!-- Difficulty -->
+          <div class="mb-6">
+            <app-filter-chips
+              [options]="difficultyOptions()"
+              [selectedValues]="filter().difficulties"
+              [label]="'Difficulty'"
+              (selectionChanged)="onDifficultySelectionChanged($event)"
+            ></app-filter-chips>
+          </div>
+
+          <!-- Dietary Restrictions -->
+          <div class="mb-6">
+            <app-filter-chips
+              [options]="dietaryOptions()"
+              [selectedValues]="filter().dietaryRestrictions"
+              [label]="'Dietary'"
+              (selectionChanged)="onDietarySelectionChanged($event)"
+            ></app-filter-chips>
+          </div>
+
+          <!-- Cuisine Type -->
+          <div class="mb-6">
+            <app-filter-chips
+              [options]="cuisineOptions()"
+              [selectedValues]="filter().cuisineTypes || []"
+              [label]="'Cuisine'"
+              (selectionChanged)="onCuisineSelectionChanged($event)"
+            ></app-filter-chips>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="flex-grow">
+        <!-- Toolbar -->
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+          <!-- View Mode Toggle -->
+          <div class="flex items-center gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 border border-gray-200 dark:border-gray-700">
+            <button
+              (click)="onViewModeChanged('grid')"
+              class="p-2 rounded-md transition-colors"
+              [class.bg-primary-100]="viewMode() === 'grid'"
+              [class.text-primary-600]="viewMode() === 'grid'"
+              [class.text-gray-500]="viewMode() !== 'grid'"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+              </svg>
+            </button>
+            <button
+              (click)="onViewModeChanged('list')"
+              class="p-2 rounded-md transition-colors"
+              [class.bg-primary-100]="viewMode() === 'list'"
+              [class.text-primary-600]="viewMode() === 'list'"
+              [class.text-gray-500]="viewMode() !== 'list'"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Sort -->
+          <div class="flex items-center gap-2">
+            <label class="text-sm text-gray-600 dark:text-gray-400">Sort by:</label>
+            <select
+              (change)="onSortChanged($event)"
+              class="input py-2 px-3 text-sm"
+            >
+              <option value="newest" [selected]="sortOption() === 'newest'">Newest First</option>
+              <option value="oldest" [selected]="sortOption() === 'oldest'">Oldest First</option>
+              <option value="alphabetical" [selected]="sortOption() === 'alphabetical'">Alphabetical</option>
+              <option value="cookingTime" [selected]="sortOption() === 'cookingTime'">Cooking Time</option>
+              <option value="rating" [selected]="sortOption() === 'rating'">Rating</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div *ngIf="filteredRecipes().length > 0"
+             class="grid gap-6"
+             [class.grid-cols-1]="viewMode() === 'list'"
+             [class.grid-cols-1]="viewMode() === 'grid'"
+             [class.sm:grid-cols-2]="viewMode() === 'grid'"
+             [class.lg:grid-cols-3]="viewMode() === 'grid'">
+          <app-recipe-card
+            *ngFor="let recipe of filteredRecipes()"
+            [recipe]="recipe"
+            [isFavorite]="favorites().includes(recipe.id)"
+            [viewMode]="viewMode()"
+            (favoriteToggled)="onFavoriteToggled($event)"
+            (addToMealPlan)="onAddToMealPlan($event)"
+          ></app-recipe-card>
+        </div>
+
+        <!-- Empty State -->
+        <div *ngIf="filteredRecipes().length === 0" class="text-center py-16">
+          <div class="w-24 h-24 mx-auto mb-6 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center">
+            <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-2">
+            No recipes found
+          </h3>
+          <p class="text-gray-600 dark:text-gray-400 mb-6">
+            Try adjusting your filters or search terms
+          </p>
+          <button
+            (click)="resetFilters()"
+            class="btn btn-primary"
+          >
+            Clear All Filters
+          </button>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>

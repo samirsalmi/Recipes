@@ -1,0 +1,141 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 pb-12">
+  <!-- Header -->
+  <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 py-8 px-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <div>
+        <h1 class="font-display text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+          Shopping List
+        </h1>
+        <p class="text-gray-600 dark:text-gray-400">
+          {{ completionPercentage() }}% complete
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <button
+          (click)="printList()"
+          class="btn btn-secondary flex items-center gap-2"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+          </svg>
+          Print
+        </button>
+        <button
+          (click)="generateFromMealPlan()"
+          class="btn btn-primary flex items-center gap-2"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+          From Meal Plan
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="bg-gray-200 dark:bg-gray-700 h-2">
+    <div class="bg-primary-500 h-full transition-all duration-300" [style.width.%]="completionPercentage()"></div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+    <!-- Actions -->
+    <div class="flex flex-wrap gap-3 mb-6">
+      <button
+        (click)="markAllChecked()"
+        class="btn btn-secondary text-sm"
+      >
+        Mark All Checked
+      </button>
+      <button
+        (click)="markAllUnchecked()"
+        class="btn btn-secondary text-sm"
+      >
+        Mark All Unchecked
+      </button>
+      <button
+        (click)="clearCheckedItems()"
+        class="btn btn-secondary text-sm"
+      >
+        Clear Checked
+      </button>
+      <button
+        (click)="clearAllItems()"
+        class="btn btn-accent text-sm"
+      >
+        Clear All
+      </button>
+    </div>
+
+    <!-- Shopping List Items -->
+    <div *ngIf="shoppingList() && shoppingList()!.items.length > 0" class="space-y-6">
+      <div *ngFor="let group of groupedItems()" class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <!-- Category Header -->
+        <div class="p-4 bg-gray-50 dark:bg-gray-700/50 border-b border-gray-200 dark:border-gray-700">
+          <h3 class="font-semibold text-gray-900 dark:text-white">{{ group.category }}</h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400">{{ group.items.length }} items</p>
+        </div>
+
+        <!-- Items -->
+        <div class="divide-y divide-gray-200 dark:divide-gray-700">
+          <div *ngFor="let item of group.items" class="flex items-center gap-4 p-4 hover:bg-gray-50 dark:hover:bg-gray-700/30 transition-colors">
+            <input
+              type="checkbox"
+              [checked]="item.checked"
+              (change)="toggleItemChecked(item.id)"
+              class="w-5 h-5 rounded border-gray-300 text-primary-600 focus:ring-primary-500"
+            />
+            <div class="flex-grow">
+              <p class="font-medium text-gray-900 dark:text-white" [class.line-through]="item.checked" [class.text-gray-400]="item.checked">
+                <span class="text-gray-600 dark:text-gray-400">{{ item.quantity }} {{ item.unit }}</span> {{ item.name }}
+              </p>
+            </div>
+            <button
+              (click)="removeItem(item.id)"
+              class="text-gray-400 hover:text-red-500 transition-colors"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div *ngIf="!shoppingList() || shoppingList()!.items.length === 0" class="text-center py-16">
+      <div class="w-24 h-24 mx-auto mb-6 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center">
+        <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+        </svg>
+      </div>
+      <h3 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-2">
+        Shopping list is empty
+      </h3>
+      <p class="text-gray-600 dark:text-gray-400 mb-6">
+        Generate a list from your meal plan or add items manually
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <button
+          (click)="generateFromMealPlan()"
+          class="btn btn-primary"
+        >
+          Generate from Meal Plan
+        </button>
+        <a
+          routerLink="/meal-plan"
+          class="btn btn-secondary"
+        >
+          Go to Meal Plan
+        </a>
+        <a
+          routerLink="/recipes"
+          class="btn btn-secondary"
+        >
+          Browse Recipes
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

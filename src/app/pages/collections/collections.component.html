@@ -1,0 +1,144 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 pb-12">
+  <!-- Header -->
+  <div class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 py-8 px-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <div>
+        <h1 class="font-display text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+          My Collections
+        </h1>
+        <p class="text-gray-600 dark:text-gray-400">
+          {{ collections().length }} collections
+        </p>
+      </div>
+      <button
+        (click)="showCreateModal = true"
+        class="btn btn-primary flex items-center gap-2"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+        </svg>
+        New Collection
+      </button>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+    <!-- Collections Grid -->
+    <div *ngIf="collections().length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div *ngFor="let collection of collections()" class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <!-- Collection Header -->
+        <div class="p-6 border-b border-gray-200 dark:border-gray-700">
+          <div class="flex items-start justify-between">
+            <div>
+              <h3 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-1">
+                {{ collection.name }}
+              </h3>
+              <p *ngIf="collection.description" class="text-gray-600 dark:text-gray-400 text-sm">
+                {{ collection.description }}
+              </p>
+            </div>
+            <button
+              (click)="deleteCollection(collection.id)"
+              class="text-gray-400 hover:text-red-500 transition-colors"
+              title="Delete collection"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+              </svg>
+            </button>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">
+            {{ collection.recipeIds.length }} recipes
+          </p>
+        </div>
+
+        <!-- Collection Recipes -->
+        <div class="p-4">
+          <div *ngIf="getRecipesInCollection(collection.id).length > 0" class="grid grid-cols-2 gap-3">
+            <app-recipe-card
+              *ngFor="let recipe of getRecipesInCollection(collection.id).slice(0, 4)"
+              [recipe]="recipe"
+              [isFavorite]="favorites().includes(recipe.id)"
+              [viewMode]="'grid'"
+              (favoriteToggled)="onFavoriteToggled($event)"
+              (addToMealPlan)="onAddToMealPlan($event)"
+            ></app-recipe-card>
+          </div>
+          <div *ngIf="getRecipesInCollection(collection.id).length === 0" class="text-center py-8 text-gray-500 dark:text-gray-400">
+            <p>No recipes in this collection yet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div *ngIf="collections().length === 0" class="text-center py-16">
+      <div class="w-24 h-24 mx-auto mb-6 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center">
+        <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
+        </svg>
+      </div>
+      <h3 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-2">
+        No collections yet
+      </h3>
+      <p class="text-gray-600 dark:text-gray-400 mb-6">
+        Create collections to organize your favorite recipes
+      </p>
+      <button
+        (click)="showCreateModal = true"
+        class="btn btn-primary"
+      >
+        Create Your First Collection
+      </button>
+    </div>
+  </div>
+
+  <!-- Create Collection Modal -->
+  <div *ngIf="showCreateModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-xl max-w-md w-full p-6">
+      <h2 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-4">
+        Create New Collection
+      </h2>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            Collection Name *
+          </label>
+          <input
+            [(ngModel)]="newCollectionName"
+            type="text"
+            class="input"
+            placeholder="e.g., Quick Weeknight Dinners"
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            Description (optional)
+          </label>
+          <textarea
+            [(ngModel)]="newCollectionDescription"
+            class="input h-24 resize-none"
+            placeholder="Add a description..."
+          ></textarea>
+        </div>
+      </div>
+      <div class="flex gap-3 mt-6">
+        <button
+          (click)="showCreateModal = false"
+          class="btn btn-secondary flex-1"
+        >
+          Cancel
+        </button>
+        <button
+          (click)="onCreateCollection()"
+          [disabled]="!newCollectionName.trim()"
+          class="btn btn-primary flex-1"
+          [class.opacity-50]="!newCollectionName.trim()"
+          [class.cursor-not-allowed]="!newCollectionName.trim()"
+        >
+          Create
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

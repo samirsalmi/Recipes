@@ -1,0 +1,163 @@
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-primary-600 via-primary-500 to-secondary-500 text-white py-20 px-4">
+    <div class="container mx-auto text-center">
+      <h1 class="font-display text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+        Discover Delicious Recipes
+      </h1>
+      <p class="text-xl md:text-2xl opacity-90 mb-8 animate-slide-up">
+        Explore {{ filteredRecipes().length }}+ recipes from around the world
+      </p>
+      <button
+        (click)="navigateToRecipes()"
+        class="btn bg-white text-primary-600 hover:bg-gray-100 text-lg px-8 py-3 animate-scale-in"
+      >
+        Browse All Recipes
+      </button>
+    </div>
+    <!-- Decorative Elements -->
+    <div class="absolute top-10 left-10 w-20 h-20 bg-white/10 rounded-full animate-pulse-slow"></div>
+    <div class="absolute bottom-10 right-10 w-32 h-32 bg-white/10 rounded-full animate-pulse-slow" style="animation-delay: 1s;"></div>
+  </section>
+
+  <!-- Quick Recipes Section -->
+  <section class="py-12 px-4">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+            Quick & Easy
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400 mt-1">Ready in 30 minutes or less</p>
+        </div>
+        <a routerLink="/recipes" class="text-primary-600 dark:text-primary-400 hover:underline font-medium">
+          View All →
+        </a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <app-recipe-card
+          *ngFor="let recipe of quickRecipes.slice(0, 4)"
+          [recipe]="recipe"
+          [isFavorite]="favorites().includes(recipe.id)"
+          [viewMode]="'grid'"
+          (favoriteToggled)="onFavoriteToggled($event)"
+          (addToMealPlan)="onAddToMealPlan($event)"
+        ></app-recipe-card>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="py-12 px-4 bg-white dark:bg-gray-800">
+    <div class="container mx-auto">
+      <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
+        Browse by Category
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <a
+          routerLink="/recipes"
+          [queryParams]="{ category: 'Breakfast' }"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center hover:scale-105 transition-transform"
+        >
+          <div class="text-center text-white">
+            <span class="text-4xl mb-2 block">🍳</span>
+            <span class="font-semibold text-lg">Breakfast</span>
+          </div>
+        </a>
+        <a
+          routerLink="/recipes"
+          [queryParams]="{ category: 'Lunch' }"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center hover:scale-105 transition-transform"
+        >
+          <div class="text-center text-white">
+            <span class="text-4xl mb-2 block">🥗</span>
+            <span class="font-semibold text-lg">Lunch</span>
+          </div>
+        </a>
+        <a
+          routerLink="/recipes"
+          [queryParams]="{ category: 'Dinner' }"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center hover:scale-105 transition-transform"
+        >
+          <div class="text-center text-white">
+            <span class="text-4xl mb-2 block">🍝</span>
+            <span class="font-semibold text-lg">Dinner</span>
+          </div>
+        </a>
+        <a
+          routerLink="/recipes"
+          [queryParams]="{ category: 'Dessert' }"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center hover:scale-105 transition-transform"
+        >
+          <div class="text-center text-white">
+            <span class="text-4xl mb-2 block">🍰</span>
+            <span class="font-semibold text-lg">Dessert</span>
+          </div>
+        </a>
+        <a
+          routerLink="/recipes"
+          [queryParams]="{ category: 'Snacks' }"
+          class="group relative overflow-hidden rounded-xl aspect-square bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center hover:scale-105 transition-transform"
+        >
+          <div class="text-center text-white">
+            <span class="text-4xl mb-2 block">🍿</span>
+            <span class="font-semibold text-lg">Snacks</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Easy Recipes Section -->
+  <section class="py-12 px-4">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">
+            Beginner Friendly
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400 mt-1">Simple recipes for new cooks</p>
+        </div>
+        <a routerLink="/recipes" class="text-primary-600 dark:text-primary-400 hover:underline font-medium">
+          View All →
+        </a>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <app-recipe-card
+          *ngFor="let recipe of easyRecipes.slice(0, 4)"
+          [recipe]="recipe"
+          [isFavorite]="favorites().includes(recipe.id)"
+          [viewMode]="'grid'"
+          (favoriteToggled)="onFavoriteToggled($event)"
+          (addToMealPlan)="onAddToMealPlan($event)"
+        ></app-recipe-card>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 px-4 bg-gradient-to-r from-secondary-500 to-primary-500 text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="font-display text-3xl md:text-4xl font-bold mb-4">
+        Start Meal Planning Today
+      </h2>
+      <p class="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
+        Plan your weekly meals, generate shopping lists, and never wonder "what's for dinner?" again.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          routerLink="/meal-plan"
+          class="btn bg-white text-primary-600 hover:bg-gray-100 text-lg px-8 py-3"
+        >
+          Plan Your Week
+        </a>
+        <a
+          routerLink="/recipes"
+          class="btn bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-3"
+        >
+          Explore Recipes
+        </a>
+      </div>
+    </div>
+  </section>
+</div>

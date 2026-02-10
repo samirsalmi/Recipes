@@ -1,0 +1,13 @@
+{
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.scss": "scss"
+  },
+  "scss.validate": {
+    "lint": {
+      "unknownAtRules": "ignore"
+    }
+  }
+}
