@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { RecipeService } from '../../services';
@@ -19,6 +19,24 @@ export class HomeComponent {
   favorites = this.recipeService.favorites;
   quickRecipes = this.recipeService.getQuickRecipes();
   easyRecipes = this.recipeService.getEasyRecipes();
+
+  officialPicks = computed(() => this.recipeService.recipes().filter(r => r.isOfficial).slice(0, 4));
+
+  communityPicks = computed(() =>
+    [...this.recipeService.recipes()]
+      .filter(r => !r.isOfficial)
+      .sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime())
+      .slice(0, 4)
+  );
+
+  mostTwisted = computed(() =>
+    [...this.recipeService.recipes()]
+      .filter(r => r.twistCount > 0)
+      .sort((a, b) => b.twistCount - a.twistCount)
+      .slice(0, 4)
+  );
+
+  recentlyViewed = this.recipeService.recentlyViewedRecipes;
 
   onFavoriteToggled(recipeId: string): void {
     this.recipeService.toggleFavorite(recipeId);

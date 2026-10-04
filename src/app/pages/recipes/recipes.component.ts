@@ -38,9 +38,13 @@ export class RecipesComponent implements OnInit {
   dietaryOptions = computed(() => 
     this.dietaryRestrictions.map(d => ({ value: d, label: d } as FilterOption))
   );
-  cuisineOptions = computed(() => 
+  cuisineOptions = computed(() =>
     this.cuisineTypes.map(c => ({ value: c, label: c } as FilterOption))
   );
+  originOptions: FilterOption[] = [
+    { value: 'official', label: 'Official' },
+    { value: 'community', label: 'Community' }
+  ];
 
   showFilters = false;
   searchQuery = '';
@@ -87,6 +91,10 @@ export class RecipesComponent implements OnInit {
     this.recipeService.updateFilter({ cuisineTypes: cuisines as CuisineType[] });
   }
 
+  onOriginSelectionChanged(origins: string[]): void {
+    this.recipeService.updateFilter({ originFilter: origins as ('official' | 'community')[] });
+  }
+
   onSortChanged(event: Event): void {
     const select = event.target as HTMLSelectElement;
     this.recipeService.setSortOption(select.value as SortOption);
@@ -121,6 +129,7 @@ export class RecipesComponent implements OnInit {
       f.difficulties.length > 0 ||
       f.dietaryRestrictions.length > 0 ||
       (f.cuisineTypes && f.cuisineTypes.length > 0) ||
+      (f.originFilter && f.originFilter.length > 0) ||
       f.maxCookTime !== undefined ||
       f.minRating !== undefined
     );

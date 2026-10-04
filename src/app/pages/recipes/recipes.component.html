@@ -76,6 +76,16 @@
               (selectionChanged)="onCuisineSelectionChanged($event)"
             ></app-filter-chips>
           </div>
+
+          <!-- Origin -->
+          <div class="mb-6">
+            <app-filter-chips
+              [options]="originOptions"
+              [selectedValues]="filter().originFilter || []"
+              [label]="'Origin'"
+              (selectionChanged)="onOriginSelectionChanged($event)"
+            ></app-filter-chips>
+          </div>
         </div>
       </aside>
 

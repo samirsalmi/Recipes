@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Recipe } from '../../models';
 import { RecipeService } from '../../services';
+import { optimizeImage } from '../../utils/image-url';
 import { ImagePlaceholderComponent } from '../ui/image-placeholder/image-placeholder.component';
 
 @Component({
@@ -24,6 +25,10 @@ export class RecipeCardComponent {
   addToMealPlan = output<string>();
 
   imageError = false;
+
+  optimizedImage(): string {
+    return optimizeImage(this.recipe().image, 600);
+  }
 
   handleImageError(): void {
     this.imageError = true;

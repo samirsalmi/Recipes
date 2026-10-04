@@ -3,7 +3,7 @@
   <div class="relative h-64 md:h-96 overflow-hidden">
     <img 
       *ngIf="recipe.image && !imageError"
-      [src]="recipe.image" 
+      [src]="optimizedImage(recipe.image)" 
       [alt]="recipe.name" 
       class="w-full h-full object-cover" 
       (error)="handleImageError()"
@@ -24,6 +24,13 @@
     <!-- Title Overlay -->
     <div class="absolute bottom-0 left-0 right-0 p-6 md:p-8">
       <div class="container mx-auto">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+          <span *ngIf="recipe.isOfficial" class="badge badge-primary">Official</span>
+          <span *ngIf="!recipe.isPublic" class="badge badge-secondary">Private</span>
+          <a *ngIf="parentRecipe" [routerLink]="['/recipes', parentRecipe.id]" class="badge badge-secondary hover:underline">
+            Twist of {{ parentRecipe.name }}
+          </a>
+        </div>
         <h1 class="font-display text-3xl md:text-5xl font-bold text-white mb-2">
           {{ recipe.name }}
         </h1>
@@ -81,6 +88,7 @@
         <!-- Action Buttons -->
         <div class="flex flex-wrap gap-3 mb-6">
           <button
+            *ngIf="recipe.steps.length > 0"
             (click)="startCookingMode()"
             class="btn btn-primary flex items-center gap-2"
           >
@@ -90,6 +98,9 @@
             </svg>
             Start Cooking
           </button>
+          <span *ngIf="recipe.steps.length === 0" class="text-sm text-gray-500 dark:text-gray-400 self-center">
+            No steps added - no cooking guide for this recipe.
+          </span>
           <button
             (click)="addToMealPlan()"
             class="btn btn-secondary flex items-center gap-2"
@@ -118,6 +129,42 @@
             </svg>
             {{ isFavorite ? 'Saved' : 'Save' }}
           </button>
+          <button
+            *ngIf="canTwist()"
+            (click)="addToMyBook()"
+            [disabled]="isTwisting()"
+            class="btn btn-secondary flex items-center gap-2"
+          >
+            {{ isTwisting() ? 'Adding...' : 'Add to my book' }}
+          </button>
+          <a
+            *ngIf="isOwner()"
+            [routerLink]="['/recipes', recipe.id, 'edit']"
+            class="btn btn-secondary flex items-center gap-2"
+          >
+            Edit
+          </a>
+          <button
+            *ngIf="isOwner()"
+            (click)="toggleVisibility()"
+            class="btn btn-secondary flex items-center gap-2"
+          >
+            {{ recipe.isPublic ? 'Make private' : 'Make public' }}
+          </button>
+          <button
+            *ngIf="isAdmin()"
+            (click)="toggleOfficial()"
+            class="btn btn-secondary flex items-center gap-2"
+          >
+            {{ recipe.isOfficial ? 'Remove official badge' : 'Mark as official' }}
+          </button>
+          <button
+            *ngIf="isOwner()"
+            (click)="deleteRecipe()"
+            class="btn text-red-600 dark:text-red-400 border border-red-300 dark:border-red-800 hover:bg-red-50 dark:hover:bg-red-900/20 flex items-center gap-2"
+          >
+            Delete
+          </button>
         </div>
 
         <!-- Ingredients -->
@@ -133,7 +180,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
                 </svg>
               </button>
-              <span class="font-medium text-gray-900 dark:text-white min-w-[3rem] text-center">{{ servings }} servings</span>
+              <span class="font-medium text-gray-900 dark:text-white min-w-[3rem] text-center">{{ servings() }} servings</span>
               <button
                 (click)="updateServings(1)"
                 class="p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -177,6 +224,19 @@
               </div>
             </li>
           </ol>
+        </div>
+
+        <!-- Twists -->
+        <div *ngIf="twists().length > 0" class="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-6">
+          <h2 class="font-display text-xl font-semibold text-gray-900 dark:text-white mb-4">Twists of this recipe</h2>
+          <ul class="space-y-2">
+            <li *ngFor="let twist of twists()">
+              <a [routerLink]="['/recipes', twist.id]" class="text-primary-600 dark:text-primary-400 hover:underline">
+                {{ twist.name }}
+              </a>
+              <span class="text-sm text-gray-500 dark:text-gray-400"> by {{ twist.author }}</span>
+            </li>
+          </ul>
         </div>
 
         <!-- Nutrition -->

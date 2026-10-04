@@ -1,0 +1,47 @@
+<div class="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4 bg-gray-50 dark:bg-gray-950">
+  <div class="card w-full max-w-md p-8">
+    <div class="text-center mb-6">
+      <h1 class="font-display text-2xl font-bold text-gray-900 dark:text-white">Welcome back</h1>
+      <p class="text-gray-500 dark:text-gray-400 mt-1">Sign in to save favorites, plan meals, and build your shopping list</p>
+    </div>
+
+    <form (ngSubmit)="submit()" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Username</label>
+        <input
+          type="text"
+          name="username"
+          class="input"
+          placeholder="yourusername"
+          [(ngModel)]="username"
+          required
+          autocomplete="username"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="input"
+          placeholder="••••••••"
+          [(ngModel)]="password"
+          required
+          autocomplete="current-password"
+        />
+      </div>
+
+      <p *ngIf="errorMessage()" class="text-sm text-red-600 dark:text-red-400">{{ errorMessage() }}</p>
+
+      <button type="submit" class="btn-primary w-full py-2.5 rounded-lg font-medium" [disabled]="isSubmitting()">
+        {{ isSubmitting() ? 'Signing in...' : 'Sign In' }}
+      </button>
+    </form>
+
+    <p class="text-center text-sm text-gray-500 dark:text-gray-400 mt-6">
+      Don't have an account?
+      <a routerLink="/register" class="text-primary-600 dark:text-primary-400 font-medium hover:underline">Create one</a>
+    </p>
+  </div>
+</div>

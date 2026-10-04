@@ -1,0 +1,19 @@
+<div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 max-w-sm">
+  <div
+    *ngFor="let toast of toasts()"
+    class="card px-4 py-3 flex items-start gap-3 shadow-lg animate-slide-up"
+    [class.border-l-4]="true"
+    [class.border-green-500]="toast.type === 'success'"
+    [class.border-red-500]="toast.type === 'error'"
+    [class.border-blue-500]="toast.type === 'info'"
+  >
+    <p class="text-sm text-gray-800 dark:text-gray-200 flex-grow">{{ toast.message }}</p>
+    <button
+      (click)="dismiss(toast.id)"
+      class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 flex-shrink-0"
+      aria-label="Dismiss"
+    >
+      &times;
+    </button>
+  </div>
+</div>

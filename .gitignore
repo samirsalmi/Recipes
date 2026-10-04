@@ -42,3 +42,10 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+.vercel
+
+# Backend (FastAPI)
+backend/.venv
+backend/__pycache__
+backend/**/__pycache__
+backend/.env

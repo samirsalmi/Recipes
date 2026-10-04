@@ -1,17 +1,19 @@
 import { Injectable, signal, computed, inject } from '@angular/core';
-import { Observable, of, combineLatest, map } from 'rxjs';
-import { Recipe, RecipeFilter, SortOption, Ingredient } from '../models';
-import { MOCK_RECIPES } from '../data/mock-recipes';
+import { Router } from '@angular/router';
+import { Observable, of, combineLatest, map, tap } from 'rxjs';
+import { Recipe, RecipeCreateInput, RecipeFilter, RecipeUpdateInput, SortOption, Ingredient } from '../models';
 import { StorageService } from './storage.service';
+import { isAuthenticated } from './auth-state';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecipeService {
   private storageService = inject(StorageService);
-  
+  private router = inject(Router);
+
   // Signals for state management
-  private recipesSignal = signal<Recipe[]>(MOCK_RECIPES);
+  private recipesSignal = signal<Recipe[]>([]);
   private favoritesSignal = signal<string[]>([]);
   private ratingsSignal = signal<Record<string, number>>({});
   private filterSignal = signal<RecipeFilter>({
@@ -21,18 +23,32 @@ export class RecipeService {
     dietaryRestrictions: [],
     maxCookTime: undefined,
     minRating: undefined,
-    cuisineTypes: []
+    cuisineTypes: [],
+    originFilter: []
   });
   private sortOptionSignal = signal<SortOption>('newest');
   private viewModeSignal = signal<'grid' | 'list'>('grid');
+  private recipesLoadedSignal = signal(false);
+  private recentViewsSignal = signal<string[]>([]);
 
   // Computed signals
   readonly recipes = this.recipesSignal.asReadonly();
+  readonly recipesLoaded = this.recipesLoadedSignal.asReadonly();
   readonly favorites = this.favoritesSignal.asReadonly();
   readonly ratings = this.ratingsSignal.asReadonly();
   readonly filter = this.filterSignal.asReadonly();
   readonly sortOption = this.sortOptionSignal.asReadonly();
   readonly viewMode = this.viewModeSignal.asReadonly();
+
+  // Most-recent-first, dropping any id that no longer resolves in the discovery-backed
+  // catalog (e.g. a recipe you viewed that later went private) - fine for a "nice to have"
+  // feed, not worth a resolveRecipe() fallback per id here (see gotcha G11).
+  readonly recentlyViewedRecipes = computed(() => {
+    const all = this.recipesSignal();
+    return this.recentViewsSignal()
+      .map(id => all.find(r => r.id === id))
+      .filter((r): r is Recipe => !!r);
+  });
 
   // Filtered and sorted recipes
   readonly filteredRecipes = computed(() => {
@@ -85,6 +101,12 @@ export class RecipeService {
       recipes = recipes.filter(recipe => filter.cuisineTypes!.includes(recipe.cuisineType));
     }
 
+    // Apply official/community origin filter
+    if (filter.originFilter && filter.originFilter.length > 0 && filter.originFilter.length < 2) {
+      const wantOfficial = filter.originFilter.includes('official');
+      recipes = recipes.filter(recipe => recipe.isOfficial === wantOfficial);
+    }
+
     // Apply sorting
     switch (sortOption) {
       case 'alphabetical':
@@ -112,20 +134,100 @@ export class RecipeService {
   });
 
   constructor() {
+    this.loadRecipes();
     this.loadUserData();
+  }
+
+  private loadRecipes(): void {
+    this.storageService.getRecipes().subscribe(recipes => {
+      this.recipesSignal.set(recipes);
+      this.recipesLoadedSignal.set(true);
+    });
   }
 
   private loadUserData(): void {
     combineLatest([
       this.storageService.getFavorites(),
-      this.storageService.getUserRatings()
-    ]).subscribe(([favorites, ratings]) => {
+      this.storageService.getUserRatings(),
+      this.storageService.getRecentViews()
+    ]).subscribe(([favorites, ratings, recentViews]) => {
       this.favoritesSignal.set(favorites || []);
       this.ratingsSignal.set(ratings || {});
+      this.recentViewsSignal.set(recentViews || []);
     });
   }
 
+  // Recent views are account-linked (the storage endpoint requires a token), so skip silently
+  // for guests rather than firing a write that would just fail (see gotcha G13).
+  recordView(recipeId: string): void {
+    if (!isAuthenticated()) return;
+    const updated = [recipeId, ...this.recentViewsSignal().filter(id => id !== recipeId)].slice(0, 10);
+    this.recentViewsSignal.set(updated);
+    this.storageService.setRecentViews(updated).subscribe();
+  }
+
   // Recipe CRUD operations
+  createRecipe(recipe: RecipeCreateInput): Observable<Recipe> {
+    return this.storageService.createRecipe(recipe).pipe(
+      tap(newRecipe => this.recipesSignal.update(recipes => [...recipes, newRecipe]))
+    );
+  }
+
+  updateRecipe(id: string, payload: RecipeUpdateInput): Observable<Recipe> {
+    return this.storageService.updateRecipe(id, payload).pipe(
+      tap(updated => this.mergeRecipe(updated))
+    );
+  }
+
+  // recipesSignal only ever holds root recipes visible in discovery, so anything reached by
+  // direct id - a private recipe you already favorited, a twist, someone's now-private
+  // recipe you still have planned - needs this fallback (see frontend.md gotcha G11).
+  resolveRecipe(id: string): Observable<Recipe | null> {
+    const existing = this.getRecipeById(id);
+    if (existing) return of(existing);
+    return this.storageService.getRecipeById(id).pipe(
+      tap(recipe => { if (recipe) this.mergeRecipe(recipe); })
+    );
+  }
+
+  twistRecipe(id: string): Observable<Recipe> {
+    return this.storageService.twistRecipe(id).pipe(
+      tap(twist => this.mergeRecipe(twist))
+    );
+  }
+
+  getTwists(id: string): Observable<Recipe[]> {
+    return this.storageService.getTwists(id);
+  }
+
+  loadMyRecipes(): Observable<Recipe[]> {
+    return this.storageService.getMyRecipes().pipe(
+      tap(recipes => recipes.forEach(recipe => this.mergeRecipe(recipe)))
+    );
+  }
+
+  setOfficial(id: string, isOfficial: boolean): Observable<Recipe> {
+    return this.storageService.setRecipeOfficial(id, isOfficial).pipe(
+      tap(updated => this.mergeRecipe(updated))
+    );
+  }
+
+  deleteRecipe(id: string): Observable<void> {
+    return this.storageService.deleteRecipe(id).pipe(
+      tap(() => this.recipesSignal.update(recipes => recipes.filter(r => r.id !== id)))
+    );
+  }
+
+  private mergeRecipe(recipe: Recipe): void {
+    this.recipesSignal.update(recipes => {
+      const index = recipes.findIndex(r => r.id === recipe.id);
+      if (index === -1) return [...recipes, recipe];
+      const copy = [...recipes];
+      copy[index] = recipe;
+      return copy;
+    });
+  }
+
   getRecipeById(id: string): Recipe | undefined {
     return this.recipesSignal().find(recipe => recipe.id === id);
   }
@@ -155,7 +257,8 @@ export class RecipeService {
       dietaryRestrictions: [],
       maxCookTime: undefined,
       minRating: undefined,
-      cuisineTypes: []
+      cuisineTypes: [],
+      originFilter: []
     });
   }
 
@@ -171,6 +274,11 @@ export class RecipeService {
 
   // Favorites operations
   toggleFavorite(recipeId: string): void {
+    if (!isAuthenticated()) {
+      this.router.navigate(['/login']);
+      return;
+    }
+
     const currentFavorites = this.favoritesSignal();
     const newFavorites = currentFavorites.includes(recipeId)
       ? currentFavorites.filter(id => id !== recipeId)
@@ -186,6 +294,11 @@ export class RecipeService {
 
   // Rating operations
   setRating(recipeId: string, rating: number): void {
+    if (!isAuthenticated()) {
+      this.router.navigate(['/login']);
+      return;
+    }
+
     const currentRatings = this.ratingsSignal();
     const newRatings = { ...currentRatings, [recipeId]: rating };
     this.ratingsSignal.set(newRatings);

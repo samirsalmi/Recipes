@@ -1,0 +1,66 @@
+<div class="min-h-[calc(100vh-4rem)] flex items-center justify-center px-4 bg-gray-50 dark:bg-gray-950">
+  <div class="card w-full max-w-md p-8">
+    <div class="text-center mb-6">
+      <h1 class="font-display text-2xl font-bold text-gray-900 dark:text-white">Create your account</h1>
+      <p class="text-gray-500 dark:text-gray-400 mt-1">Save favorites, plan your meals, and generate your shopping list</p>
+    </div>
+
+    <form (ngSubmit)="submit()" class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
+        <input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="Your name"
+          [(ngModel)]="name"
+          required
+          autocomplete="name"
+        />
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Username</label>
+        <input
+          type="text"
+          name="username"
+          class="input"
+          placeholder="yourusername"
+          [(ngModel)]="username"
+          required
+          autocomplete="username"
+        />
+        <p *ngIf="usernameInvalid" class="text-xs text-amber-600 dark:text-amber-400 mt-1">
+          At least 3 characters; letters, numbers, "." "_" "-" only.
+        </p>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="input"
+          placeholder="At least 8 characters"
+          [(ngModel)]="password"
+          required
+          autocomplete="new-password"
+        />
+        <p *ngIf="passwordTooShort" class="text-xs text-amber-600 dark:text-amber-400 mt-1">
+          Password must be at least 8 characters.
+        </p>
+      </div>
+
+      <p *ngIf="errorMessage()" class="text-sm text-red-600 dark:text-red-400">{{ errorMessage() }}</p>
+
+      <button type="submit" class="btn-primary w-full py-2.5 rounded-lg font-medium" [disabled]="isSubmitting()">
+        {{ isSubmitting() ? 'Creating account...' : 'Create Account' }}
+      </button>
+    </form>
+
+    <p class="text-center text-sm text-gray-500 dark:text-gray-400 mt-6">
+      Already have an account?
+      <a routerLink="/login" class="text-primary-600 dark:text-primary-400 font-medium hover:underline">Sign in</a>
+    </p>
+  </div>
+</div>

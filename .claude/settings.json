@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(codebase-map)",
+      "Bash(node .claude/skills/codebase-map/scripts/check-map.mjs)",
+      "PowerShell(node .claude/skills/codebase-map/scripts/check-map.mjs)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/skills/codebase-map/scripts/check-map.mjs\" --hook",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/skills/codebase-map/scripts/enforce-map-loaded.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Read|Grep|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/skills/codebase-map/scripts/enforce-map-loaded.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

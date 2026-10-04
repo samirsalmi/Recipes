@@ -20,6 +20,7 @@ export class MealPlanComponent implements OnInit {
   private shoppingListService = inject(ShoppingListService);
 
   mealPlan = this.mealPlanService.mealPlan;
+  plansLoaded = this.mealPlanService.plansLoaded;
   recipes = this.recipeService.recipes;
 
   selectedDate = '';
@@ -37,15 +38,41 @@ export class MealPlanComponent implements OnInit {
       }
     });
 
-    // Initialize meal plan if not exists
-    if (!this.mealPlanService.mealPlan()) {
-      const today = new Date();
-      const monday = new Date(today);
-      const day = today.getDay();
-      const diff = today.getDate() - day + (day === 0 ? -6 : 1);
-      monday.setDate(diff);
-      this.mealPlanService.createWeeklyPlan('My Meal Plan', monday.toISOString().split('T')[0]);
-    }
+    // MealPlanService itself makes sure the current week's plan exists once it finishes
+    // loading history from storage - no need to create one here.
+  }
+
+  previousWeek(): void {
+    this.mealPlanService.goToPreviousWeek();
+  }
+
+  nextWeek(): void {
+    this.mealPlanService.goToNextWeek();
+  }
+
+  goToThisWeek(): void {
+    this.mealPlanService.goToCurrentWeek();
+  }
+
+  isCurrentWeek(): boolean {
+    const plan = this.mealPlan();
+    if (!plan) return false;
+    const today = new Date();
+    const day = today.getDay();
+    const diff = today.getDate() - day + (day === 0 ? -6 : 1);
+    const monday = new Date(today);
+    monday.setDate(diff);
+    return plan.startDate === monday.toISOString().split('T')[0];
+  }
+
+  formatWeekRange(): string {
+    const plan = this.mealPlan();
+    if (!plan) return '';
+    const start = new Date(plan.startDate);
+    const end = new Date(plan.endDate);
+    const startLabel = start.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    const endLabel = end.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    return `${startLabel} - ${endLabel}`;
   }
 
   getWeekDates(): string[] {

@@ -25,7 +25,7 @@ export class ShoppingListComponent implements OnInit {
     // Check for addRecipe query param
     this.route.queryParams.subscribe(params => {
       if (params['addRecipe']) {
-        this.shoppingListService.generateFromRecipes([params['addRecipe']]);
+        this.shoppingListService.addRecipeToList(params['addRecipe']);
       }
     });
 

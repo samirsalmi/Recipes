@@ -1,7 +1,7 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, effect } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { RecipeService } from '../../services';
+import { RecipeService, ToastService } from '../../services';
 import { Recipe } from '../../models';
 
 @Component({
@@ -15,6 +15,7 @@ export class CookingModeComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
   private recipeService = inject(RecipeService);
+  private toastService = inject(ToastService);
 
   recipe: Recipe | undefined;
   currentStep = 0;
@@ -22,13 +23,45 @@ export class CookingModeComponent implements OnInit {
   timerDisplay = '00:00';
   timerRunning = false;
 
-  ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    if (id) {
-      this.recipe = this.recipeService.getRecipeById(id);
-      if (!this.recipe) {
-        this.router.navigate(['/recipes']);
+  private recipeId: string | null = null;
+  private resolveAttempted = false;
+
+  constructor() {
+    // The recipe catalog loads asynchronously from the backend, so resolve the
+    // route's recipe once it arrives instead of only looking it up in ngOnInit.
+    effect(() => {
+      if (this.recipe || !this.recipeId) return;
+      const found = this.recipeService.recipes().find(r => r.id === this.recipeId);
+      if (found) {
+        this.setRecipe(found);
+      } else if (this.recipeService.recipesLoaded() && !this.resolveAttempted) {
+        // Not in the discovery-backed catalog - it may still be a private/unlisted recipe
+        // or a twist you own, so fall back to a direct-by-id fetch before giving up.
+        this.resolveAttempted = true;
+        this.recipeService.resolveRecipe(this.recipeId).subscribe(recipe => {
+          if (recipe) {
+            this.setRecipe(recipe);
+          } else {
+            this.router.navigate(['/recipes']);
+          }
+        });
       }
+    });
+  }
+
+  private setRecipe(recipe: Recipe): void {
+    if (recipe.steps.length === 0) {
+      // No cooking guide for a recipe with no steps.
+      this.router.navigate(['/recipes', recipe.id]);
+      return;
+    }
+    this.recipe = recipe;
+  }
+
+  ngOnInit(): void {
+    this.recipeId = this.route.snapshot.paramMap.get('id');
+    if (!this.recipeId) {
+      this.router.navigate(['/recipes']);
     }
   }
 
@@ -75,8 +108,7 @@ export class CookingModeComponent implements OnInit {
       
       if (seconds <= 0) {
         this.stopTimer();
-        // Play sound or show notification
-        alert('Timer finished!');
+        this.toastService.show('Timer finished!');
       }
     }, 1000);
   }

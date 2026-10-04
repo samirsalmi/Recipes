@@ -81,6 +81,55 @@ export class ShoppingListService {
     this.saveShoppingList();
   }
 
+  // Add one recipe's ingredients into the *existing* list, merging by name+category the same
+  // way generateFromRecipes() does - unlike generateFromRecipes()/generateFromMealPlan(), this
+  // never replaces what's already there. Used when a single recipe's "Add to Shopping List"
+  // button lands here with ?addRecipe=, which should feel additive, not a full regenerate.
+  addRecipeToList(recipeId: string, servings?: number): void {
+    const recipe = this.recipeService.getRecipeById(recipeId);
+    if (!recipe) return;
+
+    const scaleFactor = (servings || recipe.servings) / recipe.servings;
+
+    if (!this.shoppingListSignal()) {
+      this.createShoppingList();
+    }
+
+    this.shoppingListSignal.update(list => {
+      if (!list) return list;
+      const items = [...list.items];
+
+      recipe.ingredients.forEach(ingredient => {
+        const key = `${ingredient.name.toLowerCase()}_${ingredient.category}`;
+        const quantity = Math.round(ingredient.quantity * scaleFactor * 100) / 100;
+        const existingIndex = items.findIndex(item => `${item.name.toLowerCase()}_${item.category}` === key);
+
+        if (existingIndex >= 0) {
+          const existing = items[existingIndex];
+          items[existingIndex] = {
+            ...existing,
+            quantity: Math.round((existing.quantity + quantity) * 100) / 100,
+            recipeIds: existing.recipeIds.includes(recipe.id) ? existing.recipeIds : [...existing.recipeIds, recipe.id]
+          };
+        } else {
+          items.push({
+            id: this.generateId(),
+            name: ingredient.name,
+            quantity,
+            unit: ingredient.unit,
+            category: ingredient.category,
+            checked: false,
+            recipeIds: [recipe.id]
+          });
+        }
+      });
+
+      return { ...list, items, updatedAt: new Date().toISOString() };
+    });
+
+    this.saveShoppingList();
+  }
+
   // Generate shopping list from meal plan
   generateFromMealPlan(): void {
     const plannedRecipes = this.mealPlanService.getAllPlannedRecipes();

@@ -1,0 +1,13 @@
+INFO:     Started server process [24924]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     192.168.137.1:64437 - "GET /api/recipes HTTP/1.1" 200 OK
+INFO:     192.168.137.1:64439 - "GET /api/recipes HTTP/1.1" 200 OK
+INFO:     10.16.212.103:64092 - "GET /api/storage/darkMode HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64092 - "PUT /api/storage/darkMode HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64092 - "PUT /api/storage/darkMode HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64095 - "GET /api/storage/ratings HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64094 - "GET /api/storage/favorites HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64096 - "GET /api/storage/recentViews HTTP/1.1" 401 Unauthorized
+INFO:     10.16.212.103:64093 - "GET /api/recipes HTTP/1.1" 200 OK
