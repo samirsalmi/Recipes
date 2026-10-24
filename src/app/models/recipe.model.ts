@@ -139,6 +139,10 @@ export interface Recipe {
   isOfficial: boolean;
   parentRecipeId: string | null;
   twistCount: number;
+  /** Catalog summaries carry a flattened, pre-normalized search blob instead of ingredients. */
+  search?: string;
+  /** True for list/card responses; detail, cook and edit fetch the full recipe by id. */
+  summary?: boolean;
 }
 
 type ServerAssigned =

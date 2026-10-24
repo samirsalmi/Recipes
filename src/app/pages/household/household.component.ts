@@ -249,7 +249,7 @@ export class HouseholdComponent implements OnInit {
   });
 
   ngOnInit(): void {
-    this.hh.load();
+    if (!this.hh.household()) this.hh.load();
   }
 
   ago(iso: string): string {

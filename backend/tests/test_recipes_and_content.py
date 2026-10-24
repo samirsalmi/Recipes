@@ -115,6 +115,29 @@ def test_sync_touches_only_system_rows(client, register, db):
     assert {"fixture-chana-masala", "fixture-buttered-eggs", "fixture-lemon-rice", mine["id"]} <= listed
 
 
+def test_catalog_list_is_a_summary_and_detail_is_full(client, register):
+    h = register("reader")
+    created = client.post("/api/recipes", headers=h, json={
+        "name": "Poulet rôti",
+        "description": "A long description",
+        "ingredients": [{"quantity": 1, "unit": "kg", "name": "chicken"}],
+        "steps": [{"text": "Roast it."}],
+        "tips": ["Rest before carving."],
+        "source": {"title": "Mise kitchen", "author": "Mise kitchen", "license": "Original", "adaptation": "An adaptation note."},
+    }).json()
+    listed = next(r for r in client.get("/api/recipes").json() if r["id"] == created["id"])
+    assert listed["summary"] is True
+    assert "chicken" in listed["search"] and "poulet" in listed["search"]
+    assert listed["source"]["adaptation"] == "An adaptation note."
+    for heavy in ("ingredients", "steps", "tips", "nutrition", "description"):
+        assert heavy not in listed
+    detail = client.get(f"/api/recipes/{created['id']}").json()
+    assert detail["ingredients"][0]["name"] == "chicken"
+    assert detail["steps"] == [{"text": "Roast it.", "timerMinutes": None}]
+    assert detail["tips"] == ["Rest before carving."]
+    assert detail["description"] == "A long description"
+
+
 def test_real_content_batches_validate():
     """Whatever batches exist in content/recipes must pass the importer's validation."""
     from app.content_import import DEFAULT_DIR

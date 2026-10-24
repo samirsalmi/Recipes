@@ -2,7 +2,7 @@ import { Injectable, computed, effect, inject, signal, untracked } from '@angula
 import { Router } from '@angular/router';
 import { EMPTY, Observable, forkJoin, of, tap } from 'rxjs';
 import { emptySlotDates } from '../utils/fill-cuisines';
-import { CookedStat, FillSuggestion, PLAN_SLOTS, PlanEntry, PlanEntryCreate, PlanSlot } from '../models';
+import { CookedStat, FillSuggestion, PLAN_SLOTS, PlanEntry, PlanEntryCreate, PlanSlot, RecipeSummary } from '../models';
 import { StorageService } from './storage.service';
 import { HouseholdService } from './household.service';
 import { isAuthenticated } from './auth-state';
@@ -107,22 +107,45 @@ export class MealPlanService {
     this.goToWeek(todayIso());
   }
 
-  /** Default servings = household size. Redirects guests to /login. */
+  /** Default servings = household size. Redirects guests to /login. The row appears at once
+   *  (negative temporary id) and is swapped for the server row when it lands. */
   addEntry(entry: PlanEntryCreate): Observable<PlanEntry> {
     if (!requireLogin(this.router)) return EMPTY;
-    return this.storage.addPlanEntry(entry).pipe(tap(created => this.upsert(created)));
+    const temporary: PlanEntry = {
+      id: -Date.now(),
+      date: entry.date,
+      slot: entry.slot,
+      position: this.nextPosition(entry.date, entry.slot),
+      recipeId: entry.recipeId ?? null,
+      recipe: entry.recipe ?? null,
+      customTitle: entry.customTitle ?? null,
+      servings: entry.servings ?? this.household.size(),
+      addedBy: null,
+      addedByName: null,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+    };
+    this.entriesSignal.update(list => [...list, temporary]);
+    return this.storage.addPlanEntry(entry).pipe(
+      tap({
+        next: created => {
+          this.entriesSignal.update(list => [...list.filter(e => e.id !== temporary.id), created]);
+        },
+        error: () => this.entriesSignal.update(list => list.filter(e => e.id !== temporary.id)),
+      })
+    );
   }
 
-  moveEntry(id: number, date: string, slot: PlanSlot): Observable<PlanEntry> {
-    return this.patch(id, { date, slot });
+  moveEntry(id: number, date: string, slot: PlanSlot, servings?: number): Observable<PlanEntry> {
+    return this.patch(id, { date, slot, ...(servings === undefined ? {} : { servings }) }, { position: this.nextPosition(date, slot) });
   }
 
   setServings(id: number, servings: number): Observable<PlanEntry> {
     return this.patch(id, { servings });
   }
 
-  swapRecipe(id: number, recipeId: string): Observable<PlanEntry> {
-    return this.patch(id, { recipeId });
+  swapRecipe(id: number, recipeId: string, recipe?: RecipeSummary | null): Observable<PlanEntry> {
+    return this.patch(id, { recipeId }, { recipe: recipe ?? null });
   }
 
   /** Optimistic: the entry disappears at once and comes back if the server refuses. */
@@ -171,8 +194,27 @@ export class MealPlanService {
     return this.cookedCounts().get(recipeId) ?? 0;
   }
 
-  private patch(id: number, patch: Parameters<StorageService['updatePlanEntry']>[1]): Observable<PlanEntry> {
-    return this.storage.updatePlanEntry(id, patch).pipe(tap(updated => this.upsert(updated)));
+  /** Optimistic patch: the row changes at once and reverts if the server refuses. */
+  private patch(
+    id: number,
+    patch: Parameters<StorageService['updatePlanEntry']>[1],
+    local: Partial<PlanEntry> = {},
+  ): Observable<PlanEntry> {
+    const before = this.entriesSignal();
+    this.entriesSignal.update(list => list.map(e => e.id === id ? { ...e, ...patch, ...local } : e));
+    return this.storage.updatePlanEntry(id, patch).pipe(
+      tap({
+        next: updated => this.upsert(updated),
+        error: () => this.entriesSignal.set(before),
+      })
+    );
+  }
+
+  private nextPosition(date: string, slot: PlanSlot): number {
+    const positions = this.entriesSignal()
+      .filter(e => e.date === date && e.slot === slot)
+      .map(e => e.position);
+    return (positions.length ? Math.max(...positions) : 0) + 1;
   }
 
   private upsert(entry: PlanEntry): void {

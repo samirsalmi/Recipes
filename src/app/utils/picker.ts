@@ -1,9 +1,23 @@
 // Pure logic behind the Plan page's recipe picker sheet (tabs + search), kept out of the
 // component so it can be unit-tested.
-import { CookedStat, MealType, PlanSlot, Recipe } from '../models';
+import { CookedStat, MealType, PlanSlot, Recipe, RecipeSummary } from '../models';
 import { normalizeSearch, recipeSearchText } from '../i18n/search';
 
 export type PickerTab = 'favorites' | 'recent' | 'quick' | 'suggested';
+
+/** The small recipe card embedded in a plan entry, for optimistic rows. */
+export function toPlanRecipeSummary(recipe: Recipe): RecipeSummary {
+  return {
+    id: recipe.id,
+    name: recipe.name,
+    image: recipe.image,
+    cuisine: recipe.cuisine,
+    totalTime: recipe.totalTime,
+    servings: recipe.servings,
+    mealTypes: recipe.mealTypes,
+    translations: recipe.translations,
+  };
+}
 
 export interface PickerContext {
   recipes: Recipe[];

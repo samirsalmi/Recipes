@@ -43,6 +43,13 @@ describe('multilingual recipe search', () => {
     expect(recipeSearchText(r)).toContain(normalizeSearch('كعكة'));
   });
 
+  it('uses the server search blob on catalog summaries instead of ingredients', () => {
+    const r = recipe({ search: 'Tarte | citron | lemon' });
+    expect(matchesQuery(r, 'citron')).toBe(true);
+    expect(matchesQuery(r, 'lemon')).toBe(true);
+    expect(matchesQuery(r, 'beurre')).toBe(false);
+  });
+
   it('folds Arabic letter variants', () => {
     expect(normalizeSearch('أَرُز')).toBe(normalizeSearch('ارز'));
     expect(normalizeSearch('مدرسة')).toBe(normalizeSearch('مدرسه'));

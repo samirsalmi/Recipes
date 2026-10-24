@@ -20,6 +20,7 @@ import {
 import { formatQuantity } from '../../utils/ingredient-parser';
 import { addDays, todayIso } from '../../utils/dates';
 import { optimizeImage } from '../../utils/image-url';
+import { toPlanRecipeSummary } from '../../utils/picker';
 import { StepPart, splitStepTimers } from '../../utils/timers';
 import { toUnitSystem } from '../../utils/units';
 import { equivalentName } from '../../utils/unit-equivalent';
@@ -391,7 +392,7 @@ export class RecipeDetailComponent {
     effect(() => {
       const id = this.id();
       const loaded = this.recipes.recipesLoaded();
-      const found = this.recipes.recipes().find(r => r.id === id);
+      const found = this.recipes.recipes().find(r => r.id === id && !r.summary);
       untracked(() => {
         if (found) {
           if (this.recipe()?.id !== found.id) this.opened(found);
@@ -477,10 +478,16 @@ export class RecipeDetailComponent {
   addToPlan(r: Recipe): void {
     this.busy.set(true);
     const day = this.planDay();
-    this.plan.addEntry({ date: day, slot: this.planSlot(), recipeId: r.id, servings: this.planServings() }).subscribe({
+    this.sheet.set(null);
+    this.plan.addEntry({
+      date: day,
+      slot: this.planSlot(),
+      recipeId: r.id,
+      servings: this.planServings(),
+      recipe: toPlanRecipeSummary(r),
+    }).subscribe({
       next: () => {
         this.busy.set(false);
-        this.sheet.set(null);
         this.toast.show(this.t('detail.addedToPlan', { day: this.dayName(day), slot: this.i18n.slotLower(this.planSlot()) }));
       },
       error: () => {

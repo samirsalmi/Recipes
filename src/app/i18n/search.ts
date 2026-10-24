@@ -29,12 +29,13 @@ function cuisineNames(cuisine: string | null): string[] {
  * author translations), the cuisine in en/fr/ar, tags, and every ingredient as typed plus its
  * English/French/Arabic dictionary names. A recipe with "beurre" is found by "butter" and "زبدة".
  */
-export function recipeSearchText(recipe: Pick<Recipe, 'name' | 'cuisine' | 'ingredients'> & Partial<Pick<Recipe, 'tags' | 'translations'>>): string {
+export function recipeSearchText(recipe: Pick<Recipe, 'name'> & Partial<Pick<Recipe, 'cuisine' | 'ingredients' | 'tags' | 'translations' | 'search'>>): string {
+  if (recipe.search !== undefined) return normalizeSearch(recipe.search);
   const cached = SEARCH_TEXT.get(recipe);
   if (cached !== undefined) return cached;
-  const parts: string[] = [recipe.name, ...cuisineNames(recipe.cuisine), ...(recipe.tags ?? [])];
+  const parts: string[] = [recipe.name, ...cuisineNames(recipe.cuisine ?? null), ...(recipe.tags ?? [])];
   for (const tr of Object.values(recipe.translations ?? {})) if (tr?.name) parts.push(tr.name);
-  for (const ing of recipe.ingredients) {
+  for (const ing of recipe.ingredients ?? []) {
     parts.push(ing.name);
     if (ing.names) parts.push(ing.names.en, ing.names.fr, ing.names.ar);
   }

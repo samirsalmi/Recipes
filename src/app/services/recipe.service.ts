@@ -155,7 +155,7 @@ export class RecipeService {
    *  is merged into the catalog signal. Resolves null only if the recipe truly doesn't exist. */
   resolveRecipe(id: string): Observable<Recipe | null> {
     const cached = this.getRecipeById(id);
-    if (cached) return of(cached);
+    if (cached && !cached.summary) return of(cached);
     return this.storage.getRecipeById(id).pipe(tap(r => r && this.mergeRecipe(r)));
   }
 

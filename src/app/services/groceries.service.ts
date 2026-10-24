@@ -13,6 +13,20 @@ export function aisleRemaining(items: GroceryItem[], extras: GroceryExtra[]): nu
   return items.filter(i => i.state === 'to_buy').length + extras.filter(x => !x.checked).length;
 }
 
+function withProgress(list: GroceryList, items = list.items, extras = list.extras): GroceryList {
+  const counted = items.filter(i => i.state !== 'no_longer_needed' && !i.staple);
+  const done = counted.filter(i => i.state === 'in_cart' || i.state === 'covered').length
+    + extras.filter(x => x.checked).length;
+  return { ...list, items, extras, progress: { done, total: counted.length + extras.length } };
+}
+
+function applyItemState(list: GroceryList, key: string, state: GroceryItem['state']): GroceryList {
+  const item = list.items.find(i => i.key === key);
+  if (!item || item.state === state) return list;
+  const items = list.items.map(i => i.key === key ? { ...i, state, isNew: false } : i);
+  return withProgress(list, items);
+}
+
 export interface AisleGroup {
   aisle: Aisle;
   label: string;
@@ -153,12 +167,17 @@ export class GroceriesService {
 
   /** Mark bought; `quantities` maps part key -> base-unit amount (partial purchase). */
   mark(key: string, quantities?: Record<string, number | null>): Observable<GroceryList> {
-    return this.track(key, this.storage.markGroceryItem(key, quantities));
+    return this.optimistic(key, list => applyItemState(list, key, 'in_cart'), () => this.storage.markGroceryItem(key, quantities), true);
   }
 
   /** Uncheck, or dismiss a "no longer needed" item. */
   unmark(key: string): Observable<GroceryList> {
-    return this.track(key, this.storage.unmarkGroceryItem(key));
+    return this.optimistic(key, list => {
+      const item = list.items.find(i => i.key === key);
+      if (item?.state === 'no_longer_needed') return withProgress(list, list.items.filter(i => i.key !== key));
+      const covered = !!item && item.parts.length > 0 && item.parts.every(p => p.needed !== null && (p.have ?? 0) >= p.needed);
+      return applyItemState(list, key, covered ? 'covered' : 'to_buy');
+    }, () => this.storage.unmarkGroceryItem(key), true);
   }
 
   /** "I need it" on a pantry staple, or "I have it" to put it back (any time). Optimistic,
@@ -195,15 +214,31 @@ export class GroceriesService {
   }
 
   toggleExtra(extra: GroceryExtra): Observable<GroceryList> {
-    return this.apply(this.storage.updateGroceryExtra(extra.id, { checked: !extra.checked }));
+    const checked = !extra.checked;
+    return this.optimistic(
+      `extra:${extra.id}`,
+      list => withProgress(list, list.items, list.extras.map(x => x.id === extra.id ? { ...x, checked } : x)),
+      () => this.storage.updateGroceryExtra(extra.id, { checked }),
+      true,
+    );
   }
 
   updateExtra(id: number, patch: { name?: string; quantity?: string | null }): Observable<GroceryList> {
-    return this.apply(this.storage.updateGroceryExtra(id, patch));
+    return this.optimistic(
+      `extra:${id}`,
+      list => withProgress(list, list.items, list.extras.map(x => x.id === id ? { ...x, ...patch } : x)),
+      () => this.storage.updateGroceryExtra(id, patch),
+      true,
+    );
   }
 
   removeExtra(id: number): Observable<GroceryList> {
-    return this.apply(this.storage.deleteGroceryExtra(id));
+    return this.optimistic(
+      `extra:${id}`,
+      list => withProgress(list, list.items, list.extras.filter(x => x.id !== id)),
+      () => this.storage.deleteGroceryExtra(id),
+      true,
+    );
   }
 
   setRange(start: string, end: string): Observable<GroceryList> {
@@ -270,16 +305,5 @@ export class GroceriesService {
 
   private apply(request: Observable<GroceryList>): Observable<GroceryList> {
     return request.pipe(tap(list => this.accept(list)));
-  }
-
-  private track(key: string, request: Observable<GroceryList>): Observable<GroceryList> {
-    this.busyKeysSignal.update(s => new Set(s).add(key));
-    const done = () =>
-      this.busyKeysSignal.update(s => {
-        const next = new Set(s);
-        next.delete(key);
-        return next;
-      });
-    return request.pipe(tap({ next: list => this.accept(list), finalize: done }));
   }
 }

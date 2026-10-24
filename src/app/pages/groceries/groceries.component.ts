@@ -285,7 +285,7 @@ export class GroceriesComponent implements OnInit, OnDestroy {
   };
 
   ngOnInit(): void {
-    this.g.load();
+    if (!this.g.loaded()) this.g.load();
     document.addEventListener('visibilitychange', this.onHidden);
   }
 

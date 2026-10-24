@@ -9,6 +9,7 @@ import { filterCuisineGroups, knownSelection, loadFillCuisines, saveFillCuisines
 import { groupByRegion } from '../cuisines/cuisines.component';
 import { addDays, startOfWeek, todayIso, weekDates } from '../../utils/dates';
 import { optimizeImage } from '../../utils/image-url';
+import { toPlanRecipeSummary } from '../../utils/picker';
 
 type Sheet =
   | { kind: 'picker'; date: string; slot: PlanSlot; swapId?: number }
@@ -334,8 +335,10 @@ export class PlanComponent implements OnInit {
   });
 
   ngOnInit(): void {
-    this.plan.load();
-    this.plan.loadCooked();
+    if (!this.plan.loaded()) {
+      this.plan.load();
+      this.plan.loadCooked();
+    }
     if (this.route.snapshot.queryParamMap.get('fill')) this.openFill();
   }
 
@@ -390,39 +393,77 @@ export class PlanComponent implements OnInit {
     this.sheet.set({ kind: 'entry', entry });
   }
 
+  private servingsTimers = new Map<number, number>();
+
   picked(choice: PickerChoice): void {
     const s = this.sheet();
     if (s?.kind !== 'picker') return;
     this.sheet.set(null);
+    const recipe = choice.recipeId ? this.recipes.getRecipeById(choice.recipeId) : undefined;
+    const summary = recipe ? toPlanRecipeSummary(recipe) : null;
     if (s.swapId && choice.recipeId) {
-      this.plan.swapRecipe(s.swapId, choice.recipeId).subscribe({ error: () => this.fail('plan.fail.swap') });
+      this.plan.swapRecipe(s.swapId, choice.recipeId, summary).subscribe({ error: () => this.fail('plan.fail.swap') });
       return;
     }
-    this.plan.addEntry({ date: s.date, slot: s.slot, recipeId: choice.recipeId ?? null, customTitle: choice.customTitle ?? null }).subscribe({
+    this.plan.addEntry({
+      date: s.date,
+      slot: s.slot,
+      recipeId: choice.recipeId ?? null,
+      customTitle: choice.customTitle ?? null,
+      recipe: summary,
+    }).subscribe({
       next: e => this.toast.show(this.t('plan.added', { title: this.title(e), day: this.dayLabel(e.date) })),
       error: () => this.fail('plan.fail.add'),
     });
   }
 
+  /** The sheet shows the new number at once; one PATCH is sent after a short pause so
+   *  repeated + / - taps collapse into the final value. */
   setServings(entry: PlanEntry, delta: number): void {
     const servings = Math.max(1, entry.servings + delta);
-    this.plan.setServings(entry.id, servings).subscribe({
-      next: updated => this.sheet.set({ kind: 'entry', entry: updated }),
-      error: () => this.fail('plan.fail.servings'),
-    });
+    this.sheet.set({ kind: 'entry', entry: { ...entry, servings } });
+    const pending = this.servingsTimers.get(entry.id);
+    if (pending) clearTimeout(pending);
+    this.servingsTimers.set(entry.id, window.setTimeout(() => {
+      this.servingsTimers.delete(entry.id);
+      this.plan.setServings(entry.id, servings).subscribe({
+        next: updated => {
+          const open = this.sheet();
+          if (open?.kind === 'entry' && open.entry.id === entry.id) {
+            this.sheet.set({ kind: 'entry', entry: updated });
+          }
+        },
+        error: () => {
+          const open = this.sheet();
+          const current = this.plan.entries().find(e => e.id === entry.id);
+          if (current && open?.kind === 'entry') this.sheet.set({ kind: 'entry', entry: current });
+          this.fail('plan.fail.servings');
+        },
+      });
+    }, 250));
   }
 
   move(entry: PlanEntry): void {
     const date = this.moveDate();
     const slot = this.moveSlot();
+    const pending = this.servingsTimers.get(entry.id);
+    if (pending) {
+      clearTimeout(pending);
+      this.servingsTimers.delete(entry.id);
+    }
     this.sheet.set(null);
-    this.plan.moveEntry(entry.id, date, slot).subscribe({
+    this.plan.moveEntry(entry.id, date, slot, entry.servings).subscribe({
       next: () => this.toast.show(this.t('plan.moved', { day: this.dayLabel(date), slot: this.i18n.slotLower(slot) })),
       error: () => this.fail('plan.fail.move'),
     });
   }
 
   remove(entry: PlanEntry): void {
+    const pending = this.servingsTimers.get(entry.id);
+    if (pending) {
+      clearTimeout(pending);
+      this.servingsTimers.delete(entry.id);
+    }
     this.sheet.set(null);
     this.plan.removeEntry(entry.id).subscribe({ error: () => this.fail('plan.fail.remove') });
   }

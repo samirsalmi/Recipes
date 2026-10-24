@@ -352,7 +352,8 @@ async function main() {
     });
   const recipes = await (await fetch(`${API}/recipes`)).json();
   if (!recipes.length) throw new Error('No recipes - run python -m app.content_import');
-  const sample = recipes.find(r => r.image && r.steps.length) ?? recipes[0];
+  // List responses are summaries (no steps); the detail/cook pages fetch the full recipe.
+  const sample = recipes.find(r => r.image) ?? recipes[0];
   const cuisineSlug = (sample.cuisine ?? 'other').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-');
 
   // A throwaway recipe with kitchen units for the equivalents screens; deleted in `finally`.

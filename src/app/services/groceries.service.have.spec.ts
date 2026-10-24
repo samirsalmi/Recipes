@@ -24,11 +24,11 @@ function list(have: number, remaining: number): GroceryList {
 }
 
 describe('GroceriesService have-at-home and staples', () => {
-  let storage: { setHouseholdStaple: ReturnType<typeof vi.fn>; getHousehold: ReturnType<typeof vi.fn>; setGroceryHave: ReturnType<typeof vi.fn>; setStaplePromoted: ReturnType<typeof vi.fn>; getGroceries: ReturnType<typeof vi.fn> };
+  let storage: { setHouseholdStaple: ReturnType<typeof vi.fn>; getHousehold: ReturnType<typeof vi.fn>; setGroceryHave: ReturnType<typeof vi.fn>; setStaplePromoted: ReturnType<typeof vi.fn>; getGroceries: ReturnType<typeof vi.fn>; markGroceryItem: ReturnType<typeof vi.fn> };
   let service: GroceriesService;
 
   beforeEach(() => {
-    storage = { setHouseholdStaple: vi.fn(), getHousehold: vi.fn(() => of(null)), setGroceryHave: vi.fn(), setStaplePromoted: vi.fn(), getGroceries: vi.fn(() => of(list(0, 6))) };
+    storage = { setHouseholdStaple: vi.fn(), getHousehold: vi.fn(() => of(null)), setGroceryHave: vi.fn(), setStaplePromoted: vi.fn(), getGroceries: vi.fn(() => of(list(0, 6))), markGroceryItem: vi.fn(() => of(list(0, 0))) };
     TestBed.configureTestingModule({ providers: [{ provide: StorageService, useValue: storage }] });
     service = TestBed.inject(GroceriesService);
     (service as unknown as { listSignal: { set(l: GroceryList): void } }).listSignal.set(list(0, 6));
@@ -53,6 +53,19 @@ describe('GroceriesService have-at-home and staples', () => {
     expect(failed).toBe(true);
     expect(service.list()!.items[0].parts[0].have).toBe(0);
     expect(service.list()!.items[0].parts[0].remaining).toBe(6);
+  });
+
+  it('checks an item off at once and rolls back if the server refuses', () => {
+    const request = new Subject<GroceryList>();
+    storage.markGroceryItem.mockReturnValue(request);
+    let failed = false;
+    service.mark('potato').subscribe({ error: () => (failed = true) });
+    expect(service.list()!.items[0].state).toBe('in_cart');
+    expect(service.progress()).toEqual({ done: 1, total: 1 });
+    request.error(new Error('offline'));
+    expect(failed).toBe(true);
+    expect(service.list()!.items[0].state).toBe('to_buy');
+    expect(service.progress()).toEqual({ done: 0, total: 1 });
   });
 
   it('sends the typed unit to the server and clears with null', () => {

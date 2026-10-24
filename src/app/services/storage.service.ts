@@ -215,7 +215,8 @@ export class StorageService {
   }
 
   addPlanEntry(entry: PlanEntryCreate): Observable<PlanEntry> {
-    return this.http.post<PlanEntry>(`${API}/plan`, entry);
+    const { recipe: _display, ...payload } = entry;
+    return this.http.post<PlanEntry>(`${API}/plan`, payload);
   }
 
   updatePlanEntry(id: number, patch: PlanEntryPatch): Observable<PlanEntry> {

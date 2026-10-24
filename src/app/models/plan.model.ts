@@ -38,6 +38,8 @@ export interface PlanEntryCreate {
   recipeId?: string | null;
   customTitle?: string | null;
   servings?: number;
+  /** Display-only card data for the optimistic row; never sent to the API. */
+  recipe?: RecipeSummary | null;
 }
 
 export interface PlanEntryPatch {

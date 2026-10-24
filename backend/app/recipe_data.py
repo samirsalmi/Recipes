@@ -9,7 +9,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from .ingredients import AISLES, aisle_info, canonical_name
-from .localization import enrich_ingredient
+from .localization import canonical_for, enrich_ingredient, localized_names
 from .models import RecipeRow
 
 DEFAULT_DIET = {
@@ -151,6 +151,69 @@ def to_response(
         "parentRecipeId": row.parent_recipe_id,
         "twistCount": twist_count,
     }
+
+
+_SUMMARY_HEAVY = {"description", "ingredients", "steps", "tips", "nutrition"}
+
+
+def _summary_source(source: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not source:
+        return None
+    out = {key: source.get(key) for key in ("title", "author", "year", "url", "license") if source.get(key) is not None}
+    # /credits still shows the adaptation note for recipes written for Mise; other adaptations
+    # live in the detail response only (they are the largest source field).
+    if source.get("license") == "Original" and source.get("adaptation"):
+        out["adaptation"] = source["adaptation"]
+    return out or None
+
+
+def _summary_translations(translations: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not translations:
+        return None
+    out = {lang: {"name": tr["name"]} for lang, tr in translations.items() if tr and tr.get("name")}
+    return out or None
+
+
+def _search_text(data: dict[str, Any]) -> str:
+    """Everything the catalog search needs, flattened. Replaces the full ingredient list in
+    list responses (ingredients are ~half the payload)."""
+    parts = [data.get("name") or "", data.get("cuisine") or "", *(data.get("tags") or [])]
+    for tr in (data.get("translations") or {}).values():
+        if tr and tr.get("name"):
+            parts.append(tr["name"])
+    for ing in data.get("ingredients") or []:
+        name = ing.get("name") or ""
+        if name:
+            parts.append(name)
+        names = localized_names(canonical_for(name, ing.get("canonical")))
+        if names:
+            parts.extend(names.values())
+    return " | ".join(dict.fromkeys(part for part in parts if part))
+
+
+def to_summary(row: RecipeRow, db: Session, *, twist_count: int | None = None) -> dict[str, Any]:
+    """Card/search payload for the catalog and cookbook: everything except the heavy fields
+    (full ingredients, steps, tips, description, nutrition), with a precomputed `search`
+    string. Detail/cook/editor fetch the full recipe by id."""
+    if twist_count is None:
+        twist_count = db.execute(
+            select(func.count()).select_from(RecipeRow).where(RecipeRow.parent_recipe_id == row.id)
+        ).scalar_one()
+    data = row.data
+    out = {key: value for key, value in data.items() if key not in _SUMMARY_HEAVY}
+    out["source"] = _summary_source(data.get("source"))
+    out["translations"] = _summary_translations(data.get("translations"))
+    out.update({
+        "id": row.id,
+        "ownerId": row.owner_id,
+        "isPublic": row.is_public,
+        "isOfficial": row.is_official,
+        "parentRecipeId": row.parent_recipe_id,
+        "twistCount": twist_count,
+        "search": _search_text(data),
+        "summary": True,
+    })
+    return out
 
 
 def summary(row: RecipeRow | None) -> dict[str, Any] | None:

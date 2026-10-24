@@ -127,7 +127,7 @@ export class CookComponent implements OnDestroy {
     effect(() => {
       const id = this.id();
       const loaded = this.recipes.recipesLoaded();
-      const found = this.recipes.recipes().find(r => r.id === id);
+      const found = this.recipes.recipes().find(r => r.id === id && !r.summary);
       untracked(() => {
         if (found) {
           this.recipe.set(found.steps.length ? found : null);
