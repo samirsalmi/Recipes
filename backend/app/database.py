@@ -1,3 +1,5 @@
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 from sqlalchemy.pool import StaticPool
@@ -7,11 +9,27 @@ from .config import settings
 
 def sync_url(url: str) -> str:
     """Normalize the URL a host hands out (`postgres://`, `postgresql://`, or an asyncpg URL)
-    to the installed psycopg 3 driver, which the synchronous engine and Alembic use."""
+    to the installed psycopg 3 driver, and translate the `ssl` query flag into `sslmode`,
+    which psycopg 3 understands (`?ssl=true` -> `?sslmode=require`)."""
     for prefix in ("postgres://", "postgresql://", "postgresql+asyncpg://"):
         if url.startswith(prefix):
-            return "postgresql+psycopg://" + url[len(prefix):]
-    return url
+            url = "postgresql+psycopg://" + url[len(prefix):]
+            break
+
+    parts = urlsplit(url)
+    if not parts.query:
+        return url
+
+    query = []
+    for key, value in parse_qsl(parts.query, keep_blank_values=True):
+        if key == "ssl":
+            key = "sslmode"
+            if value.lower() in ("", "true", "1", "yes"):
+                value = "require"
+            elif value.lower() in ("false", "0", "no"):
+                value = "disable"
+        query.append((key, value))
+    return urlunsplit(parts._replace(query=urlencode(query)))
 
 
 def _make_engine(url: str):
