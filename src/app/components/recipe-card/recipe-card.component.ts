@@ -16,7 +16,7 @@ import { ImagePlaceholderComponent } from '../ui/image-placeholder/image-placeho
   imports: [RouterLink, IconComponent, ImagePlaceholderComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <article class="group relative">
+    <article class="group relative [content-visibility:auto] [contain-intrinsic-size:auto_260px]">
       <a [routerLink]="['/recipes', recipe().id]" class="block rounded-card focus-visible:outline-offset-4">
         <div class="relative aspect-[4/3] overflow-hidden rounded-card bg-sunken">
           @if (recipe().image && !imageFailed()) {

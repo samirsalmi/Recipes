@@ -95,10 +95,15 @@ function dailyShuffle<T extends { id: string }>(list: T[], salt: string): T[] {
         </div>
         <p class="mt-4 text-sm text-muted" aria-live="polite">{{ t('discover.resultCount', { count: results().length }) }}</p>
         <div class="mt-3 grid grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-4">
-          @for (r of results(); track r.id) {
+          @for (r of visibleResults(); track r.id) {
             <app-recipe-card [recipe]="r" [isFavorite]="favorites.myFavoriteIds().has(r.id)" (favoriteToggled)="favorites.toggleFavorite($event)" />
           }
         </div>
+        @if (results().length > visibleLimit()) {
+          <div class="mt-6 flex justify-center">
+            <button type="button" class="btn-secondary" (click)="showMore()">{{ t('discover.loadMore') }}</button>
+          </div>
+        }
         @if (!results().length) {
           <app-empty-state icon="search" [title]="t('discover.nothingMatches')" [text]="t('discover.nothingMatchesText')">
             <button type="button" class="btn-primary" (click)="recipes.resetFilter()">{{ t('discover.clearFilters') }}</button>
@@ -186,10 +191,15 @@ function dailyShuffle<T extends { id: string }>(list: T[], salt: string): T[] {
         <section class="mt-10" aria-labelledby="all-title">
           <h2 id="all-title" class="section-title">{{ t('discover.allRecipes') }}</h2>
           <div class="mt-3 grid grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 lg:grid-cols-4">
-            @for (r of allRecipes(); track r.id) {
+            @for (r of visibleAll(); track r.id) {
               <app-recipe-card [recipe]="r" [isFavorite]="favorites.myFavoriteIds().has(r.id)" (favoriteToggled)="favorites.toggleFavorite($event)" />
             }
           </div>
+          @if (allRecipes().length > visibleLimit()) {
+            <div class="mt-6 flex justify-center">
+              <button type="button" class="btn-secondary" (click)="showMore()">{{ t('discover.loadMore') }}</button>
+            </div>
+          }
           @if (!allRecipes().length) {
             <app-empty-state icon="cookbook" [title]="t('discover.noRecipes')" [text]="t('discover.noRecipesText')" />
           }
@@ -278,6 +288,10 @@ export class DiscoverComponent {
   readonly filter = this.recipes.filter;
   readonly results = this.recipes.filteredRecipes;
   readonly filtersOpen = signal(false);
+  /** Render recipes in batches: hundreds of cards at once makes the page janky. */
+  readonly visibleLimit = signal(48);
+  readonly visibleResults = computed(() => this.results().slice(0, this.visibleLimit()));
+  readonly visibleAll = computed(() => this.allRecipes().slice(0, this.visibleLimit()));
 
   readonly filterCount = computed(() => {
     const f = this.filter();
@@ -348,6 +362,10 @@ export class DiscoverComponent {
     const locale = this.i18n.language();
     return [...this.recipes.recipes()].sort((a, b) => this.i18n.recipeName(a).localeCompare(this.i18n.recipeName(b), locale));
   });
+
+  showMore(): void {
+    this.visibleLimit.update(n => n + 48);
+  }
 
   timeLabel(key: 'any' | '30' | '45' | '60'): string {
     return this.t(`discover.time.${key}`);

@@ -315,6 +315,7 @@ export const ar: Record<string, string> = {
   "discover.budgetHint": "تعتمد على مكوّنات رخيصة",
   "discover.cuisine": "المطبخ",
   "discover.show": "عرض {count} وصفة",
+  "discover.loadMore": "عرض المزيد من الوصفات",
   "discover.time.any": "أي مدة",
   "discover.time.30": "30 دقيقة أو أقل",
   "discover.time.45": "45 دقيقة أو أقل",

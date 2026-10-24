@@ -315,6 +315,7 @@ export const fr: Record<string, string> = {
   "discover.budgetHint": "À base d'ingrédients économiques",
   "discover.cuisine": "Cuisine",
   "discover.show": "Afficher {count} recettes",
+  "discover.loadMore": "Afficher plus de recettes",
   "discover.time.any": "Peu importe",
   "discover.time.30": "30 min ou moins",
   "discover.time.45": "45 min ou moins",

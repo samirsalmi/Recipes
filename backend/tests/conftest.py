@@ -17,6 +17,7 @@ import pytest  # noqa: E402
 from fastapi.testclient import TestClient  # noqa: E402
 
 from app import models  # noqa: E402,F401 - registers tables
+from app.cache import invalidate_recipes  # noqa: E402
 from app.database import Base, SessionLocal, engine  # noqa: E402
 from app.main import app  # noqa: E402
 from app.models import RecipeRow  # noqa: E402
@@ -25,6 +26,7 @@ from app.recipe_data import build_data  # noqa: E402
 
 @pytest.fixture(autouse=True)
 def fresh_db():
+    invalidate_recipes()  # the process-local cache outlives the database reset
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
     yield

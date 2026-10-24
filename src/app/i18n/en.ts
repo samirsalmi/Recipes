@@ -317,6 +317,7 @@ export const en = {
   "discover.budgetHint": "Built on cheap staples",
   "discover.cuisine": "Cuisine",
   "discover.show": "Show {count} recipes",
+  "discover.loadMore": "Show more recipes",
   "discover.time.any": "Any time",
   "discover.time.30": "30 min or less",
   "discover.time.45": "45 min or less",

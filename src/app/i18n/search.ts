@@ -1,5 +1,10 @@
 import type { Recipe } from '../models';
-import { DICTIONARIES } from './dictionaries';
+import { DICTIONARIES, isDictionaryLoaded } from './dictionaries';
+
+/** Search text is expensive to build (unicode normalization over every ingredient); cache it
+ *  per recipe object. Recipe objects are replaced on edit, so a WeakMap stays correct. Only
+ *  cache once fr/ar are loaded, otherwise a later dictionary load would leave stale text. */
+const SEARCH_TEXT = new WeakMap<object, string>();
 
 /** Lower-case, accent- and Arabic-diacritic-insensitive text for matching ("creme" finds "crème"). */
 export function normalizeSearch(text: string): string {
@@ -25,11 +30,15 @@ function cuisineNames(cuisine: string | null): string[] {
  * English/French/Arabic dictionary names. A recipe with "beurre" is found by "butter" and "زبدة".
  */
 export function recipeSearchText(recipe: Pick<Recipe, 'name' | 'cuisine' | 'ingredients'> & Partial<Pick<Recipe, 'tags' | 'translations'>>): string {
+  const cached = SEARCH_TEXT.get(recipe);
+  if (cached !== undefined) return cached;
   const parts: string[] = [recipe.name, ...cuisineNames(recipe.cuisine), ...(recipe.tags ?? [])];
   for (const tr of Object.values(recipe.translations ?? {})) if (tr?.name) parts.push(tr.name);
   for (const ing of recipe.ingredients) {
     parts.push(ing.name);
     if (ing.names) parts.push(ing.names.en, ing.names.fr, ing.names.ar);
   }
-  return normalizeSearch(parts.join(' \n '));
+  const text = normalizeSearch(parts.join(' \n '));
+  if (isDictionaryLoaded('fr') && isDictionaryLoaded('ar')) SEARCH_TEXT.set(recipe, text);
+  return text;
 }
