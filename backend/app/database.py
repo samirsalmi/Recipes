@@ -5,6 +5,15 @@ from sqlalchemy.pool import StaticPool
 from .config import settings
 
 
+def sync_url(url: str) -> str:
+    """Normalize the URL a host hands out (`postgres://`, `postgresql://`, or an asyncpg URL)
+    to the installed psycopg 3 driver, which the synchronous engine and Alembic use."""
+    for prefix in ("postgres://", "postgresql://", "postgresql+asyncpg://"):
+        if url.startswith(prefix):
+            return "postgresql+psycopg://" + url[len(prefix):]
+    return url
+
+
 def _make_engine(url: str):
     # The test suite runs on in-memory SQLite (one shared connection); the app runs on PostgreSQL.
     if url.startswith("sqlite"):
@@ -26,7 +35,7 @@ def _make_engine(url: str):
     return create_engine(url, pool_pre_ping=True)
 
 
-engine = _make_engine(settings.database_url)
+engine = _make_engine(sync_url(settings.database_url))
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 
