@@ -1,3 +1,13 @@
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<app-toast></app-toast>
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:start-3 focus:top-3 focus:z-50 focus:rounded-full focus:bg-surface focus:px-4 focus:py-2">{{ t('shell.skipToContent') }}</a>
+<app-nav />
+@if (!connectivity.online()) {
+  <div class="sticky top-0 z-40 bg-ink px-4 py-2 text-center text-sm text-paper" role="status" data-qa="offline-banner"
+       style="padding-top: calc(0.5rem + env(safe-area-inset-top))">
+    {{ t('shell.offline') }}
+  </div>
+}
+<main id="main" tabindex="-1" class="outline-none">
+  <router-outlet />
+</main>
+<app-timer-tray />
+<app-toast />

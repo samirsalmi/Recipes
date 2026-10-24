@@ -1,0 +1,754 @@
+[
+  {
+    "id": "algerian-khobz-zebda-mrebba",
+    "name": "Khobz Bel Zebda w Mrebba (Bread with Butter, Jam or Cheese)",
+    "description": "The Algerian breakfast tartine: fresh khobz or baguette spread with butter and apricot jam, or topped with a slice of cheese, with a glass of milk coffee or mint tea.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "breakfast",
+      "bread",
+      "quick",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "slice",
+        "name": "bread",
+        "note": "fresh khobz or baguette"
+      },
+      {
+        "group": null,
+        "quantity": 30.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "apricot jam",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "slice",
+        "name": "cheese",
+        "note": "optional topping"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the bread and warm it briefly if it is not fresh.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Spread with butter, then jam; or butter then a slice of cheese.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Toast the slices lightly in a dry pan for a crunchier tartine."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Khobz Bel Zebda w Mrebba (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Pain au beurre, à la confiture ou au fromage"
+      },
+      "ar": {
+        "name": "خبز بالزبدة والمربى"
+      }
+    }
+  },
+  {
+    "id": "algerian-sfenj",
+    "name": "Sfenj (Algerian Fried Doughnut Rings)",
+    "description": "Light, chewy, golden ring doughnuts fried in oil, eaten warm with sugar or honey and mint tea.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "doughnut",
+      "fried",
+      "breakfast",
+      "vegan",
+      "street-food",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": "or sugar, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the flour, yeast, sugar and salt, add the water and beat 8 minutes into a very soft, sticky dough.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Cover and rise until doubled and bubbly, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "With wet hands take an egg-sized piece of dough, poke a hole in the middle and stretch into a ring.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry in hot oil (about 170 C) 2 minutes per side until golden.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Drain and serve warm with honey or sugar.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Keep your hands wet to handle the sticky dough."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Sfenj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Sfenj",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Sfenj' (opened): a Maghrebi fried doughnut ring of flour, water, sugar, yeast and salt, eaten with sugar or honey. Proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Sfendj_algerie.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sfendj_algerie.jpg",
+      "author": "Waran18",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a pile of golden fried dough rings with a hole in the centre."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sfenj"
+      },
+      "ar": {
+        "name": "سفنج"
+      }
+    }
+  },
+  {
+    "id": "algerian-khfaf",
+    "name": "Khfaf (Algerian Light Fritters)",
+    "description": "Airy, golden fritters of a soft yeasted batter dropped by spoonful into hot oil: the quick cousins of sfenj, dusted in sugar.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fritters",
+      "fried",
+      "breakfast",
+      "vegan",
+      "tea-time",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": "to dust"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk flour, yeast, sugar, salt and water into a thick smooth batter. Rest 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Drop tablespoons of batter into 170 C oil and fry 2 minutes per side until deep golden.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Drain and roll in sugar.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Khfaf (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Khfaf_de_Kabylie.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khfaf_de_Kabylie.jpg",
+      "author": "Wicanto",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a platter of golden puffed fried flat fritters."
+    },
+    "translations": {
+      "fr": {
+        "name": "Khfaf"
+      },
+      "ar": {
+        "name": "خفاف"
+      }
+    }
+  },
+  {
+    "id": "algerian-harcha",
+    "name": "Harcha (Semolina Griddle Cakes)",
+    "description": "Crumbly, golden semolina rounds cooked on a griddle, split and served hot with butter, honey or cheese.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "semolina",
+      "griddle",
+      "breakfast",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "medium"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the semolina, sugar, salt and baking powder, rub in the melted butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add milk to form a firm dough, rest 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Shape into 6 discs 1.5 cm thick and dust with semolina.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook on a medium dry griddle 6 minutes per side.",
+        "timerMinutes": 12
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Harcha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Harcha",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Harcha' (opened): a griddled semolina flatbread with fat, liquid and baking powder, found in Morocco and Algeria. Proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Harcha_Mbesses_galette_de_semoule_alg%C3%A9rienne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harcha_Mbesses_galette_de_semoule_alg%C3%A9rienne.jpg",
+      "author": "SamAlNumidi",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: golden semolina griddle cakes on a plate with olives and cheese beside them."
+    },
+    "translations": {
+      "fr": {
+        "name": "Harcha"
+      },
+      "ar": {
+        "name": "حرشة"
+      }
+    }
+  },
+  {
+    "id": "algerian-yaourt-maison",
+    "name": "Yaourt Maison (Homemade Yoghurt)",
+    "description": "Smooth homemade yoghurt from just milk and a spoon of live yoghurt, set overnight.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 480,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "yoghurt",
+      "dairy",
+      "homemade",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "milk",
+        "note": "whole"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "yoghurt",
+        "note": "live, as starter"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "milk powder",
+        "note": "optional, for thickness"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the milk to just below boiling (85 C), hold 5 minutes, then cool to 42 C.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Whisk the starter with a ladle of milk, stir back in with the milk powder.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour into jars, cover and keep warm (oven with light on) for 8 hours.",
+        "timerMinutes": 480
+      },
+      {
+        "text": "Chill for 4 hours before eating.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Keep the jars still while they set."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Yaourt Maison (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Homemade_yogurt_maker_-_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Homemade_yogurt_maker_-_01.jpg",
+      "author": "Anna Frodesiak",
+      "license": "CC0",
+      "verified": "Seen: a homemade yoghurt maker with a jar of fresh yoghurt (illustrates making yoghurt at home)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Yaourt maison"
+      },
+      "ar": {
+        "name": "ياغورت"
+      }
+    }
+  },
+  {
+    "id": "algerian-raib",
+    "name": "Raïb (Home-fermented Milk)",
+    "description": "Raïb is milk left to turn gently sour at room temperature into a tangy, drinkable, spoonable fermented milk.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack",
+      "drink"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 720,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "milk",
+      "fermented",
+      "dairy",
+      "traditional",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "milk",
+        "note": "whole, fresh"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "yoghurt",
+        "note": "live, or raïb from the last batch"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the milk to body temperature (about 37 C).",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Stir in the starter, cover and keep in a warm place for 12 hours.",
+        "timerMinutes": 720
+      },
+      {
+        "text": "Chill and serve cold, stirring before drinking.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use raïb from the last batch as the next starter."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Raïb (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/A_cup_of_laban_rayeb.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:A_cup_of_laban_rayeb.jpg",
+      "author": "Mint eggy93",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a small glass of white fermented milk (laban rayeb)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Raïb"
+      },
+      "ar": {
+        "name": "رايب"
+      }
+    }
+  },
+  {
+    "id": "algerian-lben",
+    "name": "Lben (Traditional Buttermilk)",
+    "description": "The tangy buttermilk left when raïb is churned for butter, the drink of every Algerian summer table and the base of many soups.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack",
+      "drink"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "buttermilk",
+      "dairy",
+      "traditional",
+      "drink",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "raib",
+        "note": "or thick sour milk"
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "ml",
+        "name": "cold water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pour the raïb into a large jar or churn.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Shake or churn for 20 to 30 minutes until specks of butter form.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add cold water, shake briefly, and lift out the butter; the liquid left is lben.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve cold with a pinch of salt and dried mint."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Lben (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lben_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lben_1.jpg",
+      "author": "Sabah HAANA",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a clay jug filled with white lben, the traditional buttermilk."
+    },
+    "translations": {
+      "fr": {
+        "name": "Lben"
+      },
+      "ar": {
+        "name": "لبن"
+      }
+    }
+  }
+]

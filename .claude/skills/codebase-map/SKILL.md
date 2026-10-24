@@ -1,6 +1,6 @@
 ---
 name: codebase-map
-description: Map of the Recipes codebase (Angular 21 frontend in src/, FastAPI + MySQL backend in backend/) - which file owns what, how data flows, where to make a given change, and known bugs. Load this before searching, reading, or editing source files in this repo, including quick questions like "where is X handled" or "why does Y happen", so you open only the files that matter instead of exploring. Also load it when adding, moving, renaming, or deleting source files, because the map must change in the same edit.
+description: Map of the Recipes codebase (Angular 21 frontend in src/, FastAPI + PostgreSQL backend in backend/) - which file owns what, how data flows, where to make a given change, and known bugs. Load this before searching, reading, or editing source files in this repo, including quick questions like "where is X handled" or "why does Y happen", so you open only the files that matter instead of exploring. Also load it when adding, moving, renaming, or deleting source files, because the map must change in the same edit.
 ---
 
 # Codebase map
@@ -13,7 +13,7 @@ Reading files to find out where things are is the most expensive way to work in 
 |---|---|---|
 | Frontend (Angular) | [frontend.md](frontend.md) | complete, covers everything under src/ |
 | Backend (FastAPI) | [backend.md](backend.md) | complete, covers everything under backend/ |
-| Database (MySQL) | [database.md](database.md) | complete, covers the two-table schema |
+| Database (PostgreSQL) | [database.md](database.md) | complete, covers all thirteen tables |
 
 Read only the area file your task touches. Each starts with a "Start here by task" table that usually names the exact file and function.
 
@@ -25,7 +25,7 @@ Read only the area file your task touches. Each starts with a "Start here by tas
    - Otherwise Grep the symbol with line numbers, then Read with offset/limit around it.
    - Read a whole file only when it is short (under ~150 lines) or you are about to change most of it.
 3. Component templates (.html) are long. Grep for the handler or binding name instead of reading them.
-4. Never read `src/app/data/mock-recipes.ts` whole: it is 1.7k lines of seed data. Grep it by recipe name or id.
+4. Never read `content/recipes/*.json` whole: they are large curated data files. Grep them by recipe id.
 5. Explore beyond the map only when it doesn't answer your question, and then add what you learned so the next session doesn't pay for the same search.
 6. Stop when the question is answered. Confirm the specific lines you cite, but don't audit neighbouring code, scan the seed data, or run experiments nobody asked for; mention a suspicion in one line instead. Side investigations cost more than the map saves.
 

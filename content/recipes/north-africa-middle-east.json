@@ -1,0 +1,3641 @@
+[
+  {
+    "id": "algerian-chorba-frik",
+    "name": "Chorba Frik (Lamb and Freekeh Soup)",
+    "description": "The soup of the Algerian Ramadan table: lamb, chickpeas and tomato simmered with celery and fresh coriander, with crushed smoky green wheat added toward the end, finished with mint and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 100,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "freekeh",
+      "ramadan",
+      "lamb",
+      "chickpeas"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder or neck, cut into small pieces, on the bone if possible"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": "or 1/2 tsp ras el hanout",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "ripe, grated"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight and drained"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "celery",
+        "note": "with leaves, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "fresh coriander",
+        "note": "chopped, divided"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "freekeh",
+        "note": "cracked green wheat, rinsed several times"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried mint",
+        "note": "crumbled",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut into wedges, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "The night before, soak the chickpeas in plenty of cold water. Rinse the freekeh several times in a bowl of cold water until the water runs fairly clear, then drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a large pot over medium heat. Add the lamb, grated onion, paprika, pepper, ground coriander, cinnamon stick and salt. Cook, stirring, until the onion is soft and the meat has lost its raw colour, 8 to 10 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir in the tomato paste and grated tomatoes and cook for 5 minutes until they reduce.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the drained chickpeas and the water. Bring to a boil, skim off the foam, then simmer gently, partly covered, for about 45 minutes until the chickpeas and lamb are nearly tender.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Add the celery, half of the fresh coriander and the rinsed freekeh. Stir well and simmer for 25 to 30 minutes more, stirring often so the grains do not stick, until the freekeh is tender. Add hot water if the soup gets too thick.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Remove the cinnamon stick, stir in the rest of the coriander and the dried mint, and adjust the salt. Let it rest for 5 minutes, then serve hot with lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Freekeh (frik) is young wheat that is roasted, which gives the soup its smoky taste; it is sold in Middle Eastern shops and many supermarkets. Do not add it at the start or it turns to mush.",
+      "Chicken or beef can replace the lamb. Canned chickpeas go in together with the freekeh.",
+      "The soup thickens as it stands; loosen it with hot water when reheating."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Chorba frik2",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Chorba_frik2",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source and the English Wikibooks page ('Chorba Frik (Freekeh Soup)') simply put everything, including raw ground beef and the freekeh, into cold water. I follow the lamb version on French Wikibooks (lamb, paprika, ground coriander, celery, fresh coriander, fresh tomatoes, concentrated tomato, frik added after the rest, frik rinsed several times) and, after checking Algerian recipe sites (Amour de Cuisine, Mes Inspirations Culinaires, Paris Match Belgique), brown the meat with grated onion and spices, add the tomatoes and chickpeas, simmer, and add the rinsed frik only for the last 25-30 minutes. Mint, lemon and the optional cinnamon are the usual finishing touches. Quantities (400 g lamb, 200 g frik, 100 g celery, 100 g coriander, 2 litres water) come from the two Wikibooks pages; the onion, chickpea soak, timings and seasoning quantities are mine."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chorba_frik_algerienne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chorba_frik_algerienne.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white bowl of orange-red freekeh soup with pieces of meat and a spoonful of the grainy broth lifted up, coriander flecks on top, dates and a lemon wedge beside the bowl on a red check cloth. Portrait format (1080 x 1317)."
+    }
+  },
+  {
+    "id": "algerian-chakhchoukha",
+    "name": "Chakhchoukha Biskra",
+    "description": "A festive Algerian dish from the Aurès and Biskra: torn rougag flatbread steamed and soaked in a spicy red sauce of lamb and chickpeas.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 110,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "festive",
+      "lamb",
+      "chickpeas",
+      "flatbread",
+      "biskra",
+      "spicy"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "smen",
+        "note": "or butter",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder or neck, in large pieces; beef or chicken pieces also work"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "large, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ras el hanout",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "harissa",
+        "note": "or 1 to 2 dried chilies, for the traditional spicy red sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "ripe, grated"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight and drained"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "water",
+        "note": "boiling, about; enough to just cover"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "rougag",
+        "note": "thin Algerian semolina flatbread sheets, torn into small pieces"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fresh parsley or coriander",
+        "note": "chopped, to garnish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil (and smen, if using) in a large heavy pot over medium heat. Add the lamb, onion, garlic and a little salt and cook, turning the meat, for 6 to 8 minutes, until lightly coloured.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Stir in the paprika, pepper, ras el hanout, tomato paste and harissa and cook for 3 to 5 minutes, until the oil turns red.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Add the grated tomatoes and the soaked chickpeas and cook for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pour in boiling water to just cover, bring to a simmer, cover and cook for 60 to 75 minutes, until the meat and chickpeas are completely tender. Uncover for the last 10 minutes so the sauce reduces and thickens. Taste for salt.",
+        "timerMinutes": 70
+      },
+      {
+        "text": "About 20 minutes before serving, tear the rougag into small pieces by hand and steam them in a steamer basket for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Sprinkle the steamed rougag with 2 to 3 ladles of hot sauce from the stew, toss gently with your fingertips and steam for another 10 minutes, until soft and swollen.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pile the rougag in a wide dish, top with the meat and chickpeas and pour the remaining sauce over everything. Garnish with parsley or coriander and serve hot.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Rougag (also called trid) are paper-thin sheets of semolina flatbread sold in Algerian and North African shops. Chakhchoukha Dfar uses a different torn flatbread, and some regions cook it with a white sauce and chicken instead.",
+      "The Biskra version is spicy; reduce the harissa for a milder sauce.",
+      "In season, many families add potatoes, carrots, courgettes or green peppers to the sauce."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Algerian Chakhchoukha (Vegetable and Flatbread Stew)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Chakhchoukha_(Vegetable_and_Flatbread_Stew)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source starts the sauce without meat, uses no heat-giving spices, and only steams the dry rougag for 5 minutes before piling the stew on top. Checked against English Wikipedia's description of the dish and several Algerian recipe pages (afrifoodnetwork, Du Bocal à l'Assiette, TSA Algérie). Following them, I brown the lamb with the onion first, add ras el hanout, black pepper and harissa for the spicy red Biskra sauce, optionally add smen, reduce the sauce at the end, and moisten the steamed rougag with ladles of hot sauce and steam it a second time so it soaks up flavour. The source gives no amounts for oil, meat, water or rougag, so I supplied them for 6 servings (800 g lamb, 300 g rougag, 1 litre water, 3 tbsp oil). Converted '2 cups dried chickpeas' to 200 g because 2 cups was far too many for this amount of meat. Lengthened the simmer from the source's 45 minutes to 60-75 minutes because lamb and soaked chickpeas need it."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lyon_7e_-_Restaurant_Air_du_Pays_-_Chakhchoukha_Biskra_Agneau.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lyon_7e_-_Restaurant_Air_du_Pays_-_Chakhchoukha_Biskra_Agneau.jpg",
+      "author": "Romainbehar",
+      "license": "CC0",
+      "verified": "Seen: decorated wooden bowl holding lamb shoulder pieces beside torn flatbread in a red chickpea-tomato sauce with chopped parsley, a clay jug of milk drink behind it, on a red woven tablecloth."
+    }
+  },
+  {
+    "id": "algerian-mhadjeb",
+    "name": "Mhadjeb (Algerian Stuffed Flatbread)",
+    "description": "Thin, flaky semolina flatbreads folded around a slow-cooked tomato and onion filling and browned in a pan. A much-loved Algerian street food and breakfast, also called mahjouba.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "servings": 3,
+    "prepTime": 30,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "flatbread",
+      "semolina",
+      "stuffed",
+      "street-food",
+      "vegan",
+      "mahjouba"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Dough",
+        "quantity": 200,
+        "unit": "g",
+        "name": "fine semolina",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 50,
+        "unit": "g",
+        "name": "all-purpose flour",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 125,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about; add gradually"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced very thin"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "ripe, peeled and diced small"
+      },
+      {
+        "group": "Filling",
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": "or ground chili or harissa, to taste"
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "or to taste"
+      },
+      {
+        "group": "To shape and cook",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for oiling hands, the work surface and the pan"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the semolina, flour and salt in a bowl. Gradually work in the warm water with your hands until you have a smooth, soft dough. Knead for 8 to 10 minutes; the dough must be well kneaded to stretch thin without tearing.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Oil your hands, divide the dough into 6 balls and arrange them side by side on an oiled surface. Cover with a damp cloth and rest for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Meanwhile make the filling. Score the tomatoes, dip them in boiling water for 30 seconds, then peel and dice them small.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the olive oil in a pan over medium-low heat. Add the onions with a pinch of salt and cook, stirring, until soft and translucent, about 15 minutes. Add the garlic for the last minute.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the tomatoes, paprika (or chili), pepper and salt. Cover and cook over low heat, stirring now and then, then uncover and reduce until jammy, 15 to 20 minutes in all. Let it cool.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "On an oiled surface, flatten the first ball with oiled fingers and stretch or roll it as thin as you can, to about 20 cm across. Brush lightly with oil, spread 2 to 3 tablespoons of filling in the centre and fold the four sides over it to make a square.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set the square in a lightly oiled pan over medium-low heat and cook until deep golden on the first side, 3 to 4 minutes, then flip and brown the other side.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Repeat with the remaining dough and filling. Serve hot, with mint tea or soup.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Dough to filling stays tidy if the filling is cooled and thick; a wet filling makes the dough tear.",
+      "Some families add harissa, or minced meat, to the filling."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Mhadjeb (Algerian Stuffed Flatbread)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Mhadjeb_(Algerian_Stuffed_Flatbread)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source's dough ratio (1 cup semolina to 1/2 cup flour) is looser than the roughly 4:1 semolina-to-flour dough used in Algerian recipes (Du Bocal à l'Assiette, musement, Afrik.com), so I use 200 g semolina to 50 g flour. Added garlic and the step of reducing the onion-tomato filling until jammy and cooling it, longer kneading and a 20-minute oiled rest, and optional paprika or harissa for heat. The source gives no amounts for salt, water, oil, pepper or chili; I supplied them and set the yield at 6 pieces. Cooking times are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mhajeb1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mhajeb1.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: oval Moroccan-pattern plate of golden-brown, griddle-charred folded square mhadjeb with lemon slices and mint, small tea glasses and a silver teapot behind, a small Algerian flag pick on top, on a dark table with a pink cloth. Portrait, 827 x 1014 px (size rule waived by supervisor)."
+    }
+  },
+  {
+    "id": "algerian-baghrir",
+    "name": "Baghrir (Thousand-Hole Semolina Pancakes)",
+    "description": "Spongy, one-sided semolina pancakes whose surface is covered in tiny holes that soak up melted butter and honey. A weekend breakfast and tea-time treat across Algeria.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 5,
+    "prepTime": 35,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancakes",
+      "semolina",
+      "honey",
+      "tea-time"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "very fine semolina",
+        "note": "fine durum semolina, not couscous grains"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "all-purpose flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 630,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "lukewarm, not hot"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "instant yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted, for serving"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "honey",
+        "note": "for serving",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the semolina, flour, yeast, sugar, salt and warm water in a blender, or a bowl, and blend or whisk for 1 to 2 minutes until completely smooth. The batter should be thin, like a loose crêpe batter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and leave to rest in a warm place for 20 to 30 minutes, until it is bubbly.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Stir in the baking powder.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a non-stick skillet over medium heat; do not grease it. Pour a small ladle of batter into the centre of the pan and let it spread by itself into a pancake about 12 cm across.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook on one side only, without flipping, until the surface is covered with small holes and the top is dry and set, 2 to 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Lift the baghrir out and lay it holes-up on a clean cloth, without stacking, then repeat. Serve warm, drenched in melted butter with honey.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Never flip baghrir: the holes appear on the side that stays up, and the pale underside is the smooth one.",
+      "If the first pancake has no holes, thin the batter with a few spoonfuls of water or let it rest longer. If it stays wet on top, the pan is too cool.",
+      "This batter makes about 15 pancakes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Algerian Baghrir",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Baghrir",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method and proportions corrected toward the traditional preparation: the source uses 15 g of instant yeast (several times more than is needed), an egg, and about twice as much water as semolina, which gives a very runny batter. Checking Algerian and Moroccan recipes (Algérie360, Bladi, Futura Sciences, Du Bocal à l'Assiette), I use about 3 parts dry to 4.5 parts water, 1 tsp of yeast, baking powder stirred in at the end, no egg, and a blender step for a smooth batter. The very fine semolina, resting time and the no-grease, no-flip cooking are common to all of them. Butter for serving is from the source; honey is the usual accompaniment."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Beghrir_%28Homemade%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beghrir_(Homemade).jpg",
+      "author": "Tamorlan",
+      "license": "CC BY 3.0",
+      "verified": "Seen: four round, pale golden pancakes with their surfaces full of tiny holes, overlapping on a white plate with a blue rim, on a wooden board."
+    }
+  },
+  {
+    "id": "algerian-kesra",
+    "name": "Kesra (Algerian Semolina Flatbread)",
+    "description": "The everyday Algerian griddle bread: a firm, golden semolina disc cooked in a dry pan, made without yeast. Break it by hand and dip it into soup, stew or olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "breakfast"
+    ],
+    "servings": 6,
+    "prepTime": 50,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "semolina",
+      "griddle",
+      "vegan",
+      "no-yeast"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 450,
+        "unit": "g",
+        "name": "fine semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": "g",
+        "name": "salt",
+        "note": "about 1 1/2 teaspoons"
+      },
+      {
+        "group": null,
+        "quantity": 45,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "or sunflower oil"
+      },
+      {
+        "group": null,
+        "quantity": 240,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about; add gradually"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine the semolina and salt in a large bowl. Add the oil and rub it in with your hands until the mixture has a sandy texture.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the water a little at a time, kneading firmly for at least 10 minutes. The dough is ready when it is smooth, holds together and no longer sticks to the bowl or your hands.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cover the dough and let it rest for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Divide into 2 pieces. Shape each into a ball and flatten and roll it into a round about 22 cm across and 1 cm thick. Prick all over with a fork so it does not puff.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a dry heavy griddle or frying pan over medium-low heat. Cook one disc at a time for 6 to 8 minutes per side, until golden with brown patches and cooked through in the middle. If it browns too fast, lower the heat.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Wrap the finished kesra in a clean cloth to keep it soft. Serve warm, torn by hand.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Kesra is also called khobz el ftir in Algiers, aghroum n tajine in Kabylie and arekhsis in the Aurès. It is traditionally cooked on a clay plate (tajine) set over embers or a gas ring.",
+      "Eat it warm with soup (chorba), stew, olive oil, cheese or a glass of leben."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Kesra (Algerian Semolina Flatbread)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Kesra_(Algerian_Semolina_Flatbread)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source's 1 tbsp of salt (about 18 g, 4% of the flour) is far saltier than the roughly 8-10 g per 500 g semolina in Algerian recipes (Du Bocal à l'Assiette, Algerian-recipe pages, English Wikipedia 'Kesra'), so I reduced it to 8 g. Use of olive oil, at least 10 minutes of firm kneading, a medium-low dry pan and no yeast follow those references. The source makes four 190 g discs; I make two larger, 22 cm discs, which is closer to the traditional single large kesra, and lengthened the cooking time to 6-8 minutes per side. Quantities of semolina, water and oil are otherwise the source's. Cooking times are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kesra_alg%C3%A9rienne_%28pain_maghr%C3%A9bin%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kesra_alg%C3%A9rienne_(pain_maghr%C3%A9bin).jpg",
+      "author": "Indif",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: single round flat griddled semolina bread, golden with dark toasted patches around the rim, photographed on a plain white surface."
+    }
+  },
+  {
+    "id": "moroccan-mofletta",
+    "name": "Mofletta (Maghrebi Butter-and-Honey Pancakes)",
+    "description": "Paper-thin yeasted pancakes fried in a pan and stacked, then eaten warm with butter and honey. Moroccan Jewish families serve them for Mimouna, and they are popular across the Maghreb.",
+    "cuisine": "Moroccan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 80,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancakes",
+      "flatbread",
+      "honey",
+      "mimouna"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dry yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about; add a little more if the dough is stiff"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "all-purpose flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "sea salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus a little extra for the work surface and pan"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": "for serving"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": "for serving"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dissolve the yeast and sugar in the warm water and leave it in a warm place for 10 to 15 minutes, until frothy.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "In a bowl combine the flour, salt and 1 tablespoon of the olive oil. Stir in the yeast mixture to make a dough, adding a spoonful of warm water if it is stiff.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Knead on a lightly floured surface until smooth and elastic, about 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Return the dough to the bowl, pour the second tablespoon of oil over it and turn the dough until it is coated. Cover with a tea towel and leave in a warm place until it has risen, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Divide the dough into 8 equal balls. On an oiled surface, roll each one out as thin as you can.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a frying pan over medium heat and grease the bottom with a little oil. Fry the rolled-out dough one piece at a time until lightly browned on one side, then flip and brown the second side, about 1 to 2 minutes per side.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Keep the finished mofletta in a stack under a cloth so they stay warm and soft. Serve with butter and honey.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Spread each warm pancake with butter, drizzle with honey and fold it up as you go."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Mofletta (Maghrebi Pancake)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Mofletta_(Maghrebi_Pancake)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Quantities are as in the source (1/2 cup water given as 120 ml). The source gives no amounts for the butter and honey (40 g and 3 tbsp supplied), no yield (8 pieces assumed) and no rising time (about 1 hour assumed, included in the prep time). Suggested a little extra water for a stiff dough because 120 ml for 250 g flour is on the dry side."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mufletta.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mufletta.JPG",
+      "author": "Gilabrand",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: three folded, thin griddled flatbreads with golden-brown blisters on a plate with a pale green pattern, shot at a low angle. Slightly soft focus but clearly the dish."
+    }
+  },
+  {
+    "id": "tunisian-shakshuka",
+    "name": "Shakshuka",
+    "description": "Eggs poached in a garlicky, paprika-spiced sauce of tomatoes and sweet peppers. One pan, 30 minutes, and a staple breakfast across the Maghreb.",
+    "cuisine": "Tunisian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 8,
+    "cookTime": 22,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "one-pan",
+      "eggs",
+      "tomato",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "3 to 4 tablespoons also works for a lighter dish"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sweet paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "red bell pepper",
+        "note": "large, diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "red or green, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 750,
+        "unit": "g",
+        "name": "ripe tomatoes",
+        "note": "about 6, diced"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "ground, to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "parsley",
+        "note": "fresh, chopped, to garnish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "crusty bread",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the olive oil in a wide, deep skillet over high heat for about 30 seconds. Stir in the paprika.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the garlic, red pepper and chili, turn the heat to low and cook for about 10 minutes, until the peppers have softened a little.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the tomatoes, bring to a boil, then season with salt and pepper. Simmer for about 5 minutes until the sauce thickens slightly.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "With the back of a spoon make 6 dents in the sauce and break an egg into each one, spreading the whites gently into the sauce.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Keep the heat low, cover the pan and cook until the egg whites are set and the yolks as runny or firm as you like, 5 to 8 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Scatter with parsley and serve straight from the pan with bread for mopping up.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with black bread or any crusty bread and fresh parsley.",
+      "Some cooks add pieces of sausage (try lamb merguez) to the sauce.",
+      "In an Egyptian variation a little sugar is added to the tomato sauce and the eggs are scrambled into it; it can be eaten hot or cold."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Shakshuka I",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Shakshuka_I",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Ingredients and method follow the source. Converted '6 ripe tomatoes' to about 750 g. Added a short simmer after the tomatoes come to the boil (the source goes straight to the eggs), the 5-8 minute egg time, and the garnish and bread. The source page calls it a Middle Eastern dish; I list it as Tunisian because shakshuka is generally traced to Tunisia and the wider Maghreb. Source page edited by many contributors since 2008."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Shakshuka_by_Calliopejen1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg",
+      "author": "Calliopejen1",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: black cast-iron skillet with a red handle holding red tomato and pepper sauce with four set eggs (whites cooked, yolks soft) and chopped parsley scattered on top."
+    }
+  },
+  {
+    "id": "egyptian-koshari",
+    "name": "Koshari",
+    "description": "Egypt's national street food: rice, lentils, macaroni and chickpeas under a spiced tomato-vinegar sauce, a garlicky cumin dressing and a crown of crispy fried onions. Cheap, filling and completely vegan.",
+    "cuisine": "Egyptian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "street-food",
+      "lentils",
+      "rice",
+      "pasta",
+      "chickpeas",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Rice and lentils",
+        "quantity": 200,
+        "unit": "g",
+        "name": "rice",
+        "note": "short or medium grain"
+      },
+      {
+        "group": "Rice and lentils",
+        "quantity": 40,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": "broken into short pieces"
+      },
+      {
+        "group": "Rice and lentils",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": "Rice and lentils",
+        "quantity": 200,
+        "unit": "g",
+        "name": "brown lentils",
+        "note": "dried"
+      },
+      {
+        "group": "Pasta and chickpeas",
+        "quantity": 200,
+        "unit": "g",
+        "name": "small macaroni",
+        "note": "elbow or ditalini"
+      },
+      {
+        "group": "Pasta and chickpeas",
+        "quantity": 1,
+        "unit": "can",
+        "name": "chickpeas",
+        "note": "400 g, drained and warmed"
+      },
+      {
+        "group": "Crispy onions",
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "large, thinly sliced"
+      },
+      {
+        "group": "Crispy onions",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "all-purpose flour",
+        "note": null
+      },
+      {
+        "group": "Crispy onions",
+        "quantity": 250,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "for frying; most is left over to reuse"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "from frying the onions"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 1,
+        "unit": "can",
+        "name": "crushed tomatoes",
+        "note": "400 g, or tomato passata"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "white vinegar",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": null,
+        "unit": null,
+        "name": "chili flakes or hot sauce",
+        "note": "to taste",
+        "optional": true
+      },
+      {
+        "group": "Garlic-vinegar dressing (daqqa)",
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed with salt"
+      },
+      {
+        "group": "Garlic-vinegar dressing (daqqa)",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "white vinegar",
+        "note": null
+      },
+      {
+        "group": "Garlic-vinegar dressing (daqqa)",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Garlic-vinegar dressing (daqqa)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toss the sliced onions with the flour and a pinch of salt. Heat the 250 ml of oil in a deep pan to medium-high and fry the onions in batches, stirring, until deep golden and crisp, about 8 minutes per batch. Drain on paper towels and keep the oil.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Boil the lentils in plenty of unsalted water until tender but still whole, 20 to 25 minutes. Drain and season with salt.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Heat 2 tablespoons oil in a pot, add the vermicelli and stir until golden brown. Add the rice and stir for 1 minute, then add 400 ml of water and a pinch of salt. Bring to a boil, cover, turn the heat to low and cook for 15 minutes. Leave covered for 5 minutes, then fluff.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cook the macaroni in salted boiling water until just tender and drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For the sauce, heat 2 tablespoons of the onion-frying oil in a saucepan, add the garlic and cook for 1 minute. Add the crushed tomatoes, tomato paste, vinegar, cumin, coriander, sugar, salt and chili. Simmer for 15 minutes until thick.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "For the dressing (daqqa), mix the crushed garlic, vinegar, water, cumin and a pinch of salt.",
+        "timerMinutes": null
+      },
+      {
+        "text": "To serve, spread rice and lentils in each bowl, add the macaroni, a spoonful of chickpeas and a ladle of hot tomato sauce. Top with crispy onions and pass the garlic-vinegar dressing around.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cook the lentils, rice, pasta and sauce at the same time to keep the total time down.",
+      "Egyptians serve extra dressing and hot sauce (shatta) at the table; each person seasons their own bowl."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Koshari (Egyptian Rice with Pasta and Lentils)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Koshari_(Egyptian_Rice_with_Pasta_and_Lentils)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source omits the vermicelli, chickpeas and the garlic-vinegar dressing that every Egyptian koshari has, fries the onions in only 2 tbsp oil, puts cinnamon in the sauce and has no vinegar. Checked against Egyptian-style recipes (Chocolates & Chai, Silk Road Recipes, Billy Parisi and others) and rebuilt: vermicelli fried with the rice; chickpeas; a cumin-coriander tomato sauce with vinegar and a little sugar; a daqqa dressing; floured crispy onions fried in more oil; cinnamon dropped. Converted the source's 1 cup each of rice, lentils and macaroni to 200 g. Serving count and times are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Egyptian_food_Koshary.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
+      "author": "Dina Said",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white square platter of koshari (rice, lentils, short pasta, vermicelli, chickpeas, crispy fried onions, red tomato sauce, chili slices) with small bowls of the components, a spoon and red chilies around it on a dark wooden table."
+    }
+  },
+  {
+    "id": "egyptian-ful-medames",
+    "name": "Ful Medames",
+    "description": "Slow-cooked fava beans dressed with garlic, olive oil, lemon and cumin, with some beans mashed for body, scooped up with warm bread. Egypt's classic breakfast.",
+    "cuisine": "Egyptian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 120,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fava-beans",
+      "breakfast",
+      "vegan",
+      "street-food"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 350,
+        "unit": "g",
+        "name": "dried fava beans",
+        "note": "small brown ones (ful medames); about 2 cups, soaked overnight and drained"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed with 1/2 teaspoon salt"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "about 1/4 cup, plus more to drizzle"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced, plus wedges to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "parsley",
+        "note": "chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "pita bread",
+        "note": "or Egyptian baladi bread, to serve"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "chopped, for topping",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "diced, for topping",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "hard-boiled eggs",
+        "note": "for topping",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green chili",
+        "note": "chopped, for topping",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the dried fava beans, pick out any debris, and soak them overnight in plenty of cold water. Drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the beans in a pot with fresh water to cover by about 5 cm. Bring to a boil, skim, then reduce to a very gentle simmer. Do not add salt yet.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Simmer for 1 1/2 to 2 hours, topping up with hot water if needed, until the beans are completely tender and the liquid has become thick and soupy.",
+        "timerMinutes": 100
+      },
+      {
+        "text": "Mash a few ladlefuls of beans with some of their cooking liquid and stir them back into the pot to thicken it.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the garlic, olive oil, lemon juice, cumin, salt and pepper and warm over low heat for a few minutes. Taste; it should be lemony and garlicky.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Ladle into bowls, drizzle with olive oil and sprinkle with parsley. Serve warm with bread and the chopped tomato, onion, egg and chili for people to add.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Egyptians often add a spoonful of tahini sauce (tahini, garlic, lemon, water) or a little tomato and chili on top.",
+      "Canned cooked fava beans make a quick version: warm them with the garlic, oil, lemon and cumin."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Ful Medames (Egyptian Fava Beans)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Ful_Medames_(Egyptian_Fava_Beans)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source boils unsoaked beans in only 4 cups of water for 1-1.5 hours, which is too little water and time. Checked against Claudia Roden's recipe as reproduced by the University of Michigan Kelsey Museum, Roads & Kingdoms' account of cooking ful in Cairo, and MasterClass, I added an overnight soak, a long gentle simmer (1.5-2 hours) with salt added at the end, mashing some of the beans into the cooking liquid for body, and the usual toppings (tomato, onion, hard-boiled egg, chili, tahini) as optional. Garlic, oil, lemon and cumin amounts are as in the source (converted to 350 g beans, 60 ml oil)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ful_Medames.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ful_Medames.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "verified": "Seen: white plate with mashed brown fava beans topped with green chili and onion rings, two halved boiled eggs, diced tomato, pickled onions, olives, parsley, lime halves and toasted pita triangles."
+    }
+  },
+  {
+    "id": "egyptian-basbousa",
+    "name": "Basbousa (Semolina Cake)",
+    "description": "The classic Egyptian semolina cake: tender, buttery and yogurt-moist, scored into diamonds with an almond on each piece and soaked in lemony syrup.",
+    "cuisine": "Egyptian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 16,
+    "prepTime": 40,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "cake",
+      "semolina",
+      "coconut",
+      "syrup",
+      "baking"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Cake",
+        "quantity": 250,
+        "unit": "g",
+        "name": "coarse semolina",
+        "note": "or fine semolina"
+      },
+      {
+        "group": "Cake",
+        "quantity": 40,
+        "unit": "g",
+        "name": "desiccated coconut",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Cake",
+        "quantity": 125,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted; ghee is traditional"
+      },
+      {
+        "group": "Cake",
+        "quantity": 150,
+        "unit": "g",
+        "name": "granulated sugar",
+        "note": null
+      },
+      {
+        "group": "Cake",
+        "quantity": 245,
+        "unit": "g",
+        "name": "plain yogurt",
+        "note": "about 1 cup"
+      },
+      {
+        "group": "Cake",
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": "Cake",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "vanilla extract",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Cake",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tahini",
+        "note": "or butter, to grease the pan"
+      },
+      {
+        "group": "Cake",
+        "quantity": 16,
+        "unit": "piece",
+        "name": "blanched almonds",
+        "note": "one for each piece"
+      },
+      {
+        "group": "Syrup",
+        "quantity": 200,
+        "unit": "g",
+        "name": "granulated sugar",
+        "note": null
+      },
+      {
+        "group": "Syrup",
+        "quantity": 240,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Syrup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": "Syrup",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "rose water or orange blossom water",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Grease a 23 cm (9 inch) square baking pan with the tahini or butter. Heat the oven to 180°C (350°F).",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a bowl, mix the semolina, coconut (if using), sugar and baking powder. Stir in the melted butter, yogurt and vanilla until you have a thick, smooth batter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Let the batter rest for 20 minutes so the semolina can absorb the liquid.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Spread the batter in the pan and smooth the top. Score into 16 diamonds or squares with a knife and press a blanched almond into the centre of each.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 30 to 35 minutes, until deep golden brown and a toothpick comes out clean.",
+        "timerMinutes": 32
+      },
+      {
+        "text": "While the cake bakes, boil the water, sugar and lemon juice in a saucepan, stirring until the sugar dissolves, then simmer for 6 to 8 minutes until lightly thickened. Stir in the rose or orange blossom water, if using, and let the syrup cool.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "As soon as the cake comes out of the oven, pour the cool syrup evenly over the hot cake. Let it soak and cool completely, then cut along the scored lines.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Hot cake and cool syrup is the key: the cake drinks the syrup without going soggy.",
+      "Serve at room temperature on its own or with a spoonful of clotted cream (ashta)."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Basbousa (Egyptian Semolina Cake)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Basbousa_(Egyptian_Semolina_Cake)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source has too little semolina for its amount of yogurt and butter, and skips the resting time, the scored almonds and the grease. Compared with several Egyptian-style recipes (Amira's Pantry, Cleobuttera, International Cuisine, King Arthur Baking), I use about 250 g semolina to 245 g yogurt and 125 g butter, 2 tsp baking powder, a 20-minute rest for the batter, tahini to grease the pan, an almond on each piece, and syrup poured cool onto the hot cake. Syrup (equal weights of sugar and water, with lemon) and the 180 degree C, 30-35 minute bake are as in the source. Coconut is kept as optional because some recipes leave it out."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/%D8%A8%D8%B3%D8%A8%D9%88%D8%B3%D8%A9.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%A8%D8%B3%D8%A8%D9%88%D8%B3%D8%A9.JPG",
+      "author": "Ovva olfa",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: oval glass dish of baked semolina cake with a golden-brown top, whole blanched almonds set in a loose grid and the surface scored into rectangles."
+    }
+  },
+  {
+    "id": "egyptian-mahalabiya",
+    "name": "Mahalabiya (Egyptian Milk Pudding)",
+    "description": "A cool, silky milk pudding scented with rose and orange blossom water, topped with pistachios and cinnamon. Ready in 20 minutes of cooking, then it chills.",
+    "cuisine": "Egyptian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 125,
+    "cookTime": 18,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pudding",
+      "milk",
+      "rose-water",
+      "no-bake",
+      "chilled"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "milk",
+        "note": "whole, about 4 cups"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "granulated sugar",
+        "note": "about 1/2 cup"
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "cornstarch",
+        "note": "about 1/4 cup"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "rose water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "ground cinnamon",
+        "note": "for garnish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "pistachios",
+        "note": "or almonds, crushed, for garnish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "In a saucepan, whisk the cold milk with the sugar and cornstarch until the cornstarch has dissolved.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook over medium heat, stirring constantly, until the mixture thickens and comes to a gentle boil, 10 to 15 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Lower the heat and cook for another 2 to 3 minutes, stirring, until smooth and creamy.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Remove from the heat and stir in the rose water and orange blossom water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Divide the pudding among 6 bowls or glasses and let it cool for a few minutes, then chill in the fridge for at least 2 hours until set.",
+        "timerMinutes": 120
+      },
+      {
+        "text": "Just before serving, sprinkle each pudding with cinnamon and crushed pistachios or almonds.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Dried rose petals or fresh fruit also make a pretty topping.",
+      "A drizzle of honey on top is another common finish."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Egyptian Milk Pudding (Mahalabiya)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Egyptian_Milk_Pudding_(Mahalabiya)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted 4 cups milk, 1/2 cup sugar and 1/4 cup cornstarch to 1 litre, 100 g and 30 g. Method, cooking times and the 2-hour chill are as in the source; the prep time includes that chill. Serving count (6) is my estimate; the source gives none."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mhallabiyyeh_%28Arabic_milk_pudding%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mhallabiyyeh_(Arabic_milk_pudding).jpg",
+      "author": "Jktab",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: three clear glass bowls of white milk pudding in a row on a glass tray, topped with chopped green pistachios and dried rose buds. Slight shallow focus; this is the same Commons image the Wikibooks page itself uses."
+    }
+  },
+  {
+    "id": "lebanese-tabbouleh",
+    "name": "Tabbouleh",
+    "description": "A herb-first Levantine salad: finely chopped parsley and mint with a little bulgur, tomato and onion, dressed with lemon and olive oil. Bright, fresh and ready in 20 minutes.",
+    "cuisine": "Lebanese",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "herbs",
+      "bulgur",
+      "no-cook",
+      "quick",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "fine bulgur",
+        "note": "about 1/4 cup"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced (about 3 tablespoons)"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "parsley",
+        "note": "flat-leaf, leaves only, washed, dried and very finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "mint",
+        "note": "leaves only, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "large, diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "about 1/4 cup"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the bulgur in a bowl with the lemon juice and leave it for 15 minutes, until it has softened.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Meanwhile wash the parsley and mint and dry them very well, then chop them very finely. Dice the tomato and finely chop the onion.",
+        "timerMinutes": null
+      },
+      {
+        "text": "When the bulgur is soft, add the herbs, tomato, onion, salt and pepper. Pour the olive oil over last.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Toss well, taste and adjust with more lemon juice, salt or pepper. Serve at once.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Tabbouleh tastes best fresh; the flavour fades if it sits for a long time.",
+      "Use fine bulgur. If it is still firm after soaking, add a spoonful of cold water.",
+      "Dry the herbs thoroughly so the salad is not watery."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tabbouleh II",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tabbouleh_II",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted 1/4 cup bulgur and 1/4 cup oil to 40 g and 60 ml. Method and ingredient list are as in the source. Added the serving count (4 as a side) and the notes on fine bulgur and drying the herbs. The page has been edited by many contributors since 2004."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flickr_-_cyclonebill_-_Tabbouleh.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Tabbouleh.jpg",
+      "author": "cyclonebill",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a heaped plate of tabbouleh in bright side light: finely chopped parsley, pale bulgur, diced tomato and red onion."
+    }
+  },
+  {
+    "id": "levantine-baba-ganoush",
+    "name": "Baba Ganoush",
+    "description": "Smoky roasted eggplant blended with tahini, lemon and garlic into a creamy dip. Scoop it up with warm pita as part of a mezze spread.",
+    "cuisine": "Levantine",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "dip",
+      "mezze",
+      "eggplant",
+      "vegan",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "eggplant",
+        "note": "1 medium-large, any variety"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tahini",
+        "note": "raw"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced (or lime)"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "paprika",
+        "note": "or cayenne pepper, to garnish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "pita bread",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the broiler (grill) to high. Prick the eggplant a few times with a fork and place it a few centimetres below the heat on a pan that will catch the juices.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roast, turning every 3 to 4 minutes as the skin blackens, until the skin is charred and falling off and the flesh is completely soft, about 15 to 20 minutes. Discard the juices in the pan.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Let the eggplant cool until you can handle it, then scrape off the skin. A few burnt bits are fine.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Finely chop the flesh, or blend it, with the tahini, lemon juice, garlic, 2 tablespoons of the olive oil and the salt until smooth and creamy.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spoon into a bowl, drizzle with the remaining oil and dust with paprika or cayenne. Serve with pita.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Roasting over a gas flame or on a barbecue gives the strongest smoky flavour.",
+      "Drain the cooked flesh in a sieve for a few minutes if it seems watery."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Baba Ganoush",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Baba_Ganoush",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted '1 to 1 1/2 pounds' of eggplant to 600 g. Quantities and the broiler method are as in the source; I added the time estimate (the source says 15 minutes), the draining tip and the pita serving note. The source says it serves 10 as small portions of 1/4 cup; I show 6 servings as a mezze dish. The nutrition table on the source page was not used."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Baba_ghanoush_%28hummus_de_berenjena%29_%285951645998%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baba_ghanoush_(hummus_de_berenjena)_(5951645998).jpg",
+      "author": "Lablascovegmenu from London",
+      "license": "CC BY 2.0",
+      "verified": "Seen: close-up of creamy beige eggplant dip on a pale plate with a pool of olive oil, green lettuce leaves and a slice of brown bread. Not glamorous but clearly the dish."
+    }
+  },
+  {
+    "id": "turkish-baklava",
+    "name": "Pistachio Baklava",
+    "description": "Crisp, buttery layers of phyllo filled with finely chopped pistachios and cinnamon, soaked in a honey-lemon syrup. A special-occasion dessert across Turkey.",
+    "cuisine": "Turkish",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 24,
+    "prepTime": 45,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "pastry",
+      "phyllo",
+      "pistachio",
+      "syrup",
+      "baking",
+      "special-occasion"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": "Syrup",
+        "quantity": 800,
+        "unit": "g",
+        "name": "granulated sugar",
+        "note": "about 4 cups"
+      },
+      {
+        "group": "Syrup",
+        "quantity": 475,
+        "unit": "ml",
+        "name": "water",
+        "note": "about 2 cups"
+      },
+      {
+        "group": "Syrup",
+        "quantity": 2,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": "each about 8 cm"
+      },
+      {
+        "group": "Syrup",
+        "quantity": 250,
+        "unit": "g",
+        "name": "honey",
+        "note": "about 3/4 cup"
+      },
+      {
+        "group": "Syrup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": "Nut filling",
+        "quantity": 680,
+        "unit": "g",
+        "name": "pistachios",
+        "note": "about 1 1/2 lb, shelled"
+      },
+      {
+        "group": "Nut filling",
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": "Pastry",
+        "quantity": 450,
+        "unit": "g",
+        "name": "phyllo dough",
+        "note": "about 1 lb, thawed, at room temperature"
+      },
+      {
+        "group": "Pastry",
+        "quantity": 570,
+        "unit": "g",
+        "name": "unsalted butter",
+        "note": "about 1 1/4 lb, melted"
+      }
+    ],
+    "steps": [
+      {
+        "text": "If your phyllo is frozen, thaw it in its unopened package; do not unwrap it until you are ready to build the baklava.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a food processor chop the pistachios with the ground cinnamon to a fine chop, not a powder.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Make the syrup: combine the sugar, honey, water, cinnamon sticks and lemon juice in a large pot, stir well and boil for 10 to 15 minutes until slightly thickened (about 104°C / 220°F on a candy thermometer). Skim the top, remove from the heat, remove the cinnamon sticks and let the syrup cool completely.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Melt the butter in a small saucepan and heat the oven to 180°C (350°F).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Unfold the phyllo and keep what you are not using covered with a damp towel. Brush a baking pan about the size of the phyllo sheets (roughly 30 x 40 cm) with melted butter. Lay in 6 sheets, brushing each with butter. Set aside 6 more sheets for the top.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Sprinkle a handful of the nut mixture over the last sheet, add another buttered sheet, and keep alternating sheets and nuts until the nuts are used up. Finish with the 6 reserved sheets, brushing each with butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "With a very sharp knife cut the pastry into diamonds right through to the bottom. Sprinkle the top lightly with water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for about 1 hour, until the top is medium golden brown.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Remove from the oven and ladle the cooled syrup over the hot pastry. Leave for 5 to 15 minutes, then tilt the pan to drain off the excess syrup.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Let the baklava cool to near room temperature before serving.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Lemon in the syrup keeps it from crystallising as it cools.",
+      "For a less sweet baklava, use more honey and less sugar in the syrup, as the source suggests."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Baklava with Pistachio Nuts",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Baklava_with_Pistachio_Nuts",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted cups and pounds to metric (4 cups sugar = 800 g, 3/4 cup honey = 250 g, 1 1/2 lb pistachios = 680 g, 1 lb phyllo = 450 g, 1 1/4 lb butter = 570 g, 2 cups water = 475 ml). The source quotes the syrup temperature as '220°F (100°C) ... soft ball stage', which is inconsistent; I give 104°C / 220°F and a simmer time and dropped the 'soft ball' label. Added the serving count (24 pieces), pan size and the boiling time (10-15 minutes). The sugar syrup is generous, which is why the source says to drain the excess."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Baklava_-_Turkish_special%2C_80-ply.JPEG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG",
+      "author": "Kultigin",
+      "license": "Public domain",
+      "verified": "Seen: three golden, flaky layered baklava pieces on a white plate with two forks, phyllo layers and nut filling visible in the cut sides. Pistachio colour not clearly visible."
+    }
+  },
+  {
+    "id": "turkish-menemen",
+    "name": "Menemen",
+    "description": "Soft-scrambled eggs cooked in a sauce of sweet peppers, onion and ripe tomatoes. A Turkish breakfast and brunch favourite, ready in under 30 minutes.",
+    "cuisine": "Turkish",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 17,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "eggs",
+      "one-pan",
+      "tomato",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "diced medium"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "diced medium; red peppers also work"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "ripe tomatoes",
+        "note": "about 4, grated or peeled and chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried oregano",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sweet paprika",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "freshly ground, to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "feta cheese",
+        "note": "crumbled, to top",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "crusty bread",
+        "note": "or Turkish bread, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepare the tomatoes: either blanch, peel, seed and dice them, or simply grate them on a box grater (discard the skins).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the olive oil in a wide pan over medium heat. Add the onions and peppers and sauté until tender, about 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir in the oregano and paprika if using, then add the tomatoes and cook for 5 minutes, until the juice has reduced.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the parsley and season with salt and pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the eggs lightly, pour them over the vegetables and stir gently until just cooked and still soft, 2 to 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Serve straight from the pan with bread, topped with crumbled cheese if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with Turkish bread, or a crisp baguette as a substitute.",
+      "Many Turks eat menemen with white cheese crumbled on top or stirred in."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Menemen (Eggs with Onion, Green Pepper, and Tomato)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Menemen_(Eggs_with_Onion,_Green_Pepper,_and_Tomato)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Ingredients and method are as in the source; '4 tomatoes' given as about 500 g. Added cooking times (the source gives only a 25-30 minute total) and the optional feta topping. The page has been edited by many contributors since 2007."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Menemen_%2849657982813%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Menemen_(49657982813).jpg",
+      "author": "やましこ",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: white bowl of orange-red scrambled eggs cooked with tomato and pepper, topped with crumbled white cheese and green herbs, two slices of toasted wholegrain bread leaning against it, on black marble."
+    }
+  },
+  {
+    "id": "turkish-gozleme",
+    "name": "Gözleme (Spinach and Cheese)",
+    "description": "Hand-rolled, yeasted flatbread folded around a savoury filling and cooked on a griddle until blistered and golden. Here filled with spinach and white cheese.",
+    "cuisine": "Turkish",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack",
+      "breakfast"
+    ],
+    "servings": 10,
+    "prepTime": 90,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "flatbread",
+      "stuffed",
+      "street-food",
+      "spinach",
+      "cheese"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Dough",
+        "quantity": 600,
+        "unit": "g",
+        "name": "all-purpose flour",
+        "note": "about 5 1/4 cups; keep 1 cup (about 120 g) back for dusting"
+      },
+      {
+        "group": "Dough",
+        "quantity": 15,
+        "unit": "g",
+        "name": "salt",
+        "note": "about 2 1/2 tsp"
+      },
+      {
+        "group": "Dough",
+        "quantity": 7,
+        "unit": "g",
+        "name": "dry yeast",
+        "note": "about 2 tsp"
+      },
+      {
+        "group": "Dough",
+        "quantity": 4,
+        "unit": "g",
+        "name": "sugar",
+        "note": "about 1 tsp"
+      },
+      {
+        "group": "Dough",
+        "quantity": 300,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about 1 1/4 cups"
+      },
+      {
+        "group": "Dough",
+        "quantity": 100,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "about 1/2 cup; part in the dough, part for brushing"
+      },
+      {
+        "group": "Dough",
+        "quantity": 65,
+        "unit": "g",
+        "name": "butter",
+        "note": "for greasing the griddle"
+      },
+      {
+        "group": "Filling",
+        "quantity": 400,
+        "unit": "g",
+        "name": "fresh spinach",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 300,
+        "unit": "g",
+        "name": "feta cheese",
+        "note": "or other Turkish-style white cheese, crumbled"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sift the flour into a large bowl, keeping back about 1 cup for dusting. Sprinkle in the salt, mix, and make a well in the centre.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir the yeast and sugar into 1/4 cup (60 ml) of the warm water. Pour it into the well and cover it with a little flour. Leave for 10 minutes to start foaming.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the rest of the water and 60 ml of the oil until blended, then knead for 5 minutes into a medium-soft dough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and let the dough rise in a warm place for about 1 hour, until doubled.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile make the filling: wilt the spinach in a dry pan or briefly steam it, cool, squeeze out all the water and chop. Mix with the crumbled cheese and chopped onion.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Tip the dough on to a floured board and divide it into 10 pieces. Shape each into a ball, then roll it into a thin rectangle with a rolling pin. Brush with oil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold the two long edges in so they meet in the middle. Spread some filling over one half, fold the other half over it into an oblong and press the edges to seal well.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a griddle or cast-iron skillet, grease it with butter and cook the gözleme until browned on both sides, about 3 minutes in total per piece.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Serve hot, with ayran (salted yogurt drink).",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Other fillings: minced meat, potato, leek, aubergine, or a sweet one of honey and banana with lemon.",
+      "Dough can be rolled very thin; a long thin rolling pin or dowel helps."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Gözleme (Turkish Flatbread)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Gözleme_(Turkish_Flatbread)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Dough quantities and method are as in the source (cups and ounces converted to g/ml; the source's liquids total 300 ml water plus 100 ml oil). The source gives no filling amounts, so I added a spinach-and-cheese filling for 10 pieces (400 g spinach, 300 g feta, 1 onion) and the filling steps. The source claims 40-60 minutes; with the 1-hour rise it takes longer, so prep time is 90 minutes. Splitting the oil between dough and brushing is my interpretation, since the source lists 1/2 cup oil without saying where it goes."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Izmir_g%C3%B6zleme.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Izmir_g%C3%B6zleme.jpg",
+      "author": "Samizambak",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: round golden-brown flaky gözleme cut into wedges on a white plate, flecks of green herbs and melted cheese visible through the blistered layers."
+    }
+  },
+  {
+    "id": "persian-tahdig",
+    "name": "Tahdig (Crispy Persian Rice with Potato)",
+    "description": "Persian steamed rice with a golden, crunchy crust on the bottom, here made on a layer of sliced potato. The crust is the best part and everyone fights over it.",
+    "cuisine": "Persian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 50,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "crispy",
+      "basmati",
+      "vegan",
+      "side"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "potatoes",
+        "note": "medium, peeled"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "about 2 cups, uncooked, rinsed and drained"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "about 1/3 cup, divided"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": "for boiling the rice"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron",
+        "note": "ground and dissolved in 2 tbsp hot water, to colour part of the rice",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Peel the potatoes and slice them about 1.25 cm (1/2 inch) thick. Rinse and drain the rice.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring the water to a boil in a large pot and add salt. Add the rice and boil, stirring now and then, until half cooked: the grains should be soft outside but still firm in the middle. Start checking at 7 minutes; it should take up to 10.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Drain the rice in a colander.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour about 4 tablespoons (60 ml) of the oil into a clean heavy pot, lay the potato slices in the bottom in a single layer, close together, and sprinkle with a little salt. Spoon the half-cooked rice loosely on top, forming a mound.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set the pot over medium-high heat for 4 to 5 minutes, until the rice begins to steam.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Turn the heat to low. Sprinkle 5 tablespoons of water and the remaining 2 to 3 tablespoons of oil over the rice. Cover and cook for about 30 minutes, until the rice is cooked through and tender. Higher heat gives a crunchier crust.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Scoop the rice into a serving dish. Use a soft spatula to lift the crispy potato layer, or turn the whole pot out on to a plate in one piece, and serve the crust alongside.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Tahdig can also be made with bread (pita or lavash), with rice alone, or with slices of onion or beetroot instead of potato.",
+      "To get the golden colour in the photo, mix a few spoonfuls of rice with dissolved saffron and spread it over the base before adding the rest.",
+      "Wrapping the lid in a clean tea towel keeps steam from dripping on the rice."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tahdiq (Crisped Persian Rice)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tahdiq_(Crisped_Persian_Rice)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "2 cups rice given as 400 g; 1/3 cup oil as 80 ml, split into 60 ml for the pot and the rest on top as in the source. The source boils the rice in 4-5 cups of water, which is too little for 2 cups of rice, so I use 2 litres. Cooking times are as in the source (about 10 minutes parboil, 4-5 minutes to steam, about 30 minutes low). The saffron tip and the towel tip are my additions. Serving count (6) is my estimate."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Tahdig_mit_Safran.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tahdig_mit_Safran.jpg",
+      "author": "Alice Wiegand",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: tall golden saffron-yellow crispy rice cake (tahdig) turned out on a dark patterned plate with white rice around the base, a small bowl of saffron threads behind it. Portrait format; the potato layer is not visible."
+    }
+  },
+  {
+    "id": "persian-ghormeh-sabzi",
+    "name": "Ghormeh Sabzi (Persian Herb Stew)",
+    "description": "Iran's favourite stew: tender beef or lamb and red beans simmered with a mountain of fried herbs and sour dried limes, served over saffron-topped rice.",
+    "cuisine": "Persian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 8,
+    "prepTime": 40,
+    "cookTime": 170,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "herbs",
+      "beef",
+      "make-ahead",
+      "rice"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Stew",
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried red kidney beans",
+        "note": "soaked overnight and drained"
+      },
+      {
+        "group": "Stew",
+        "quantity": 800,
+        "unit": "g",
+        "name": "beef or lamb",
+        "note": "stewing cuts with a little fat, in 3 cm pieces"
+      },
+      {
+        "group": "Stew",
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Stew",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "divided"
+      },
+      {
+        "group": "Stew",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 200,
+        "unit": "g",
+        "name": "parsley",
+        "note": "leaves and tender stems, finely chopped"
+      },
+      {
+        "group": "Stew",
+        "quantity": 150,
+        "unit": "g",
+        "name": "cilantro",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Stew",
+        "quantity": 150,
+        "unit": "g",
+        "name": "scallions",
+        "note": "or leek, finely chopped"
+      },
+      {
+        "group": "Stew",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "dried fenugreek leaves",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 5,
+        "unit": null,
+        "name": "dried limes",
+        "note": "pierced; 8 if small"
+      },
+      {
+        "group": "Stew",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Stew",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": "Rice",
+        "quantity": 800,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": null
+      },
+      {
+        "group": "Rice",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron",
+        "note": "ground",
+        "optional": true
+      },
+      {
+        "group": "Rice",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": "ground with the saffron",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat 2 tablespoons of the oil in a large heavy pot with a lid and fry the onions over medium heat until golden, about 10 minutes. Stir in the turmeric.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the meat and brown it on all sides, 6 to 8 minutes. Season with salt and pepper, add 1 litre of boiling water, bring to a simmer, cover and cook for 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile, heat the remaining 2 tablespoons of oil in a wide pan and fry the parsley, cilantro and scallions over medium-low heat, stirring often, until they are very dark green and fragrant, 15 to 20 minutes. Add the fenugreek for the last 2 minutes. Do not let them burn.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Stir the fried herbs and the drained beans into the stew, cover and simmer on low for 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Soak the dried limes in hot water for 15 minutes, pierce each with a fork, and add them to the pot. Simmer for another 30 minutes, until the meat is very tender, the sauce thick and dark and the oil rises to the top.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Taste and add salt. If you have time, cool the stew and refrigerate it overnight; it tastes better on the second day.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook the basmati rice. Grind the saffron with the sugar, dissolve in 1 tablespoon of boiling water and toss some of the rice with it for the topping.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve the stew hot in its own bowl, with the plain rice in a separate bowl topped with the saffron rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Dried limes can turn bitter if cooked for too long; remove them if they are starting to fall apart.",
+      "Persian grocers sell the herbs already fried in cans (about 400 g); one can can replace the fresh herbs and the frying step.",
+      "Makes enough for several meals and freezes well."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Ghormeh Sabzi (Iranian Herb Stew)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Ghormeh_Sabzi_(Iranian_Herb_Stew)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source depends on a can of ready-fried herbs and only one bunch each of parsley, spinach and coriander, adds the herbs raw, and skips frying the onions. Checked against Iranian-style recipes (Surfiran, The Mediterranean Dish, Foreign Fork, Unicorns in the Kitchen, Sabrina Ghayour via CBC), which brown the onions with turmeric, simmer the meat first, fry a large quantity of parsley, cilantro and scallion or leek with dried fenugreek until dark, add beans, and add pierced dried limes near the end. I replaced the can and the spinach with fresh herbs and fenugreek and reduced the kidney beans to 150 g and the limes to 4-5 (the source lists 8, which is on the sour side unless they are small). Meat quantity, turmeric and the 800 g of rice are the source's. Total time is shorter than the source's 'cook 5 hours'."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cuisine_of_Iran_%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C_25-%D9%82%D8%B1%D9%85%D9%87_%D8%B3%D8%A8%D8%B2%DB%8C.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuisine_of_Iran_%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C_25-%D9%82%D8%B1%D9%85%D9%87_%D8%B3%D8%A8%D8%B2%DB%8C.jpg",
+      "author": "Mostafameraji",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: top-down white china bowl of dark green herb stew with red kidney beans and meat pieces, a parsley sprig in the centre, with a small bowl of olives and one of cauliflower at the edges on a purple tablecloth."
+    }
+  },
+  {
+    "id": "algerian-couscous",
+    "name": "Algerian Couscous with Lamb and Seven Vegetables",
+    "description": "The Friday and feast-day dish of Algeria: steamed, fluffy couscous under a lamb and vegetable stew of carrots, turnips, potatoes, courgettes, pumpkin, pepper and chickpeas, with the rich broth ladled over.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 125,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "lamb",
+      "vegetables",
+      "festive",
+      "friday"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Couscous",
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": "or fine grain"
+      },
+      {
+        "group": "Couscous",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Couscous",
+        "quantity": 500,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": "Couscous",
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": "mixed with 1 teaspoon of salt"
+      },
+      {
+        "group": "Couscous",
+        "quantity": 30,
+        "unit": "g",
+        "name": "butter",
+        "note": "or smen, to finish",
+        "optional": true
+      },
+      {
+        "group": "Stew",
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "bone-in shoulder or neck in large pieces; chicken or beef also work"
+      },
+      {
+        "group": "Stew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "grated"
+      },
+      {
+        "group": "Stew",
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Stew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Stew",
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Stew",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight and drained"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 3,
+        "unit": null,
+        "name": "carrots",
+        "note": "peeled, in big chunks"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 2,
+        "unit": null,
+        "name": "turnips",
+        "note": "peeled, in big chunks"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 2,
+        "unit": null,
+        "name": "potatoes",
+        "note": "peeled, in big chunks"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 3,
+        "unit": null,
+        "name": "zucchini",
+        "note": "in big chunks"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 300,
+        "unit": "g",
+        "name": "pumpkin",
+        "note": "or other hard squash, in big chunks"
+      },
+      {
+        "group": "Seven vegetables",
+        "quantity": 1,
+        "unit": null,
+        "name": "green bell pepper",
+        "note": "in big pieces"
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the chickpeas overnight and drain them.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat 2 tablespoons of oil in the bottom pot of a couscoussier (or a large pot). Brown the lamb on all sides, then add the onions, garlic, tomato paste, paprika, pepper, turmeric, cinnamon and salt and cook for 5 minutes, stirring.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the chickpeas and 2 litres of water. Bring to a boil, skim, cover and simmer for 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Meanwhile, put the couscous in a large bowl with 3 tablespoons of olive oil and a pinch of salt and rub the grains between your palms to coat them. Sprinkle with 500 ml of warm water, stirring, and let it absorb for 10 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the couscous in the steamer top (or a colander lined with cloth) over the simmering stew, leaving the lid off, and steam for 20 minutes, fluffing with a fork halfway through.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Tip the couscous into the bowl, sprinkle with the 250 ml of salted water and break up the lumps with your fingers. Leave for 10 to 15 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the carrots and turnips to the stew and simmer for 15 minutes, then add the potatoes and pepper and cook 10 minutes more.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Add the zucchini and pumpkin and cook for 15 to 20 minutes, until all the vegetables are tender but still hold their shape. Taste the broth and adjust the salt.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Meanwhile, put the couscous back in the steamer over the stew and steam again for 20 minutes, fluffing every 10 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Turn the couscous out on to a big platter, work in the butter and a ladle of broth and fluff with a fork. Arrange the lamb and vegetables on top and serve with a jug of broth and harissa on the side.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a chicken couscous use 1.2 kg of bone-in chicken pieces and cook the stew for 45 minutes rather than 2 hours.",
+      "A tfaya topping (caramelised onions with raisins and cinnamon) is a popular addition.",
+      "Without a couscoussier, set a steamer basket or a cloth-lined colander over the pot."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Algerian Couscous with Meat and Vegetables",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_Couscous_with_Meat_and_Vegetables",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional preparation: the source uses only 500 g of meat for 6-8 servings, cooks the meat for 1 hour before the vegetables are added, adds the chickpeas already cooked, and uses a spice mix with cumin and coriander. Checked against the French Wikibooks 'Couscous' page and Algerian pages (Algérienomades, Spicebreeze, Culinary Anthropologist), I use 800 g of lamb on the bone, grated onions, a simpler Algerian spice set (paprika, black pepper, turmeric, cinnamon stick), soaked dry chickpeas simmered with the meat, and the vegetables added in stages so the harder ones (carrot, turnip) cook longer than the zucchini and pumpkin. The two-time steaming with oil rubbing and salted-water sprinkling is from the source. The seven vegetables are carrot, turnip, potato, zucchini, pumpkin, pepper and chickpeas. Times are estimates; the source says 3 hours."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Couscous_(Alg%C3%A9rie,_lieu_exact_non_pr%C3%A9cis%C3%A9).jpg",
+      "author": "Yasmine ziat",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: large white platter with blue rim piled with couscous topped with lamb on the bone, chickpeas, zucchini, pumpkin, carrots and halved boiled eggs, a decorated tagine lid behind it and a plate of olives; the edge of a person's shirt shows at the right edge, no face visible."
+    }
+  },
+  {
+    "id": "moroccan-harira",
+    "name": "Harira (Moroccan Ramadan Soup)",
+    "description": "The tomato, lentil and chickpea soup that opens the fast every night of Ramadan in Morocco, scented with cinnamon and ginger, thickened with flour and finished with vermicelli and fresh herbs. Served with lemon and dates.",
+    "cuisine": "Moroccan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 110,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "ramadan",
+      "lentils",
+      "chickpeas",
+      "tomato"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "lamb",
+        "note": "or beef, in small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight and drained"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "brown lentils",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "ripe tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "celery",
+        "note": "with leaves, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "fresh coriander",
+        "note": "finely chopped, 2 tablespoons set aside"
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "parsley",
+        "note": "finely chopped, 2 tablespoons set aside"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "smen",
+        "note": "or butter",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron",
+        "note": "crumbled"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "all-purpose flour",
+        "note": "for the thickener (tadouira)"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "cold water",
+        "note": "to mix with the flour"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": "broken into short pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut into wedges, to serve"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "dates",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the lamb, chickpeas, lentils, onion, tomatoes, tomato paste, celery, all but 2 tablespoons each of the coriander and parsley, the smen, ginger, pepper, cinnamon, saffron and a little salt into a large pot. Cook over medium heat, stirring, for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the 2 litres of water, bring to a boil, skim, then cover and simmer for 60 to 75 minutes (about 30 minutes in a pressure cooker), until the chickpeas and meat are tender.",
+        "timerMinutes": 70
+      },
+      {
+        "text": "Whisk the flour into the 250 ml of cold water until completely smooth, with no lumps. Pour it slowly into the soup, stirring constantly, then simmer for 15 minutes, stirring often, until the soup has thickened and turned glossy.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the vermicelli and the reserved coriander and parsley and cook for 10 minutes more, stirring. Adjust the salt.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve hot with lemon wedges and, if you like, dates.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Harira varies by city (Casablanca, Marrakech, Rabat); some cooks beat an egg into the finished soup or finish it with a squeeze of lemon.",
+      "Traditionally eaten with dates and chebakia pastries at the Ramadan evening meal, but good as a meal in itself."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Harira",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Harira",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Ingredients and method follow the French Wikibooks page 'Livre de cuisine/Harira' (translated; the page is short and its amounts are for a pressure cooker). Changes: the source lists 'the flour' for the thickener without an amount (2 tbsp in 250 ml cold water supplied); the 1/4 teaspoon of saffron is far too much, so I use a pinch; added the longer simmer for an ordinary pot (60-75 min) and the lemon and dates for serving. Checked against Moroccan recipes (Bladi, the Royal Mansour chef's version, Tunisie Numérique), which agree on the herbs, celery, tomatoes, lentils, chickpeas, flour thickener and vermicelli. The source's meat stock cube is omitted."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%D8%AD%D8%B1%D9%8A%D8%B1%D8%A9.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%AD%D8%B1%D9%8A%D8%B1%D8%A9.jpg",
+      "author": "إيان",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: close-up of orange-brown thickened soup in a white bowl with a yellow geometric rim, chickpeas, shreds of meat, thin vermicelli and flecks of herbs visible; some glare on the surface."
+    }
+  },
+  {
+    "id": "moroccan-chicken-tagine",
+    "name": "Chicken Tagine with Preserved Lemon and Olives",
+    "description": "Chicken simmered slowly with onion, ginger, saffron and turmeric until the sauce is thick, finished with salty preserved lemon and green olives. Moroccan home cooking at its best, with bread to mop up.",
+    "cuisine": "Moroccan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 70,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "tagine",
+      "chicken",
+      "preserved-lemon",
+      "olives",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "kg",
+        "name": "chicken pieces",
+        "note": "bone-in thighs and drumsticks, skin on"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "grated or very finely sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron",
+        "note": "crumbled"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "cilantro",
+        "note": "with parsley, tied together"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "preserved lemon",
+        "note": "rinsed, pulp removed, rind cut into strips"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "green olives",
+        "note": "pitted or cracked, rinsed"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste; go easy, the lemon and olives are salty"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cilantro",
+        "note": "chopped, to finish"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the chicken with the garlic, ginger, turmeric, saffron, pepper and 1 tablespoon of the oil. Leave for 30 minutes, or up to overnight in the fridge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the remaining oil in a wide heavy pot or tagine base over medium heat. Add the onions and cook, stirring, for 5 minutes until soft but not coloured.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay the chicken on the onions, add the cinnamon stick, the bunch of herbs, a little salt and the water. Bring to a simmer, cover and cook over low heat for 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Add the preserved lemon and the olives, turn the chicken over, cover and cook for 10 minutes more.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Uncover and simmer for another 10 to 15 minutes, until the sauce is reduced and thick and the chicken is very tender.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Remove the herb bunch and cinnamon, sprinkle with chopped cilantro and serve straight from the pot with Moroccan bread or couscous.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "To make your own preserved lemons, pack whole slit lemons in salt and leave them in a jar for about 2 weeks (see the Wikibooks 'Preserved Lemon' page).",
+      "Eat the softened rind; discard or scrape out the pulp, which is very salty.",
+      "A true clay tagine needs a diffuser on a gas or electric ring; a heavy casserole works just as well."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Chicken Tagine with Lemon and Olives",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Chicken_Tagine_with_Lemon_and_Olives",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method rebuilt toward the traditional preparation. The source is a lightened American version (boneless breast dredged in flour, fat-free broth, lemon zest, no preserved lemon). Checked against Moroccan recipes (Bladi tajine de poulet aux citrons confits et olives, other Moroccan recipe sites) and the French Wikibooks 'Tajine' page, I use bone-in thighs and drumsticks, a slow simmer on grated onions, saffron, ginger and turmeric, preserved lemon rind and olives added late, and a reduced sauce; the source's garlic, ginger, turmeric, green olives, cinnamon stick and cilantro are kept. Quantities and times are mine. The source's lemon-juice marinade and flour dredge were dropped."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg",
+      "author": "Foodista",
+      "license": "CC BY 2.0",
+      "verified": "Seen: close-up of bone-in chicken pieces glistening with golden sauce, a long strip of preserved lemon, a sliced green olive, onions and chopped parsley on a white plate."
+    }
+  }
+]

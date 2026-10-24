@@ -1,0 +1,3774 @@
+[
+  {
+    "id": "algerian-zviti",
+    "name": "Zviti (Bou Saada Tomato, Garlic and Bread Mash)",
+    "description": "The classic of Bou Saada: torn flatbread folded into a hot, crushed mix of tomato, garlic and chilli with olive oil and coriander, traditionally pounded in a wooden mortar and eaten with a cold glass of leben.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bou-saada",
+      "saharan",
+      "vegan",
+      "bread",
+      "tomato",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "kesra",
+        "note": "or any thick flatbread, about 100 g each"
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "very ripe, quartered"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green chili pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ras el hanout",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "green olives",
+        "note": "pitted",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "buttermilk",
+        "note": "leben, to drink alongside",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pound the garlic, chilli and salt to a paste in a large mortar (or pulse briefly in a food processor). Add the tomatoes and crush them coarsely; the mix should stay chunky.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Scrape into a wide pan, add the ras el hanout, black pepper and 2 tablespoons of the oil, and warm over medium heat for 8 minutes, stirring, until it is hot and just starting to thicken.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Break the kesra into walnut-sized pieces and fold them into the hot tomato mix so they soak up the juices. Take off the heat.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the coriander and olives, drizzle with the remaining oil and serve straight from the pan, with cold buttermilk to drink.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Zviti is eaten hot and fast: the bread should be soft on the outside and still slightly chewy inside.",
+      "Use ripe summer tomatoes; with pale winter ones add 1 tbsp of tomato paste."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Zviti (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Zviti",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components (kesra, tomatoes, garlic, chilli, coriander, olive oil, mortar preparation) checked against the English and French Wikipedia articles 'Zviti' (descriptions only). Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Zviti.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zviti.jpg",
+      "author": "Terrafkamal",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a wooden mortar of crushed red tomato and garlic with a pestle, and a small cup of leben beside it."
+    }
+  },
+  {
+    "id": "algerian-mtabga",
+    "name": "Mtabga (Saharan Stuffed Flatbread)",
+    "description": "A two-layer flatbread of El Oued and Biskra, sealed around a soft filling of onions, carrots, peppers and tomatoes and cooked on a hot dry pan until blistered, then brushed with olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 50,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "saharan",
+      "el-oued",
+      "biskra",
+      "flatbread",
+      "vegan",
+      "street-food"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "fine semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "instant yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "in the dough"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "coarsely grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "finely diced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated, skins discarded"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "minced, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "to brush the cooked breads"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the semolina, flour, yeast and salt, add the water and oil and knead for 8 minutes into a soft, slightly sticky dough. Cover and rest 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "For the filling, soften the onions in the oil for 6 minutes, add the carrots, peppers, chilli and garlic and cook 6 minutes more. Stir in the tomatoes, paprika, cumin and salt and cook, stirring, until almost dry, about 12 minutes. Cool.",
+        "timerMinutes": 24
+      },
+      {
+        "text": "Divide the dough into 8 balls and roll each very thin into a 22 cm round, dusting with semolina. Spread the filling over 4 rounds, leaving a 2 cm border.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover each with a second round, press and pinch the edges closed, and prick the top lightly with a fork.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook one at a time on a hot, dry heavy pan or griddle over medium heat for 4 to 5 minutes per side until blistered and golden.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Brush with olive oil, cut into wedges and serve hot, with a tomato salad or hmiss.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The filling must be nearly dry, otherwise the thin dough tears.",
+      "Cooked mtabga reheats well in a dry pan."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mtabga (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Mtabga",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and the Algerian filling (onions, carrots, chilli, peppers, tomatoes, a dough close to kesra, served with olive oil) checked against the French Wikipedia article 'Mtabga' (description only; the article gives no method). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Mtabga.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mtabga.jpg",
+      "author": "Afek91",
+      "license": "CC0",
+      "verified": "Seen: a stack of golden flatbreads blistered with dark spots on a white cloth."
+    }
+  },
+  {
+    "id": "algerian-taguella",
+    "name": "Taguella with Lamb and Tomato Sauce (Tuareg Sand Bread)",
+    "description": "The staple bread of the Tuareg of the Sahara, a thick unleavened disc baked under embers, broken into pieces and eaten with a hot lamb, tomato and chilli sauce. This kitchen version bakes it in a covered cast-iron pan.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "tuareg",
+      "saharan",
+      "bread",
+      "lamb",
+      "traditional",
+      "hoggar"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "fine semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "potatoes",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "whole, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the lamb in the oil in a heavy pot for 8 minutes. Add the onion, cumin, salt and pepper and cook 5 minutes.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Stir in the tomatoes, tomato paste and chilli, add the water, cover and simmer for 1 hour. Add the carrots and potatoes for the last 25 minutes.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile, mix the flour, semolina and salt, add the water and knead hard for 10 minutes into a stiff, smooth dough. Rest 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Shape the dough into 2 thick discs about 2.5 cm high. Heat a heavy cast-iron pan or lidded casserole over low-medium heat and bake each disc covered for 12 minutes per side, until pale gold with a few brown spots. Bake without oil.",
+        "timerMinutes": 24
+      },
+      {
+        "text": "Brush off any loose flour, break the bread into pieces and serve with the hot lamb and vegetable sauce poured over or alongside.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Traditionally the dough is buried in hot sand or ash; the covered pan imitates that gentle all-around heat.",
+      "Taguella keeps well; leftovers are good dipped in soup."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Taguella with Lamb and Tomato Sauce (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Taguella",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and the traditional method (stiff unleavened dough of wheat flour or semolina kneaded about 20 minutes, baked under embers, broken up and eaten with meat, tomato and vegetable sauces and chilli) checked against the English Wikipedia article 'Taguella' and the French Wikibooks 'Cuisine algerienne' page, which names taguella among the bread of the far south. Oven/pan adaptation and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pain_%28taguella%29_%C3%A0_El_Ghessour%2C_Alg%C3%A9rie%2C_19_novembre_2009.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pain_(taguella)_%C3%A0_El_Ghessour,_Alg%C3%A9rie,_19_novembre_2009.jpg",
+      "author": "Dorine TAHON",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a hand laying a round of pale dough on grey ash beside a burnt-down fire."
+    }
+  },
+  {
+    "id": "algerian-tikourbabine",
+    "name": "Tikourbabine (Kabyle Semolina Balls in Red Sauce)",
+    "description": "A dish of Petite Kabylie: balls of coarse semolina dough steamed in a spicy red sauce of chicken, tomato, coriander and mint, cut open on the plate and soaked with the sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "kabyle",
+      "semolina",
+      "chicken",
+      "traditional",
+      "petite-kabylie"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "coarse semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 230,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the dough"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "for the dough"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs, bone-in"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh mint",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the semolina with the salt and oil, then sprinkle in the warm water, working it with your fingers and the heel of your hand for 10 minutes into a firm, smooth dough. Cover and rest 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Meanwhile soften the onions in the oil for 8 minutes, add the garlic, tomato paste, paprika, harissa and pepper and cook 3 minutes. Add the chicken, salt and water, cover and simmer 25 minutes.",
+        "timerMinutes": 36
+      },
+      {
+        "text": "Shape the dough into 12 balls the size of a small mandarin, smoothing each with wet hands.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir half the coriander and mint into the sauce. Lower the balls in gently, spacing them out, cover and simmer on low heat for 30 minutes, turning them once with a spoon.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Lift the balls onto a large dish, cut each into pieces, ladle over the chicken and plenty of sauce and finish with the remaining herbs.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Keep the sauce at a low simmer so the balls cook through without splitting.",
+      "Traditional versions use dried salted meat (gueddid) instead of chicken."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tikourbabine (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tikourbabine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components (coarse wheat semolina shaped into balls and cooked in a spicy red vegetable sauce with chicken or dried meat, lots of fresh coriander and mint, served cut up with sauce) checked against the French Wikipedia article 'Tikourbabine' (description only; no quantities or method given). The method and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Taasbante.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Taasbante.JPG",
+      "author": "Ms10vc",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bowl of golden round balls next to a plate of green-bean stew on a patterned table cloth."
+    }
+  },
+  {
+    "id": "algerian-soupe-persil-kabyle",
+    "name": "Kabyle Parsley and Potato Soup",
+    "description": "A light green soup from the Kabyle kitchen: potatoes simmered in salted water, then parsley and lettuce leaves added at the end so they stay bright, blended smooth and served with chopped parsley and, if you like, a hard-boiled egg.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "kabyle",
+      "soup",
+      "vegetarian",
+      "light",
+      "potato",
+      "parsley"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled, diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "plus a few sprigs to serve"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "lettuce",
+        "note": "outer dark green leaves"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "leaf",
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "sprig",
+        "name": "fresh thyme",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "coarse salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "to finish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled, quartered",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the water to a boil with the coarse salt, bay leaf and thyme. Add the potatoes and cook for 20 minutes until very soft.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Chop the lettuce and parsley roughly (keep a few sprigs). Add them to the pot for the last 10 minutes of cooking.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Remove the bay leaf and thyme stalks and blend until smooth. Season with pepper and more salt if needed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve hot, topped with chopped parsley, a drizzle of olive oil and quartered egg if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Adding the greens late keeps the colour and flavour fresh.",
+      "Rub toasted bread with garlic to dunk in it."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Cuisine algerienne - Soupe au persil",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Quantities and method adapted from the 'Soupe au persil' recipe in the French Wikibooks page 'Cuisine algerienne' (listed there under Kabyle cooking; 6 servings, 500 g potatoes, 1 bunch parsley, outer lettuce leaves, bouquet garni, 1.5 l water, about 30 minutes, greens added 10 minutes before the end, blended). Text rewritten; this page is a work in progress. Bouquet garni given as bay and thyme; optional oil and egg garnish as suggested there."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-soupe-feves-kabyle",
+    "name": "Kabyle Broad Bean, Courgette and Cabbage Soup",
+    "description": "A hearty green-bean soup from the Kabyle kitchen: onions sweated in olive oil, then broad beans, courgettes and shredded cabbage simmered with coriander and cumin and served with garlic-rubbed croutons.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "kabyle",
+      "soup",
+      "vegan",
+      "broad-beans",
+      "seasonal"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "fava beans",
+        "note": "fresh, in the pod, shelled about 400 g (or 400 g frozen)"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "zucchini",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "cabbage",
+        "note": "finely shredded"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "whole, to rub the croutons"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "bread",
+        "note": "cut in cubes for croutons"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": "boiling"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sweat the onions in the oil over low heat for 10 minutes until they begin to turn blond.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cover with the boiling water, add the salt, pepper, cumin and coriander, then the shelled beans, the courgettes and the cabbage. Simmer for 30 minutes until the beans are tender.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Meanwhile toast the bread cubes in a dry pan or oven until crisp and rub them with a cut garlic clove.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve the soup hot with the croutons. Mash a few beans against the pot side if you want it thicker.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Skin the beans if they are large and mature, or the soup tastes bitter.",
+      "Fresh-picked beans need no soaking; use frozen when out of season."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Cuisine algerienne - Soupe aux feves",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Adapted from the 'Soupe aux feves' recipe in the French Wikibooks page 'Cuisine algerienne' (6 servings: 1 kg fresh broad beans, 3 onions, 3 courgettes, 4 garlic cloves, 1 small cabbage, bread croutons, coriander, 2 tbsp Kabylie olive oil, salt, pepper, cumin; about 30 minutes' simmering). Text rewritten; the water quantity, the shelled-weight note and the herb amount are the author's own. Page is marked as a work in progress."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-couscous-kabyle-boeuf",
+    "name": "Kabyle Mountain Couscous with Beef and White Sauce",
+    "description": "A highland couscous with a pale, unconcentrated broth: beef shin cooked with onion and a little tomato, then carrots, turnips, celery, green beans, courgettes and chickpeas, served over twice-steamed semolina with no ras el hanout.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 150,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "kabyle",
+      "beef",
+      "traditional",
+      "mountain"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus 1 tbsp for the pot"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted with 1 tsp salt"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "beef shin",
+        "note": "in large pieces"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "one chopped, two quartered"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "large, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": "red pepper"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "carrots",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "turnips",
+        "note": "quartered"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "piece",
+        "name": "celery stalks",
+        "note": "in lengths"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "green beans",
+        "note": "trimmed"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": "drained"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "zucchini",
+        "note": "in chunks"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chopped onion, 1 tablespoon oil, the beef, tomato and water in the bottom of a couscoussier or a large pot. Bring to a boil, skim and add the pepper, paprika, coriander and salt. Cover and simmer 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Rub the couscous with 2 tablespoons oil and the salted warm water until each grain is separate. Rest 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Steam the couscous over the pot (or in a steamer) for 20 minutes, tip it into a bowl, sprinkle with a little cold water and fluff with the remaining oil.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the carrots, turnips, celery, quartered onions and green beans to the pot and cook 20 minutes, then the courgettes and chickpeas for 15 minutes more.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Steam the couscous a second time for 15 minutes, until light and hot.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Heap the couscous on a platter, make a well, arrange the meat and vegetables on top and serve the broth separately.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Taste the broth at the end: it should be gently seasoned, not red.",
+      "Without a couscoussier, steam in a metal sieve lined with muslin set over the pot."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Cuisine algerienne - Couscous montagnard blanc au boeuf",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Adapted from the 'Couscous montagnard blanc au boeuf' recipe in the French Wikibooks page 'Cuisine algerienne' (4 to 6 servings: 1 kg beef shank/flank/rib, 3 large onions, 1 large tomato, 500 g medium semolina, olive oil, black and red pepper and coriander without ras el hanout, 4 carrots, 4 to 6 turnips, 200 g green beans, 2 celery stalks, 6 courgettes, 400 g chickpeas, 3 l water; the semolina is steamed twice). Text rewritten; the steaming timings, salt, courgette count and a cooked-chickpea quantity are the author's own. Page is marked as a work in progress."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Algerian_couscous_from_Kabylia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algerian_couscous_from_Kabylia.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of couscous topped with carrots, courgette, chickpeas and a piece of meat, with a tagine lid behind it."
+    }
+  },
+  {
+    "id": "algerian-chbah-essafra",
+    "name": "Chbah Essafra (Constantine Sweet Lamb with Almond Fritters)",
+    "description": "A celebration dish of Constantine: tender lamb in a golden, gently sweet sauce of onion, butter, cinnamon, saffron and orange blossom water, served with fried almond-paste fritters.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 120,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "constantine",
+      "ramadan",
+      "wedding",
+      "lamb",
+      "almonds",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 900,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in large pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "saffron threads",
+        "note": "soaked in 3 tbsp hot water"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": "for the fritters"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": "beaten"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": "for the fritters"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the lamb, grated onion, butter, cinnamon, turmeric, pepper and salt in a pot with the water. Bring to a boil, skim, cover and simmer over low heat for 1 hour 15 minutes until the lamb is tender.",
+        "timerMinutes": 75
+      },
+      {
+        "text": "Add the saffron with its water, the sugar and 1 1/2 tablespoons orange blossom water. Simmer uncovered 15 minutes so the sauce reduces to a golden, syrupy consistency.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "For the fritters, mix the almonds, icing sugar, orange blossom water and just enough beaten egg to make a firm paste. Shape into 18 small balls and flatten slightly.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Heat the oil to 170 C and fry the fritters in batches for 1 minute until golden. Drain well.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Slide the fritters into the sauce for the last 5 minutes or serve them on the side. Serve the lamb with its sauce.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Taste the sauce before adding the last sugar: it should be gently sweet, not sugary.",
+      "Smen (aged butter) gives the traditional flavour; plain butter is the everyday stand-in."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chbah Essafra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Chbah_essafra",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components (lamb in a sweet sauce of onion, smen, sugar, cinnamon, saffron and orange blossom or rose water, with fried almond-paste fritters; a Constantine dish for Ramadan and weddings) checked against the French Wikipedia article 'Chbah essafra' (description only; no quantities or method). The method and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Chbah_Essafra_%2Cplat_constantionois.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chbah_Essafra_,plat_constantionois.jpg",
+      "author": "Algeriaforever",
+      "license": "CC0",
+      "verified": "Seen: a white plate of yellow lobed fritters around a piece of dark lamb in sauce (small, 521 px wide photo)."
+    }
+  },
+  {
+    "id": "algerian-bourek-annabi",
+    "name": "Bourek Annabi (Annaba Potato, Beef and Egg Parcel)",
+    "description": "The big square bourek of Annaba: a sheet of brik pastry filled with mashed potato, spiced minced beef, cheese and parsley, with a raw egg cracked on top, folded shut and fried until crisp with the yolk just set.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "annaba",
+      "fried",
+      "pastry",
+      "street-food",
+      "egg",
+      "beef"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "brik pastry sheets",
+        "note": "large, about 25 cm square (malsouka or warqa)"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled, boiled and mashed"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": "gruyere or emmental"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "very fresh"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the onion in the olive oil for 5 minutes, add the beef, paprika, pepper and half the salt and cook 8 minutes until dry and crumbly. Cool.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Mix the mashed potato with the beef, cheese, parsley and the remaining salt.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay a sheet of pastry on the board and press a quarter of the filling into a flat nest in the centre, leaving a 7 cm border. Make a small well in the middle.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Crack an egg into the well, season it with a pinch of salt, then quickly fold the four sides of the pastry over the filling to form a sealed square, flipping it over if needed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the frying oil to 180 C. Slide each bourek in, seam side down, and fry 2 to 3 minutes per side until deep golden, spooning hot oil over the top. Drain on paper.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve at once, cut open so the yolk runs, with harissa and lemon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Work quickly once the egg is in so the pastry does not soak through.",
+      "Bake instead at 200 C for 20 minutes, brushed with oil, for a lighter version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Bourek Annabi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Bourek_annabi",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (brik leaf, mashed potatoes, ground meat, cheese, onions, parsley, a raw egg on top, folded into a square and fried; originally from Annaba) checked against the French Wikipedia article 'Bourek annabi' (description only; the article gives little method). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bourek_annabi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bourek_annabi.jpg",
+      "author": "Achraf Drkma",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a cut-open golden bourek showing layers of spiced beef and a bright yellow egg yolk, with parsley."
+    }
+  },
+  {
+    "id": "algerian-djari-bel-foul",
+    "name": "Djari Bel Foul (Constantine Broad Bean and Tomato Soup)",
+    "description": "A thin red soup of the Constantine and Aures kitchens: lamb, tomato and skinned broad beans, thickened with fine bulgur and finished with dried mint and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 80,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "constantine",
+      "ramadan",
+      "broad-beans",
+      "lamb"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "lamb",
+        "note": "in small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "dried fava beans",
+        "note": "skinned, soaked overnight (or 300 g frozen shelled)"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "fine bulgur",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried mint",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the lamb in the oil in a large pot for 6 minutes. Add the onion, paprika, pepper and cumin and cook 4 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the tomato paste and grated tomatoes, cook 3 minutes, then add the drained beans, salt and water. Bring to a boil, skim, cover and simmer 50 minutes.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Sprinkle in the bulgur, stirring, and cook 15 minutes until the soup is lightly thickened.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Stir in the dried mint and coriander and serve hot with lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Skinned dried broad beans need about 1 hour of simmering; frozen ones only 15 minutes.",
+      "Use a spoonful of couscous instead of bulgur if you prefer."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Djari Bel Foul (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Cuisine_alg%C3%A9rienne",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity (djari, a thinner soup of the Constantine and Aures regions, with a variant 'djari bel foul' of broad beans and tomato; 'djari rouge' thickened with fine bulgur) checked against the French Wikipedia article 'Cuisine algerienne' (names only; no quantities or method). The method and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-tiftitine",
+    "name": "Tiftitine (Ghardaia Handmade Pasta with Lamb and Date Sauce)",
+    "description": "A pasta dish of the M'zab valley: small hand-cut semolina pasta in a red sauce where lamb is slowly simmered with tomato and a sweet infusion of dates.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 60,
+    "cookTime": 120,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "mzab",
+      "ghardaia",
+      "pasta",
+      "lamb",
+      "dates",
+      "mozabite"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "fine semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 220,
+        "unit": "ml",
+        "name": "water",
+        "note": "about"
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dates",
+        "note": "pitted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ras el hanout",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 1.4,
+        "unit": "l",
+        "name": "water",
+        "note": "for the sauce"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Simmer the dates in 300 ml of the sauce water for 15 minutes, mash and strain through a sieve to make a date juice. Set aside.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Brown the lamb in the oil for 8 minutes, add the onions and spices and cook 5 minutes. Stir in the tomato paste and tomatoes, then the remaining water and the salt. Cover and simmer 1 hour 15 minutes.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "Make the pasta: mix semolina, flour and salt, add the water gradually and knead 10 minutes to a firm dough. Rest 20 minutes, roll very thin on a floured board and cut into small 2 cm squares. Dry for 30 minutes on a cloth.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add the date juice to the sauce and bring to a boil. Drop in the pasta, stir and cook uncovered for 8 to 10 minutes until tender, adding hot water if the sauce gets too thick.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve in deep plates, with the lamb on top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Shop-bought small pasta (fregola, large couscous or short vermicelli) can replace the handmade pasta.",
+      "The date juice makes the sauce slightly sweet; balance with extra pepper if you prefer it savoury."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tiftitine (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tiftitine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (handmade pasta added to a red sauce made with date juice in which lamb is slowly simmered; from Ghardaia in the M'zab) checked against the French Wikipedia article 'Tiftitine' (description only; the article lists spices without quantities and gives no shape or method). The pasta shape, method and all quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-poulet-amandes",
+    "name": "Poulet aux Amandes (Chicken with Onions, Ginger, Saffron Eggs and Almonds)",
+    "description": "A gentle festive chicken: jointed chicken stewed with plenty of onion, ginger and parsley until the sauce is silky, served under toasted almonds and eggs tinted with saffron.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 90,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "chicken",
+      "almonds",
+      "saffron",
+      "festive",
+      "eggs"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "whole, cut in joints"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "ginger",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped, plus a few leaves to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron threads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "blanched almonds",
+        "note": "roughly chopped"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the chicken pieces lightly in the oil, then add the sliced onions, salt, white pepper, cumin, grated ginger and chopped parsley.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover with water, bring to a boil and simmer gently for about 1 hour, turning the chicken occasionally, until tender and the sauce is reduced and creamy.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile hard-boil the eggs for 10 minutes, cool in cold water and peel. Steep the saffron in 100 ml hot water, add the eggs and simmer them gently for 5 minutes, turning, until golden.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Toast the chopped almonds in a dry pan over medium-low heat for 4 to 5 minutes, without letting them darken.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Serve the chicken on a warm dish with some of the reduced sauce, scatter over the almonds and garnish with the saffron eggs in quarters and parsley.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cook with just enough water to cover so the sauce reduces to a coating consistency.",
+      "Make the saffron eggs while the chicken simmers so everything is ready together."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks (French) Livre de cuisine: Cuisine algerienne - Poulet aux amandes",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Adapted from the 'Poulet aux amandes' recipe in the French Wikibooks page 'Cuisine algerienne' (4 to 6 servings: 1 whole chicken, 5 large onions, 200 g peeled almonds, 30 g ginger, 1 bunch parsley, 6 eggs, a pinch of saffron, 3 tbsp olive oil, salt, white pepper, cumin; simmered about 1 hour, eggs coloured in saffron water, almonds toasted). Text rewritten; the chicken weight, onion size and times are the author's own. Page is marked as a work in progress."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Poulet_aux_amandes.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Poulet_aux_amandes.JPG",
+      "author": "Marianne Casamance",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a heaped plate of sliced almonds with herb leaves on top (chicken hidden underneath); eggs not visible."
+    }
+  },
+  {
+    "id": "algerian-tajine-jben",
+    "name": "Tajine Jben (Constantine Baked Cheese, Meat and Egg Tajine)",
+    "description": "A golden baked tajine from Constantine: minced beef, parsley, grated cheese and eggs mixed into a custard-like bake that sets in the oven, sliced like a savoury cake and served with salad and bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "constantine",
+      "baked",
+      "cheese",
+      "eggs",
+      "beef",
+      "oven"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": "gruyere or emmental"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "ground nutmeg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "to grease"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 180 C and butter a 24 cm round baking dish or tajine.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the onion in the oil for 5 minutes, add the beef, salt and pepper and cook 8 minutes until it loses its raw colour. Cool slightly.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Beat the eggs with the cheese, parsley and nutmeg, then stir in the cooled beef.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour into the dish and bake 30 to 35 minutes until set, puffed and golden. Rest 5 minutes.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Cut into wedges and serve with a tomato and cucumber salad and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use chicken instead of beef; boil it first and shred it.",
+      "Check that the cheese is made with non-animal rennet if you keep to halal."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tajine Jben (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tajine_jben",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components (a tajine in which jben cheese is the main ingredient, combined with minced meat or chicken, parsley and eggs and then baked; of Constantine origin) checked against the French Wikipedia article 'Tajine jben' (description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-tbikha",
+    "name": "Tbikha (Artichoke, Pea and Broad Bean Stew)",
+    "description": "Algiers' spring vegetable stew: artichokes, peas and broad beans in a tomatoey, spicy sauce with garlic and cumin, served over rice.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "vegan",
+      "stew",
+      "spring",
+      "artichokes",
+      "peas",
+      "broad-beans",
+      "algiers",
+      "rice"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "artichoke hearts",
+        "note": "frozen or jarred in water, halved"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "green peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "fava beans",
+        "note": "shelled, skinned if large"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "cooked, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the onion in the oil for 6 minutes, add the garlic, tomato paste, paprika, cumin and harissa and cook 3 minutes.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Add the water and salt, bring to a boil, then add the broad beans and artichokes. Simmer 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the peas and simmer 10 minutes more until everything is tender and the sauce coats the spoon.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Finish with lemon juice and parsley. Serve over rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add 400 g of lamb in step 1 for a meat version, simmering 45 minutes before the vegetables.",
+      "Fresh artichokes: trim to the hearts and rub with lemon."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tbikha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tbikha",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (a vegetable stew of mainly artichokes, peas and broad beans in a spicy sauce, served with rice) checked against the French Wikipedia article 'Tbikha' (description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-sfiria",
+    "name": "Sfiria (Algiers Buttered Crumbs with Chicken in White Sauce)",
+    "description": "A dish of Algiers: dry bread crumbs warmed in butter until fluffy, topped with chicken in a pale cinnamon and chickpea sauce and sprinkled with cinnamon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "algiers",
+      "chicken",
+      "chickpeas",
+      "bread-crumbs",
+      "traditional",
+      "white-sauce"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "jointed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "dry breadcrumbs",
+        "note": "from stale baguette"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "for the crumbs"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": "to dust"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the oil in a pot, add the onion, chicken, cinnamon stick, chickpeas, salt and pepper and stir 5 minutes without browning. Add the water, bring to a boil, cover and simmer 55 minutes until the chicken and chickpeas are tender.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Lift the chicken out and keep warm. Reduce the sauce for 5 minutes if thin.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Warm the 3 tablespoons oil in a wide pan, add the breadcrumbs and 5 tablespoons of the hot broth, and stir over low heat for 5 minutes until fluffy and moist, but not soggy.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Pile the crumbs on a dish, arrange the chicken and chickpeas on top, ladle over some sauce and dust with cinnamon. Serve the rest of the sauce on the side with the eggs.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Make crumbs by drying stale bread in a low oven and grating it; shop-bought plain crumbs are fine.",
+      "Use broth sparingly: the crumbs should stay light."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Sfiria (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Sfiria",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (a savoury dish from Algiers based on stale bread, rusks or breadcrumbs, served with meat or chicken in a white sauce) checked against the French Wikipedia article 'Sfiria' (description only; no quantities or method). The method and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-badjidj-batata",
+    "name": "Badjidj Bel Batata (Salt Cod and Potatoes with Saffron and Paprika)",
+    "description": "A fish dish of the Algerian coast: salt cod and potato slices simmered together in a paprika, saffron and garlic broth and finished with parsley and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "salt-cod",
+      "potatoes",
+      "saffron",
+      "coastal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "salt cod",
+        "note": "soaked 24 hours in several changes of cold water"
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled, thickly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "saffron threads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the cod, remove skin and bones and break it into large chunks.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Warm the oil with the garlic over low heat for 1 minute, stir in the paprika, saffron and pepper, and add the potatoes and water. Cover and cook 15 minutes until the potatoes are nearly tender.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Lay the cod on top, cover and simmer 10 to 12 minutes, shaking the pot gently now and then instead of stirring so the fish stays in chunks.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Taste for salt (the cod is already salty). Sprinkle with parsley and serve with lemon and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Under-soaked cod will make the dish too salty: change the water at least 4 times.",
+      "Fresh cod works too: add 1 teaspoon salt."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Badjidj Bel Batata (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Badjidj_bel_batata",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (cod and potatoes seasoned with paprika, saffron and garlic) checked against the French Wikipedia article 'Badjidj bel batata' (description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-sdour-djedj",
+    "name": "Sdour Djedj (Algerian Chicken Gratin)",
+    "description": "Soft chicken breast in onion and creamy white sauce, topped with melted cheese and baked until bubbling: the Algerian family gratin.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chicken",
+      "gratin",
+      "baked",
+      "family",
+      "bechamel",
+      "cheese"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "chicken breast",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "milk",
+        "note": "warm"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "ground nutmeg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": "gruyere or emmental"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 200 C. Fry the onion in the oil for 5 minutes, add the chicken, half the salt and the pepper and cook 8 minutes until opaque.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Make the white sauce: melt the butter, stir in the flour for 1 minute, then whisk in the warm milk gradually. Cook, whisking, 6 minutes until thick. Season with nutmeg and the remaining salt.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Mix the chicken and onion into the sauce with half the cheese and the parsley. Pour into a gratin dish.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Scatter the rest of the cheese over the top and bake 20 minutes until golden and bubbling.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Rest 5 minutes and serve with salad or rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add 200 g of sliced mushrooms or boiled potato slices for a bulkier gratin.",
+      "Choose cheese made with non-animal rennet if you keep to halal."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Sdour Djedj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Sdour_djedj",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the French Wikipedia article 'Sdour djedj', which describes it as a traditional Algerian chicken gratin (one-line description only). The sauce, method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-yahni",
+    "name": "Yahni (Algerian Fried Chicken in White Sauce)",
+    "description": "Chicken simmered in a light onion, cinnamon and chickpea sauce, coated in egg and flour, fried until golden and returned to the sauce with a squeeze of lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chicken",
+      "white-sauce",
+      "fried",
+      "chickpeas",
+      "lemon"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": "drained"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": "beaten"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced and cut in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken, onions, olive oil, cinnamon, chickpeas, salt, pepper and water in a pot. Bring to a boil, cover and simmer 30 minutes until the chicken is just tender.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Lift the chicken onto a plate, pat it dry and keep the sauce simmering to reduce by about a third.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Roll the chicken pieces in the flour, dip in beaten egg and fry in hot oil in batches for 3 to 4 minutes per side until golden. Drain.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Return the fried chicken to the sauce for 5 minutes, then stir in the lemon juice and parsley. Serve with the lemon wedges and bread.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [
+      "Do not let the sauce boil hard once the fried chicken is back in or the coating will slip.",
+      "The batter drinks sauce; keep extra hot sauce on the side."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Yahni (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Yahni",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and method outline (in Algerian cooking, chicken pieces cooked in a white sauce, coated in a batter, fried and put back in the sauce) checked against the French Wikipedia article 'Yahni' (description only; no quantities). The seasonings, timings and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Yahni_alg%C3%A9rien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yahni_alg%C3%A9rien.jpg",
+      "author": "Sirroconouveau",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a blue-and-white plate of golden battered chicken pieces with chickpeas, lemon slices and pale broth."
+    }
+  },
+  {
+    "id": "algerian-kamounia",
+    "name": "Kamounia (Cumin Beef and Liver Stew)",
+    "description": "A fragrant stew of beef and liver, built on a generous dose of cumin, garlic and olive oil and finished with parsley and lemon, eaten with bread or rice.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beef",
+      "liver",
+      "cumin",
+      "stew",
+      "offal",
+      "traditional"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "beef",
+        "note": "stewing cuts, in 3 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "beef liver",
+        "note": "in 3 cm pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "cooked, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the beef in the oil in a heavy pot for 8 minutes, add the onion and garlic and cook 4 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Stir in the cumin, paprika, salt and pepper, add the water and bring to a boil. Cover and simmer 1 hour 15 minutes until the beef is tender and the sauce reduced.",
+        "timerMinutes": 75
+      },
+      {
+        "text": "Add the liver and simmer 8 to 10 minutes only, until just cooked through.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Sprinkle with parsley and serve with lemon, with bread or rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not cook the liver longer than 10 minutes or it turns grainy.",
+      "Use lamb liver and lamb shoulder for a more traditional Maghrebi version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kamounia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Kamounia",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (a beef and liver stew prepared with cumin, with broth, garlic, olive oil and parsley; found in the cuisines of Algeria, Tunisia, Libya, Egypt and Sudan) checked against the English Wikipedia article 'Kamounia' (description only; no method). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/%D9%83%D9%85%D9%88%D9%86%D9%8A%D8%A9.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D9%83%D9%85%D9%88%D9%86%D9%8A%D8%A9.JPG",
+      "author": "Touzrimounir",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a square white plate of reddish-brown meat stew with a green chilli and chopped herbs."
+    }
+  },
+  {
+    "id": "algerian-mdecha",
+    "name": "Mdecha (Semolina and Mint Soup)",
+    "description": "A fragrant, quick soup of coarse semolina simmered in a garlic, caraway and paprika broth and scented with dried pennyroyal mint, thick enough to eat as a light dinner.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "semolina",
+      "mint",
+      "vegan",
+      "quick",
+      "traditional",
+      "winter"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "coarse semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground caraway",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "dried mint",
+        "note": "pennyroyal if you can find it"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the oil in a pot over medium heat and fry the garlic for 1 minute without browning. Stir in the paprika, caraway and pepper for 30 seconds.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Pour in the water, add the salt and chilli and bring to a boil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Rain in the semolina in a thin stream, whisking constantly to avoid lumps. Simmer over low heat for 15 minutes, stirring often, until lightly thickened.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Stir in the dried mint, taste for salt and serve hot with lemon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add a handful of chickpeas or a diced tomato for more body.",
+      "Rub the dried mint between your palms as you add it to release its aroma."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mdecha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Mdecha",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and flavourings (a very fragrant traditional Algerian semolina soup with pennyroyal mint, garlic, caraway and paprika) checked against the French Wikipedia article 'Mdecha' (description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-frites-omelette",
+    "name": "Frites-Omelette (Algerian Fries and Egg Plate)",
+    "description": "The Algerian everyday classic: golden fries folded into a spiced, well-set omelette, eaten from the pan with bread, tomato salad and harissa, or stuffed in a baguette.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "eggs",
+      "potatoes",
+      "fries",
+      "quick",
+      "street-food",
+      "baguette"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled, cut in thick fries"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "sliced, to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "piece",
+        "name": "baguette",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the cut potatoes, dry thoroughly and fry in the hot oil (170 C) in two batches for 8 to 10 minutes until golden. Drain and salt lightly.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Beat the eggs with the garlic, cumin, paprika, salt and pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour off all but 1 tablespoon of oil from a wide non-stick pan, add the fries, pour over the eggs and cook over medium-low heat 4 minutes until the underside is set.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Flip with a plate (or finish under the grill) for 2 more minutes. Cut into wedges and serve with bread, tomato slices and harissa.",
+        "timerMinutes": 2
+      }
+    ],
+    "tips": [
+      "Oven-bake the fries at 220 C with 3 tablespoons oil for a lighter version.",
+      "In a baguette with tomato and harissa it becomes the famous sandwich."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Frites-Omelette (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Sandwich_frites-omelette",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Algerian cuisine' article (it lists frites-omelette as French fries cooked with eggs) and the French Wikipedia article 'Sandwich frites-omelette' (typically Algerian sandwich; one-line description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plat_frites-omelette.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plat_frites-omelette.jpg",
+      "author": "3esban",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a brown glass plate of French fries mixed with set egg and a fork."
+    }
+  },
+  {
+    "id": "algerian-doja-bel-bsal",
+    "name": "Doja Bel Bsal (Onion, Fennel and Mint Omelette)",
+    "description": "A thick, soft omelette of slowly cooked onions with fennel and fresh mint, finished with a generous splash of olive oil. A traditional Algerian starter that works well as a light dinner.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "omelette",
+      "eggs",
+      "onions",
+      "fennel",
+      "mint",
+      "quick",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "fennel",
+        "note": "small bulb, finely sliced, fronds saved"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh mint",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the onions and fennel in 2 tablespoons of the oil over low heat for 12 minutes until very soft and sweet, without colouring.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Beat the eggs with salt and pepper, and stir in the mint and chopped fennel fronds.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour the eggs over the onions, cover and cook over low heat for 8 to 10 minutes until the omelette is just set and the top is barely wet.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Slide onto a plate, drizzle with the remaining olive oil, cut into wedges and serve warm with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a firmer cake flip it for 2 minutes.",
+      "Dried mint can replace fresh: use 1 teaspoon."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Doja Bel Bsal (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Doja_bel_bsal",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (an Algerian omelette of onions, fennel and fresh mint, finished with olive oil) checked against the French Wikipedia article 'Doja bel bsal' (description only). The method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": null
+  },
+  {
+    "id": "algerian-dar-aami",
+    "name": "Dar Aami (Kefta 'Cigars' in White Sauce)",
+    "description": "Little cigar-shaped kefta of beef, onion and parsley, simmered in a pale cinnamon and chickpea sauce and finished with lemon and egg yolk.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "kefta",
+      "beef",
+      "white-sauce",
+      "chickpeas",
+      "meatballs"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated for the kefta"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped, for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg yolk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Knead the beef with the grated onion, parsley, cumin, egg, 1 teaspoon salt and half the pepper. Shape into about 16 small cigars, about 7 cm long.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Soften the chopped onion in the oil for 5 minutes, add the cinnamon, chickpeas, water, remaining salt and pepper and bring to a simmer.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Lower the kefta cigars into the sauce, cover and simmer 25 minutes, turning once.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Whisk the yolk with the lemon juice and a ladle of hot sauce, stir it into the pot off the heat and serve right away.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not boil after the yolk is added.",
+      "Brown the cigars in a pan first for a deeper flavour."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Dar Aami (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Dar_%C3%A2ami",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (a traditional Algerian dish of small kefta 'cigars' in a white sauce) checked against the French Wikipedia article 'Dar aami' (one-line description only). The sauce details, method and quantities are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/D%27ar_3ami_plat_alg%C3%A9rien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:D%27ar_3ami_plat_alg%C3%A9rien.jpg",
+      "author": "ABBASHouda",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: an oval white platter of dark kefta pieces under a pale sauce with a lemon slice and parsley."
+    }
+  }
+]

@@ -1,0 +1,2159 @@
+[
+  {
+    "id": "moroccan-rfissa",
+    "name": "Rfissa (Moroccan Chicken with Lentils and Fenugreek)",
+    "description": "A celebration dish of Morocco: chicken simmered in an onion, ras el hanout and fenugreek broth, served over shredded flatbread and lentils. Comforting, aromatic and traditionally made for new mothers and special occasions.",
+    "cuisine": "Moroccan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 90,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chicken",
+      "lentils",
+      "fenugreek",
+      "ras-el-hanout",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in pieces, free-range if possible"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "ras el hanout",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "fenugreek seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "brown lentils",
+        "note": "soaked 1 hour"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "flatbreads",
+        "note": "msemen or paratha, torn in strips"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a large pot and cook the onions and garlic for 8 minutes until soft. Add the chicken, ras el hanout, ginger, turmeric, pepper and salt and turn for 5 minutes.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Add the fenugreek seeds and the water, bring to a boil, skim, then cover and simmer for 45 minutes until the chicken is very tender.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Add the drained lentils to the pot and simmer 25 minutes more until soft, keeping plenty of broth.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Lift out the chicken. Warm the torn flatbread in a little of the broth until it softens and pile it on a large dish.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spoon the lentils and onions over the bread, set the chicken on top, ladle over more broth and finish with herbs. Eat from the shared dish.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Fresh fenugreek leaves are lovely but hard to find; the seeds are fine.",
+      "Use plenty of broth: rfissa should be juicy."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Rfissa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Rfissa",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Rfissa' (descriptions only); the article names chicken, lentils, fenugreek seeds, msemen or day-old bread and ras el hanout as the traditional components and says it is served at celebrations and to new mothers. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Refissa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Refissa.jpg",
+      "author": "مصطفى ملو",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a blue-and-gold patterned platter of shredded flatbread with lentils and a ladle of golden broth being poured over."
+    }
+  },
+  {
+    "id": "moroccan-mrouzia",
+    "name": "Mrouzia (Moroccan Lamb with Honey and Almonds)",
+    "description": "The Eid lamb of Morocco: lamb shanks slow-cooked with ras el hanout, saffron and honey until sticky and sweet-savoury, topped with raisins and toasted almonds.",
+    "cuisine": "Moroccan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 150,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "lamb",
+      "honey",
+      "almonds",
+      "eid",
+      "festive",
+      "sweet-savory"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "lamb shanks",
+        "note": "or shoulder pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "ras el hanout",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "saffron threads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "blanched almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame seeds",
+        "note": "toasted"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the lamb with the grated onions, oil, ras el hanout, ginger, cinnamon, saffron, salt and pepper and leave for 1 hour or overnight.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the lamb with the marinade and the water in a heavy pot, bring to a boil, skim, then cover and simmer gently for 2 hours until very tender.",
+        "timerMinutes": 120
+      },
+      {
+        "text": "Add the raisins and honey and simmer uncovered for 25 minutes, turning the meat in the sauce, until thick and glossy.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Toast the almonds in a dry pan until golden. Arrange the lamb in a tagine or deep dish, spoon over the sauce and top with almonds and sesame.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Traditionally made with smen (aged butter): add a spoon with the onions if you have it.",
+      "Serve with plain couscous or bread to soak up the sauce."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mrouzia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mrouzia",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Mrouzia' (descriptions only); the article describes a sweet-and-salty meat tajine combining ras el hanout with honey, cinnamon and almonds, traditional for Eid al-Adha. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Moroccan_cuisine-Mrouzia_beef_short_ribs.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moroccan_cuisine-Mrouzia_beef_short_ribs.jpg",
+      "author": "TheGirlsNY",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a dark glazed rib of meat with sesame seeds and two prunes in a thick brown sauce."
+    }
+  },
+  {
+    "id": "tunisian-tajine-malsouka",
+    "name": "Tunisian Tajine Malsouka (Baked Chicken and Egg Pie)",
+    "description": "Despite the name, a Tunisian tajine is a savoury baked pie: layers of crisp malsouka (brik) pastry around a spiced chicken, parsley and egg filling. Sliced like a quiche and eaten hot for dinner.",
+    "cuisine": "Tunisian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 35,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pie",
+      "chicken",
+      "eggs",
+      "baked",
+      "brik",
+      "ramadan"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "chicken breast",
+        "note": "cooked and shredded"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "grated hard cheese",
+        "note": "such as gruyere or emmental"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "piece",
+        "name": "malsouka sheets",
+        "note": "or brik or filo pastry sheets"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "melted"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 190 C (170 C fan). Fry the onion in the oil for 6 minutes, then stir in the chicken, turmeric, cumin, half the salt and the pepper. Let it cool.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Beat the eggs with the parsley, cheese, remaining salt and the cooled chicken mix.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush a 24 cm baking dish with butter and line it with 3 sheets of pastry, overlapping them and letting the edges hang over; brush each with butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour in the filling, fold the overhanging pastry over it and top with the remaining sheets, buttered and tucked in. Brush the top with the rest of the butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 40 to 45 minutes until golden and set in the middle. Rest 10 minutes, cut in squares and serve warm.",
+        "timerMinutes": 45
+      }
+    ],
+    "tips": [
+      "Minced beef or tuna with capers are common alternative fillings.",
+      "Filo works if you cannot find malsouka: use 8 buttered sheets."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tunisian Tajine Malsouka (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Malsouka",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Malsouka' (descriptions only); the article names the tagine malsouka as one of the dishes made with the pastry sheets; the filling of chicken, egg, parsley and cheese is written from the author's knowledge of the Tunisian dish. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Tajine_malsouka.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tajine_malsouka.JPG",
+      "author": "Souad Anane Lesina",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a glass dish with a golden baked pie, one slice cut out showing a dense yellow filling."
+    }
+  },
+  {
+    "id": "tunisian-kosksi-bel-hout",
+    "name": "Kosksi Bel Hout (Tunisian Fish Couscous)",
+    "description": "A coastal Tunisian classic: firm white fish and vegetables in a spicy red harissa and tomato broth, ladled over steamed couscous. Bright, peppery and full of the sea.",
+    "cuisine": "Tunisian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 55,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "fish",
+      "harissa",
+      "tomato",
+      "coast"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "couscous",
+        "note": "medium"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus 2 tbsp for the couscous"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "firm white fish",
+        "note": "steaks of grouper, bream or sea bass"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground caraway",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "carrots",
+        "note": "in sticks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "halved"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "pumpkin",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Swell the couscous with 2 tbsp of the oil and the warm salted water, raking it for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "In a large pot, soften the onions in 3 tbsp oil for 6 minutes, add the garlic, tomato paste, harissa, caraway, coriander and salt and stir for 3 minutes.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Add the water, potatoes and carrots, bring to a boil and cook 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Steam the couscous in the steamer on top for 20 minutes, then rake it with a little water and steam 10 more minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add the pumpkin, peppers and fish to the broth and cook for 12 minutes until the fish is just cooked.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Serve the couscous on a platter topped with the fish and vegetables, with the broth on the side and lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Pick a firm fish that will not fall apart in the broth.",
+      "Add dried chilli to the broth to make it fiery."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kosksi Bel Hout (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Couscous",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Couscous' article and the Wikimedia Commons photographs of Tunisian fish couscous (kosksi bel hout); the harissa-tomato broth is written from the author's knowledge. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kosksi_bel_Hout.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kosksi_bel_Hout.jpg",
+      "author": "IssamBarhoumi",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate of red-orange couscous with a piece of fish, green pepper, white onion rings and vegetables."
+    }
+  },
+  {
+    "id": "saudi-kabsa",
+    "name": "Chicken Kabsa (Saudi Spiced Rice with Chicken)",
+    "description": "The national dish of the Gulf: long-grain rice cooked in a tomato and warm-spice stock with tender chicken, finished with toasted almonds and raisins. Fragrant, celebratory and simple.",
+    "cuisine": "Saudi",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "rice",
+      "chicken",
+      "gulf",
+      "festive",
+      "spiced",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in 8 pieces"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "soaked 20 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "kabsa spice mix",
+        "note": "or baharat"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "cardamom pods",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "cloves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "dried limes",
+        "note": "pierced, or 1 lemon",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 900,
+        "unit": "ml",
+        "name": "hot water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "almonds",
+        "note": "slivered, toasted"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "carrot",
+        "note": "grated for the rice"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wide pot and cook the onions for 8 minutes until golden. Add the garlic and chicken and brown the chicken for 8 minutes.",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Stir in the tomatoes, tomato paste, spice mix, cinnamon, cardamom, cloves, dried limes and salt. Cook 5 minutes, then add the hot water, cover and simmer for 25 minutes until the chicken is tender.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Lift out the chicken. Drain the rice, add it to the pot with the grated carrot, level, and cook covered over low heat for 18 minutes until the rice has absorbed the stock.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Meanwhile brown the chicken pieces under a hot grill for 8 minutes if you like crisp skin.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pile the rice on a platter, set the chicken on top and scatter with toasted almonds and raisins. Serve with a tomato-chilli dip and salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Measure the stock carefully: the pot should hold about 1.75 times the rice in liquid after the chicken is removed.",
+      "Lamb is the other classic version: cook it 1 hour longer."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chicken Kabsa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Kabsa",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Kabsa' (descriptions only); the article describes an Arab mixed rice dish of rice, meat, vegetables and spices considered a national dish in Gulf countries. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kabsa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kabsa.jpg",
+      "author": "Basel15 at en.wikipedia",
+      "license": "Public domain",
+      "verified": "Seen: a large platter of rice topped with roasted chicken pieces, raisins and nuts."
+    }
+  },
+  {
+    "id": "palestinian-maqluba",
+    "name": "Maqluba (Upside-down Rice with Chicken and Vegetables)",
+    "description": "A showpiece of the Levant: chicken, fried aubergine and cauliflower layered with spiced rice in a pot, then flipped onto a platter so the golden top becomes the crown.",
+    "cuisine": "Palestinian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "rice",
+      "chicken",
+      "aubergine",
+      "levantine",
+      "festive",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "quartered"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the chicken"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "soaked 20 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggplants",
+        "note": "in thick slices"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cauliflower",
+        "note": "in florets"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "allspice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the rice"
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "almonds",
+        "note": "toasted"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "pine nuts",
+        "note": "toasted"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken in a pot with the onion, cinnamon, bay leaves, 1 tsp salt and enough water to cover. Boil, skim, then simmer 30 minutes. Reserve 700 ml of the broth and the chicken.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Salt the aubergine slices, rest 15 minutes, pat dry and fry them with the cauliflower in the oil until golden. Drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a heavy 28 cm pot, arrange the tomato slices in the base, then the aubergine and cauliflower, then the chicken pieces.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the drained rice with the allspice, turmeric and 2 tsp salt and spread over the top. Pour over the reserved broth (it should just cover the rice).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring to a boil, cover, and cook on low heat for 30 minutes until the rice is tender. Rest 10 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Run a knife around the edge, place a large platter over the pot, and flip in one quick move. Wait 5 minutes, lift the pot, and garnish with toasted nuts.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Press the layers down gently so the maqluba holds its shape when turned out.",
+      "Serve with yoghurt and a chopped cucumber-tomato salad."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Maqluba (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Maqluba",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Maqluba' (descriptions only); the article describes meat, rice and fried vegetables placed in a pot and flipped upside down when served, popular across Palestine, Jordan, Syria and Lebanon. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Makluba.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Makluba.JPG",
+      "author": "Arafataslan",
+      "license": "Public domain",
+      "verified": "Seen: a very large round platter of yellow rice studded with chicken pieces and vegetables, taken from above."
+    }
+  },
+  {
+    "id": "pakistani-chicken-karahi",
+    "name": "Chicken Karahi",
+    "description": "A rich, tomatoey chicken curry cooked fast and hot in a wok-style karahi with ginger, garlic and green chillies. The best-known dish of Lahore's roadside restaurants, served with naan.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chicken",
+      "curry",
+      "spicy",
+      "tomato",
+      "lahore",
+      "wok"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in 12 small pieces, bone in"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": "or oil"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ginger",
+        "note": "cut in matchsticks"
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "chili powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green chili peppers",
+        "note": "slit"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "garam masala",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "naan breads",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the ghee in a karahi or wide heavy pan over high heat. Add the garlic and half the ginger and fry for 30 seconds.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the chicken and sear for 6 to 8 minutes until it loses its pink colour.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the tomatoes, salt, chilli powder, coriander, cumin and turmeric. Cook over medium-high heat, stirring and mashing the tomatoes, for 15 minutes until the sauce is thick and the oil separates.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the green chillies, cover and cook on medium heat for 10 more minutes until the chicken is tender.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Finish with the garam masala, remaining ginger and fresh coriander. Serve straight from the pan with naan.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not add water: the tomatoes should make the sauce.",
+      "Add a little cream and green chillies for a \"white karahi\" variant."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chicken Karahi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Chicken_karahi",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Chicken karahi' (descriptions only); the article names ginger, garlic, tomatoes, green chilli and coriander as the key flavours of a dish cooked in a karahi. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chicken_Karahi.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Karahi.JPG",
+      "author": "Miansari66",
+      "license": "Public domain",
+      "verified": "Seen: a two-handled steel karahi of red-orange chicken curry with a green chilli on top, on a purple cloth."
+    }
+  },
+  {
+    "id": "pakistani-beef-nihari",
+    "name": "Beef Nihari",
+    "description": "A slow-braised beef stew from the Mughal kitchens, thickened with wheat flour and perfumed with ginger, fennel and garam masala. Traditionally cooked overnight and eaten for breakfast, but a superb weekend dinner.",
+    "cuisine": "Pakistani",
+    "region": "South Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch",
+      "breakfast"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 210,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beef",
+      "stew",
+      "slow-cooked",
+      "mughal",
+      "weekend"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "beef shank",
+        "note": "on the bone, in thick pieces"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": "or oil"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ginger",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "garlic",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "chili powder",
+        "note": "mild"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground fennel",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "garam masala",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "cardamom pods",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "whole wheat flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "ginger",
+        "note": "cut in matchsticks, to garnish"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green chili peppers",
+        "note": "sliced, to garnish"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the ghee in a heavy pot and fry the onions for 12 minutes until deep golden. Add the ginger and garlic and cook 2 minutes.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "Add the beef and turn it for 8 minutes until sealed. Add the chilli, turmeric, coriander, fennel, salt, cardamom and cinnamon and stir 2 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add 1.5 l of the water, bring to a boil, skim, then cover and simmer on the lowest heat for 3 hours until the meat is falling off the bone.",
+        "timerMinutes": 180
+      },
+      {
+        "text": "Whisk the flour with the remaining 300 ml water until smooth and stir it slowly into the stew. Simmer 15 more minutes, stirring, until the gravy is thick and glossy. Stir in the garam masala.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serve in bowls topped with ginger, green chillies and coriander, with naan and lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "A pressure cooker finishes the meat in 45 minutes.",
+      "Skim off the oil that rises to the top and serve it on the side for the traditional presentation."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Beef Nihari (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Nihari",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Nihari' (descriptions only); the article describes a slow-cooked stew of beef, lamb or goat shank with bone marrow, from the Mughal era. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Beef_Nihari.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beef_Nihari.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "verified": "Seen: an octagonal plate of dark red-brown beef nihari with a bone, lemon slice and spices on top, on a red cloth."
+    }
+  },
+  {
+    "id": "afghan-kabuli-pulao",
+    "name": "Kabuli Pulao (Afghan Lamb and Carrot Rice)",
+    "description": "Afghanistan's national dish: fragrant basmati rice cooked in lamb stock, topped with caramelised carrots, raisins, almonds and pistachios and tender lamb.",
+    "cuisine": "Afghan",
+    "region": "South Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "rice",
+      "lamb",
+      "carrot",
+      "raisins",
+      "festive",
+      "afghan"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, on the bone"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cardamom",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 900,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "soaked 30 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "carrots",
+        "note": "cut in matchsticks"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "almonds",
+        "note": "slivered"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "pistachios",
+        "note": "slivered"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the onions in 3 tbsp oil for 10 minutes. Add the lamb and sear for 8 minutes. Stir in the cumin, 1 tsp salt and the water, bring to a boil, skim, and simmer covered for 1 hour 10 minutes until the lamb is tender.",
+        "timerMinutes": 85
+      },
+      {
+        "text": "Lift the lamb out and keep it warm. Measure 700 ml of the stock into a clean pot.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Boil the drained rice in plenty of salted water for 5 minutes, then drain. Add it to the stock with the cardamom, cover with a tight lid and cook on very low heat for 20 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Meanwhile fry the carrots in 1 tbsp oil with the sugar for 8 minutes until glossy and golden, adding the raisins for the last 2 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pile the rice on a platter, set the lamb on top and scatter with the carrots, raisins, nuts and cinnamon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cook the rice with a cloth under the lid to catch steam so it stays separate.",
+      "Serve with yoghurt and cucumber."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kabuli Pulao (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Kabuli_pulao",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Kabuli pulao' (descriptions only); the article describes steamed rice mixed with caramelised carrots and raisins and marinated meat, garnished with almonds and pistachios. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kabuli_Pulao.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kabuli_Pulao.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "verified": "Seen: a floral-rimmed plate of golden brown rice, taken from above, on a red patterned cloth."
+    }
+  },
+  {
+    "id": "turkish-adana-kebab",
+    "name": "Adana Kebab (Hand-minced Lamb Kebab)",
+    "description": "A long, spicy kebab of hand-minced lamb and tail fat with red pepper flakes, grilled on wide flat skewers and served on flatbread with charred tomato and peppers. The pride of southern Turkey.",
+    "cuisine": "Turkish",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 12,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "kebab",
+      "lamb",
+      "grill",
+      "spicy",
+      "barbecue"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "minced lamb",
+        "note": "with 20 percent fat"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "red bell pepper",
+        "note": "very finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated and squeezed dry"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "chili flakes",
+        "note": "Turkish pul biber"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "for grilling"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green chili peppers",
+        "note": "long, for grilling"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "flatbreads",
+        "note": "lavash or pide"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced thin, with sumac"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sumac",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Knead the lamb with the chopped pepper, grated onion, chilli flakes, salt and paprika for 5 minutes until it becomes sticky. Cover and chill for 1 hour.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Wet your hands and press the mix around wide flat skewers into long strips about 2 cm thick.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Grill over hot charcoal or in a very hot grill pan for 4 to 5 minutes per side until charred at the edges and cooked through. Grill the tomatoes and chillies alongside.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Warm the flatbreads on the grill, lay a kebab on each and slide it off the skewer. Serve with the grilled vegetables and the sumac onions.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The fat is vital: do not use lean mince.",
+      "Chill the skewers once shaped if the mix falls off."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Adana Kebab (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Adana_kebab%C4%B1",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Adana kebabı' (descriptions only); the article describes hand-minced meat mounted on a wide iron skewer and grilled over charcoal, usually from lamb and tail fat. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Adana_kebab.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Adana_kebab.jpg",
+      "author": "Anatolianpride",
+      "license": "Public domain",
+      "verified": "Seen: a long red-brown kebab on flatbread with a charred tomato, a green chilli and herbs."
+    }
+  },
+  {
+    "id": "egyptian-molokhia",
+    "name": "Molokhia (Egyptian Jute-leaf Soup with Chicken)",
+    "description": "Egypt's beloved green soup: finely chopped jute (mulukhiyah) leaves in a garlicky chicken broth with a sizzling garlic-coriander taqliya on top. Served over rice with a squeeze of lemon.",
+    "cuisine": "Egyptian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 55,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "chicken",
+      "greens",
+      "garlic",
+      "rice"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "halved"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cardamom pods",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "frozen molokhia",
+        "note": "chopped jute leaves, thawed"
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": "or oil"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "rice",
+        "note": "long-grain, cooked, to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken, onion, cardamom, 1 tsp salt and the water in a pot, bring to a boil, skim and simmer for 35 minutes until the chicken is tender.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Lift out the chicken and keep warm (brown it under the grill for 8 minutes if you like crisp skin). Strain the broth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Return the broth to the pot, bring to a simmer and add the molokhia and the remaining salt. Simmer for 8 minutes: do not boil hard or the soup becomes stringy.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Heat the ghee in a small pan, fry the garlic with the coriander for 1 minute until golden and fragrant, then pour it sizzling into the soup and stir.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve the soup in bowls over rice, with the chicken alongside and lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Dried molokhia leaves work: soak them in warm water first.",
+      "Rabbit is the traditional alternative to chicken."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Molokhia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mulukhiyah",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Mulukhiyah' (descriptions only); the article describes the dish of Corchorus olitorius (jute) leaves as traditionally Egyptian, eaten across the Middle East and North Africa. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Molokheya_Egypt%2C_2012.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Molokheya_Egypt,_2012.JPG",
+      "author": "Habib M'henni",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a clay pot of dark green molokhia soup with a spoon in it, on a table."
+    }
+  },
+  {
+    "id": "lebanese-kibbeh",
+    "name": "Kibbeh (Fried Lamb and Bulgur Torpedoes)",
+    "description": "Crisp fried shells of bulgur and finely ground lamb filled with spiced lamb, onion and pine nuts. A Lebanese mezze star and an impressive dinner with yoghurt and salad.",
+    "cuisine": "Lebanese",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 60,
+    "cookTime": 20,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "lamb",
+      "bulgur",
+      "fried",
+      "levantine",
+      "mezze",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "fine bulgur",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced lamb",
+        "note": "lean, fine texture, for the shell"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground allspice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "in total"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "minced lamb",
+        "note": "for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "pine nuts",
+        "note": "toasted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground allspice",
+        "note": "for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for deep frying"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "plain yoghurt",
+        "note": "to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the bulgur, soak in cold water for 15 minutes and squeeze dry. Blend the shell lamb with the grated onion, allspice, cinnamon, 1 tsp salt and pepper to a smooth paste, then knead in the bulgur with a little ice water. Chill.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For the filling, fry the chopped onion in the oil for 6 minutes, add the filling lamb, allspice and remaining salt and cook 8 minutes until dry. Stir in the pine nuts and cool.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "With wet hands, take a lime-sized ball of shell paste, hollow it with your finger, fill with a spoon of filling and close and pinch the ends into a torpedo shape. Repeat to make about 18.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Deep-fry in hot oil (180 C) in batches of 4 to 5 for 4 minutes, until deep brown and crisp. Drain on paper.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Serve hot with yoghurt, lemon wedges and a fresh salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Baked kibbeh (in a tray) is a much easier way to make the same flavours.",
+      "Freeze the shaped kibbeh uncooked: fry from frozen."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kibbeh (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Kibbeh",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Kibbeh' (descriptions only); the article describes the Levantine family of bulgur-and-meat dishes, including stuffed and fried kibbeh. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Kibbeh3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kibbeh3.jpg",
+      "author": "Bazel",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a plate of oval deep-fried kibbeh with a mint sprig."
+    }
+  }
+]

@@ -1,0 +1,1860 @@
+[
+  {
+    "id": "algerian-kalb-el-louz",
+    "name": "Kalb el Louz (Semolina and Almond Syrup Cake)",
+    "description": "A moist semolina and almond cake baked in a tray, cut into diamonds and soaked in orange-blossom syrup.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 12,
+    "prepTime": 20,
+    "cookTime": 35,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "cake",
+      "semolina",
+      "almond",
+      "syrup",
+      "ramadan",
+      "eid",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "medium"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": "for the syrup"
+      },
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 12.0,
+        "unit": null,
+        "name": "almonds",
+        "note": "blanched, to decorate"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix semolina, ground almonds, sugar and baking powder. Beat in the eggs, melted butter, milk and half the orange blossom water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Rest the batter 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Pour into a buttered 22 cm square tin, press in blanched almonds and bake at 180 C for 30 to 35 minutes until golden.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Boil the syrup sugar, water and lemon for 8 minutes and add the rest of the orange blossom water.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Pour the cooled syrup over the hot cake, cut into diamonds and let soak 1 hour.",
+        "timerMinutes": 60
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Kalb el Louz (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 12 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Makrout_Qalb_Elouz_Alg%C3%A9rien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Makrout_Qalb_Elouz_Alg%C3%A9rien.jpg",
+      "author": "Sib2022",
+      "license": "CC0",
+      "verified": "Seen: diamond-cut semolina and almond cakes, Qalb el louz."
+    },
+    "translations": {
+      "fr": {
+        "name": "Kalb el louz"
+      },
+      "ar": {
+        "name": "قلب اللوز"
+      }
+    }
+  },
+  {
+    "id": "algerian-zlabia",
+    "name": "Zlabia (Algerian Syrup Spirals)",
+    "description": "Orange-gold lacy spirals of fried batter soaked in honey-lemon syrup, the signature sweet of Algerian Ramadan evenings.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 30,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fried",
+      "syrup",
+      "ramadan",
+      "sweet",
+      "vegan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "cornflour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": "for colour"
+      },
+      {
+        "group": null,
+        "quantity": 450.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the flour, cornflour, yeast, salt, turmeric and warm water into a smooth batter; rest 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Boil the sugar, water and lemon 8 minutes and add the orange blossom water. Keep it warm.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Heat the oil to 170 C. Fill a squeezy bottle or piping bag with a small hole with the batter and pipe tight spirals into the oil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry 2 minutes per side until crisp and golden, then drop into the hot syrup for 1 minute and drain.",
+        "timerMinutes": 3
+      }
+    ],
+    "tips": [
+      "The batter should flow thinly but hold a thread."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Zlabia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Zalabiyeh",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Zalabiyeh' (opened): a deep-fried fritter made from a batter, often syrup-soaked. Proportions are the author's own for 8 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Zlabia_alg%C3%A9rienne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zlabia_alg%C3%A9rienne.jpg",
+      "author": "فيروز روزي",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: golden orange syrup-soaked zlabia spirals."
+    },
+    "translations": {
+      "fr": {
+        "name": "Zlabia"
+      },
+      "ar": {
+        "name": "زلابية"
+      }
+    }
+  },
+  {
+    "id": "algerian-griwech",
+    "name": "Griwech (Honey Sesame Fried Pastry)",
+    "description": "Diamonds of dough with a slit pulled through to look like a twisted ribbon, deep-fried, dipped in honey and rolled in sesame seeds.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 10,
+    "prepTime": 40,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pastry",
+      "fried",
+      "honey",
+      "sesame",
+      "eid",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "honey",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "sesame seeds",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix flour, baking powder, sugar and salt, rub in the butter, add eggs and orange blossom water, and knead to a firm dough. Rest 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Roll very thin, cut into 5 by 8 cm diamonds, cut a slit in the middle and pull one corner through.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry in 170 C oil 2 minutes per side until golden.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Warm the honey, dip the pastries, drain and roll in toasted sesame seeds.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Griwech (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which describes griwech as deep-fried, pretzel-shaped dough soaked in honey and sprinkled with sesame seeds. Proportions are the author's own for 10 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Griouech_tress%C3%A9e_%28griwesh%2C_griw%C3%A8che%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Griouech_tress%C3%A9e_(griwesh,_griw%C3%A8che).jpg",
+      "author": "Opsylac",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: braided honey-glazed griwech pastries."
+    },
+    "translations": {
+      "fr": {
+        "name": "Griwech"
+      },
+      "ar": {
+        "name": "قريوش"
+      }
+    }
+  },
+  {
+    "id": "algerian-ghribia",
+    "name": "Ghribia (Algerian Shortbread Biscuits)",
+    "description": "Crumbly little shortbread biscuits of semolina and almond, scented with vanilla and finished with a nut on top.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 25,
+    "prepTime": 20,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "cookies",
+      "shortbread",
+      "eid",
+      "almond",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "softened"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg yolk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "vanilla sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 25.0,
+        "unit": null,
+        "name": "almonds",
+        "note": "whole, blanched"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cream butter and icing sugar until pale, mix in the yolk.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add flour, semolina, ground almonds, baking powder and vanilla to form a soft dough. Rest 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Shape walnut-sized balls, press an almond on each, and bake at 170 C for 15 minutes; they stay pale.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cool completely on the tray.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Ghribia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Ghorayeba",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Ghorayeba' (opened): shortbread-style biscuits, often with ground almonds, sometimes semolina or clarified butter. Proportions are the author's own for 25 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ghribia_alg%C3%A9rienne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghribia_alg%C3%A9rienne.jpg",
+      "author": "Hloub",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: round pale shortbread biscuits, ghribia."
+    },
+    "translations": {
+      "fr": {
+        "name": "Ghribia"
+      },
+      "ar": {
+        "name": "غريبية"
+      }
+    }
+  },
+  {
+    "id": "algerian-dziriette",
+    "name": "Dziriette (Almond Paste Diamonds)",
+    "description": "Soft almond-paste diamonds on a delicate biscuit base, glazed with lemon icing, from the Algerian celebration platter.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 25,
+    "prepTime": 40,
+    "cookTime": 15,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "cookies",
+      "almond",
+      "eid",
+      "party",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 125.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "cold"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg yolk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": "for the paste"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg white",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": "for the glaze"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the butter into flour and 40 g icing sugar, bind with the yolk and chill 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Mix the almonds, 150 g icing sugar, egg white and orange blossom water into a paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll the dough 4 mm thick, cut into diamonds, top each with a diamond of almond paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake at 170 C for 15 minutes; brush with lemon-sugar glaze while warm.",
+        "timerMinutes": 15
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Dziriette (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 25 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dziriettes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dziriettes.jpg",
+      "author": "Said IDRI",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: small diamond-shaped almond-paste pastries, dziriettes."
+    },
+    "translations": {
+      "fr": {
+        "name": "Dziriette"
+      },
+      "ar": {
+        "name": "جزيريات"
+      }
+    }
+  },
+  {
+    "id": "algerian-tcharek",
+    "name": "Tcharek (Almond-filled Crescent Biscuits)",
+    "description": "Delicate crescents of buttery pastry filled with orange-blossom almond paste and dusted with icing sugar, an Eid classic.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 25,
+    "prepTime": 45,
+    "cookTime": 20,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "cookies",
+      "almond",
+      "crescent",
+      "eid",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "softened, for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "icing sugar",
+        "note": "to coat"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix flour, melted butter, salt, orange blossom water and enough water to a soft dough; rest 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Mix almonds, icing sugar, butter and cinnamon into a paste and roll into thin sausages.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll the dough very thin, cut strips, wrap around the paste and cut in crescents.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake at 170 C for 20 minutes until lightly golden; roll in icing sugar while warm.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Tcharek (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 25 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tcharek_el_ariane_d%27Alger.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tcharek_el_ariane_d%27Alger.png",
+      "author": "Hloub",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: crescent-shaped almond biscuits dusted with icing sugar, tcharek."
+    },
+    "translations": {
+      "fr": {
+        "name": "Tcharak"
+      },
+      "ar": {
+        "name": "تشاراك"
+      }
+    }
+  },
+  {
+    "id": "algerian-bniwen",
+    "name": "Bniwen (No-bake Biscuit and Chocolate Bites)",
+    "description": "A no-bake treat of crushed biscuits, nuts, coconut and honey, bound with butter and coated in dark chocolate.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 20,
+    "prepTime": 25,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "no-bake",
+      "chocolate",
+      "biscuit",
+      "party",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "g",
+        "name": "butter biscuits",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "desiccated coconut",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "dark chocolate",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix crushed biscuits, coconut and almonds.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in butter, honey and orange blossom water until it holds a shape.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll into 20 balls or press into a tin; chill 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Melt the chocolate, dip the bites and set on baking paper.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use halal-certified biscuits and chocolate without alcohol-based flavourings."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Bniwen (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against web search results on home-cook pages (snippets only, pages not opened) describing bniwen as a no-bake Algerian sweet of ground biscuits, nuts, chocolate, butter and honey; Wikipedia's 'Algerian cuisine' article does not cover it. Proportions are the author's own for 20 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Bniwen"
+      },
+      "ar": {
+        "name": "بنيون"
+      }
+    }
+  },
+  {
+    "id": "algerian-tamina",
+    "name": "Tamina (Toasted Semolina Honey Paste)",
+    "description": "A rich paste of toasted semolina, butter and honey: a traditional restorative and a dish for celebrations and new mothers.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "breakfast"
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "semolina",
+      "honey",
+      "butter",
+      "traditional",
+      "sweet",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "honey",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "sesame seeds",
+        "note": "toasted, optional"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toast the semolina in a dry pan over medium heat for 10 minutes, stirring until golden.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add butter and mix until absorbed, 2 minutes; off the heat, stir in warm honey and cinnamon.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Shape into a mound and sprinkle with sesame seeds.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Tamina (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which describes tamina as a paste of semolina, butter, spices and honey, usually served after a woman gives birth. Proportions are the author's own for 6 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Tamina"
+      },
+      "ar": {
+        "name": "تمينة"
+      }
+    }
+  },
+  {
+    "id": "algerian-mhalbi",
+    "name": "Mhalbi (Rice Flour Milk Pudding)",
+    "description": "A silky milk pudding set with rice flour and scented with orange blossom, chilled and topped with pistachios or cinnamon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "pudding",
+      "milk",
+      "rice",
+      "rose-water",
+      "ramadan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "rice flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "ground pistachios",
+        "note": "to serve"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "cinnamon",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dissolve the rice flour in 150 ml cold milk.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Heat the rest of the milk with the sugar, add the flour mix, stir for 15 minutes until thick.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add orange blossom water, pour into bowls and chill.",
+        "timerMinutes": 120
+      },
+      {
+        "text": "Serve with pistachios and cinnamon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Mhalbi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Mhalbi"
+      },
+      "ar": {
+        "name": "محلبية"
+      }
+    }
+  },
+  {
+    "id": "algerian-flan-caramel",
+    "name": "Flan Caramel (Caramel Custard)",
+    "description": "The beloved household crème caramel: a trembling vanilla custard on a glossy caramel.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "custard",
+      "caramel",
+      "eggs",
+      "family",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "vanilla sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": "for the caramel"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the caramel sugar with water until amber; pour into a mould.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Whisk the eggs with 120 g sugar and vanilla, pour in warm milk, strain into the mould.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake in a bain-marie at 170 C for 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Chill 4 hours, then unmould.",
+        "timerMinutes": 240
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Flan Caramel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Homemade_Flan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Flan.jpg",
+      "author": "Cary Bass",
+      "license": "CC BY-SA 2.5",
+      "verified": "Seen: a turned-out caramel custard in a pool of caramel on a colourful plate."
+    },
+    "translations": {
+      "fr": {
+        "name": "Flan caramel"
+      },
+      "ar": {
+        "name": "فلان"
+      }
+    }
+  },
+  {
+    "id": "algerian-riz-hlib",
+    "name": "Riz Bel Hlib (Rice Pudding)",
+    "description": "Creamy rice pudding simmered in milk, lightly sweet and scented with vanilla and cinnamon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "milk",
+      "pudding",
+      "family",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "rice",
+        "note": "short-grain"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "vanilla sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice in 300 ml water for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add milk, sugar, vanilla, cinnamon and salt and simmer, stirring, for 30 minutes until thick.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add orange blossom water, serve warm or chilled.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Riz Bel Hlib (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rice_pudding_cinnamon.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rice_pudding_cinnamon.jpg",
+      "author": "Ross Berteig from Monrovia, California, USA",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a bowl of creamy rice pudding dusted with cinnamon."
+    },
+    "translations": {
+      "fr": {
+        "name": "Riz au lait"
+      },
+      "ar": {
+        "name": "أرز بالحليب"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-fawakeh",
+    "name": "Slata Fawakeh (Fruit Salad)",
+    "description": "Seasonal fruit in orange juice with a little sugar and mint.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "breakfast"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fruit",
+      "fresh",
+      "vegan",
+      "summer",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "apples",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "bananas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "oranges",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "strawberries",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "orange juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "sprig",
+        "name": "mint",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Chop fruit into bite-size pieces.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix with juice, sugar and mint; chill 30 minutes.",
+        "timerMinutes": 30
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Fawakeh (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Salade_de_fruits_alg%C3%A9rienne.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salade_de_fruits_alg%C3%A9rienne.JPG",
+      "author": "Perigou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a platter of sliced fresh fruit salad (Algerian fruit salad)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de fruits"
+      },
+      "ar": {
+        "name": "سلطة الفواكه"
+      }
+    }
+  },
+  {
+    "id": "algerian-mesfouf-zbib",
+    "name": "Mesfouf Bel Zbib (Sweet Couscous with Raisins)",
+    "description": "Fine steamed couscous mixed with butter, sugar, raisins and cinnamon: served with cold milk or raïb at suhoor.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "breakfast"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "couscous",
+      "raisins",
+      "sweet",
+      "ramadan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "couscous",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 30.0,
+        "unit": "g",
+        "name": "almonds",
+        "note": "chopped",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Moisten the couscous with salted water, rub loose and steam over boiling water 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Sprinkle with a little cold water, rub again and steam 15 minutes more.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mix butter, sugar, raisins and cinnamon through the couscous and serve with cold milk.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Mesfouf Bel Zbib (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Algerian_Masfouf.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algerian_Masfouf.jpg",
+      "author": "Midozeus",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a plate of fluffy sweet couscous with dates and raisins."
+    },
+    "translations": {
+      "fr": {
+        "name": "Mesfouf aux raisins secs"
+      },
+      "ar": {
+        "name": "مسفوف بالزبيب"
+      }
+    }
+  },
+  {
+    "id": "algerian-assida",
+    "name": "Assida (Spiced Semolina Porridge with Butter and Honey)",
+    "description": "A smooth hot porridge of flour or semolina, shaped into a mound with a well of melted butter and honey, a Mawlid and winter favourite.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dessert",
+      "breakfast"
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "porridge",
+      "semolina",
+      "traditional",
+      "mawlid",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "flour",
+        "note": "or fine semolina"
+      },
+      {
+        "group": null,
+        "quantity": 750.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Toast the flour in a dry pot for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add boiling salted water and stir vigorously for 10 minutes until smooth and thick.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Shape into a mound in a dish, make a well, and fill with melted butter and honey.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Assida (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tunisian_Assida_2018_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tunisian_Assida_2018_2.jpg",
+      "author": "MedaliKaouaja",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white semolina porridge ring with a well in the centre."
+    },
+    "translations": {
+      "fr": {
+        "name": "Assida"
+      },
+      "ar": {
+        "name": "عصيدة"
+      }
+    }
+  }
+]

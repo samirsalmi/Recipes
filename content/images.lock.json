@@ -1,0 +1,1122 @@
+{
+  "afghan-kabuli-pulao": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kabuli_Pulao.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569665/recipes/afghan-kabuli-pulao.avif"
+  },
+  "algerian-adas-marqa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lentil_soup_in_a_bowl.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620586/recipes/algerian-adas-marqa.avif"
+  },
+  "algerian-aghroum": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aghroum_Akouren.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619903/recipes/algerian-aghroum.avif"
+  },
+  "algerian-assida": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tunisian_Assida_2018_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620308/recipes/algerian-assida.avif"
+  },
+  "algerian-baghrir": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Beghrir_%28Homemade%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526011/recipes/algerian-baghrir.avif"
+  },
+  "algerian-batata-fourn": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Roasted_potatoes_in_bowl.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620389/recipes/algerian-batata-fourn.avif"
+  },
+  "algerian-batata-mahchiya": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stuffed_Potatoes_Curry_-_Kolkata_2011-04-15_2313.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620565/recipes/algerian-batata-mahchiya.avif"
+  },
+  "algerian-batata-marqa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Beef_stew_with_potatoes%2C_carrots%2C_celery%2C_and_peas_-_Massachusetts.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620572/recipes/algerian-batata-marqa.avif"
+  },
+  "algerian-batata-mqliya": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/French_fries_%F0%9F%8D%9F.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620383/recipes/algerian-batata-mqliya.avif"
+  },
+  "algerian-bayd-bil-tomatich": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Shakshuka_%2828310896066%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620315/recipes/algerian-bayd-bil-tomatich.avif"
+  },
+  "algerian-berkoukes": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Berkoukes.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525814/recipes/algerian-berkoukes.avif"
+  },
+  "algerian-bniwen": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bniwen_g%C3%A2teau_alg%C3%A9rien_sans_cuisson_forme_classique_boule.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620070/recipes/algerian-bniwen.avif"
+  },
+  "algerian-bourek": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Bourekalgerien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525970/recipes/algerian-bourek.avif"
+  },
+  "algerian-bourek-annabi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bourek_annabi.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571590/recipes/algerian-bourek-annabi.avif"
+  },
+  "algerian-bouzelouf": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bouzelouf.png",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569085/recipes/algerian-bouzelouf.avif"
+  },
+  "algerian-brochettes-agneau": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aid_el_adha.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569256/recipes/algerian-brochettes-agneau.avif"
+  },
+  "algerian-calamar-mqli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fried_Calamari_Rings.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620488/recipes/algerian-calamar-mqli.avif"
+  },
+  "algerian-chakchouka": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Shakshuka_Dish.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569302/recipes/algerian-chakchouka.avif"
+  },
+  "algerian-chakhchoukha": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lyon_7e_-_Restaurant_Air_du_Pays_-_Chakhchoukha_Biskra_Agneau.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525992/recipes/algerian-chakhchoukha.avif"
+  },
+  "algerian-chapati": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Chapati-1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619896/recipes/algerian-chapati.avif"
+  },
+  "algerian-chbah-essafra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Chbah_Essafra_%2Cplat_constantionois.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571584/recipes/algerian-chbah-essafra.avif"
+  },
+  "algerian-chorba-adas": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620740/recipes/algerian-chorba-adas.avif"
+  },
+  "algerian-chorba-beida": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Tavuklu_%C5%9Fehriye.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792653556/recipes/algerian-chorba-beida.avif"
+  },
+  "algerian-chorba-djaj": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chorba.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569321/recipes/algerian-chorba-djaj.avif"
+  },
+  "algerian-chorba-frik": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chorba_frik_algerienne.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525981/recipes/algerian-chorba-frik.avif"
+  },
+  "algerian-chorba-hamra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chorba_frik_de_T%C3%A9bessa.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620735/recipes/algerian-chorba-hamra.avif"
+  },
+  "algerian-chorba-khodra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Simple_vegetable_soup_2009.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620747/recipes/algerian-chorba-khodra.avif"
+  },
+  "algerian-chtitha-batata": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Dersa_sauce_with_potatoes.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619854/recipes/algerian-chtitha-batata.avif"
+  },
+  "algerian-chtitha-djaj": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Chtitha1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525888/recipes/algerian-chtitha-djaj.avif"
+  },
+  "algerian-chtitha-sardine": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/08769jfCuisine_Foods_Fruits_Philippines_Baliuag_Bulacanfvf_35.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620580/recipes/algerian-chtitha-sardine.avif"
+  },
+  "algerian-couscous": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526157/recipes/algerian-couscous.avif"
+  },
+  "algerian-couscous-djaj": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Couscous_avec_l%C3%A9gumes.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569137/recipes/algerian-couscous-djaj.avif"
+  },
+  "algerian-couscous-foul-lben": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Liat_Portal_for_Foodie_Disorder_-_Algerian_dairy_couscous_with_fava_beans_and_turnip.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569142/recipes/algerian-couscous-foul-lben.avif"
+  },
+  "algerian-couscous-kabyle-boeuf": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Algerian_couscous_from_Kabylia.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571725/recipes/algerian-couscous-kabyle-boeuf.avif"
+  },
+  "algerian-couscous-kefta": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Algerian_Couscous_from_Biskra.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569131/recipes/algerian-couscous-kefta.avif"
+  },
+  "algerian-couscous-khodra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Couscousalgerienvegetarien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569127/recipes/algerian-couscous-khodra.avif"
+  },
+  "algerian-couscous-lham-courge": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/COUSCOUSSE_-_LAGHOUAT.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569184/recipes/algerian-couscous-lham-courge.avif"
+  },
+  "algerian-couscous-merga-beida": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/COUSCOUS3.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620506/recipes/algerian-couscous-merga-beida.avif"
+  },
+  "algerian-couscous-merga-hamra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Couscous_2018.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620500/recipes/algerian-couscous-merga-hamra.avif"
+  },
+  "algerian-dar-aami": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/D%27ar_3ami_plat_alg%C3%A9rien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571654/recipes/algerian-dar-aami.avif"
+  },
+  "algerian-djaj-mechwi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Max%27s_Roasted_Chicken_-_Evan_Swigart.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620370/recipes/algerian-djaj-mechwi.avif"
+  },
+  "algerian-dolma": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dolma_felfel_ou_karaa.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569341/recipes/algerian-dolma.avif"
+  },
+  "algerian-doubara": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dobara.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569015/recipes/algerian-doubara.avif"
+  },
+  "algerian-doubara-foul": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Broad_Bean_Dish_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620754/recipes/algerian-doubara-foul.avif"
+  },
+  "algerian-dziriette": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dziriettes.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620061/recipes/algerian-dziriette.avif"
+  },
+  "algerian-escalope-pane": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Classic_chicken_schnitzel_-_Schnitzel_%26_Co._2026-05-16.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620377/recipes/algerian-escalope-pane.avif"
+  },
+  "algerian-fatira-mahchiya": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fatayer.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619950/recipes/algerian-fatira-mahchiya.avif"
+  },
+  "algerian-flan-caramel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Homemade_Flan.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620080/recipes/algerian-flan-caramel.avif"
+  },
+  "algerian-foul-zit": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Foul_mdammis%2C_Tunisie%2C_30_mars_2017.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620683/recipes/algerian-foul-zit.avif"
+  },
+  "algerian-frites-omelette": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plat_frites-omelette.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571649/recipes/algerian-frites-omelette.avif"
+  },
+  "algerian-frittata-batata": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Frittata_di_patate.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620329/recipes/algerian-frittata-batata.avif"
+  },
+  "algerian-gambri-mchahar": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620451/recipes/algerian-gambri-mchahar.avif"
+  },
+  "algerian-ghribia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ghribia_alg%C3%A9rienne.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620025/recipes/algerian-ghribia.avif"
+  },
+  "algerian-gratin-batata": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Potato_gratin_on_stove.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620556/recipes/algerian-gratin-batata.avif"
+  },
+  "algerian-gratin-khodra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Gratin_courge_butternut_1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620364/recipes/algerian-gratin-khodra.avif"
+  },
+  "algerian-gratin-macaroni": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Macaronigratin.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620549/recipes/algerian-gratin-macaroni.avif"
+  },
+  "algerian-griwech": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Griouech_tress%C3%A9e_%28griwesh%2C_griw%C3%A8che%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620021/recipes/algerian-griwech.avif"
+  },
+  "algerian-harcha": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Harcha_Mbesses_galette_de_semoule_alg%C3%A9rienne.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619964/recipes/algerian-harcha.avif"
+  },
+  "algerian-hmiss": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Hmisalgerien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569190/recipes/algerian-hmiss.avif"
+  },
+  "algerian-hout-marqa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fish_tomato_stew.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620439/recipes/algerian-hout-marqa.avif"
+  },
+  "algerian-hout-mechwi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Grilled_fish.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620433/recipes/algerian-hout-mechwi.avif"
+  },
+  "algerian-hout-mqli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fish_fry_%2890626%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620426/recipes/algerian-hout-mqli.avif"
+  },
+  "algerian-hrira": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Harira_d%27aflou.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569267/recipes/algerian-hrira.avif"
+  },
+  "algerian-jazar-kamoun": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cumin_carrot_salad_%2810600999603%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620691/recipes/algerian-jazar-kamoun.avif"
+  },
+  "algerian-jazar-mcharmel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/22-05-2017_Marinated_carrots..jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620665/recipes/algerian-jazar-mcharmel.avif"
+  },
+  "algerian-jelbana-djaj": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Liat_Portal_for_Foodie_Disorder_-_Majadra_Style_Peas_with_Carrots_and_Chicken.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620599/recipes/algerian-jelbana-djaj.avif"
+  },
+  "algerian-jelbana-lham": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Market_Jelbana.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620593/recipes/algerian-jelbana-lham.avif"
+  },
+  "algerian-kalb-el-louz": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Makrout_Qalb_Elouz_Alg%C3%A9rien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620012/recipes/algerian-kalb-el-louz.avif"
+  },
+  "algerian-kamounia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/%D9%83%D9%85%D9%88%D9%86%D9%8A%D8%A9.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571644/recipes/algerian-kamounia.avif"
+  },
+  "algerian-karantika": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Karantika_Algerian.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525901/recipes/algerian-karantika.avif"
+  },
+  "algerian-kebda-mchermla": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/%D8%B7%D8%A8%D9%82_%D9%83%D8%A8%D8%AF%D8%A9_%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D9%86%D8%A7%D8%B1_02.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619870/recipes/algerian-kebda-mchermla.avif"
+  },
+  "algerian-kefta-matisha": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tajin_echwa.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619859/recipes/algerian-kefta-matisha.avif"
+  },
+  "algerian-kesra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kesra_alg%C3%A9rienne_%28pain_maghr%C3%A9bin%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526019/recipes/algerian-kesra.avif"
+  },
+  "algerian-khfaf": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Khfaf_de_Kabylie.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619959/recipes/algerian-khfaf.avif"
+  },
+  "algerian-khobz-chaair": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pwin_oidje.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619910/recipes/algerian-khobz-chaair.avif"
+  },
+  "algerian-khobz-dar": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Khobz.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619882/recipes/algerian-khobz-dar.avif"
+  },
+  "algerian-khodra-matboukha": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Steamed_vegetables_in_the_breakfast_buffet_%2843887013644%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620698/recipes/algerian-khodra-matboukha.avif"
+  },
+  "algerian-kriyat-sardine": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Boulettes_de_sardines.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620446/recipes/algerian-kriyat-sardine.avif"
+  },
+  "algerian-lben": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lben_1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620008/recipes/algerian-lben.avif"
+  },
+  "algerian-lham-lahlou": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Lham_lahlou_algerien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569027/recipes/algerian-lham-lahlou.avif"
+  },
+  "algerian-loubia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%D9%85%D8%B1%D9%82%D8%A9_%D9%84%D9%88%D8%A8%D9%8A%D8%A7.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525809/recipes/algerian-loubia.avif"
+  },
+  "algerian-loubia-khadra-marqa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Green_bean_dish_from_Turkey.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620606/recipes/algerian-loubia-khadra-marqa.avif"
+  },
+  "algerian-maakouda": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Maakouda.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569090/recipes/algerian-maakouda.avif"
+  },
+  "algerian-mahjouba": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D8%A7%D9%84%D9%85%D8%AD%D8%AC%D9%88%D8%A8%D9%87_%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D8%B1%D9%8A%D9%87.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619893/recipes/algerian-mahjouba.avif"
+  },
+  "algerian-makroud": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Makroud-dz.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525965/recipes/algerian-makroud.avif"
+  },
+  "algerian-matlou": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Matlou3.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619888/recipes/algerian-matlou.avif"
+  },
+  "algerian-matlou-mahchi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kesra_farcie.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620172/recipes/algerian-matlou-mahchi.avif"
+  },
+  "algerian-mderbel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Barania_souris_agneau_1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619865/recipes/algerian-mderbel.avif"
+  },
+  "algerian-mechoui": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mechoui_sur_le_feu_du_bois_%C3%A0_Aflou.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569207/recipes/algerian-mechoui.avif"
+  },
+  "algerian-merguez": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Algerian_Merguez.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569201/recipes/algerian-merguez.avif"
+  },
+  "algerian-mesfouf-peas": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Mesfoufalgerien3.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569149/recipes/algerian-mesfouf-peas.avif"
+  },
+  "algerian-mesfouf-zbib": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Algerian_Masfouf.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620287/recipes/algerian-mesfouf-zbib.avif"
+  },
+  "algerian-mhadjeb": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mhajeb1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526003/recipes/algerian-mhadjeb.avif"
+  },
+  "algerian-mloukhia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Plat_alg%C3%A9rien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569080/recipes/algerian-mloukhia.avif"
+  },
+  "algerian-msemen": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Msemmen_%28_r%C3%A9alis%C3%A9es_par_Hadni_S_%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525948/recipes/algerian-msemen.avif"
+  },
+  "algerian-mtabga": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Mtabga.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571553/recipes/algerian-mtabga.avif"
+  },
+  "algerian-mtewem": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mtewemalgerois.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525822/recipes/algerian-mtewem.avif"
+  },
+  "algerian-omelette-batata-bsal": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Omelete%2C_Omelette..jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620323/recipes/algerian-omelette-batata-bsal.avif"
+  },
+  "algerian-paella-oranaise": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Oran_-_Paella.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569309/recipes/algerian-paella-oranaise.avif"
+  },
+  "algerian-pizza-carree": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Algian_Pizza_%28caret%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620819/recipes/algerian-pizza-carree.avif"
+  },
+  "algerian-pizza-maison": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pizza_au_thon%2C_Tunisie_4_mai_2017.jpeg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792653563/recipes/algerian-pizza-maison.avif"
+  },
+  "algerian-poulet-amandes": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Poulet_aux_amandes.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571596/recipes/algerian-poulet-amandes.avif"
+  },
+  "algerian-quiche-salee": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/54._Quiche_lorraine.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620357/recipes/algerian-quiche-salee.avif"
+  },
+  "algerian-raib": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/A_cup_of_laban_rayeb.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619973/recipes/algerian-raib.avif"
+  },
+  "algerian-rechta": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%D8%A7%D9%84%D8%B1%D8%B4%D8%AA%D8%A9_%D9%85%D9%86_%D8%B4%D8%B1%D9%82_%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525828/recipes/algerian-rechta.avif"
+  },
+  "algerian-riz-hlib": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rice_pudding_cinnamon.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620274/recipes/algerian-riz-hlib.avif"
+  },
+  "algerian-riz-khodra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vegetable_rice_image.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620526/recipes/algerian-riz-khodra.avif"
+  },
+  "algerian-sandwich-chawarma": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sandwich_shawarma.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620791/recipes/algerian-sandwich-chawarma.avif"
+  },
+  "algerian-sandwich-escalope": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sandwich_escalope_1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620784/recipes/algerian-sandwich-escalope.avif"
+  },
+  "algerian-sandwich-frites": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sandwich_frites-omelette.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620810/recipes/algerian-sandwich-frites.avif"
+  },
+  "algerian-sandwich-kebab": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kebab_baguette_from_the_microwave_oven.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620797/recipes/algerian-sandwich-kebab.avif"
+  },
+  "algerian-sandwich-merguez": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pain_complet%2C_merguez%2C_concombres%2C_carottes%2C_tomates_fra%C3%AEches%2C_huile_d%27olive.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620803/recipes/algerian-sandwich-merguez.avif"
+  },
+  "algerian-sandwich-omelette": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Entrepanet_de_truita_de_cre%C3%AFlla.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620773/recipes/algerian-sandwich-omelette.avif"
+  },
+  "algerian-sandwich-thon": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tuna_sandwich.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620766/recipes/algerian-sandwich-thon.avif"
+  },
+  "algerian-sardine-fourn": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sardele_tav%C3%AB.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620418/recipes/algerian-sardine-fourn.avif"
+  },
+  "algerian-sardine-mcharmel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Marinated_sardine.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620411/recipes/algerian-sardine-mcharmel.avif"
+  },
+  "algerian-sardine-mechwi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Grilled_sardines.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620403/recipes/algerian-sardine-mechwi.avif"
+  },
+  "algerian-sardine-mqliya": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sardines_fry_%2824948218940%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620397/recipes/algerian-sardine-mqliya.avif"
+  },
+  "algerian-sardines-chermoula": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Plats_Algeriens_%283%29_Sardines.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569315/recipes/algerian-sardines-chermoula.avif"
+  },
+  "algerian-sfenj": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Sfendj_algerie.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619955/recipes/algerian-sfenj.avif"
+  },
+  "algerian-slata-batata": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Warm_kipfler_potato_salad.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620639/recipes/algerian-slata-batata.avif"
+  },
+  "algerian-slata-chamandar": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beetroot_salad_%285938226398%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620645/recipes/algerian-slata-chamandar.avif"
+  },
+  "algerian-slata-fawakeh": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Salade_de_fruits_alg%C3%A9rienne.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620281/recipes/algerian-slata-fawakeh.avif"
+  },
+  "algerian-slata-felfel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Salade_grill%C3%A9e_%28slata_mechwya%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620613/recipes/algerian-slata-felfel.avif"
+  },
+  "algerian-slata-jazar": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/French_grated_carrot_salad.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620653/recipes/algerian-slata-jazar.avif"
+  },
+  "algerian-slata-khadra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Salad_%284%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620677/recipes/algerian-slata-khadra.avif"
+  },
+  "algerian-slata-khyar": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cucumber_Salad_%2830974695127%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620633/recipes/algerian-slata-khyar.avif"
+  },
+  "algerian-slata-mechakla": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%D8%B3%D9%84%D8%B7%D8%A9_%D9%85%D8%AA%D9%86%D9%88%D8%B9%D8%A9.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620336/recipes/algerian-slata-mechakla.avif"
+  },
+  "algerian-slata-mechouia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Salade_Mechouia.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569195/recipes/algerian-slata-mechouia.avif"
+  },
+  "algerian-slata-riz": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rice_salad_01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620671/recipes/algerian-slata-riz.avif"
+  },
+  "algerian-slata-thon": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Tuna_salad%2C_Milicz.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620342/recipes/algerian-slata-thon.avif"
+  },
+  "algerian-slata-tomatich": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tomato_salad_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620626/recipes/algerian-slata-tomatich.avif"
+  },
+  "algerian-spaghetti-kefta": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spaghetti_and_meatballs_1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620511/recipes/algerian-spaghetti-kefta.avif"
+  },
+  "algerian-spaghetti-sardines": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sardines_and_green_olives_on_bucatini%2C_with_lemon_essence%2C_oil%2C_and_black_pepper_-_Massachusetts.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620520/recipes/algerian-spaghetti-sardines.avif"
+  },
+  "algerian-tacos-halal": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tacos_fran%C3%A7ais.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620825/recipes/algerian-tacos-halal.avif"
+  },
+  "algerian-taguella": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Pain_%28taguella%29_%C3%A0_El_Ghessour%2C_Alg%C3%A9rie%2C_19_novembre_2009.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571558/recipes/algerian-taguella.avif"
+  },
+  "algerian-tajine-khodra": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D8%B7%D8%A7%D8%AC%D9%8A%D9%86_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569262/recipes/algerian-tajine-khodra.avif"
+  },
+  "algerian-tajine-zitoune": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Tajine-zitoune-dzairi.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525860/recipes/algerian-tajine-zitoune.avif"
+  },
+  "algerian-tamina": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Tamina_Sun_shape.png",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620075/recipes/algerian-tamina.avif"
+  },
+  "algerian-tcharek": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tcharek_el_ariane_d%27Alger.png",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620066/recipes/algerian-tcharek.avif"
+  },
+  "algerian-tchicha": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tchicha.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620760/recipes/algerian-tchicha.avif"
+  },
+  "algerian-thon-tomatich": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/12-atun-encebollado1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620494/recipes/algerian-thon-tomatich.avif"
+  },
+  "algerian-tikourbabine": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Taasbante.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571563/recipes/algerian-tikourbabine.avif"
+  },
+  "algerian-tlitli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tl%C3%A9tl%C3%A9_with_vegetables.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569039/recipes/algerian-tlitli.avif"
+  },
+  "algerian-trida": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Trida-Algerienne.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569033/recipes/algerian-trida.avif"
+  },
+  "algerian-yahni": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Yahni_alg%C3%A9rien.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571603/recipes/algerian-yahni.avif"
+  },
+  "algerian-yaourt-maison": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Homemade_yogurt_maker_-_01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792619969/recipes/algerian-yaourt-maison.avif"
+  },
+  "algerian-zaalouk": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Zaalouk-01.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620619/recipes/algerian-zaalouk.avif"
+  },
+  "algerian-zlabia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Zlabia_alg%C3%A9rienne.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792620017/recipes/algerian-zlabia.avif"
+  },
+  "algerian-zviti": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Zviti.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571547/recipes/algerian-zviti.avif"
+  },
+  "american-apple-pie": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apple_pie_24.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523395/recipes/american-apple-pie.avif"
+  },
+  "american-buttermilk-pancakes": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pancake_stack_with_honey.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523322/recipes/american-buttermilk-pancakes.avif"
+  },
+  "american-southern-buttermilk-cornbread": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CornbreadSkillet.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523344/recipes/american-southern-buttermilk-cornbread.avif"
+  },
+  "american-southern-chicken-okra-gumbo": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gumbo_-_2377364339.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523366/recipes/american-southern-chicken-okra-gumbo.avif"
+  },
+  "argentine-chimichurri": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Steak_with_Chimichurri_Sauce_%2813316528445%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523418/recipes/argentine-chimichurri.avif"
+  },
+  "argentine-empanadas-de-carne": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Empanadas_de_carne_argentina_al_horno.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523440/recipes/argentine-empanadas-de-carne.avif"
+  },
+  "armenian-tolma": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Armenian_Dolma_with_grape_leaves.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525777/recipes/armenian-tolma.avif"
+  },
+  "austrian-kaiserschmarrn": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hofzuckerb%C3%A4cker_Demel_Kaiserschmarrn_3.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525072/recipes/austrian-kaiserschmarrn.avif"
+  },
+  "bangladeshi-khichuri": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Khichuri%2C_a_bangali_dish.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525226/recipes/bangladeshi-khichuri.avif"
+  },
+  "brazilian-brigadeiro": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Brigadeiro.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523254/recipes/brazilian-brigadeiro.avif"
+  },
+  "brazilian-feijao-tropeiro": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Feij%C3%A3o_Tropeiro.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524733/recipes/brazilian-feijao-tropeiro.avif"
+  },
+  "brazilian-pao-de-queijo": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/P%C3%A3o_de_queijo_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523233/recipes/brazilian-pao-de-queijo.avif"
+  },
+  "caribbean-cuban-black-beans-and-rice": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Frijoles_Negros%2C_26_Nov_2020.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523299/recipes/caribbean-cuban-black-beans-and-rice.avif"
+  },
+  "caribbean-jamaican-rice-and-peas": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Rice_and_Peas.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523277/recipes/caribbean-jamaican-rice-and-peas.avif"
+  },
+  "chilean-empanadas-de-pino": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Empanada_de_pino.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525154/recipes/chilean-empanadas-de-pino.avif"
+  },
+  "chinese-congee": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Rice_Porridge_in_Texas.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526245/recipes/chinese-congee.avif"
+  },
+  "chinese-egg-flower-soup": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Egg_drop_soup_%28cropped%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526255/recipes/chinese-egg-flower-soup.avif"
+  },
+  "chinese-mapo-tofu": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chen_Mapo_Tofu.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526235/recipes/chinese-mapo-tofu.avif"
+  },
+  "chinese-potstickers": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pot_stickers_-_Massachusetts.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526265/recipes/chinese-potstickers.avif"
+  },
+  "danish-frikadeller": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frikadeller_med_kartofler%2C_brun_sovs_og_salat_%288927180853%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525029/recipes/danish-frikadeller.avif"
+  },
+  "dutch-erwtensoep": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Erwtensoep_roggebrood_katenspek.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525222/recipes/dutch-erwtensoep.avif"
+  },
+  "east-african-mandazi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mandazis.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526493/recipes/east-african-mandazi.avif"
+  },
+  "east-african-sukuma-wiki": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Posho_%28Ugali%29%2C_Sukuma_wiki_%2B_kale.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526480/recipes/east-african-sukuma-wiki.avif"
+  },
+  "eastern-european-cheese-blintzes": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Blintzes_in_frying_pan.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525021/recipes/eastern-european-cheese-blintzes.avif"
+  },
+  "egyptian-basbousa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/%D8%A8%D8%B3%D8%A8%D9%88%D8%B3%D8%A9.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526061/recipes/egyptian-basbousa.avif"
+  },
+  "egyptian-ful-medames": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ful_Medames.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526053/recipes/egyptian-ful-medames.avif"
+  },
+  "egyptian-koshari": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Egyptian_food_Koshary.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526046/recipes/egyptian-koshari.avif"
+  },
+  "egyptian-mahalabiya": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mhallabiyyeh_%28Arabic_milk_pudding%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526070/recipes/egyptian-mahalabiya.avif"
+  },
+  "egyptian-molokhia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Molokheya_Egypt%2C_2012.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569709/recipes/egyptian-molokhia.avif"
+  },
+  "ethiopian-injera": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Injera_from_ivory_teff.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526438/recipes/ethiopian-injera.avif"
+  },
+  "ethiopian-yetsom-beyaynetu": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Veggie_combo_at_Fassil_Restaurant.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526449/recipes/ethiopian-yetsom-beyaynetu.avif"
+  },
+  "filipino-champorado": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Champorado_with_tuyo_and_milk.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526406/recipes/filipino-champorado.avif"
+  },
+  "filipino-chicken-adobo": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chicken_Adobo_over_rice.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526393/recipes/filipino-chicken-adobo.avif"
+  },
+  "finnish-karelian-pasties": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Karjalanpiirakka-20060227.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525024/recipes/finnish-karelian-pasties.avif"
+  },
+  "french-omelette-fines-herbes": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Omelette_with_bread_and_parsley_01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524874/recipes/french-omelette-fines-herbes.avif"
+  },
+  "french-onion-soup": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mmm...onion_soup_%285344349906%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524870/recipes/french-onion-soup.avif"
+  },
+  "french-tarte-tatin": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Franse_tarte_tatin.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524879/recipes/french-tarte-tatin.avif"
+  },
+  "french-teurgoule": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Teurgoule_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523971/recipes/french-teurgoule.avif"
+  },
+  "georgian-khachapuri-adjaruli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adjarian_Khachapuri.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525056/recipes/georgian-khachapuri-adjaruli.avif"
+  },
+  "ghanaian-waakye": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Waakye_with_kelewele%2C_spaghetti%2C_salad%2C_stew_and_shito.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524585/recipes/ghanaian-waakye.avif"
+  },
+  "greek-moussaka": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Moussaka_12.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524929/recipes/greek-moussaka.avif"
+  },
+  "greek-spanakopita": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Spanikopita_Greek_dish.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524921/recipes/greek-spanakopita.avif"
+  },
+  "hungarian-goulash": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guly%C3%A1sleves_%C3%A9s_limon%C3%A1d%C3%A9.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524988/recipes/hungarian-goulash.avif"
+  },
+  "hungarian-rakott-krumpli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Rakott_krumpli_2.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524739/recipes/hungarian-rakott-krumpli.avif"
+  },
+  "indian-chana-masala": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chana_masala.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526182/recipes/indian-chana-masala.avif"
+  },
+  "indian-kheer": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kheer_Special.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524799/recipes/indian-kheer.avif"
+  },
+  "indian-khichdi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Khichdi_%28Khichrri%29.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526199/recipes/indian-khichdi.avif"
+  },
+  "indian-rajma": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Rajma_Red_Kidney_Bean_dish_India.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523939/recipes/indian-rajma.avif"
+  },
+  "indian-tadka-dal": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dal_Tadka-Delhi.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526191/recipes/indian-tadka-dal.avif"
+  },
+  "indian-upma": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Vegetable_Upma.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526209/recipes/indian-upma.avif"
+  },
+  "indonesian-gado-gado": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gado-gado_001.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526428/recipes/indonesian-gado-gado.avif"
+  },
+  "indonesian-nasi-goreng": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Nasi_Goreng_Kampung.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526415/recipes/indonesian-nasi-goreng.avif"
+  },
+  "irish-stew": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Irish_Stew_%2810320713316%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524957/recipes/irish-stew.avif"
+  },
+  "italian-pasta-e-fagioli": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Pasta_e_fagioli_cannellini.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523907/recipes/italian-pasta-e-fagioli.avif"
+  },
+  "italian-risotto-milanese": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Risotto_allo_zafferano_%285515768228%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523463/recipes/italian-risotto-milanese.avif"
+  },
+  "italian-spaghetti-pomodoro": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Spaghetti_al_Pomodoro.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523484/recipes/italian-spaghetti-pomodoro.avif"
+  },
+  "italian-zabaione": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Marsala_sabayon_with_cookie_and_local_stone_fruit.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524839/recipes/italian-zabaione.avif"
+  },
+  "japanese-daifuku": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Daifuku_001.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526292/recipes/japanese-daifuku.avif"
+  },
+  "japanese-miso-soup": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Miso_Soup_001.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526273/recipes/japanese-miso-soup.avif"
+  },
+  "japanese-okonomiyaki": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Okonomiyaki_001.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524581/recipes/japanese-okonomiyaki.avif"
+  },
+  "japanese-onigiri": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Onigiri_002.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526282/recipes/japanese-onigiri.avif"
+  },
+  "jordanian-lamb-mansaf": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571716/recipes/jordanian-lamb-mansaf.avif"
+  },
+  "korean-bibimbap": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bibimbap_6.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526302/recipes/korean-bibimbap.avif"
+  },
+  "korean-bulgogi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bulgogi_%28Marinated_beef._Served_with_rice%29_-_Kogi_2023-09-11.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526330/recipes/korean-bulgogi.avif"
+  },
+  "korean-gimbap": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gimbap_%28pixabay%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526316/recipes/korean-gimbap.avif"
+  },
+  "lebanese-kibbeh": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Kibbeh3.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569519/recipes/lebanese-kibbeh.avif"
+  },
+  "lebanese-mujaddara": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mujaddara.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523875/recipes/lebanese-mujaddara.avif"
+  },
+  "lebanese-tabbouleh": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flickr_-_cyclonebill_-_Tabbouleh.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526077/recipes/lebanese-tabbouleh.avif"
+  },
+  "levantine-baba-ganoush": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Baba_ghanoush_%28hummus_de_berenjena%29_%285951645998%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526088/recipes/levantine-baba-ganoush.avif"
+  },
+  "libyan-bazin": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bazin.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571659/recipes/libyan-bazin.avif"
+  },
+  "libyan-mafrum": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%D7%9E%D7%A4%D7%A8%D7%95%D7%9D_%D7%91%D7%99%D7%AA%D7%99_%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571664/recipes/libyan-mafrum.avif"
+  },
+  "malaysian-nasi-lemak": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Nasi_lemak_on_banana_leaf.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525079/recipes/malaysian-nasi-lemak.avif"
+  },
+  "mexican-chilaquiles": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chilaquiles_caseros.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480183/recipes/mexican-chilaquiles.avif"
+  },
+  "mexican-frijoles-refritos": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Frijoles_refritos.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524037/recipes/mexican-frijoles-refritos.avif"
+  },
+  "mexican-guacamole": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Guacomole.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480947/recipes/mexican-guacamole.avif"
+  },
+  "mexican-huevos-rancheros": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Huevos_rancheros.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480185/recipes/mexican-huevos-rancheros.avif"
+  },
+  "mexican-tres-leches-cake": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Pastel_de_Tres_Leches.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480952/recipes/mexican-tres-leches-cake.avif"
+  },
+  "moroccan-bissara": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Bissara_Moroccan_split_pea_and_fava_bean_soup.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525937/recipes/moroccan-bissara.avif"
+  },
+  "moroccan-chicken-tagine": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Moroccan_food-Chicken_tagine_with_preserved_lemons_and_olives-01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526175/recipes/moroccan-chicken-tagine.avif"
+  },
+  "moroccan-harira": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/%D8%AD%D8%B1%D9%8A%D8%B1%D8%A9.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526165/recipes/moroccan-harira.avif"
+  },
+  "moroccan-mofletta": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mufletta.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526028/recipes/moroccan-mofletta.avif"
+  },
+  "moroccan-mrouzia": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Moroccan_cuisine-Mrouzia_beef_short_ribs.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569332/recipes/moroccan-mrouzia.avif"
+  },
+  "moroccan-rfissa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Refissa.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569326/recipes/moroccan-rfissa.avif"
+  },
+  "nepali-dal-bhat": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dal_Bhat_Tarkari.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525144/recipes/nepali-dal-bhat.avif"
+  },
+  "nigerian-ewa-agoyin": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ewa_agoyin.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524769/recipes/nigerian-ewa-agoyin.avif"
+  },
+  "pakistani-beef-nihari": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Beef_Nihari.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569653/recipes/pakistani-beef-nihari.avif"
+  },
+  "pakistani-chicken-karahi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chicken_Karahi.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569641/recipes/pakistani-chicken-karahi.avif"
+  },
+  "palestinian-maqluba": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Makluba.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569631/recipes/palestinian-maqluba.avif"
+  },
+  "palestinian-musakhan": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mushakhan_Dish.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571669/recipes/palestinian-musakhan.avif"
+  },
+  "persian-ghormeh-sabzi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cuisine_of_Iran_%D8%A2%D8%B4%D9%BE%D8%B2%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C_25-%D9%82%D8%B1%D9%85%D9%87_%D8%B3%D8%A8%D8%B2%DB%8C.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526143/recipes/persian-ghormeh-sabzi.avif"
+  },
+  "persian-tahdig": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Tahdig_mit_Safran.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526128/recipes/persian-tahdig.avif"
+  },
+  "peruvian-ceviche": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ceviche_Peruano.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480961/recipes/peruvian-ceviche.avif"
+  },
+  "peruvian-papa-a-la-huancaina": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792480956/recipes/peruvian-papa-a-la-huancaina.avif"
+  },
+  "polish-pierogi-ruskie": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pierogi_ruskie%2C_Pobiedziska.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525060/recipes/polish-pierogi-ruskie.avif"
+  },
+  "polish-racuszki-z-jablkami": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Racuchy_-_2023.09.09.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524004/recipes/polish-racuszki-z-jablkami.avif"
+  },
+  "portuguese-bolo-de-mel": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bolo_de_Mel.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525217/recipes/portuguese-bolo-de-mel.avif"
+  },
+  "puerto-rican-arroz-con-gandules": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Arroz_con_gandules.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524069/recipes/puerto-rican-arroz-con-gandules.avif"
+  },
+  "saudi-kabsa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kabsa.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569460/recipes/saudi-kabsa.avif"
+  },
+  "scottish-shortbread": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shortbread_fingers.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524961/recipes/scottish-shortbread.avif"
+  },
+  "senegalese-poulet-yassa": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Poulet_yassa_01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525105/recipes/senegalese-poulet-yassa.avif"
+  },
+  "south-african-bobotie": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bobotie_South_Africa.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525140/recipes/south-african-bobotie.avif"
+  },
+  "spanish-gazpacho": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gazpacho_Cazuela_Barro.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524917/recipes/spanish-gazpacho.avif"
+  },
+  "spanish-tortilla-espanola": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tortilla_espa%C3%B1ola_con_patatas_y_cebolla.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524884/recipes/spanish-tortilla-espanola.avif"
+  },
+  "srilankan-hoppers": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sri_Kanka_egg_hoppers.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526219/recipes/srilankan-hoppers.avif"
+  },
+  "srilankan-watalappam": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Watalappan-Sri_Lanka.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526230/recipes/srilankan-watalappam.avif"
+  },
+  "swedish-chokladboll": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/02_Chokladbollar.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525768/recipes/swedish-chokladboll.avif"
+  },
+  "swiss-roesti": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/R%C3%B6sti_auf_blauem_Teller.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525066/recipes/swiss-roesti.avif"
+  },
+  "thai-bua-loi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bualoy_kaiwan_-_Thai_food.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526352/recipes/thai-bua-loi.avif"
+  },
+  "thai-khao-phat-mu": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Khao_Phat_Mu.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524809/recipes/thai-khao-phat-mu.avif"
+  },
+  "thai-pad-thai": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pad_thai_mound.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526339/recipes/thai-pad-thai.avif"
+  },
+  "thai-tom-kha-kai": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526344/recipes/thai-tom-kha-kai.avif"
+  },
+  "tunisian-kosksi-bel-hout": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kosksi_bel_Hout.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569621/recipes/tunisian-kosksi-bel-hout.avif"
+  },
+  "tunisian-lablabi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bol_de_Leblabi_de_Tunisie%2C_21_mars_2017.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525925/recipes/tunisian-lablabi.avif"
+  },
+  "tunisian-shakshuka": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Shakshuka_by_Calliopejen1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526032/recipes/tunisian-shakshuka.avif"
+  },
+  "tunisian-tajine-malsouka": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Tajine_malsouka.JPG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569370/recipes/tunisian-tajine-malsouka.avif"
+  },
+  "turkish-adana-kebab": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Adana_kebab.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792569502/recipes/turkish-adana-kebab.avif"
+  },
+  "turkish-baklava": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Baklava_-_Turkish_special%2C_80-ply.JPEG",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526097/recipes/turkish-baklava.avif"
+  },
+  "turkish-gozleme": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Izmir_g%C3%B6zleme.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526116/recipes/turkish-gozleme.avif"
+  },
+  "turkish-menemen": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Menemen_%2849657982813%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526106/recipes/turkish-menemen.avif"
+  },
+  "turkish-mercimek-corbasi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mercimek_%C3%A7orbas%C4%B1.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792523842/recipes/turkish-mercimek-corbasi.avif"
+  },
+  "ukrainian-borscht": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Borscht_with_bread.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525150/recipes/ukrainian-borscht.avif"
+  },
+  "ukrainian-kapusniak": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kapustnjak_017.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792524804/recipes/ukrainian-kapusniak.avif"
+  },
+  "uzbek-lamb-plov": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571711/recipes/uzbek-lamb-plov.avif"
+  },
+  "venezuelan-arepas": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Arepas_venezolanas.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792525076/recipes/venezuelan-arepas.avif"
+  },
+  "vietnamese-com-chien": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/C%C6%A1m_Chi%C3%AAn%2C_Da_Nang%2C_Vietnam.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526383/recipes/vietnamese-com-chien.avif"
+  },
+  "vietnamese-pho-ga": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pho_ga_%28noodle_soup_with_chicken%29%2C_Hanoi_%286945821707%29.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526362/recipes/vietnamese-pho-ga.avif"
+  },
+  "vietnamese-summer-rolls": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vietnamese_summer_rolls_%26_peanut_sauce.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526374/recipes/vietnamese-summer-rolls.avif"
+  },
+  "west-african-jollof-rice": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ghana_Jollof_Rice_with_Chicken.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526459/recipes/west-african-jollof-rice.avif"
+  },
+  "west-african-nkatenkwan": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Banku_and_groundnut_soup_01.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792526473/recipes/west-african-nkatenkwan.avif"
+  },
+  "yemeni-chicken-mandi": {
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Yemeni_food_-_Mandi_-_2011.jpg",
+    "url": "https://res.cloudinary.com/arbbdmpu/image/upload/v1792571706/recipes/yemeni-chicken-mandi.avif"
+  }
+}

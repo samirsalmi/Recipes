@@ -1,0 +1,2462 @@
+[
+  {
+    "id": "italian-risotto-milanese",
+    "name": "Risotto alla Milanese",
+    "description": "Creamy Milanese rice coloured and scented with saffron, finished with butter and Parmesan. A slow, stir-as-you-go classic.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "saffron",
+      "classic",
+      "milan"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": "30 g to start, 20 g to finish"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "medium, thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 320,
+        "unit": "g",
+        "name": "risotto rice",
+        "note": "Carnaroli or Arborio"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "chicken or beef broth",
+        "note": "kept hot; plain hot water also works"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron threads",
+        "note": "a generous pinch, about 15 threads"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "Parmesan",
+        "note": "freshly grated"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the broth to a gentle simmer and keep it hot. Ladle a little into a cup and steep the saffron in it.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Melt 30 g of the butter in a wide, heavy saucepan. Cook the sliced onion until well browned, about 8 minutes, then lift it out and discard it (Gentile removes it from the pan).",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the rice to the buttery pan and stir for 1 to 2 minutes until every grain is coated.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add hot broth a ladle at a time, stirring with a wooden spoon. Each time the rice has absorbed the liquid and looks nearly dry, add another ladle. Stir the saffron liquid in about halfway and season with salt and pepper. Keep going for about 18 minutes, until the rice is tender with a little bite.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "When the rice is almost cooked, add one last ladle of broth (Gentile uses a spoonful of brown meat stock here for depth).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Take the pan off the heat. Stir in the remaining 20 g butter and the Parmesan until creamy. Cover for 1 minute and serve at once on warm plates; it should be loose and flowing, not stiff.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use vegetable broth to make it vegetarian.",
+      "Gentile warns that risotto must not be overcooked or left to cool before eating, so have everyone ready at the table.",
+      "Traditionally served alongside osso buco."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Italian Cook Book",
+      "author": "Maria Gentile",
+      "year": 1919,
+      "url": "https://www.gutenberg.org/ebooks/24407",
+      "license": "Public domain",
+      "adaptation": "Original gives no quantities, times or heat. Quantities, ladle-by-ladle method, timings and resting step added for 4 servings; measures in metric. Broth (not hot water) is the default; saffron amount is a modern estimate."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Risotto_allo_zafferano_%285515768228%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Risotto_allo_zafferano_(5515768228).jpg",
+      "author": "Giorgio Minguzzi",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: white square bowl of creamy saffron-yellow risotto with black pepper flecks and a small green leaf on top, on a wooden table."
+    }
+  },
+  {
+    "id": "italian-spaghetti-pomodoro",
+    "name": "Spaghetti with Tomato Sauce",
+    "description": "Spaghetti dressed with a smooth, sieved sauce of tomato, onion, celery and bay, finished with butter and cheese. On the table in 30 minutes.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "quick",
+      "tomato",
+      "weeknight"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Tomato sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 0.25,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 1,
+        "unit": "piece",
+        "name": "celery",
+        "note": "a 10 cm piece of stalk, finely chopped"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 3,
+        "unit": "sprig",
+        "name": "parsley",
+        "note": "leaves chopped"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": 2,
+        "unit": "can",
+        "name": "canned tomatoes",
+        "note": "400 g each, whole peeled; or about 1 kg ripe fresh tomatoes, cut up"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Tomato sauce",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": "To serve",
+        "quantity": 400,
+        "unit": "g",
+        "name": "spaghetti",
+        "note": null
+      },
+      {
+        "group": "To serve",
+        "quantity": 30,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": "To serve",
+        "quantity": 50,
+        "unit": "g",
+        "name": "Parmesan",
+        "note": "grated, plus more at the table"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the oil, onion, garlic, celery, bay leaves and parsley in a saucepan with the tomatoes. Season with salt and pepper and crush the tomatoes with a spoon.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring to a simmer over medium heat and cook, stirring from time to time, until the juice has thickened to a thin custard-like sauce. This takes about 15 minutes with canned tomatoes (about 25 with fresh).",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Meanwhile, bring a large pot of water to a rolling boil and salt it lightly. Cook the spaghetti until just tender but still holding its shape (check the packet; usually 9 to 11 minutes).",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Remove the bay leaves and pass the sauce through a sieve or food mill into a clean pan, pressing out all the pulp. Reheat gently and taste for salt.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Drain the spaghetti and toss it with the butter and half the Parmesan. Divide among warm plates, spoon the tomato sauce over and serve with the remaining cheese.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Gentile also dresses the pasta with only butter and cheese, the simplest form of 'pasta asciutta'; that is the buttered pasta in step 5 without the sauce.",
+      "Adding the pasta to water that is already boiling, and lifting it out while it still has a little bite, is her main rule."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Italian Cook Book",
+      "author": "Maria Gentile",
+      "year": 1919,
+      "url": "https://www.gutenberg.org/ebooks/24407",
+      "license": "Public domain",
+      "adaptation": "Combines her 'Tomato Sauce' (Salsa di pomidoro) and 'Spaghetti or Macaroni with Butter and Cheese'. Original calls for 7 or 8 tomatoes and 'a few bay leaves'; converted to canned/fresh weight and 2 leaves, added oil and butter amounts, 4 servings, cooking times."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Spaghetti_al_Pomodoro.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_al_Pomodoro.JPG",
+      "author": "Benreis",
+      "license": "CC BY 3.0",
+      "verified": "Seen: plate of spaghetti topped with a mound of red tomato sauce, two curls of butter and a sprig of parsley."
+    }
+  },
+  {
+    "id": "italian-zabaione",
+    "name": "Zabaione (Sabayon)",
+    "description": "A warm, frothy custard of egg yolks, sugar and Marsala whisked over hot water. Ready in about 10 minutes.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 8,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": false
+    },
+    "tags": [
+      "custard",
+      "eggs",
+      "quick",
+      "marsala"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "egg yolks",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "sugar",
+        "note": "granulated"
+      },
+      {
+        "group": null,
+        "quantity": 75,
+        "unit": "ml",
+        "name": "Marsala",
+        "note": "or sherry"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "ground cinnamon",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Half fill a saucepan with water and keep it at a bare simmer. Choose a heatproof bowl that sits over it without touching the water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In the bowl, beat the egg yolks with the sugar until pale, almost white.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the Marsala and the cinnamon.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set the bowl over the hot water and whisk constantly until the sugar has dissolved and the mixture swells into a thick, airy foam, about 6 to 8 minutes. Do not let it overheat or it will scramble.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Pour straight into glasses and serve warm.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with sponge fingers or biscotti for dipping, or spooned over fresh berries.",
+      "Eggs are only gently cooked here; use fresh eggs, and skip it for anyone who should avoid undercooked egg."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Italian Cook Book",
+      "author": "Maria Gentile",
+      "year": 1919,
+      "url": "https://www.gutenberg.org/ebooks/24407",
+      "license": "Public domain",
+      "adaptation": "Original: yolks of three eggs, two ounces sugar, five tablespoonfuls Marsala or sherry, a dash of cinnamon. Converted to 60 g sugar and 75 ml wine. Water-bath details, bowl size and timing added; the original only says to beat in a saucepan set in another of hot water."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Marsala_sabayon_with_cookie_and_local_stone_fruit.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marsala_sabayon_with_cookie_and_local_stone_fruit.jpg",
+      "author": "stu_spivack",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: stemmed glass of pale frothy Marsala sabayon with a powdered-sugar-dusted biscotti leaning on the rim and cinnamon on top."
+    }
+  },
+  {
+    "id": "french-onion-soup",
+    "name": "French Onion Soup",
+    "description": "Onions cooked down to deep gold in butter, simmered in beef broth with white wine, then topped with toasted bread and browned Gruyère. A bistro classic.",
+    "cuisine": "French",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 60,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "cheese",
+      "onions",
+      "bistro"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "plain flour",
+        "note": "15 g"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "ml",
+        "name": "dry white wine",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "beef stock",
+        "note": "chicken or vegetable stock also works"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "piece",
+        "name": "bouquet garni",
+        "note": "bay, thyme and parsley tied in a bundle"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "nutmeg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "slice",
+        "name": "stale baguette",
+        "note": "or fresh bread toasted first"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "Gruyère",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the butter in a large heavy saucepan over medium-low heat. Add the sliced onions with a pinch of salt and cook, stirring often, until they have collapsed and turned a deep golden brown, 30 to 40 minutes. Do not rush this step; it makes the soup.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Sprinkle over the flour and stir for 3 to 4 minutes. Scrape up the brown bits stuck to the bottom of the pan, which add flavour.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Pour in the wine and let it bubble for a couple of minutes, scraping the pan.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the stock and bouquet garni, season with salt, pepper and a little nutmeg and bring to the boil. Simmer gently for 15 to 20 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Heat the grill (broiler) to medium-high. If your bread is fresh, toast it.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Remove the bouquet garni. Ladle the soup into 6 ovenproof bowls set on a tray, press a slice of bread onto the top of each and cover generously with Gruyère.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Grill for 5 to 8 minutes until the cheese has melted and browned in spots. Serve piping hot.",
+        "timerMinutes": 6
+      }
+    ],
+    "tips": [
+      "Water instead of stock works but is less tasty.",
+      "For a more traditional Auvergne version, use lard instead of butter and Saint-Nectaire or Tomme in place of Gruyère.",
+      "The Wikibooks version finishes with 3 tbsp of port or dry fino sherry instead of the wine."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: French Onion Soup",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:French_Onion_Soup",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a Wikibooks recipe whose onions were only 'blonded' (500 g onions for 1.5 l stock). Corrected toward the traditional method after comparing several French and English recipes: about 800 g to 1 kg of onions per 1 to 1.5 l broth, slow caramelisation of 30 to 40 minutes, a splash of white wine, grilled gratin. Quantities and timings are ours; the stock, bouquet garni, bread and Gruyère are as in the source."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mmm...onion_soup_%285344349906%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mmm...onion_soup_(5344349906).jpg",
+      "author": "jeffreyw",
+      "license": "CC BY 2.0",
+      "verified": "Seen: crock of French onion soup with toasted bread rounds under browned bubbling melted cheese, parsley sprigs on the plate."
+    }
+  },
+  {
+    "id": "french-omelette-fines-herbes",
+    "name": "Omelette aux Fines Herbes",
+    "description": "A soft, rolled French omelette scented with parsley, chervil, chives and tarragon. Done in under five minutes.",
+    "cuisine": "French",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 1,
+    "prepTime": 5,
+    "cookTime": 3,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "eggs",
+      "quick",
+      "herbs",
+      "brunch"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "mixed fresh herbs",
+        "note": "parsley, chervil, chives and tarragon leaves in roughly equal parts, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "a little"
+      },
+      {
+        "group": null,
+        "quantity": 15,
+        "unit": "g",
+        "name": "butter",
+        "note": "for the pan"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "g",
+        "name": "butter",
+        "note": "to glaze the finished omelette",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Chop the herbs very finely.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the eggs in a bowl with the salt, pepper and herbs, just until yolks and whites are blended.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the 15 g butter in a 20 cm omelette or non-stick pan until it foams and gives off a nutty smell. This heat is what sets the eggs perfectly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour in the eggs and stir briskly with a fork, drawing the setting edges to the centre, for about 30 to 45 seconds until the eggs are in soft curds with a thin set base.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold or roll the omelette up quickly, tip it onto a warm plate seam-side down and, if you like, draw a small piece of butter across the top for a gloss. Serve immediately.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Escoffier's standard is three eggs and half an ounce of butter per omelette; cook it as soft or as firm as you like.",
+      "Use a pan with sloping sides and keep it just for eggs if possible."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "A Guide to Modern Cookery",
+      "author": "Auguste Escoffier",
+      "year": 1907,
+      "url": "https://www.gutenberg.org/ebooks/71395",
+      "license": "Public domain",
+      "adaptation": "From No. 492 (preparation of omelets) and No. 502 (omelette aux fines herbes). Half an ounce of butter converted to 15 g; one tablespoonful of herbs kept. Pan size and timings added; Escoffier gives none."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Omelette_with_bread_and_parsley_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Omelette_with_bread_and_parsley_01.jpg",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: golden folded herb omelette flecked with parsley on a white plate with a slice of rustic bread and a parsley sprig."
+    }
+  },
+  {
+    "id": "french-tarte-tatin",
+    "name": "Tarte Tatin",
+    "description": "Upside-down caramelised apple tart: apples are cooked in butter and caramel, topped with pastry, baked and turned out to serve.",
+    "cuisine": "French",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 8,
+    "prepTime": 25,
+    "cookTime": 55,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "apples",
+      "caramel",
+      "tart",
+      "baking"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Caramel and apples",
+        "quantity": 150,
+        "unit": "g",
+        "name": "sugar",
+        "note": "white granulated"
+      },
+      {
+        "group": "Caramel and apples",
+        "quantity": 80,
+        "unit": "g",
+        "name": "butter",
+        "note": "preferably European-style, cubed"
+      },
+      {
+        "group": "Caramel and apples",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Caramel and apples",
+        "quantity": 7,
+        "unit": "piece",
+        "name": "apples",
+        "note": "firm baking apples such as Golden Delicious, about 1.2 kg, peeled, cored and halved or quartered"
+      },
+      {
+        "group": "Pastry",
+        "quantity": 250,
+        "unit": "g",
+        "name": "puff pastry",
+        "note": "1 sheet of all-butter puff pastry, or shortcrust"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 200 degrees C (180 fan). Take the pastry out of the fridge so it can soften slightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the sugar, butter and water in a 24 cm oven-safe skillet or tarte Tatin pan over medium-high heat. Cook, without stirring much, until it turns a deep golden-amber caramel.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Arrange the apples tightly in the caramel, rounded side down, packing them in as they shrink while cooking. Cook over medium heat for about 15 minutes, turning down if the caramel darkens too fast, until the apples are softened and the caramel is thick and amber.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Take the pan off the heat and let it cool for 5 to 10 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll the pastry out to a round about 2 cm wider than the pan. Lay it over the apples and tuck the edges down inside the rim. Prick a few steam holes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 25 to 30 minutes until the pastry is puffed and deep golden.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Let it stand for 10 to 15 minutes, then put a serving plate over the pan and invert it in one confident move. Serve warm with cream.",
+        "timerMinutes": 12
+      }
+    ],
+    "tips": [
+      "European-style butter has a higher fat content and gives a better caramel and crust.",
+      "If any apples stick to the pan, lift them off and place them back on the tart.",
+      "Wear oven gloves when inverting; the caramel is very hot."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tarte Tatin",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tarte_Tatin",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a short Wikibooks recipe that bakes raw apples in cooled caramel for 40 minutes under a 1/2-inch sweet dough. Corrected toward the classic method found in several French and English recipes: the apples are first cooked in the caramel on the hob, then covered with thin pastry (puff or shortcrust) and baked at 200 degrees C for 25 to 30 minutes. Amounts of sugar, butter, apples and times are ours; cups and sticks converted to grams."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Franse_tarte_tatin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Franse_tarte_tatin.jpg",
+      "author": "Djenghisz",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: whole caramelised apple tarte Tatin turned out on a white fluted plate, glossy apple halves in a ring, with a pot of cream beside."
+    }
+  },
+  {
+    "id": "spanish-tortilla-espanola",
+    "name": "Tortilla Española",
+    "description": "A thick Spanish omelette of tender oil-poached potatoes and onion set in eggs. Good warm, at room temperature, or in a sandwich.",
+    "cuisine": "Spanish",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "eggs",
+      "potato",
+      "tapas",
+      "brunch"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "waxy, peeled and thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "white or yellow, thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "most of it is drained off afterwards"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Peel the potatoes and slice them about 3 mm thick. Slice the onion and mince the garlic, if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Warm the oil in a 25 cm non-stick frying pan over medium-low heat. Add the potatoes, onion and a good pinch of salt. Cook gently, turning now and then, until the potatoes are tender when pricked but not browned, about 20 minutes. Do not let the oil smoke.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Strain the potatoes and onion over a bowl. Keep about 1 tablespoon of the oil and save the rest for cooking.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the eggs in a large bowl with a little salt. Fold in the warm potatoes and onion and leave for about 10 minutes so the egg soaks in.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Heat the reserved oil in the cleaned pan over medium heat. Pour in the mixture, press it flat and cook for 3 to 5 minutes until the edges are set and the base is golden.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Put a large plate over the pan and flip the tortilla onto it in one move. Slide it back into the pan, tucking the edges in, and cook for another 3 to 4 minutes. For a juicy centre take it off while it is still slightly soft in the middle.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Rest for 5 minutes, then cut into wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Roughly 6 eggs for 600 to 700 g of potatoes gives a tortilla that holds together; add one more egg if the potatoes are very watery.",
+      "Good cold the next day, in a baguette.",
+      "Spaniards argue about onion; many cooks leave it out, others use it as above."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tortilla Española",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tortilla_Española",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a short Wikibooks recipe (6 medium potatoes, 1 onion, 6 eggs, about 90 ml oil, potatoes fried at 200 degrees C and browned, no turn-over step). Corrected toward the usual Spanish method after comparing several recipes: potatoes slowly poached in plentiful olive oil until soft but not browned, drained, mixed with beaten egg, then set in the pan and turned once. Amounts, times and the optional garlic are our estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tortilla_espa%C3%B1ola_con_patatas_y_cebolla.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tortilla_espa%C3%B1ola_con_patatas_y_cebolla.jpg",
+      "author": "Juan Emilio Prades Bel",
+      "license": "CC BY 4.0",
+      "verified": "Seen: whole round Spanish potato omelette, golden-brown with browned flecks, on a plate."
+    }
+  },
+  {
+    "id": "spanish-gazpacho",
+    "name": "Gazpacho",
+    "description": "Andalusian chilled soup of ripe tomatoes, cucumber, pepper, garlic, olive oil and bread, blended smooth and served ice cold.",
+    "cuisine": "Spanish",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "cold",
+      "summer",
+      "no-cook"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": "kg",
+        "name": "ripe tomatoes",
+        "note": "very ripe, cored and roughly chopped"
+      },
+      {
+        "group": "Soup",
+        "quantity": 0.5,
+        "unit": null,
+        "name": "cucumber",
+        "note": "peeled and chopped"
+      },
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": null,
+        "name": "green pepper",
+        "note": "small, seeded and chopped; Italian frying type is best"
+      },
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": "Soup",
+        "quantity": 80,
+        "unit": "g",
+        "name": "white bread",
+        "note": "stale, crusts removed, soaked in water and squeezed"
+      },
+      {
+        "group": "Soup",
+        "quantity": 80,
+        "unit": "ml",
+        "name": "extra-virgin olive oil",
+        "note": null
+      },
+      {
+        "group": "Soup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sherry vinegar",
+        "note": "or wine vinegar"
+      },
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "or to taste"
+      },
+      {
+        "group": "Soup",
+        "quantity": 100,
+        "unit": "ml",
+        "name": "cold water",
+        "note": "if needed to thin",
+        "optional": true
+      },
+      {
+        "group": "To serve",
+        "quantity": 0.5,
+        "unit": null,
+        "name": "cucumber",
+        "note": "finely diced",
+        "optional": true
+      },
+      {
+        "group": "To serve",
+        "quantity": 0.5,
+        "unit": null,
+        "name": "green pepper",
+        "note": "finely diced",
+        "optional": true
+      },
+      {
+        "group": "To serve",
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "finely diced",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tear the bread into pieces, cover with cold water for 10 minutes, then squeeze it dry.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Put the tomatoes, cucumber, pepper, garlic and bread in a blender with the vinegar and salt. Blend until completely smooth, 2 to 3 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "With the motor running, trickle in the olive oil so the soup emulsifies to a creamy pale orange. Add a little cold water if it is too thick.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For a silky texture, pass it through a fine sieve, pressing out the liquid. Taste and adjust the salt and vinegar.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Chill in the refrigerator for at least 2 hours until icy cold. Serve in bowls or glasses, topped with the diced vegetables if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The soup is only as good as the tomatoes; use really ripe, flavourful ones.",
+      "It keeps for 2 days in the fridge and tastes better on the second day.",
+      "Some Andalusian cooks add a little onion or cumin."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Gazpacho",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Gazpacho",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a Wikibooks recipe that used far less oil, vinegar and tomato (450 g tomato, 2 tbsp oil, 1 tbsp vinegar, 240 ml iced water, with onion and a chunky texture). Corrected toward the traditional smooth Andalusian gazpacho after comparing several Spanish and English recipes (about 1 kg tomatoes, roughly 80 ml olive oil, sherry vinegar, soaked bread, strained and chilled). Onion dropped, diced garnish made optional. Quantities are ours. Prep time excludes the 2-hour chill."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Gazpacho_Cazuela_Barro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gazpacho_Cazuela_Barro.jpg",
+      "author": "Bocadorada",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: glazed terracotta bowl of smooth orange-red gazpacho on a green gingham tablecloth."
+    }
+  },
+  {
+    "id": "greek-spanakopita",
+    "name": "Spanakopita",
+    "description": "Greek spinach and feta pie: layers of crisp olive-oil-brushed phyllo around a herby spinach, onion and feta filling.",
+    "cuisine": "Greek",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 8,
+    "prepTime": 40,
+    "cookTime": 50,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pie",
+      "spinach",
+      "feta",
+      "phyllo"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Filling",
+        "quantity": 900,
+        "unit": "g",
+        "name": "fresh spinach",
+        "note": "or 600 g frozen spinach, thawed and squeezed dry"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "large, finely chopped"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "spring onions",
+        "note": "about 6, finely sliced"
+      },
+      {
+        "group": "Filling",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh dill",
+        "note": "chopped (about 4 tbsp)"
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": "Filling",
+        "quantity": 300,
+        "unit": "g",
+        "name": "feta",
+        "note": "crumbled"
+      },
+      {
+        "group": "Filling",
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "beaten"
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "nutmeg",
+        "note": "freshly grated"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "freshly ground"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 400,
+        "unit": "g",
+        "name": "phyllo pastry",
+        "note": "about 20 sheets, thawed"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 150,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "for brushing the phyllo (or melted butter)"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 180 degrees C (160 fan). Wash the spinach, remove tough stems and chop roughly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Wilt the spinach in a large pan or steam it for about 2 minutes. Drain it, cool and squeeze out as much water as you can, then chop it finely.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Warm the 60 ml olive oil in a large skillet, add the onion and cook over medium heat until soft, 6 to 8 minutes. Add the spring onions for the last 2 minutes. Take off the heat.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mix the spinach, onions, dill, parsley, feta, nutmeg, lemon juice and pepper in a large bowl. Taste before adding salt, as feta is salty. Stir in the beaten eggs.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush a 23 x 30 cm baking dish with olive oil. Layer in about 8 sheets of phyllo, brushing each with oil and letting the edges hang over the sides.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spread half the filling over the phyllo. Cover with 5 to 6 more brushed sheets, add the remaining filling, then finish with the remaining sheets, brushing each with oil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold the overhanging edges in over the top, brush with the last of the oil and score the top into squares or diamonds with a sharp knife.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 45 to 50 minutes until puffed and deep golden. Let it stand for 10 minutes before cutting.",
+        "timerMinutes": 48
+      }
+    ],
+    "tips": [
+      "Keep unused phyllo covered with a damp cloth so it does not dry out.",
+      "Squeezing the spinach dry is the key to a crisp base.",
+      "Leftovers reheat well in a hot oven."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Spanakopita",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Spanakopita",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a Wikibooks recipe that used cottage cheese, parmesan and clarified butter. Corrected toward the traditional Greek version after comparing several Greek and English recipes: feta as the only cheese (300 g), plenty of dill, phyllo brushed with olive oil, and spinach squeezed dry. Dish size converted to cm; sheet counts and amounts are ours (the source's '12 to 20 sheets' did not match its 3-layer method)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Spanikopita_Greek_dish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spanikopita_Greek_dish.jpg",
+      "author": "Tanya Bakogiannis",
+      "license": "CC BY 3.0",
+      "verified": "Seen: two pieces of golden flaky phyllo spinach pie showing dark green filling, with cubes of feta and a green pepper on a yellow plate."
+    }
+  },
+  {
+    "id": "greek-moussaka",
+    "name": "Moussaka",
+    "description": "Layers of fried aubergine and spiced tomato meat sauce under a thick, golden cheese béchamel. A big, make-ahead family dish.",
+    "cuisine": "Greek",
+    "region": "Europe",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 8,
+    "prepTime": 75,
+    "cookTime": 105,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": false
+    },
+    "tags": [
+      "baked",
+      "aubergine",
+      "make-ahead",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Aubergine",
+        "quantity": 1,
+        "unit": "kg",
+        "name": "aubergines",
+        "note": "about 3 large, cut in 5 mm slices"
+      },
+      {
+        "group": "Aubergine",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "for salting the slices"
+      },
+      {
+        "group": "Aubergine",
+        "quantity": 100,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": "for frying the slices"
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "large, chopped"
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "chopped"
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 1,
+        "unit": "kg",
+        "name": "minced beef or lamb",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 800,
+        "unit": "g",
+        "name": "diced tomatoes",
+        "note": "1 large tin"
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 250,
+        "unit": "ml",
+        "name": "red wine",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fresh basil",
+        "note": "chopped, Greek basil if possible",
+        "optional": true
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": "Meat sauce",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "freshly ground"
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 80,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 80,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 800,
+        "unit": "ml",
+        "name": "milk",
+        "note": "warmed"
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "nutmeg",
+        "note": null
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 50,
+        "unit": "g",
+        "name": "Parmesan",
+        "note": "freshly grated (kefalotyri is traditional)"
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 100,
+        "unit": "g",
+        "name": "Edam",
+        "note": "grated, plus a little extra for the top"
+      },
+      {
+        "group": "Cheese sauce",
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the aubergines 5 mm thick, lay them out and sprinkle liberally with salt. Leave at least an hour to draw out bitterness.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meat sauce: warm the 3 tbsp oil in a large pan, add the onion and garlic and cook until the onion starts to change colour. Add the meat and brown it thoroughly, breaking up lumps.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the bay leaves and cinnamon stick and keep stirring until the moisture from the meat has gone.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the tomatoes, tomato paste, parsley, basil (if using), sugar and pepper and cook for 15 minutes, stirring now and then.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the wine and cook until the sauce is very thick with very little liquid, about 20 minutes. Remove the bay leaves and cinnamon stick and let it cool.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cheese sauce: melt the butter over medium heat, stir in the flour and cook for 3 minutes. Gradually whisk in the warm milk and cook, stirring, until thick and smooth. Take off the heat, stir in the nutmeg, Parmesan and Edam and let it cool for 10 minutes. Beat in the eggs.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Rinse the aubergine slices, pat them very dry and fry in hot olive oil, turning once, until soft and golden. Drain on paper towels.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oven to 200 degrees C (180 fan). In a large casserole (about 23 x 33 cm), cover the base with aubergine, then a layer of meat sauce. Repeat until you are 3 cm from the top.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spoon the cheese sauce over the top, spread it level and sprinkle with a little extra grated cheese.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 45 minutes until golden and bubbling. Let it set for 10 minutes before cutting.",
+        "timerMinutes": 45
+      }
+    ],
+    "tips": [
+      "Serve with a Greek salad and crusty bread.",
+      "Assemble a day ahead; add 10 minutes to the baking time if it goes in cold.",
+      "Aubergine slices can be brushed with oil and roasted at 220 degrees C for 20 minutes instead of fried."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Greek Moussaka",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Greek_Moussaka",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a Wikibooks recipe with 1 large aubergine and a thin white sauce (45 g butter, 35 g flour, 500 ml milk) for 1 kg of meat. Corrected after comparing several Greek recipes: 1 kg aubergines and a thick béchamel (80 g butter, 80 g flour, 800 ml milk, 2 eggs) in proportion to the meat. Meat sauce, wine, cinnamon, oven temperature and 45 minutes' baking follow the source; garlic reduced to 4 cloves; frying oil and cheese weights added."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Moussaka_12.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Moussaka_12.jpg",
+      "author": "Key West Wedding Photography",
+      "license": "CC BY 2.0",
+      "verified": "Seen: cut square slice of moussaka on a white plate with browned béchamel top over layers of minced meat and aubergine."
+    }
+  },
+  {
+    "id": "irish-stew",
+    "name": "Irish Stew",
+    "description": "Lamb or mutton layered with potatoes and onions and stewed very gently in its own juices. Plain, filling and old.",
+    "cuisine": "Irish",
+    "region": "Europe",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 150,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "lamb",
+      "one-pot",
+      "comfort"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.35,
+        "unit": "kg",
+        "name": "lamb neck or mutton",
+        "note": "loin or neck, cut into thick chops on the bone, some fat trimmed"
+      },
+      {
+        "group": null,
+        "quantity": 2.2,
+        "unit": "kg",
+        "name": "potatoes",
+        "note": "peeled and halved"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "onions",
+        "note": "large, thickly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 650,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Trim off some of the fat from the meat and cut it into chops of moderate thickness.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Peel and halve the potatoes and slice the onions thickly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a heavy pot with a tight lid, put a layer of potatoes on the bottom, then a layer of meat and onions. Season with salt and pepper. Repeat, finishing with plenty of vegetables on top.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour in the water, cover and bring to a barely trembling simmer over very low heat. Stew gently for 2 1/2 hours, keeping the lid shut and shaking the pan now and then to stop it catching.",
+        "timerMinutes": 150
+      },
+      {
+        "text": "Taste for seasoning and serve in hot bowls.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "With lamb rather than mutton, 1 1/2 to 2 hours is enough.",
+      "Use a heavy pot and the lowest heat, or a 150 degrees C oven, so the potatoes thicken the liquid rather than sticking."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Book of Household Management",
+      "author": "Isabella Beeton",
+      "year": 1861,
+      "url": "https://www.gutenberg.org/ebooks/10136",
+      "license": "Public domain",
+      "adaptation": "From No. 721 (Irish Stew I): 3 lb mutton, 5 lb potatoes, 5 large onions, 'rather more than 1 pint' water, 2 1/2 hours, for 5 or 6 persons. Converted to 1.35 kg, 2.2 kg and 650 ml. Lamb suggested for modern cooking; no other change."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Irish_Stew_%2810320713316%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Irish_Stew_(10320713316).jpg",
+      "author": "jeffreyw",
+      "license": "CC BY 2.0",
+      "verified": "Seen: yellow plate of Irish stew with browned lamb chunks, potato and carrot pieces and parsley, with a slice of buttered bread."
+    }
+  },
+  {
+    "id": "scottish-shortbread",
+    "name": "Scotch Shortbread",
+    "description": "Rich, crumbly shortbread of butter, flour and sugar, scented with caraway and almonds. Baked as thick cakes and cut into fingers.",
+    "cuisine": "Scottish",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 12,
+    "prepTime": 20,
+    "cookTime": 28,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "baking",
+      "biscuits",
+      "butter",
+      "tea"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "butter",
+        "note": "softened"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "caster sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "caraway seeds",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 10,
+        "unit": "g",
+        "name": "blanched almonds",
+        "note": "sweet, cut into small pieces"
+      },
+      {
+        "group": null,
+        "quantity": 15,
+        "unit": "g",
+        "name": "candied orange peel",
+        "note": "a few strips, to decorate",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 170 degrees C (150 fan) and line a baking tray with baking paper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the butter to a cream in a large bowl. Gradually work in the flour, then the sugar, caraway (if using) and chopped almonds, working the dough until smooth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Divide the dough in two. Place each piece on baking paper and press or roll it into a square of about 12 cm, around 2 cm thick. Pinch the edges, prick well all over with a fork and decorate with a strip or two of orange peel.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 25 to 30 minutes until pale gold. Cut each cake into 6 fingers while still warm, then cool on the tray.",
+        "timerMinutes": 28
+      }
+    ],
+    "tips": [
+      "If you dislike caraway, leave it out and use a little more candied peel, as Beeton suggests.",
+      "Store in an airtight tin for up to a week."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Book of Household Management",
+      "author": "Isabella Beeton",
+      "year": 1861,
+      "url": "https://www.gutenberg.org/ebooks/10136",
+      "license": "Public domain",
+      "adaptation": "From No. 1780, Scotch Shortbread. Original quantities (2 lb flour, 1 lb butter, 1/4 lb sugar, 1/2 oz caraway, 1 oz almonds, makes 6 cakes) scaled to a third and converted to metric (makes 2 cakes). 'A good oven' taken as 170 degrees C; 'an inch thick' reduced to 2 cm because the cakes are smaller; cutting into fingers added."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shortbread_fingers.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shortbread_fingers.jpg",
+      "author": "Dave souza",
+      "license": "CC BY-SA 2.5",
+      "verified": "Seen: blue-rimmed plate piled with golden shortbread fingers with docked holes and sugar dusting."
+    }
+  },
+  {
+    "id": "hungarian-goulash",
+    "name": "Hungarian Goulash (Gulyás)",
+    "description": "Beef and onions slow-cooked with sweet paprika, peppers and tomato, with potatoes and carrots added near the end. In Hungary gulyás is a hearty soup-stew eaten with bread.",
+    "cuisine": "Hungarian",
+    "region": "Europe",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 135,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "soup",
+      "beef",
+      "paprika",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "lard or oil",
+        "note": "lard is traditional; olive oil or sunflower oil also work"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 750,
+        "unit": "g",
+        "name": "beef shin or stewing beef",
+        "note": "cut in 2.5 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sweet paprika",
+        "note": "ground; not hot paprika"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "caraway seeds",
+        "note": "lightly crushed",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bell peppers",
+        "note": "chopped; one for the start, one for the end"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "leaf",
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "piece",
+        "name": "black peppercorns",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "potatoes",
+        "note": "peeled and cut in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": "approximately"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the lard or oil in a heavy pot over medium-low heat. Add the onions and cook gently until soft and glossy, about 10 to 15 minutes, without letting them brown.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Take the pot off the heat and stir in the paprika right away; it burns easily and turns bitter if fried in hot fat. Add the beef, return to the heat and stir to coat.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the garlic, caraway, one chopped pepper, tomato, bay leaf, peppercorns and salt. Cover and cook over low heat for about 15 minutes, stirring now and then, until the meat has released its juices.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour in about 1 litre of the water, cover and simmer gently for about 1 1/2 hours, until the beef is nearly tender. Add water only if it looks dry.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "Add the carrots, potatoes and the rest of the water if needed. Simmer for another 20 to 25 minutes until the vegetables are tender.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "For a deeper colour, stir in a little more paprika and the second chopped pepper for the last 10 minutes. Taste for salt and serve hot with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use sweet paprika only; hot paprika overpowers it. A spoonful of hot paprika or fresh chilli at the table is fine.",
+      "Hungarian cooks often drop small pinched pieces of egg dough (csipetke) into the soup for the last 8 minutes.",
+      "It tastes even better reheated the next day."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Goulash",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Goulash",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a short Wikibooks recipe that layered raw ingredients and simply covered them with water. Corrected toward the traditional Hungarian method after comparing several Hungarian and English recipes: onions softened gently in fat, paprika added off the heat, beef braised first, then potatoes and carrots. Meat weight (750 g) and the vegetable list follow the source; amounts of fat and water, carrots, caraway and times are ours."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guly%C3%A1sleves_%C3%A9s_limon%C3%A1d%C3%A9.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Guly%C3%A1sleves_%C3%A9s_limon%C3%A1d%C3%A9.jpg",
+      "author": "Lennart Tange",
+      "license": "CC BY 2.0",
+      "verified": "Seen: white bowl of red paprika goulash with diced potato and carrot, beside two slices of bread and a glass of lemonade on a checked cloth."
+    }
+  },
+  {
+    "id": "eastern-european-cheese-blintzes",
+    "name": "Cheese Blintzes",
+    "description": "Thin pancakes folded around a sweet lemony cheese filling, then fried in butter until golden. Eastern European Jewish brunch classic.",
+    "cuisine": "Eastern European",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "dessert"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancakes",
+      "cheese",
+      "brunch",
+      "jewish"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Pancakes",
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": "Pancakes",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Pancakes",
+        "quantity": 240,
+        "unit": "ml",
+        "name": "water",
+        "note": "1 cup"
+      },
+      {
+        "group": "Pancakes",
+        "quantity": 120,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "sifted (about 1 cup)"
+      },
+      {
+        "group": "Pancakes",
+        "quantity": null,
+        "unit": null,
+        "name": "butter",
+        "note": "for greasing the pan"
+      },
+      {
+        "group": "Filling",
+        "quantity": 225,
+        "unit": "g",
+        "name": "pot cheese",
+        "note": "farmer cheese or dry cottage cheese"
+      },
+      {
+        "group": "Filling",
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": "softened (size of an egg)"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": "or to taste"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "grated zest only"
+      },
+      {
+        "group": "To finish",
+        "quantity": 60,
+        "unit": "g",
+        "name": "butter",
+        "note": "or oil, for frying"
+      },
+      {
+        "group": "To finish",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "icing sugar",
+        "note": "with a pinch of cinnamon, to sprinkle"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Beat the egg with the salt in a bowl. Add the water and the sifted flour and beat until smooth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lightly grease an 18 to 20 cm frying pan with butter over low-medium heat. Pour in about 2 tablespoons of batter, tilting the pan so it spreads thinly over the whole base.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook the pancake on one side only, until set and dry on top, then turn it out with the cooked side down onto a clean cloth. Repeat with the rest of the batter, then let the pancakes cool.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the filling: beat the cheese with the soft butter, egg, salt, cinnamon, sugar and lemon zest until well blended.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put a spoonful of filling in the middle of the uncooked side of each pancake. Fold in the sides and roll up into a neat parcel, tucking the edges in well.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the parcels in butter or oil over medium heat until golden on both sides, about 3 minutes a side.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Sprinkle with icing sugar and cinnamon and serve hot.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a fruit filling, mix about 225 g minced apple with ground almonds, sugar, cinnamon, lemon juice and egg white.",
+      "Serve with sour cream or berries.",
+      "The parcels can be filled ahead and fried when needed."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The International Jewish Cook Book",
+      "author": "Florence Kreisler Greenbaum",
+      "year": 1919,
+      "url": "https://www.gutenberg.org/ebooks/12350",
+      "license": "Public domain",
+      "adaptation": "From 'Cheese Blintzes' (and the cheese kreplich filling it refers to). One cup flour/water taken as 120 g / 240 ml; 'butter the size of an egg' taken as about 50 g; half a pound of pot cheese as 225 g. Pan size, quantities of sugar and cinnamon, frying time and servings are modern estimates. The original says the dough makes about 6 blintzes; two tablespoons of batter each may make 8 thinner ones."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Blintzes_in_frying_pan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Blintzes_in_frying_pan.jpg",
+      "author": "Andrevan",
+      "license": "CC BY-SA 2.5",
+      "verified": "Seen: three golden-brown filled blintzes browning in a black frying pan."
+    }
+  },
+  {
+    "id": "finnish-karelian-pasties",
+    "name": "Karelian Pasties (Karjalanpiirakat)",
+    "description": "Thin rye shells filled with creamy rice porridge, brushed with butter and topped with egg butter. A Finnish breakfast and coffee-table staple.",
+    "cuisine": "Finnish",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 10,
+    "prepTime": 60,
+    "cookTime": 55,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rye",
+      "rice",
+      "pastry",
+      "finland"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Rice filling",
+        "quantity": 500,
+        "unit": "ml",
+        "name": "boiling water",
+        "note": null
+      },
+      {
+        "group": "Rice filling",
+        "quantity": 300,
+        "unit": "ml",
+        "name": "short-grain white rice",
+        "note": "about 220 g"
+      },
+      {
+        "group": "Rice filling",
+        "quantity": 900,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": "Rice filling",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Crust",
+        "quantity": 200,
+        "unit": "ml",
+        "name": "cold water",
+        "note": null
+      },
+      {
+        "group": "Crust",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Crust",
+        "quantity": 175,
+        "unit": "g",
+        "name": "rye flour",
+        "note": "about 350 ml, plus extra for rolling"
+      },
+      {
+        "group": "Crust",
+        "quantity": 85,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "about 150 ml"
+      },
+      {
+        "group": "To finish",
+        "quantity": 100,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": "To finish",
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": "Egg butter",
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": "softened"
+      },
+      {
+        "group": "Egg butter",
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled and chopped"
+      },
+      {
+        "group": "Egg butter",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Egg butter",
+        "quantity": 125,
+        "unit": "g",
+        "name": "cottage cheese",
+        "note": "half a small tub",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Filling: bring the 500 ml water to a boil in a heavy pan, stir in the rice and boil until the water is absorbed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the milk and stir for a few minutes. Reduce the heat and cook, stirring every now and then, for about 40 minutes until the porridge is thick. Stir in the salt and cool completely.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Crust: mix both flours and the salt with the cold water and knead into a smooth, pliable dough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Shape the dough into a block and divide it into about 20 pieces. Roll them into balls, flatten into small discs and cover with plastic wrap or a cloth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll each disc out very thin, to a circle about 17 cm wide, dusting with rye flour as needed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oven to its maximum, about 250 degrees C. Spread a spoonful of cold rice filling in an oblong down the middle of each circle, leaving a border. Fold the edges in over the filling and crimp them with your fingers into a boat-shaped pasty.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake in batches for about 15 minutes, until the crust is browned.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Warm the 100 ml milk and the 50 g butter together until melted. Brush the hot pasties generously, stack them and rest under a towel and baking paper so they soften.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Egg butter: boil the eggs for 10 minutes, cool and chop them, then beat with the soft butter (and the salt and cottage cheese, if using). Spread on the warm pasties.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [
+      "The rice porridge can be made a day ahead.",
+      "Carrot or potato fillings are also traditional.",
+      "Reheat leftover pasties briefly in the oven."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Karelian Pasties (Karjalanpiirakat)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Karelian_Pasties_(Karjalanpiirakat)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Rewritten from the Wikibooks recipe (yield 20 pasties); cross-checked against Finnish-style recipes (milk rice porridge, thin rye crust, very hot oven, milk-and-butter brushing, egg butter), which agree with it. Flour volumes given in ml in the source were converted to grams (350 ml rye about 175 g, 150 ml wheat about 85 g). Egg boiling time, a rolling note and the oven maximum are added; times for the dough are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Karjalanpiirakka-20060227.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Karjalanpiirakka-20060227.jpg",
+      "author": "Jarno Elonen",
+      "license": "Public domain",
+      "verified": "Seen: a single boat-shaped rye pasty with crimped edge and browned rice filling, on a white plate."
+    }
+  },
+  {
+    "id": "danish-frikadeller",
+    "name": "Frikadeller (Danish Meatballs)",
+    "description": "Pan-fried Danish pork and veal patties, tender from milk and flour and flavoured with onion. Served with boiled potatoes, gravy and red cabbage.",
+    "cuisine": "Danish",
+    "region": "Europe",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "meatballs",
+      "pork",
+      "denmark",
+      "comfort"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "ground veal",
+        "note": "or more pork"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "ground pork",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": "large"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated or very finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": "for frying, plus more as needed"
+      }
+    ],
+    "steps": [
+      {
+        "text": "In a large bowl mix the veal, pork, egg, grated onion, flour, salt and pepper. Gradually work in the milk until the mixture is soft, wet and sticky.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and chill for 30 minutes so the mixture firms up and is easier to shape.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Wet a spoon and your hands. Shape the mixture into oval patties, about 6 cm long and 2 cm thick.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Melt the butter in a large skillet over medium heat; use plenty. Fry the patties in batches for about 4 to 5 minutes per side, until deep golden brown and cooked through.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Serve hot with boiled potatoes, gravy and braised red cabbage.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The Wikibooks entry uses breadcrumbs (about 75 g) in place of the flour and milk; both are common.",
+      "Many Danes add a pinch of allspice.",
+      "Cold frikadeller are excellent on rye bread with pickles."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Frikadeller (Danish Meatballs)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Frikadeller_(Danish_Meatballs)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Based on a very short Wikibooks recipe (250 g veal, 250 g pork, egg, onion, breadcrumbs, no liquid). Corrected toward the usual Danish method after comparing several Danish and English recipes: wet mixture with flour and milk, rested, shaped into ovals, fried in plenty of butter. Meat quantities follow the source; flour, milk, resting and frying times are ours."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Frikadeller_med_kartofler%2C_brun_sovs_og_salat_%288927180853%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frikadeller_med_kartofler,_brun_sovs_og_salat_(8927180853).jpg",
+      "author": "cyclonebill",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: two browned frikadeller with brown gravy, three boiled potatoes and a tomato-cucumber salad on a white plate."
+    }
+  }
+]

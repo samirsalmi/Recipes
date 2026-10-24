@@ -11,7 +11,27 @@ logger = logging.getLogger(__name__)
 PREFIX = "recipes:"
 TTL_SECONDS = 300
 
-_client = redis.Redis.from_url(settings.redis_url, socket_connect_timeout=0.5, socket_timeout=0.5)
+class _NoCache:
+    """Stand-in when REDIS_URL is empty (tests): every call behaves like a cache miss."""
+
+    def get(self, *_a, **_k):
+        return None
+
+    def set(self, *_a, **_k):
+        return None
+
+    def scan_iter(self, *_a, **_k):
+        return iter(())
+
+    def delete(self, *_a, **_k):
+        return 0
+
+
+_client = (
+    redis.Redis.from_url(settings.redis_url, socket_connect_timeout=0.5, socket_timeout=0.5)
+    if settings.redis_url
+    else _NoCache()
+)
 
 
 def cache_get(key: str) -> Any | None:

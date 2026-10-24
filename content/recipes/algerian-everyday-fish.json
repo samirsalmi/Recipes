@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "algerian-sardine-mqliya",
+    "name": "Sardine Mqliya (Fried Sardines)",
+    "description": "Fresh sardines lightly floured, seasoned with cumin and fried until crisp, a coastal summer staple.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "fried",
+      "coastal",
+      "budget"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": "cleaned"
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse and dry the sardines and rub them with salt, cumin and paprika.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll in flour and shake off the excess.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry in hot oil 3 minutes per side until golden.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Serve with lemon and a tomato salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sardine Mqliya (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sardines_fry_%2824948218940%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sardines_fry_(24948218940).jpg",
+      "author": "goanfishcurryrice3",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a plate of whole fried sardines."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sardines frites"
+      },
+      "ar": {
+        "name": "سردين مقلي"
+      }
+    }
+  },
+  {
+    "id": "algerian-sardine-mechwi",
+    "name": "Sardine Mechwi (Grilled Sardines)",
+    "description": "Whole sardines grilled over charcoal or under a hot grill with garlic, lemon and olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 8,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "grilled",
+      "coastal",
+      "summer"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": "cleaned"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix oil, garlic, lemon, salt and spices and rub into the sardines; rest for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Grill over hot coals or under a hot grill 4 minutes per side.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve with lemon and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sardine Mechwi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Grilled_sardines.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grilled_sardines.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: whole sardines grilled on a grill."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sardines grillées"
+      },
+      "ar": {
+        "name": "سردين مشوي"
+      }
+    }
+  },
+  {
+    "id": "algerian-sardine-mcharmel",
+    "name": "Sardine Mcharmel (Sardines Marinated in Dersa)",
+    "description": "Sardines marinated in dersa, a garlic-chilli-cumin paste, then pan-fried or baked.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "dersa",
+      "spicy",
+      "coastal"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "flour",
+        "note": "for dusting"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pound garlic with salt, harissa, paprika, cumin, coriander, oil and lemon to a paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Coat the sardines inside and out and marinate for 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Dust with flour and fry in a little oil for 3 minutes per side.",
+        "timerMinutes": 6
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sardine Mcharmel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Marinated_sardine.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Marinated_sardine.jpg",
+      "author": "Vis M",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a tray of marinated, spiced fried sardines at a buffet."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sardines marinées à la dersa"
+      },
+      "ar": {
+        "name": "سردين مشرمل"
+      }
+    }
+  },
+  {
+    "id": "algerian-sardine-fourn",
+    "name": "Sardine Fil Four (Oven-baked Sardines)",
+    "description": "Sardines baked on potatoes, tomatoes and onions with olive oil and garlic.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "oven",
+      "coastal",
+      "healthy"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "potatoes",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Layer potatoes, onion and tomatoes in a dish with oil, salt and half the spices; bake at 200 C for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Put the seasoned sardines on top with garlic and parsley.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for another 20 minutes until the fish is cooked.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sardine Fil Four (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sardele_tav%C3%AB.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sardele_tav%C3%AB.jpg",
+      "author": "MirelaAndoni",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a round baking tray of baked sardines with tomato and herbs."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sardines au four"
+      },
+      "ar": {
+        "name": "سردين في الفرن"
+      }
+    }
+  },
+  {
+    "id": "algerian-hout-mqli",
+    "name": "Hout Mqli (Fried Fish)",
+    "description": "Whole small fish or slices of white fish marinated with cumin and garlic and fried in a thin flour coat.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 12,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "fried",
+      "coastal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "white fish",
+        "note": "bream, whiting or hake"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinate fish with garlic, spices, salt and lemon for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Dredge in flour and fry in hot oil 4 to 5 minutes per side until crisp.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Hout Mqli (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fish_fry_%2890626%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_fry_(90626).jpg",
+      "author": "Gannu03",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of golden fried fish."
+    },
+    "translations": {
+      "fr": {
+        "name": "Poisson frit"
+      },
+      "ar": {
+        "name": "سمك مقلي"
+      }
+    }
+  },
+  {
+    "id": "algerian-hout-mechwi",
+    "name": "Hout Mechwi (Grilled Fish)",
+    "description": "Whole sea bream or sea bass brushed with chermoula-style herb oil and grilled until the skin blisters.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "grilled",
+      "coastal",
+      "healthy"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "kg",
+        "name": "fish",
+        "note": "2 whole sea bream, cleaned"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend oil, garlic, herbs, spices, salt and lemon juice; slash the fish and rub in the mixture. Rest 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Grill 8 to 10 minutes per side, or bake at 220 C for 25 minutes.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Hout Mechwi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Grilled_fish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Grilled_fish.jpg",
+      "author": "pompi",
+      "license": "CC0",
+      "verified": "Seen: whole grilled sea bream on a grill."
+    },
+    "translations": {
+      "fr": {
+        "name": "Poisson grillé"
+      },
+      "ar": {
+        "name": "سمك مشوي"
+      }
+    }
+  },
+  {
+    "id": "algerian-hout-marqa",
+    "name": "Hout Bel Marqa (Fish in Tomato Sauce)",
+    "description": "White fish steaks gently simmered in a garlicky tomato and pepper sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "sauce",
+      "tomato",
+      "coastal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "white fish",
+        "note": "steaks"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the onion in oil for 5 minutes, add garlic, spices, paste, tomatoes, pepper and water and simmer 15 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Lay in the fish, cover and cook 10 minutes without stirring.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve with coriander and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Hout Bel Marqa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fish_tomato_stew.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fish_tomato_stew.jpg",
+      "author": "Bicanski on Pixnio",
+      "license": "CC0",
+      "verified": "Seen: fish pieces stewed in a tomato sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Poisson en sauce"
+      },
+      "ar": {
+        "name": "سمك بالمرقة"
+      }
+    }
+  },
+  {
+    "id": "algerian-hout-batata",
+    "name": "Hout Bel Batata (Fish with Potatoes)",
+    "description": "A baked dish of fish layered over sliced potatoes and tomatoes, seasoned with chermoula.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "potato",
+      "oven",
+      "coastal",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "white fish",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Parboil the potatoes 5 minutes and drain.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Spread the potatoes, onion and tomatoes in a dish, season with half the spice and oil; bake 20 minutes at 200 C.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Top with fish rubbed with garlic, coriander and remaining spice and oil; bake 20 minutes.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Hout Bel Batata (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Poisson aux pommes de terre"
+      },
+      "ar": {
+        "name": "سمك بالبطاطا"
+      }
+    }
+  },
+  {
+    "id": "algerian-kriyat-sardine",
+    "name": "Kriyat Sardine (Sardine Balls in Sauce)",
+    "description": "Boneless sardines minced with garlic, parsley and breadcrumbs into small balls, then poached in a spicy tomato sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "meatballs",
+      "sauce"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": "filleted"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "breadcrumbs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mince the fillets by hand; mix with half the garlic, parsley, crumbs, egg, cumin, 1 tsp salt and form walnut-sized balls.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook the remaining garlic in oil, add paprika, paste, tomatoes, water and salt and simmer 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Slide in the balls and cook gently 12 minutes, turning once.",
+        "timerMinutes": 12
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Kriyat Sardine (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Boulettes_de_sardines.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Boulettes_de_sardines.jpg",
+      "author": "Fatima zahra Charif Khalifi",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: sardine balls (boulettes de sardines) in a dish."
+    },
+    "translations": {
+      "fr": {
+        "name": "Boulettes de sardines"
+      },
+      "ar": {
+        "name": "كريات السردين"
+      }
+    }
+  },
+  {
+    "id": "algerian-gambri-mchahar",
+    "name": "Gambri Mchahar (Garlic Shrimp)",
+    "description": "Peeled shrimp sizzled in olive oil with garlic, paprika and a little chilli.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 8,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "shrimp",
+      "seafood",
+      "quick",
+      "garlic"
+    ],
+    "traditional": false,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "shrimp",
+        "note": "peeled"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 5.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "chili flakes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil with the garlic for 1 minute, add spices and shrimp.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Cook 3 minutes per side until pink, then add lemon and parsley.",
+        "timerMinutes": 6
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Gambri Mchahar (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Gambas_al_ajillo.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gambas_al_ajillo.jpg",
+      "author": "Javier Lastras from España/Spain",
+      "license": "CC BY 2.0",
+      "verified": "Seen: prawns sizzling in garlic and oil in an earthenware dish."
+    },
+    "translations": {
+      "fr": {
+        "name": "Crevettes sautées"
+      },
+      "ar": {
+        "name": "جمبري مشحر"
+      }
+    }
+  },
+  {
+    "id": "algerian-calamar-mqli",
+    "name": "Calamar Mqli (Fried Calamari)",
+    "description": "Squid rings in a seasoned light coating, flash-fried until golden.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 8,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "calamari",
+      "seafood",
+      "fried"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "squid",
+        "note": "cleaned, in rings"
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Pat the rings dry and toss in flour mixed with paprika, salt and pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry in hot oil in small batches for 2 minutes until golden; drain.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Serve with lemon and harissa mayonnaise.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not overcook: squid goes tough after 3 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Calamar Mqli (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fried_Calamari_Rings.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fried_Calamari_Rings.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of golden fried calamari rings."
+    },
+    "translations": {
+      "fr": {
+        "name": "Calamars frits"
+      },
+      "ar": {
+        "name": "كالامار مقلي"
+      }
+    }
+  },
+  {
+    "id": "algerian-thon-tomatich",
+    "name": "Thon Bil Tomatich (Tuna in Tomato Sauce)",
+    "description": "Tinned tuna warmed in a garlicky tomato and pepper sauce, ready in twenty minutes with rice or bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "tuna",
+      "tomato",
+      "quick",
+      "pantry"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "can",
+        "name": "tuna",
+        "note": "drained"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the onion, pepper and garlic in oil for 6 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Add tomatoes, paste, paprika and salt and simmer 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the tuna and parsley, heat 3 minutes and serve.",
+        "timerMinutes": 3
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Thon Bil Tomatich (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/12-atun-encebollado1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:12-atun-encebollado1.jpg",
+      "author": "Soledadsanjose",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a plate of tuna cooked with onion in sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Thon à la sauce tomate"
+      },
+      "ar": {
+        "name": "تونة بصلصة الطماطم"
+      }
+    }
+  }
+]

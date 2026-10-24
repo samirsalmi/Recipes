@@ -1,48 +1,108 @@
-import { Injectable, signal, computed, inject } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable, of, combineLatest, map, tap } from 'rxjs';
-import { Recipe, RecipeCreateInput, RecipeFilter, RecipeUpdateInput, SortOption, Ingredient } from '../models';
+import { Injectable, computed, effect, inject, signal, untracked } from '@angular/core';
+import { Observable, of, tap } from 'rxjs';
+import {
+  DietFilter,
+  Recipe,
+  RecipeCreateInput,
+  RecipeDraft,
+  RecipeFilter,
+  RecipeUpdateInput,
+} from '../models';
+import { normalizeSearch, recipeSearchText } from '../i18n/search';
 import { StorageService } from './storage.service';
 import { isAuthenticated } from './auth-state';
 
+export interface CuisineSummary {
+  name: string;
+  slug: string;
+  region: string | null;
+  count: number;
+  image: string;
+}
+
+export const EMPTY_FILTER: RecipeFilter = {
+  searchQuery: '',
+  mealTypes: [],
+  cuisines: [],
+  diet: [],
+  maxTotalTime: null,
+  traditionalOnly: false,
+  budgetFriendly: false,
+};
+
+export function cuisineSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+const DIET_TESTS: Record<DietFilter, (r: Recipe) => boolean> = {
+  vegetarian: r => r.diet.vegetarian || r.diet.vegan,
+  vegan: r => r.diet.vegan,
+  glutenFree: r => r.diet.glutenFree,
+  dairyFree: r => r.diet.dairyFree || r.diet.vegan,
+  noPork: r => !r.diet.containsPork,
+  noAlcohol: r => !r.diet.containsAlcohol,
+  nutFree: r => !r.diet.containsNuts,
+};
+
+/** The recipe catalog (discovery: root recipes, public + your own), Discover's filter state,
+ *  scaling, recent views, and recipe CRUD. Favorites live in FavoritesService. */
 @Injectable({
   providedIn: 'root'
 })
 export class RecipeService {
-  private storageService = inject(StorageService);
-  private router = inject(Router);
+  private storage = inject(StorageService);
 
-  // Signals for state management
   private recipesSignal = signal<Recipe[]>([]);
-  private favoritesSignal = signal<string[]>([]);
-  private ratingsSignal = signal<Record<string, number>>({});
-  private filterSignal = signal<RecipeFilter>({
-    searchQuery: '',
-    categories: [],
-    difficulties: [],
-    dietaryRestrictions: [],
-    maxCookTime: undefined,
-    minRating: undefined,
-    cuisineTypes: [],
-    originFilter: []
-  });
-  private sortOptionSignal = signal<SortOption>('newest');
-  private viewModeSignal = signal<'grid' | 'list'>('grid');
   private recipesLoadedSignal = signal(false);
+  private filterSignal = signal<RecipeFilter>({ ...EMPTY_FILTER });
   private recentViewsSignal = signal<string[]>([]);
 
-  // Computed signals
   readonly recipes = this.recipesSignal.asReadonly();
+  /** False until the catalog's first load resolves (see frontend.md G11). */
   readonly recipesLoaded = this.recipesLoadedSignal.asReadonly();
-  readonly favorites = this.favoritesSignal.asReadonly();
-  readonly ratings = this.ratingsSignal.asReadonly();
   readonly filter = this.filterSignal.asReadonly();
-  readonly sortOption = this.sortOptionSignal.asReadonly();
-  readonly viewMode = this.viewModeSignal.asReadonly();
 
-  // Most-recent-first, dropping any id that no longer resolves in the discovery-backed
-  // catalog (e.g. a recipe you viewed that later went private) - fine for a "nice to have"
-  // feed, not worth a resolveRecipe() fallback per id here (see gotcha G11).
+  readonly filteredRecipes = computed(() => {
+    const f = this.filterSignal();
+    const query = normalizeSearch(f.searchQuery.trim());
+    return this.recipesSignal().filter(r => {
+      // Matches names, cuisine and ingredients in every language (see recipeSearchText).
+      if (query && !recipeSearchText(r).includes(query)) return false;
+      if (f.mealTypes.length && !f.mealTypes.some(m => r.mealTypes.includes(m))) return false;
+      if (f.cuisines.length && !f.cuisines.includes(r.cuisine ?? '')) return false;
+      // Diet filters are AND: every selected one must hold (fixes the old OR behaviour, G4).
+      if (!f.diet.every(d => DIET_TESTS[d](r))) return false;
+      if (f.maxTotalTime !== null && (r.totalTime === null || r.totalTime > f.maxTotalTime)) return false;
+      if (f.traditionalOnly && !r.traditional) return false;
+      if (f.budgetFriendly && r.budget !== 'low') return false;
+      return true;
+    });
+  });
+
+  readonly hasActiveFilter = computed(() => {
+    const f = this.filterSignal();
+    return !!(f.searchQuery.trim() || f.mealTypes.length || f.cuisines.length || f.diet.length ||
+      f.maxTotalTime !== null || f.traditionalOnly || f.budgetFriendly);
+  });
+
+  /** One entry per cuisine with a photo for the explorer row, most recipes first. */
+  readonly cuisines = computed<CuisineSummary[]>(() => {
+    const byName = new Map<string, CuisineSummary>();
+    for (const r of this.recipesSignal()) {
+      if (!r.cuisine) continue;
+      const entry = byName.get(r.cuisine) ?? { name: r.cuisine, slug: cuisineSlug(r.cuisine), region: r.region, count: 0, image: '' };
+      entry.count++;
+      if (!entry.image && r.image) entry.image = r.image;
+      byName.set(r.cuisine, entry);
+    }
+    return [...byName.values()].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  });
+
   readonly recentlyViewedRecipes = computed(() => {
     const all = this.recipesSignal();
     return this.recentViewsSignal()
@@ -50,323 +110,114 @@ export class RecipeService {
       .filter((r): r is Recipe => !!r);
   });
 
-  // Filtered and sorted recipes
-  readonly filteredRecipes = computed(() => {
-    let recipes = [...this.recipesSignal()];
-    const filter = this.filterSignal();
-    const sortOption = this.sortOptionSignal();
-
-    // Apply search filter
-    if (filter.searchQuery) {
-      const query = filter.searchQuery.toLowerCase();
-      recipes = recipes.filter(recipe =>
-        recipe.name.toLowerCase().includes(query) ||
-        recipe.description.toLowerCase().includes(query) ||
-        recipe.ingredients.some(ing => ing.name.toLowerCase().includes(query)) ||
-        recipe.tags.some(tag => tag.toLowerCase().includes(query))
-      );
-    }
-
-    // Apply category filter
-    if (filter.categories.length > 0) {
-      recipes = recipes.filter(recipe => filter.categories.includes(recipe.category));
-    }
-
-    // Apply difficulty filter
-    if (filter.difficulties.length > 0) {
-      recipes = recipes.filter(recipe => filter.difficulties.includes(recipe.difficulty));
-    }
-
-    // Apply dietary restrictions filter
-    if (filter.dietaryRestrictions.length > 0) {
-      recipes = recipes.filter(recipe =>
-        filter.dietaryRestrictions.some(restriction =>
-          recipe.dietaryRestrictions.includes(restriction)
-        )
-      );
-    }
-
-    // Apply max cook time filter
-    if (filter.maxCookTime !== undefined) {
-      recipes = recipes.filter(recipe => recipe.totalTime <= filter.maxCookTime!);
-    }
-
-    // Apply min rating filter
-    if (filter.minRating !== undefined) {
-      recipes = recipes.filter(recipe => recipe.rating >= filter.minRating!);
-    }
-
-    // Apply cuisine type filter
-    if (filter.cuisineTypes && filter.cuisineTypes.length > 0) {
-      recipes = recipes.filter(recipe => filter.cuisineTypes!.includes(recipe.cuisineType));
-    }
-
-    // Apply official/community origin filter
-    if (filter.originFilter && filter.originFilter.length > 0 && filter.originFilter.length < 2) {
-      const wantOfficial = filter.originFilter.includes('official');
-      recipes = recipes.filter(recipe => recipe.isOfficial === wantOfficial);
-    }
-
-    // Apply sorting
-    switch (sortOption) {
-      case 'alphabetical':
-        recipes.sort((a, b) => a.name.localeCompare(b.name));
-        break;
-      case 'cookingTime':
-        recipes.sort((a, b) => a.totalTime - b.totalTime);
-        break;
-      case 'rating':
-        recipes.sort((a, b) => b.rating - a.rating);
-        break;
-      case 'newest':
-        recipes.sort((a, b) => new Date(b.dateAdded).getTime() - new Date(a.dateAdded).getTime());
-        break;
-      case 'oldest':
-        recipes.sort((a, b) => new Date(a.dateAdded).getTime() - new Date(b.dateAdded).getTime());
-        break;
-    }
-
-    return recipes;
-  });
-
-  readonly favoriteRecipes = computed(() => {
-    return this.recipesSignal().filter(recipe => this.favoritesSignal().includes(recipe.id));
-  });
-
   constructor() {
     this.loadRecipes();
-    this.loadUserData();
+    // Reload on login/logout: the catalog includes the caller's own private recipes.
+    effect(() => {
+      const authed = isAuthenticated();
+      untracked(() => {
+        if (authed) {
+          this.loadRecipes();
+          this.storage.getRecentViews().subscribe(views => this.recentViewsSignal.set(views ?? []));
+        } else {
+          this.recentViewsSignal.set([]);
+        }
+      });
+    });
   }
 
-  private loadRecipes(): void {
-    this.storageService.getRecipes().subscribe(recipes => {
+  loadRecipes(): void {
+    this.storage.getRecipes().subscribe(recipes => {
       this.recipesSignal.set(recipes);
       this.recipesLoadedSignal.set(true);
     });
   }
 
-  private loadUserData(): void {
-    combineLatest([
-      this.storageService.getFavorites(),
-      this.storageService.getUserRatings(),
-      this.storageService.getRecentViews()
-    ]).subscribe(([favorites, ratings, recentViews]) => {
-      this.favoritesSignal.set(favorites || []);
-      this.ratingsSignal.set(ratings || {});
-      this.recentViewsSignal.set(recentViews || []);
-    });
-  }
-
-  // Recent views are account-linked (the storage endpoint requires a token), so skip silently
-  // for guests rather than firing a write that would just fail (see gotcha G13).
-  recordView(recipeId: string): void {
-    if (!isAuthenticated()) return;
-    const updated = [recipeId, ...this.recentViewsSignal().filter(id => id !== recipeId)].slice(0, 10);
-    this.recentViewsSignal.set(updated);
-    this.storageService.setRecentViews(updated).subscribe();
-  }
-
-  // Recipe CRUD operations
-  createRecipe(recipe: RecipeCreateInput): Observable<Recipe> {
-    return this.storageService.createRecipe(recipe).pipe(
-      tap(newRecipe => this.recipesSignal.update(recipes => [...recipes, newRecipe]))
-    );
-  }
-
-  updateRecipe(id: string, payload: RecipeUpdateInput): Observable<Recipe> {
-    return this.storageService.updateRecipe(id, payload).pipe(
-      tap(updated => this.mergeRecipe(updated))
-    );
-  }
-
-  // recipesSignal only ever holds root recipes visible in discovery, so anything reached by
-  // direct id - a private recipe you already favorited, a twist, someone's now-private
-  // recipe you still have planned - needs this fallback (see frontend.md gotcha G11).
-  resolveRecipe(id: string): Observable<Recipe | null> {
-    const existing = this.getRecipeById(id);
-    if (existing) return of(existing);
-    return this.storageService.getRecipeById(id).pipe(
-      tap(recipe => { if (recipe) this.mergeRecipe(recipe); })
-    );
-  }
-
-  twistRecipe(id: string): Observable<Recipe> {
-    return this.storageService.twistRecipe(id).pipe(
-      tap(twist => this.mergeRecipe(twist))
-    );
-  }
-
-  getTwists(id: string): Observable<Recipe[]> {
-    return this.storageService.getTwists(id);
-  }
-
-  loadMyRecipes(): Observable<Recipe[]> {
-    return this.storageService.getMyRecipes().pipe(
-      tap(recipes => recipes.forEach(recipe => this.mergeRecipe(recipe)))
-    );
-  }
-
-  setOfficial(id: string, isOfficial: boolean): Observable<Recipe> {
-    return this.storageService.setRecipeOfficial(id, isOfficial).pipe(
-      tap(updated => this.mergeRecipe(updated))
-    );
-  }
-
-  deleteRecipe(id: string): Observable<void> {
-    return this.storageService.deleteRecipe(id).pipe(
-      tap(() => this.recipesSignal.update(recipes => recipes.filter(r => r.id !== id)))
-    );
-  }
-
-  private mergeRecipe(recipe: Recipe): void {
-    this.recipesSignal.update(recipes => {
-      const index = recipes.findIndex(r => r.id === recipe.id);
-      if (index === -1) return [...recipes, recipe];
-      const copy = [...recipes];
-      copy[index] = recipe;
-      return copy;
-    });
-  }
-
-  getRecipeById(id: string): Recipe | undefined {
-    return this.recipesSignal().find(recipe => recipe.id === id);
-  }
-
-  getRecipesByIds(ids: string[]): Recipe[] {
-    return this.recipesSignal().filter(recipe => ids.includes(recipe.id));
-  }
-
-  searchRecipes(query: string): Recipe[] {
-    return this.recipesSignal().filter(recipe =>
-      recipe.name.toLowerCase().includes(query.toLowerCase()) ||
-      recipe.description.toLowerCase().includes(query.toLowerCase()) ||
-      recipe.ingredients.some(ing => ing.name.toLowerCase().includes(query.toLowerCase()))
-    );
-  }
-
-  // Filter operations
-  updateFilter(filter: Partial<RecipeFilter>): void {
-    this.filterSignal.update(current => ({ ...current, ...filter }));
+  updateFilter(patch: Partial<RecipeFilter>): void {
+    this.filterSignal.update(f => ({ ...f, ...patch }));
   }
 
   resetFilter(): void {
-    this.filterSignal.set({
-      searchQuery: '',
-      categories: [],
-      difficulties: [],
-      dietaryRestrictions: [],
-      maxCookTime: undefined,
-      minRating: undefined,
-      cuisineTypes: [],
-      originFilter: []
-    });
+    this.filterSignal.set({ ...EMPTY_FILTER });
   }
 
-  // Sort operations
-  setSortOption(option: SortOption): void {
-    this.sortOptionSignal.set(option);
+  /** Sync lookup in the loaded catalog only - see resolveRecipe() for the safe version. */
+  getRecipeById(id: string): Recipe | undefined {
+    return this.recipesSignal().find(r => r.id === id);
   }
 
-  // View mode
-  setViewMode(mode: 'grid' | 'list'): void {
-    this.viewModeSignal.set(mode);
+  getRecipesByIds(ids: string[]): Recipe[] {
+    const all = this.recipesSignal();
+    return ids.map(id => all.find(r => r.id === id)).filter((r): r is Recipe => !!r);
   }
 
-  // Favorites operations
-  toggleFavorite(recipeId: string): void {
-    if (!isAuthenticated()) {
-      this.router.navigate(['/login']);
-      return;
-    }
-
-    const currentFavorites = this.favoritesSignal();
-    const newFavorites = currentFavorites.includes(recipeId)
-      ? currentFavorites.filter(id => id !== recipeId)
-      : [...currentFavorites, recipeId];
-    
-    this.favoritesSignal.set(newFavorites);
-    this.storageService.setFavorites(newFavorites).subscribe();
+  /** Catalog lookup, falling back to a direct fetch (private/unlisted recipes, twists) that
+   *  is merged into the catalog signal. Resolves null only if the recipe truly doesn't exist. */
+  resolveRecipe(id: string): Observable<Recipe | null> {
+    const cached = this.getRecipeById(id);
+    if (cached) return of(cached);
+    return this.storage.getRecipeById(id).pipe(tap(r => r && this.mergeRecipe(r)));
   }
 
-  isFavorite(recipeId: string): boolean {
-    return this.favoritesSignal().includes(recipeId);
-  }
-
-  // Rating operations
-  setRating(recipeId: string, rating: number): void {
-    if (!isAuthenticated()) {
-      this.router.navigate(['/login']);
-      return;
-    }
-
-    const currentRatings = this.ratingsSignal();
-    const newRatings = { ...currentRatings, [recipeId]: rating };
-    this.ratingsSignal.set(newRatings);
-    this.storageService.setUserRatings(newRatings).subscribe();
-  }
-
-  getUserRating(recipeId: string): number | undefined {
-    return this.ratingsSignal()[recipeId];
-  }
-
-  // Recipe scaling
+  /** Quantities scaled to `servings` (null quantities stay null). Nutrition is per serving
+   *  and deliberately NOT scaled (old gotcha G9). Any new per-serving field needs a rule here. */
   scaleRecipe(recipe: Recipe, servings: number): Recipe {
-    const scaleFactor = servings / recipe.servings;
-    
+    const factor = servings / (recipe.servings || 1);
+    if (factor === 1) return recipe;
     return {
       ...recipe,
       servings,
-      ingredients: recipe.ingredients.map(ing => ({
-        ...ing,
-        quantity: Math.round(ing.quantity * scaleFactor * 100) / 100
+      ingredients: recipe.ingredients.map(i => ({
+        ...i,
+        quantity: i.quantity === null ? null : Math.round(i.quantity * factor * 100) / 100,
       })),
-      nutrition: {
-        ...recipe.nutrition,
-        calories: Math.round(recipe.nutrition.calories * scaleFactor),
-        protein: Math.round(recipe.nutrition.protein * scaleFactor * 10) / 10,
-        carbs: Math.round(recipe.nutrition.carbs * scaleFactor * 10) / 10,
-        fats: Math.round(recipe.nutrition.fats * scaleFactor * 10) / 10,
-        fiber: recipe.nutrition.fiber ? Math.round(recipe.nutrition.fiber * scaleFactor * 10) / 10 : undefined,
-        sugar: recipe.nutrition.sugar ? Math.round(recipe.nutrition.sugar * scaleFactor * 10) / 10 : undefined,
-        sodium: recipe.nutrition.sodium ? Math.round(recipe.nutrition.sodium * scaleFactor) : undefined,
-      }
     };
   }
 
-  // Get unique values for filters
-  getCategories(): string[] {
-    return [...new Set(this.recipesSignal().map(r => r.category))];
+  recordView(recipeId: string): void {
+    if (!isAuthenticated()) return;
+    const next = [recipeId, ...this.recentViewsSignal().filter(id => id !== recipeId)].slice(0, 12);
+    this.recentViewsSignal.set(next);
+    this.storage.setRecentViews(next).subscribe();
   }
 
-  getDifficulties(): string[] {
-    return [...new Set(this.recipesSignal().map(r => r.difficulty))];
+  createRecipe(input: RecipeCreateInput): Observable<Recipe> {
+    return this.storage.createRecipe(input).pipe(tap(r => this.mergeRecipe(r)));
   }
 
-  getDietaryRestrictions(): string[] {
-    return [...new Set(this.recipesSignal().flatMap(r => r.dietaryRestrictions))];
+  updateRecipe(id: string, patch: RecipeUpdateInput): Observable<Recipe> {
+    return this.storage.updateRecipe(id, patch).pipe(tap(r => this.mergeRecipe(r)));
   }
 
-  getCuisineTypes(): string[] {
-    return [...new Set(this.recipesSignal().map(r => r.cuisineType))];
+  deleteRecipe(id: string): Observable<void> {
+    return this.storage.deleteRecipe(id).pipe(
+      tap(() => this.recipesSignal.update(list => list.filter(r => r.id !== id)))
+    );
   }
 
-  // Get recipes by category
-  getRecipesByCategory(category: string): Recipe[] {
-    return this.recipesSignal().filter(r => r.category === category);
+  /** "Copy to my recipes & edit": a private copy owned by the caller. */
+  copyRecipe(id: string): Observable<Recipe> {
+    return this.storage.copyRecipe(id).pipe(tap(r => this.mergeRecipe(r)));
   }
 
-  // Get recipes by cuisine
-  getRecipesByCuisine(cuisine: string): Recipe[] {
-    return this.recipesSignal().filter(r => r.cuisineType === cuisine);
+  loadMyRecipes(): Observable<Recipe[]> {
+    return this.storage.getMyRecipes();
   }
 
-  // Get quick recipes (under 30 minutes)
-  getQuickRecipes(): Recipe[] {
-    return this.recipesSignal().filter(r => r.totalTime <= 30);
+  importFromUrl(url: string): Observable<RecipeDraft> {
+    return this.storage.importRecipeFromUrl(url);
   }
 
-  // Get easy recipes
-  getEasyRecipes(): Recipe[] {
-    return this.recipesSignal().filter(r => r.difficulty === 'Easy');
+  private mergeRecipe(recipe: Recipe): void {
+    // Twists never appear in discovery; private ones stay reachable by id only.
+    this.recipesSignal.update(list => {
+      const idx = list.findIndex(r => r.id === recipe.id);
+      if (idx >= 0) {
+        const copy = [...list];
+        copy[idx] = recipe;
+        return copy;
+      }
+      return recipe.parentRecipeId ? list : [...list, recipe];
+    });
   }
 }

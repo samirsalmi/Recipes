@@ -1,81 +1,75 @@
-import { Component, input, output, inject } from '@angular/core';
-import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component, computed, inject, input, output, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { I18nService } from '../../i18n/i18n.service';
 import { Recipe } from '../../models';
-import { RecipeService } from '../../services';
 import { optimizeImage } from '../../utils/image-url';
+import { IconComponent } from '../icon/icon.component';
 import { ImagePlaceholderComponent } from '../ui/image-placeholder/image-placeholder.component';
 
+/** Photo-led recipe card: 4:3 image (solid "Budget" pill on low-budget dishes), name,
+ *  cuisine + time + budget signs, heart. (Traditional is shown on the detail page and as a
+ *  filter/shelf, not on cards - nearly all curated recipes are traditional.) The
+ *  image carries a view-transition-name so it morphs into the detail page hero. */
 @Component({
   selector: 'app-recipe-card',
   standalone: true,
-  imports: [CommonModule, ImagePlaceholderComponent],
-  templateUrl: './recipe-card.component.html',
-  styleUrls: ['./recipe-card.component.scss']
+  imports: [RouterLink, IconComponent, ImagePlaceholderComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `
+    <article class="group relative">
+      <a [routerLink]="['/recipes', recipe().id]" class="block rounded-card focus-visible:outline-offset-4">
+        <div class="relative aspect-[4/3] overflow-hidden rounded-card bg-sunken">
+          @if (recipe().image && !imageFailed()) {
+            <img [src]="image()" [alt]="name()" loading="lazy" decoding="async"
+                 class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                 [style.view-transition-name]="'recipe-' + recipe().id" (error)="imageFailed.set(true)" />
+          } @else {
+            <app-image-placeholder />
+          }
+          @if (recipe().budget === 'low') {
+            <span class="photo-pill absolute bottom-2.5 start-2.5"><app-icon name="coins" [size]="13" /> {{ t('card.budget') }}</span>
+          }
+        </div>
+        <h3 dir="auto" class="mt-2.5 line-clamp-2 font-display text-lg font-semibold leading-snug">{{ name() }}</h3>
+        <p class="mt-0.5 flex flex-wrap items-center gap-x-2 text-sm text-muted">
+          @if (recipe().cuisine) {
+            <span>{{ i18n.cuisine(recipe().cuisine!) }}</span>
+          }
+          @if (recipe().totalTime) {
+            <span class="inline-flex items-center gap-1"><app-icon name="clock" [size]="14" />{{ t('common.minutes', { count: recipe().totalTime! }) }}</span>
+          }
+          @if (budgetLabel() && recipe().budget !== 'low') {
+            <span class="inline-flex items-center gap-0.5" [attr.aria-label]="budgetLabel()" [title]="budgetLabel()">
+              <app-icon name="coins" [size]="14" />{{ budgetSigns() }}
+            </span>
+          }
+        </p>
+      </a>
+      @if (showFavorite()) {
+        <button type="button" (click)="favoriteToggled.emit(recipe().id)"
+                class="absolute end-2 top-2 inline-flex h-11 w-11 items-center justify-center rounded-full bg-surface/90 text-ink shadow-soft backdrop-blur-sm"
+                [class.text-accent]="isFavorite()"
+                [attr.aria-pressed]="isFavorite()" [attr.aria-label]="isFavorite() ? t('card.removeFavorite') : t('card.addFavorite')">
+          <app-icon name="heart" [size]="20" [filled]="isFavorite()" />
+        </button>
+      }
+    </article>
+  `,
 })
 export class RecipeCardComponent {
-  private router = inject(Router);
-  private recipeService = inject(RecipeService);
+  protected readonly i18n = inject(I18nService);
+  protected readonly t = this.i18n.t;
+  readonly recipe = input.required<Recipe>();
+  readonly isFavorite = input(false);
+  readonly showFavorite = input(true);
+  readonly favoriteToggled = output<string>();
 
-  recipe = input.required<Recipe>();
-  isFavorite = input<boolean>(false);
-  viewMode = input<'grid' | 'list'>('grid');
-  
-  favoriteToggled = output<string>();
-  addToMealPlan = output<string>();
-
-  imageError = false;
-
-  optimizedImage(): string {
-    return optimizeImage(this.recipe().image, 600);
-  }
-
-  handleImageError(): void {
-    this.imageError = true;
-  }
-
-  getDifficultyColor(): string {
-    const difficulty = this.recipe().difficulty;
-    switch (difficulty) {
-      case 'Easy': return 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300';
-      case 'Medium': return 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300';
-      case 'Hard': return 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300';
-      default: return 'bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-300';
-    }
-  }
-
-  getCategoryColor(): string {
-    const category = this.recipe().category;
-    switch (category) {
-      case 'Breakfast': return 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300';
-      case 'Lunch': return 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300';
-      case 'Dinner': return 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300';
-      case 'Dessert': return 'bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-300';
-      case 'Snacks': return 'bg-teal-100 text-teal-800 dark:bg-teal-900/30 dark:text-teal-300';
-      default: return 'bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-300';
-    }
-  }
-
-  onFavoriteClick(event: Event): void {
-    event.stopPropagation();
-    this.favoriteToggled.emit(this.recipe().id);
-  }
-
-  onAddToMealPlanClick(event: Event): void {
-    event.stopPropagation();
-    this.addToMealPlan.emit(this.recipe().id);
-  }
-
-  onCardClick(): void {
-    this.router.navigate(['/recipes', this.recipe().id]);
-  }
-
-  formatTime(minutes: number): string {
-    if (minutes < 60) {
-      return `${minutes}m`;
-    }
-    const hours = Math.floor(minutes / 60);
-    const mins = minutes % 60;
-    return mins > 0 ? `${hours}h ${mins}m` : `${hours}h`;
-  }
+  readonly imageFailed = signal(false);
+  readonly image = computed(() => optimizeImage(this.recipe().image, 640));
+  readonly budgetSigns = computed(() => ({ low: '$', medium: '$$', high: '$$$' })[this.recipe().budget ?? 'medium']);
+  readonly name = computed(() => this.i18n.recipeName(this.recipe()));
+  readonly budgetLabel = computed(() => {
+    const b = this.recipe().budget;
+    return b ? this.t('card.budgetLabel', { level: this.i18n.budgetLevel(b) }) : '';
+  });
 }

@@ -1,0 +1,2535 @@
+[
+  {
+    "id": "mexican-chilaquiles",
+    "name": "Chilaquiles with Red Chile de Árbol Salsa",
+    "description": "Crisp fried corn tortillas folded with scrambled egg and simmered briefly in a smoky roasted tomatillo and chile de árbol salsa, finished with cheese. A classic Mexican breakfast that is also eaten at any time of day.",
+    "cuisine": "Mexican",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 2,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "breakfast",
+      "salsa",
+      "eggs",
+      "corn-tortilla"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": 150,
+        "unit": "g",
+        "name": "tomatillos",
+        "note": "husks removed"
+      },
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": 5,
+        "unit": null,
+        "name": "dried chiles de árbol",
+        "note": "4 to 6, adjust to taste; they are hot"
+      },
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": 120,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Salsa de chile de árbol",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 250,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "for shallow frying the tortillas"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 6,
+        "unit": null,
+        "name": "corn tortillas",
+        "note": "day-old or left out until stiff, cut into wedges"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": "fried sunny-side up, or scrambled"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 0.5,
+        "unit": null,
+        "name": "white onion",
+        "note": "half finely diced for the sauce, the rest in thin rings for the top"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 60,
+        "unit": "g",
+        "name": "queso fresco or other cheese",
+        "note": "crumbled; Monterey Jack or Manchego also work"
+      },
+      {
+        "group": "Chilaquiles",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "Mexican crema or sour cream",
+        "note": "to drizzle",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Wrap the tomatillos in foil and roast them on a dry comal or cast-iron skillet over medium heat for 15 to 20 minutes. Set them aside.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Toast the chiles de árbol and the garlic directly on the hot comal. The chiles take under a minute; the garlic takes a little longer.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Blend the roasted tomatillos, chiles, garlic, water, salt and pepper until completely smooth. This makes more salsa than you need here, so keep the rest as a condiment.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a frying pan until a piece of tortilla starts frying at once. Fry the tortilla wedges in batches until chestnut brown, not dark, then drain them on paper towels. Pour off most of the oil, leaving about 1 tablespoon.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Soften the diced onion in the pan for a few minutes. Add about 250 ml (1 cup) of the salsa and simmer 1 to 2 minutes, thinning with a splash of water if it gets too thick.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the fried tortillas to the sauce, toss to coat and cook for only about 1 minute, just long enough for them to soak up some sauce while still keeping some bite.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Meanwhile fry (or scramble) the eggs in a second pan. Serve the chilaquiles at once topped with the eggs, the cheese, crema and onion rings.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Authentic chilaquiles use stiff day-old tortillas rather than store-bought chips; if yours are fresh, leave them out for a few hours to dry. Chips can be used in a pinch; add them to the sauce at the last moment.",
+      "For a green version, swap the chiles de árbol for roasted fresh jalapeños (steam them in a bag, then rub off the skins).",
+      "Shredded warm chicken can be added with the cheese to make it a heartier dinner dish; the crema tones down the heat."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Chilaquiles",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Chilaquiles",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source recipe serves 1 and folds a scrambled egg into the tortillas; checked against how chilaquiles are made in Mexico (fried tortilla wedges simmered briefly in the salsa, topped with egg, queso fresco, onion and crema) and changed the method accordingly. Scaled to 2 servings (6 tortillas, 2 eggs), converted 1 cup tomatillos to about 150 g and ½ cup water to 120 ml; the frying oil quantity, the amount of salsa used and the toppings are estimates, as the source gave none."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chilaquiles_caseros.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chilaquiles_caseros.jpg",
+      "author": "Alejandra Mendoza Santillan",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: fried tortilla pieces smothered in dark red salsa with dollops of crema and crumbled queso fresco, on a colourful patterned plate."
+    }
+  },
+  {
+    "id": "mexican-huevos-rancheros",
+    "name": "Huevos Rancheros",
+    "description": "Sunny-side-up eggs on lightly fried corn tortillas, covered in a warm, fresh tomato and chile ranchero sauce. A traditional Mexican country breakfast ready in about 30 minutes.",
+    "cuisine": "Mexican",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "breakfast",
+      "eggs",
+      "quick",
+      "corn-tortilla"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "divided: 1 tbsp for the sauce, 1 tbsp for the tortillas, the rest for the eggs"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "medium, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fresh chile peppers",
+        "note": "chopped, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "chili powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "plum tomatoes",
+        "note": "peeled, seeded and chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cilantro or parsley",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "corn tortillas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat 1 tablespoon of the oil in a skillet over medium-high heat. Cook the onion (and garlic, if using) until softened but not brown, 4 to 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the tomatoes, chiles, chili powder, sugar, salt and a few grinds of pepper. Lower the heat and simmer for about 10 minutes, until the sauce thickens.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the cilantro or parsley, turn off the heat and cover the pan to keep the sauce warm.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a second skillet, lightly fry the tortillas in 1 tablespoon of oil, then remove and drain them.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add a little more oil to the second skillet if needed and fry the eggs sunny-side up. Set each egg on a tortilla and spoon the warm ranchero sauce over the top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add sliced avocado, shredded Monterey Jack, refried beans or fried potatoes on the side.",
+      "For a variation, scramble the eggs instead of frying them."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Huevos Rancheros",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Huevos_Rancheros",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted 3 tablespoons to 45 ml (kept as tablespoons); the source's sugar and oil amounts are unchanged. Added the sugar to the sauce step (the source lists it but does not say where it goes) and noted how the oil is divided. Marked garlic and the herb as optional, as in the source."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Huevos_rancheros.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Huevos_rancheros.jpg",
+      "author": "1000b",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: two corn tortillas topped with sunny-side-up eggs under chunky red salsa, photographed from above on a white beaded plate."
+    }
+  },
+  {
+    "id": "mexican-guacamole",
+    "name": "Chunky Guacamole",
+    "description": "Creamy avocado with lime, garlic, red chile and salt, with a few chunks left in for texture. Ready in 10 minutes and perfect with tortilla chips.",
+    "cuisine": "Mexican",
+    "region": "Americas",
+    "mealTypes": [
+      "snack",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "dip",
+      "quick",
+      "no-cook",
+      "avocado"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "avocados",
+        "note": "ripe but not over-ripe"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "lime",
+        "note": "juiced, or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "white onion",
+        "note": "very finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "serrano or other fresh chile",
+        "note": "finely chopped, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cilantro",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Halve the avocados and remove the stones. If a stone will not come out easily, the avocado is not ripe enough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set one avocado half aside. Scoop out the rest and mash it with a fork (or a hand-held food processor) to a rough paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the lime juice, onion, chile, cilantro and garlic if using, and add salt to taste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roughly chop the reserved avocado half and fold it in to give the guacamole a chunky texture. Taste, adjust salt and lime, and serve straight away.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The source uses three raw garlic cloves; one (or none, as in most Mexican versions) keeps it milder.",
+      "Covered tightly, it keeps in the fridge for several days; the lime juice slows browning."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Guacamole II",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Guacamole_II",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source is very short (3 avocados, a lime, 3 garlic cloves, 2-3 red chiles, salt, food-processor method). Checked against how guacamole is traditionally made in Mexico (avocado crushed with chile, onion, cilantro, lime and salt) and added onion and cilantro, cut the garlic to one optional clove and the lime to ½, and added a fork as an alternative to the processor. Quantities for onion, cilantro and lime are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Guacomole.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Guacomole.jpg",
+      "author": "Popo le Chien",
+      "license": "CC0",
+      "verified": "Seen: white bowl of chunky pale-green guacamole flecked with red chile and topped with an avocado stone, a bowl of tortilla chips beside it."
+    }
+  },
+  {
+    "id": "mexican-tres-leches-cake",
+    "name": "Tres Leches Cake",
+    "description": "A light sponge soaked in a blend of condensed, evaporated and fresh cream, then topped with toasted meringue. A beloved Mexican and Latin American celebration cake.",
+    "cuisine": "Mexican",
+    "region": "Americas",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 12,
+    "prepTime": 40,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "cake",
+      "baking",
+      "celebration"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Sponge cake",
+        "quantity": 5,
+        "unit": null,
+        "name": "eggs",
+        "note": "separated"
+      },
+      {
+        "group": "Sponge cake",
+        "quantity": 200,
+        "unit": "g",
+        "name": "sugar",
+        "note": "granulated"
+      },
+      {
+        "group": "Sponge cake",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vanilla extract",
+        "note": null
+      },
+      {
+        "group": "Sponge cake",
+        "quantity": 125,
+        "unit": "g",
+        "name": "self-raising flour",
+        "note": "about 1 cup"
+      },
+      {
+        "group": "Milk mixture",
+        "quantity": 1,
+        "unit": "can",
+        "name": "sweetened condensed milk",
+        "note": "about 397 g"
+      },
+      {
+        "group": "Milk mixture",
+        "quantity": 1,
+        "unit": "can",
+        "name": "evaporated milk",
+        "note": "about 340 g (12 fl oz)"
+      },
+      {
+        "group": "Milk mixture",
+        "quantity": 360,
+        "unit": "ml",
+        "name": "heavy whipping cream",
+        "note": null
+      },
+      {
+        "group": "Milk mixture",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vanilla extract",
+        "note": null
+      },
+      {
+        "group": "Meringue",
+        "quantity": 3,
+        "unit": null,
+        "name": "egg whites",
+        "note": null
+      },
+      {
+        "group": "Meringue",
+        "quantity": 200,
+        "unit": "g",
+        "name": "sugar",
+        "note": "granulated"
+      },
+      {
+        "group": "Meringue",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "cream of tartar",
+        "note": "stabilises the whites",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 175 °C (350 °F). Grease and flour a 23 x 33 cm (9 x 13 in) cake pan.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Whip the 5 egg whites until frothy, starting the mixer slowly and increasing the speed gradually. Gradually beat in the sugar and the vanilla until the whites are thick and glossy.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix in the egg yolks, then fold in the flour. Pour the batter into the pan and bake for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Let the cake cool completely to room temperature, then poke it all over with a fork or skewer.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Combine the condensed milk, evaporated milk, cream and vanilla in a pan. Warm for 5 minutes, stirring constantly, without letting it boil, then let it cool to room temperature.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Slowly pour the milk mixture over the cake. Because the pan was greased, the milk will also flow under the cake, which will absorb most of it.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For the meringue, whip the 3 egg whites with the cream of tartar (if using), gradually beating in the sugar until stiff and glossy.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spread the meringue over the cake and toast it lightly with a blowtorch or under the oven grill. Watch it closely: once it starts to colour, it burns in seconds.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Separate the eggs carefully: a trace of yolk in the whites stops them whipping properly.",
+      "Chill the cake for a few hours after soaking so it absorbs the milk fully (not stated in the source, but standard practice). Many Mexican cooks skip heating the milk mixture and simply whisk it cold.",
+      "The meringue is only lightly toasted and not fully cooked; use pasteurised egg whites if you serve it to anyone vulnerable."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tres Leches Cake I",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tres_Leches_Cake_I",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted cups of sugar and flour to grams, 1½ cups cream to 360 ml and 350 °F to 175 °C. The source gives no can sizes or pan size; added typical can sizes (about 397 g and 340 g) and a 23 x 33 cm pan. Spelled out the whipping stages (frothy, then thick and glossy; the sponge in the source is beaten with the sugar) and moved the oven preheat first. Chilling tip and egg-white note added. Checked against Mexican and Latin American tres leches methods (whipped-egg sponge, three milks, soaked while the cake is cooled); the heated milk and the meringue topping are the source's, and whipped cream is the more usual topping."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Pastel_de_Tres_Leches.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pastel_de_Tres_Leches.jpg",
+      "author": "@joefoodie",
+      "license": "CC BY 2.0",
+      "verified": "Seen: close-up of a sliced tres leches cake with whipped cream topping, chocolate drizzle and a cherry, sitting in a pool of milk on a white plate."
+    }
+  },
+  {
+    "id": "peruvian-papa-a-la-huancaina",
+    "name": "Papas a la Huancaína",
+    "description": "Boiled potatoes under a creamy, spicy sauce of cheese and Peruvian yellow chile, served cold on lettuce with eggs and olives. A popular Peruvian starter.",
+    "cuisine": "Peruvian",
+    "region": "Americas",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potatoes",
+      "cold",
+      "starter",
+      "cheese-sauce"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "potatoes",
+        "note": "about 10 medium, new or red"
+      },
+      {
+        "group": null,
+        "quantity": 450,
+        "unit": "g",
+        "name": "cheese",
+        "note": "Romano, Mexican (queso fresco) or feta"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "aji amarillo peppers",
+        "note": "Peruvian yellow chiles, seeded and deveined"
+      },
+      {
+        "group": null,
+        "quantity": 240,
+        "unit": "ml",
+        "name": "evaporated milk",
+        "note": "plus more if the sauce is too thick"
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": null,
+        "name": "saltine crackers",
+        "note": "add more if the sauce is too thin"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "prepared mustard",
+        "note": "included in the source; the sauce works without it",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "lettuce",
+        "note": "leaves, for the serving dish"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "hard-boiled eggs",
+        "note": "halved"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black olives",
+        "note": "for garnish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Peel the potatoes and boil them in salted water until tender, 20 to 25 minutes. Drain and leave to cool.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "In a blender, purée the cheese, chiles, evaporated milk, oil, garlic, crackers, mustard, salt and pepper. The sauce should be fairly thick: add more crackers if it is thin, or more milk if it is too thick.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay a bed of lettuce on a serving dish and set the potatoes on top. Cover them with the sauce.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Top with the halved hard-boiled eggs and the olives, if using.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve slightly cold.",
+      "Huacatay is sometimes added, but that is a confusion with ocopa, another Peruvian sauce; do not add it here."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Huancayo Potatoes in Cream Sauce (Papas a la Huancaína)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Huancayo_Potatoes_in_Cream_Sauce_(Papas_a_la_Huancaína)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted '1 pound' of cheese to 450 g, 1 cup evaporated milk to 240 ml, ½ cup oil to 120 ml and ten medium potatoes to about 1.5 kg. Added boiling times (not in the source) and marked the olives optional ('if desired' in the source). Checked against Peruvian methods (fresh cheese, ají amarillo, evaporated milk, oil, crackers and garlic blended into a thick sauce); mustard is not traditional, so it is marked optional."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cuisine_Perú_Papa_a_la_Huancaína.jpg",
+      "author": "AgainErick",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: boiled potato slices under a bright yellow cheese-and-chile sauce with lettuce, a hard-boiled egg and olives on a white plate."
+    }
+  },
+  {
+    "id": "peruvian-ceviche",
+    "name": "Peruvian Ceviche",
+    "description": "Raw white fish in fresh lime juice with chile, red onion and cilantro, served with sweet potato and corn. Fresh, sharp and ready in 20 minutes.",
+    "cuisine": "Peruvian",
+    "region": "Americas",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "seafood",
+      "raw",
+      "no-cook",
+      "quick",
+      "fish"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Ceviche",
+        "quantity": 450,
+        "unit": "g",
+        "name": "white fish fillets",
+        "note": "very fresh, boned, such as mahi-mahi; cut into 1 cm chunks"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 4,
+        "unit": null,
+        "name": "limes",
+        "note": "juiced (about 120 ml); enough juice to nearly cover the fish"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 1,
+        "unit": null,
+        "name": "aji limo pepper",
+        "note": "or other hot chile, diced"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 1,
+        "unit": null,
+        "name": "rocoto or habanero pepper",
+        "note": "finely diced"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "chopped"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "red, cut into thin julienne strips"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "cilantro",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Ceviche",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": "To serve",
+        "quantity": 4,
+        "unit": null,
+        "name": "lettuce leaves",
+        "note": "about 3 per plate"
+      },
+      {
+        "group": "To serve",
+        "quantity": 2,
+        "unit": null,
+        "name": "corn on the cob",
+        "note": "cut into 5 cm pieces and boiled"
+      },
+      {
+        "group": "To serve",
+        "quantity": 2,
+        "unit": null,
+        "name": "sweet potatoes",
+        "note": "boiled and peeled"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cut the fish into chunks of about 1 cm (½ in).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Season the fish with salt, pepper, the chiles and garlic. Pour over the lime juice and mix, then leave the fish to 'cook' for 5 to 10 minutes while you plate the sides. Do not leave it much longer or the fish will overcook.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the onion and cilantro, mix gently and taste for salt and lime.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve at once on a bed of lettuce with the corn on the cob and sweet potato alongside.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "More traditional recipes marinate the fish for as little as 10 minutes: the lime acid is the only thing 'cooking' it.",
+      "Use only very fresh fish from a fishmonger you trust, since it is not heated."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: White Fish Ceviche (Cebiche de Pescado)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:White_Fish_Ceviche_(Cebiche_de_Pescado)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source makes 6-8 portions with 1.8 kg of fish; scaled to about a quarter, 450 g of fish for 4 as a starter (the source's 8 limes became 4, enough juice for 450 g; onion, chiles, cilantro and sides scaled to match). Checked against Peruvian practice (very fresh cut fish, lime juice, ají, red onion, cilantro, served within minutes with sweet potato and corn) and set the marinade to 5-10 minutes, as the source's own tip suggests. Corn and sweet potato cooking is left 'as usual' in the source."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ceviche_Peruano.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ceviche_Peruano.jpg",
+      "author": "S.hanry",
+      "license": "CC BY 4.0",
+      "verified": "Seen: plate of fish ceviche with large-kernel white corn, a wedge of sweet potato and toasted cancha corn."
+    }
+  },
+  {
+    "id": "brazilian-pao-de-queijo",
+    "name": "Pão de Queijo (Brazilian Cheese Puffs)",
+    "description": "Chewy, gluten-free Brazilian cheese rolls made from tapioca starch, milk, eggs and cheese. Typically eaten at breakfast or as a snack, still warm from the oven.",
+    "cuisine": "Brazilian",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "baking",
+      "gluten-free",
+      "cheese",
+      "tapioca"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 160,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "neutral oil, plus a little for greasing"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "tapioca starch",
+        "note": "fine tapioca flour (polvilho) or fine cassava flour; extra if needed"
+      },
+      {
+        "group": null,
+        "quantity": 170,
+        "unit": "g",
+        "name": "hard cheese",
+        "note": "grated; a mix of cheddar and Parmesan works well"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the milk and oil to a boil in a saucepan until a white foam appears.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Gradually add the tapioca starch to the hot liquid, mixing well to make a firm dough with no lumps.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Leave the dough to rest for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Heat the oven to 190 °C (375 °F). Grease a baking tray.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the eggs, cheese, salt and pepper into the dough; it will turn sticky and wet. If it is too wet to shape, add a little more flour and cheese until it holds as balls rather than spreading like cookies.",
+        "timerMinutes": null
+      },
+      {
+        "text": "With greased hands, shape the dough into balls 2.5 to 5 cm (1 to 2 in) across and set them on the tray.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 20 to 25 minutes, until the tops are puffed and golden. Cool slightly and serve warm.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [
+      "Use a fine flour, not the coarse type used for farofa, or you will not get soft cheese rolls.",
+      "An egg substitute can replace the eggs."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Cheese Puffs (Pão de Queijo)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Cheese_Puffs_(Pão_de_Queijo)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source lists '2 cups (450 g)' of flour, which do not match (2 cups of tapioca starch weigh about 250 g, and the other quantities fit that amount); used 250 g. Converted 6 oz of cheese to 170 g and ⅔ cup milk / ⅓ cup oil to 160 ml / 80 ml; 375 °F to 190 °C; 1-2 in balls to 2.5-5 cm. Source makes about 20 puffs. Checked against Minas Gerais methods (scalded starch, eggs, cheese, baked until puffed): set salt at 1 tsp (source says 'to taste', which cannot be tasted in a raw egg dough) and the bake at 20-25 minutes (source: 15-20) for 3-4 cm puffs."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/P%C3%A3o_de_queijo_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pão_de_queijo_2.jpg",
+      "author": "Melsj",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a single golden pão de queijo torn open at the top, on a paper napkin beside a small dish of soft cheese spread, from above."
+    }
+  },
+  {
+    "id": "brazilian-brigadeiro",
+    "name": "Brigadeiro (Brazilian Chocolate Fudge Balls)",
+    "description": "Soft chocolate fudge balls made from condensed milk, cocoa and butter, rolled in chocolate sprinkles. Brazil's favourite party sweet, made in a single pan.",
+    "cuisine": "Brazilian",
+    "region": "Americas",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 12,
+    "prepTime": 25,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "candy",
+      "chocolate",
+      "no-bake",
+      "party"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "can",
+        "name": "sweetened condensed milk",
+        "note": "395 g"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "plus a little extra for greasing your hands"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "cocoa powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "chocolate sprinkles",
+        "note": "for rolling"
+      }
+    ],
+    "steps": [
+      {
+        "text": "In a heavy saucepan, combine the condensed milk, cocoa powder and butter and stir until the cocoa has dissolved.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook over low heat, stirring constantly so lumps do not form, for 10 to 12 minutes, until you can see the bottom of the pan for a second when you drag the spoon across it. The longer you cook it, the firmer the candy.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pour the mixture onto a plate and let it cool completely.",
+        "timerMinutes": null
+      },
+      {
+        "text": "With buttered hands, roll the mixture into balls about 2 cm across and roll each one in chocolate sprinkles.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a lighter candy, use hot chocolate powder instead of cocoa; or use 100 g baking chocolate instead of the cocoa.",
+      "You can put a raisin or nut in the centre, or roll the balls in powdered sugar or cocoa instead of sprinkles.",
+      "If the candy sets too hard in the pan, fill the pan with water and leave it to soak; it will dissolve and wash out easily."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Brigadeiro (Brazilian Chocolate Fudge)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Brigadeiro_(Brazilian_Chocolate_Fudge)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source lists a 482 g box of sprinkles, far more than needed for 25-30 pieces; reduced to 100 g. Added 'pour onto a plate' to the cooling step. Source yield is 25-30 pieces; given here as 12 servings of 2 to 3. Cooling time is not stated in the source. Checked against Brazilian method (condensed milk, butter and cocoa stirred until the mixture pulls away from the pan, cooled, rolled): matches."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Brigadeiro.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Brigadeiro.jpg",
+      "author": "Maych (Mayra) on Flickr",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: close-up of a brigadeiro rolled in chocolate sprinkles in a gold paper cup, with more behind it, on a white background."
+    }
+  },
+  {
+    "id": "caribbean-jamaican-rice-and-peas",
+    "name": "Jamaican Rice and Peas",
+    "description": "Red kidney beans and rice simmered in coconut milk with thyme, scallion, garlic and a whole Scotch bonnet. The everyday Sunday side of Jamaica, and fully vegan.",
+    "cuisine": "Caribbean",
+    "region": "Americas",
+    "mealTypes": [
+      "side",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "beans",
+      "coconut",
+      "vegan",
+      "side-dish"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "dried red kidney beans",
+        "note": "or gungo (pigeon) peas; soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": "for soaking and cooking the beans"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "can",
+        "name": "coconut milk",
+        "note": "400 ml"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "scallions",
+        "note": "bruised, left whole"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "sprig",
+        "name": "fresh thyme",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "Scotch bonnet pepper",
+        "note": "left whole and unpierced for mild heat; chop it for more"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "allspice berries",
+        "note": "pimento",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "freshly ground"
+      },
+      {
+        "group": null,
+        "quantity": 350,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "rinsed and drained"
+      }
+    ],
+    "steps": [
+      {
+        "text": "The night before, rinse the beans, then put them in a large pot with the water, garlic and salt. Stir and leave to soak overnight.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring the beans and their soaking water to the boil and boil hard for 10 minutes (kidney beans must be boiled properly), then lower the heat and simmer, stirring occasionally, for 45 to 60 minutes until tender. Add hot water if the level drops too low.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Reduce the heat and stir in the coconut milk, scallions, thyme, allspice, black pepper and the whole Scotch bonnet. Simmer for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the rice. The liquid should cover the rice by about 1 cm: add a little hot water if it is lower, or ladle some out if it is much higher. Bring to a boil, then cover and turn the heat to its lowest setting.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook without stirring for 20 to 25 minutes, until the rice is tender and the liquid has been absorbed.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Rest for 5 minutes. Fish out the Scotch bonnet, thyme stems and scallions, fluff the rice with a fork and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The whole Scotch bonnet gives fragrance and mild heat; if it bursts the dish becomes very hot.",
+      "Serve alongside fried chicken, stewed pork, curried chicken or stewed beef, or eat it on its own."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Jamaican Rice and Peas",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Jamaican_Rice_and_Peas",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source is thin: it serves a crowd (3 cups beans, 1½ lb rice) and calls for margarine and three bottled seasoning blends. Checked against how Jamaicans cook rice and peas (kidney beans, coconut milk, scallion, thyme, garlic, whole Scotch bonnet, pimento, plain rice) and rewrote it that way: halved the bean and rice quantities, used a standard 400 ml tin of coconut milk, dropped the margarine and seasoning blends (so the dish is vegan and gluten-free) and added pimento berries as an option. The source's '20 minutes' for soaked kidney beans is too short, so used 45-60 minutes after a 10-minute hard boil; rice cooks 20-25 minutes on the lowest heat, and the liquid check is mine."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Rice_and_Peas.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rice_and_Peas.jpg",
+      "author": "Whispyhistory",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a mound of Jamaican rice and red kidney beans in a brown-tinted sauce on a blue-and-white patterned plate."
+    }
+  },
+  {
+    "id": "caribbean-cuban-black-beans-and-rice",
+    "name": "Cuban Black Beans and Rice",
+    "description": "Black beans simmered with a sofrito of onion, green pepper and garlic, finished with vinegar and a splash of wine, served over white rice. A vegan staple of Cuban home cooking.",
+    "cuisine": "Caribbean",
+    "region": "Americas",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 120,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": false
+    },
+    "tags": [
+      "beans",
+      "rice",
+      "vegan",
+      "sofrito",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Beans",
+        "quantity": 500,
+        "unit": "g",
+        "name": "dried black beans",
+        "note": "washed and soaked overnight"
+      },
+      {
+        "group": "Beans",
+        "quantity": 2.4,
+        "unit": "l",
+        "name": "water",
+        "note": "about 10 cups, for soaking and cooking"
+      },
+      {
+        "group": "Beans",
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "large; one halved (half goes in the soaking pot), the rest chopped for the sofrito"
+      },
+      {
+        "group": "Beans",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "large, chopped"
+      },
+      {
+        "group": "Beans",
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "smashed and chopped"
+      },
+      {
+        "group": "Beans",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "2 for the sofrito, 2 to finish"
+      },
+      {
+        "group": "Beans",
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "plus more to taste"
+      },
+      {
+        "group": "Beans",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": "Beans",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried oregano",
+        "note": null
+      },
+      {
+        "group": "Beans",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": "traditional, not in the source",
+        "optional": true
+      },
+      {
+        "group": "Beans",
+        "quantity": 1,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": "Beans",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": "Beans",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cider vinegar",
+        "note": null
+      },
+      {
+        "group": "Beans",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "dry white wine",
+        "note": "cooking wine or dry sherry is fine"
+      },
+      {
+        "group": "Rice",
+        "quantity": 400,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "converted/parboiled"
+      },
+      {
+        "group": "Rice",
+        "quantity": 1.1,
+        "unit": "l",
+        "name": "water",
+        "note": "about 4½ cups"
+      },
+      {
+        "group": "Rice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "The night before, wash the beans and soak them in a large pot with the water and half of one green pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "The next day, cook the beans in the same water at a low boil, stirring occasionally, until they begin to soften, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile make the sofrito: heat 2 tablespoons of the oil in a frying pan and soften the chopped onion, garlic and green pepper for 5 to 10 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Blend 1 cup of the soft beans with a little of their liquid until smooth. Stir this purée into the sofrito, then add the sofrito to the bean pot. Add the salt, pepper, oregano, cumin if using, bay leaf and sugar, and simmer for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Stir in the vinegar and wine and keep simmering for another 30 minutes, until the beans are very tender and the liquid has thickened. Add the final 2 tablespoons of olive oil and adjust the salt.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "For the rice, put the rice, water and oil in a large saucepan, bring to a boil, then lower to a simmer and cook for about 20 minutes, until the water has evaporated. Fluff with a fork.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Serve a mound of rice on each plate with a ladle of beans on top, or the beans in a side bowl, and encourage everyone to mix their rice and beans.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "If the beans are too watery, simmer them a little longer to thicken.",
+      "They keep about a week in the fridge and freeze well."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Rice with Black Beans (Arroz con Frijoles Negros)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Rice_with_Black_Beans_(Arroz_con_Frijoles_Negros)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted 1 lb to 500 g beans, 10 cups to 2.4 l water, ⅓ cup oil to 6 tablespoons split across beans (4) and rice (2) as the steps indicate, 2 cups rice to 400 g. Checked against Cuban frijoles negros (sofrito, bay, oregano, cumin, sugar, vinegar, wine; about 2 hours of cooking): cut the salt from 4 to 2 tsp (adjust at the end), shortened the three 'about an hour' simmers to 60 + 30 + 30 minutes to match the source's own 2-hour total, and added cumin as an optional traditional seasoning. The source lists two peppers and uses one half for the soak; kept both."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Frijoles_Negros%2C_26_Nov_2020.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frijoles_Negros,_26_Nov_2020.jpg",
+      "author": "Thraddax",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: black beans with onion and green pepper ladled over a bed of white rice on a purple plate, with two split biscuits on the side."
+    }
+  },
+  {
+    "id": "american-buttermilk-pancakes",
+    "name": "Buttermilk Pancakes",
+    "description": "Fluffy griddle cakes made with buttermilk and a little baking soda, from an early twentieth-century Boston cookbook. About 12 pancakes in 25 minutes, best with butter and maple syrup.",
+    "cuisine": "American",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancakes",
+      "griddle",
+      "quick",
+      "classic"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 310,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "about 2½ cups"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.25,
+        "unit": "tsp",
+        "name": "baking soda",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 480,
+        "unit": "ml",
+        "name": "buttermilk",
+        "note": "the source calls for sour milk"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": "well beaten"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "butter",
+        "note": "for greasing the griddle"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "maple syrup",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "butter",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix and sift the flour, salt and baking soda into a bowl.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the egg well, then stir it and the buttermilk into the dry ingredients until just combined.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a griddle or large frying pan over medium heat and grease it lightly with butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Drop the batter on the hot griddle in spoonfuls. Cook until puffed, full of bubbles and set at the edges, about 2 minutes, then turn and cook the other side until golden.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Serve hot with butter and maple syrup.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not over-mix: a few small lumps are fine and give lighter pancakes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Boston Cooking-School Cook Book",
+      "author": "Fannie Merritt Farmer",
+      "year": 1910,
+      "url": "https://www.gutenberg.org/ebooks/65061",
+      "license": "Public domain",
+      "adaptation": "Recipe is 'Sour Milk Griddle-cakes'. Converted 2½ cups flour to 310 g and 2 cups sour milk to 480 ml; buttermilk substituted for sour milk. The source does not give a heat setting or time: added medium heat and about 2 minutes a side."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Pancake_stack_with_honey.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pancake_stack_with_honey.jpg",
+      "author": "Shisma",
+      "license": "CC BY 4.0",
+      "verified": "Seen: a stack of golden pancakes on a white plate with syrup running down the sides."
+    }
+  },
+  {
+    "id": "american-southern-buttermilk-cornbread",
+    "name": "Southern Buttermilk Cornbread (Egg Bread)",
+    "description": "A sugar-free Southern skillet cornbread of cornmeal, eggs and buttermilk with a crisp brown crust and a soft middle. Serve it hot, drenched in butter.",
+    "cuisine": "American",
+    "region": "Americas",
+    "mealTypes": [
+      "side",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "cornbread",
+      "southern",
+      "skillet",
+      "baking"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 280,
+        "unit": "g",
+        "name": "cornmeal",
+        "note": "fine, sifted; about 2 cups"
+      },
+      {
+        "group": null,
+        "quantity": 480,
+        "unit": "ml",
+        "name": "buttermilk",
+        "note": "about 1 pint"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "baking soda",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "shortening",
+        "note": "barely melted; lard or butter also work"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "shortening",
+        "note": "extra, for greasing the skillet well"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "butter",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 220 °C (425 °F). Put the extra shortening in a 25 cm (10 in) cast-iron skillet and set it in the oven to get very hot.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the eggs with the salt until very light, then stir in the cornmeal.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dissolve the baking soda in the buttermilk, then stir it into the batter. Stir in the barely melted shortening.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour the batter into the hot, well-greased skillet. Bake for 20 to 25 minutes, until the crust is a good brown.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "Serve immediately, cut in wedges, with plenty of butter.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "There is no sugar in this bread. The source's plain corn bread has no salt at all, so that the cornmeal pairs with fresh butter; this version has only a pinch.",
+      "If the buttermilk is very sour, replace one third of it with water rather than adding more soda.",
+      "The same batter can be baked in greased muffin tins."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Dishes & Beverages of the Old South",
+      "author": "Martha McCulloch-Williams",
+      "year": 1913,
+      "url": "https://www.gutenberg.org/ebooks/28491",
+      "license": "Public domain",
+      "adaptation": "Recipe is 'Egg Bread (Mammy's)'. Converted 2 cups sifted cornmeal to about 280 g and 1 pint to 480 ml; 'a spoonful of shortening' taken as 1 tablespoon. The source says only 'pour into well-greased pans or skillets, cook quickly': added a 220 °C oven, a pre-heated 25 cm skillet and 20-25 minutes (estimates), and the optional butter to serve."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CornbreadSkillet.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:CornbreadSkillet.JPG",
+      "author": "Jonathunder",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a golden-orange cornbread baked in a small cast-iron skillet, photographed from above on a speckled black countertop."
+    }
+  },
+  {
+    "id": "american-southern-chicken-okra-gumbo",
+    "name": "Old-Fashioned Southern Chicken and Okra Gumbo",
+    "description": "A thick Southern gumbo of browned chicken, bacon fat, ham, okra and tomatoes simmered for an hour and served over fluffy rice. From a 1913 Southern cookbook.",
+    "cuisine": "American",
+    "region": "Americas",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 8,
+    "prepTime": 30,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "gumbo",
+      "okra",
+      "southern",
+      "stew",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Gumbo",
+        "quantity": 1.5,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "tender, whole, cut into joints"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 225,
+        "unit": "g",
+        "name": "bacon",
+        "note": "for its fat"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 150,
+        "unit": "g",
+        "name": "ham",
+        "note": "two thick slices"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "chopped fine"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 900,
+        "unit": "g",
+        "name": "ripe tomatoes",
+        "note": "about 6 large, peeled and chopped, with their juice"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 0.5,
+        "unit": null,
+        "name": "mild red chile pepper",
+        "note": "half a large pod, cut small"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "thyme and parsley",
+        "note": "minced, mixed"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 300,
+        "unit": "g",
+        "name": "okra",
+        "note": "tender, stemmed and sliced lengthwise; about 1 pint"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": 2.8,
+        "unit": "l",
+        "name": "boiling water",
+        "note": "about 3 quarts"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to season the chicken"
+      },
+      {
+        "group": "Gumbo",
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to season the chicken"
+      },
+      {
+        "group": "Rice",
+        "quantity": 300,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "washed until the water runs clear"
+      },
+      {
+        "group": "Rice",
+        "quantity": null,
+        "unit": null,
+        "name": "butter",
+        "note": "plenty, to dress the rice",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cut the bacon into pieces and fry it in a large heavy pot to render the fat. Lift out the bacon (keep it for another use), leaving the fat in the pot.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Season the chicken pieces well with salt and pepper. Fry them with the ham slices in the bacon fat for about 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the onions, tomatoes with their juice, red pepper, herbs and okra. Cook all together, stirring constantly and watching it closely so it does not scorch, until everything is well browned, about 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Pour in the boiling water. Set the pot where it will barely simmer and cook for 1 hour longer, again taking care against scorching.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "For the rice, wash it until the water runs clear. Drain, then tip it into a wide pan of salted boiling water and boil for 20 minutes, until tender. Drain well in a colander, return to a warm oven for a minute so the grains stand separate, and dress with butter.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Serve the gumbo in deep bowls with the rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The source stresses that the rice is never cooked in the gumbo pot.",
+      "The gumbo thickens from the okra; you can lift out the chicken bones before serving if you like."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Dishes & Beverages of the Old South",
+      "author": "Martha McCulloch-Williams",
+      "year": 1913,
+      "url": "https://www.gutenberg.org/ebooks/28491",
+      "license": "Public domain",
+      "adaptation": "Recipe is 'Gumbo'. Converted half a pound of bacon to 225 g, a pint of okra to about 300 g and three quarts to 2.8 l; guessed the chicken weight (1.5 kg: 'a tender fat chicken, nearly grown'), the ham weight, the tomato and onion weights and the amount of rice for 8 servings, and added a bacon-rendering step (the source uses 'the fat from half a pound of bacon'). The browning time (20 minutes) is an estimate; the source says only 'until everything is well browned'."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gumbo_-_2377364339.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gumbo_-_2377364339.jpg",
+      "author": "stu_spivack",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a white bowl of thick brown gumbo with shreds of meat, topped with a mound of white rice and chopped parsley; no sausage or seafood visible."
+    }
+  },
+  {
+    "id": "american-apple-pie",
+    "name": "Classic Apple Pie",
+    "description": "A double-crust pie of tart apples, a little sugar and nutmeg, baked in a lard pastry rolled and folded for flakiness. From Fannie Farmer's 1896 Boston cookbook.",
+    "cuisine": "American",
+    "region": "Americas",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 8,
+    "prepTime": 45,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pie",
+      "baking",
+      "apples",
+      "classic"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Pastry",
+        "quantity": 190,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "about 1½ cups"
+      },
+      {
+        "group": "Pastry",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Pastry",
+        "quantity": 70,
+        "unit": "g",
+        "name": "lard",
+        "note": "about ⅓ cup; keep 15 g aside for rolling and glazing"
+      },
+      {
+        "group": "Pastry",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "cold water",
+        "note": "about 4 tablespoons, as needed"
+      },
+      {
+        "group": "Filling",
+        "quantity": 900,
+        "unit": "g",
+        "name": "tart apples",
+        "note": "4 or 5 sour apples"
+      },
+      {
+        "group": "Filling",
+        "quantity": 65,
+        "unit": "g",
+        "name": "sugar",
+        "note": "about ⅓ cup"
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "grated nutmeg",
+        "note": "cinnamon can replace it"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "lemon juice",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Filling",
+        "quantity": null,
+        "unit": null,
+        "name": "lemon zest",
+        "note": "a few gratings",
+        "optional": true
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "butter",
+        "note": "to dot over the apples",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the salt into the flour. Rub in the lard (reserving 15 g) with your fingertips or a knife, then add just enough cold water to make a dough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Toss the dough on a floured board, pat and roll it out. Spread with most of the reserved lard, dust with flour, roll it up like a jelly roll, pat and roll it out; roll it up again.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oven to 190 °C (375 °F). Cut a piece from the end of the roll, large enough to line a 23 cm (9 in) pie plate, pat and roll it out slightly bigger than the plate and line the plate (do not grease it). Roll out the rest for the top crust.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Peel, core and cut the apples into eighths. Arrange them in a ring about 1 cm from the edge of the plate, working towards the centre, then pile on the rest.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the sugar, nutmeg, salt, lemon juice and zest and sprinkle over the apples. Dot with the butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush the edge of the bottom crust with water, cover with the top crust, press the edges together and cut a few vents. Dot the top with the last of the lard.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 40 to 45 minutes, until the crust is well browned and the apples are tender. Cool a little on a rack before slicing.",
+        "timerMinutes": 40
+      }
+    ],
+    "tips": [
+      "Farmer says a very good pie can be made without the butter, lemon juice and zest.",
+      "Evaporated apples can replace fresh ones; soak them overnight in cold water first.",
+      "Farmer's chopped paste notes that all butter can be used instead of lard if you prefer."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Boston Cooking-School Cook Book",
+      "author": "Fannie Merritt Farmer",
+      "year": 1910,
+      "url": "https://www.gutenberg.org/ebooks/65061",
+      "license": "Public domain",
+      "adaptation": "Combines 'Apple Pie I' and 'Paste with Lard' (one two-crust pie). Converted cups to grams (1½ cups flour to 190 g, ⅓ cup sugar to 65 g, ⅓ cup lard to 70 g) and 'moderate oven' to 190 °C; the source gives no pie-plate size (a 23 cm plate fits this amount) and no water quantity (about 60 ml estimated). Apples weighed at about 900 g for 4-5 sour apples. Steps otherwise follow the source; the instruction to bind juicy pies with a cloth strip is left out."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apple_pie_24.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Apple_pie_24.jpg",
+      "author": "Shisma",
+      "license": "CC BY 4.0",
+      "verified": "Seen: a slice of lattice-topped apple pie with a golden crust and spiced apple filling on a white plate."
+    }
+  },
+  {
+    "id": "argentine-chimichurri",
+    "name": "Chimichurri",
+    "description": "Argentina's parsley, garlic and oregano sauce, loosened with oil and vinegar and left to mellow. Spoon it over grilled steak, or serve with empanadas.",
+    "cuisine": "Argentine",
+    "region": "Americas",
+    "mealTypes": [
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 75,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sauce",
+      "herbs",
+      "make-ahead",
+      "grilling"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "flat-leaf parsley",
+        "note": "leaves only, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "finely minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "dried oregano",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "red chile flakes",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "sea salt flakes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": "ground"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "fresh thyme",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "fresh coriander",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "lemon juice",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "ml",
+        "name": "white wine vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the parsley, garlic, oregano, chile flakes, paprika, onion, salt, pepper and any optional herbs in a large bowl and mix well so the salt is evenly spread.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Leave to rest for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Bring the vinegar and water to a boil, pour over the herb mixture and stir well. This softens the onion and garlic.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Leave to rest for another 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Stir in the olive oil. If the liquid does not cover the herbs, add more oil, vinegar and water in the proportion 2:1:1.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Transfer to an airtight container and refrigerate overnight at least, or better for a few days.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Take it out of the fridge about 30 minutes before serving so the oil thins out again, stir well and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For red chimichurri, use red wine vinegar and add a peeled, seeded, finely chopped tomato and ½ a red bell pepper in place of the green pepper.",
+      "Use it as a marinade or sauce for grilled and roasted meats, or as a dip for empanadas."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Chimichurri",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Chimichurri",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source is a one-person recipe with 1 tbsp of salt flakes and 1 tsp of black pepper; checked against Argentine versions (parsley, garlic, oregano, chile, vinegar and oil, rested for hours): cut the salt to 2 tsp and the pepper to ½ tsp, marked the onion and paprika as optional because the classic sauce often omits them, and moved the source's optional thyme, coriander and lemon juice to optional ingredients. The bell pepper option is left to the variation tip. Servings changed from 2 to 6 as it is a condiment. Prep time includes the two 30-minute rests, not the overnight chill."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Steak_with_Chimichurri_Sauce_%2813316528445%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Steak_with_Chimichurri_Sauce_(13316528445).jpg",
+      "author": "Dominic Lockyer",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a grilled steak on a white plate topped with a spoonful of chopped green chimichurri."
+    }
+  },
+  {
+    "id": "argentine-empanadas-de-carne",
+    "name": "Argentine Beef Empanadas",
+    "description": "Half-moon pastries filled with spiced beef, onion, egg and olives, sealed with a pinched edge and baked or fried until golden. About 14 empanadas.",
+    "cuisine": "Argentine",
+    "region": "Americas",
+    "mealTypes": [
+      "dinner",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 50,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "empanadas",
+      "pastry",
+      "beef",
+      "party-food"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Dough",
+        "quantity": 300,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 60,
+        "unit": "g",
+        "name": "butter",
+        "note": "cold, cubed"
+      },
+      {
+        "group": "Dough",
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Dough",
+        "quantity": 150,
+        "unit": "ml",
+        "name": "cold water",
+        "note": "about; add gradually"
+      },
+      {
+        "group": "Dough",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "melted, for brushing"
+      },
+      {
+        "group": "Filling",
+        "quantity": 300,
+        "unit": "g",
+        "name": "ground beef",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "medium, finely diced"
+      },
+      {
+        "group": "Filling",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Filling",
+        "quantity": 2,
+        "unit": null,
+        "name": "hard-boiled eggs",
+        "note": "diced",
+        "optional": true
+      },
+      {
+        "group": "Filling",
+        "quantity": 8,
+        "unit": null,
+        "name": "green olives",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "group": "Filling",
+        "quantity": 25,
+        "unit": "g",
+        "name": "raisins",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dissolve the salt in the cold water. Mix the flour, egg and butter with about half the water to form a dough, then knead, adding more water as needed, until the dough is soft and stretchy. If it gets sticky, add a little flour. Rest it for a few minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For the filling, soften the onions in the oil in a large frying pan, about 8 minutes. Add the beef and brown it, about 10 minutes, breaking it up.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the paprika, cumin, pepper, salt and sugar (if using) and cook a minute more. Take off the heat, stir in the raisins, and let the filling cool completely before filling. Add the diced egg and olives, if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oven to 200 °C (400 °F) and line a baking tray. Roll the dough out to 2 to 3 mm thick and cut discs about 12 cm across.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put 1 to 2 tablespoons of filling in the middle of each disc. Wet the edge with cold water, fold in half to enclose the filling, pressing out any air.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Seal the edge by pinching and twisting small folds (the traditional 'repulgue') all the way round, or press with a fork.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush the empanadas with melted butter and bake for 20 to 25 minutes, until golden. Or deep-fry them in vegetable oil over medium heat until golden brown. Let them cool a few minutes before eating.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [
+      "Every Argentine household has its own filling: the source also gives a Chilean 'pino' version with garlic, bay leaf, more onion and black olives.",
+      "Serve with chimichurri."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Empanada",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Empanada",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source makes about 40 empanadas (1 kg flour, 1 kg beef) and gives a 'sweet' Santa Fe filling with cinnamon, nutmeg and cloves. Scaled to about a third (300 g flour and beef, 1 egg, 60 g butter); checked against Argentine carne empanadas (beef, plenty of onion, cumin, paprika, egg and olives, raisins in some provinces) and so omitted the cinnamon, nutmeg and cloves, raised the onion to 2 for 300 g, made cumin standard and marked sugar, egg, olives and raisins as optional. Added that the filling must be cooled before use, a butter glaze (source: brush with butter) and a bake time of 20-25 minutes (source: 8-10 minutes at 200 °C, which is too short for raw dough). Dough water given as about 150 ml, scaled from 2-3 cups per kilo."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Empanadas_de_carne_argentina_al_horno.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Empanadas_de_carne_argentina_al_horno.jpg",
+      "author": "Horacio Cambeiro",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: six golden baked beef empanadas with hand-twisted repulgue edges on paper towels over a white dotted plate."
+    }
+  }
+]

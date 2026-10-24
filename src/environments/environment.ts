@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
-  /*apiBaseUrl: 'http://localhost:8000/api',*/
-  apiBaseUrl: 'http://192.168.137.1:8000/api',
+  // Derive the API host from the page host so the dev app works from any device on the LAN.
+  apiBaseUrl: `http://${window.location.hostname}:8000/api`,
 };

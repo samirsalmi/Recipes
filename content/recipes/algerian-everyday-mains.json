@@ -1,0 +1,2930 @@
+[
+  {
+    "id": "algerian-couscous-merga-hamra",
+    "name": "Couscous Bel Merga Hamra (Couscous in Red Sauce)",
+    "description": "Steamed couscous served with a tomato-red sauce of chicken, chickpeas and a few simple vegetables: the everyday Friday-lunch version of the national dish.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 75,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "red-sauce",
+      "chicken",
+      "chickpeas",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "couscous (medium semolina)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "onions",
+        "note": "one grated, one chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": "drained"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "carrots",
+        "note": "in thick pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "courgettes",
+        "note": "in thick pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "for the couscous"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in the base of a couscoussier or a large pot. Brown the chicken for 5 minutes, then add the onions, paprika, pepper and cinnamon and cook until the onions soften.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir in the tomato paste and grated tomatoes, add the chickpeas, salt and water, and bring to a boil.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Moisten the couscous with salted water, rub it with your fingers to break lumps, and steam it in the top part for 20 minutes over the simmering sauce.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the carrots to the sauce, tip the couscous into a wide dish, sprinkle with a little cold salted water, break up lumps and steam it again for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the courgettes to the sauce and simmer for 15 minutes, until the chicken and vegetables are tender.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Work the butter into the hot couscous, mound it on a platter, make a well and ladle over some sauce. Serve the rest of the chicken, vegetables and sauce alongside, with harissa.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Steaming the couscous twice makes it light; do not skip the second steam.",
+      "Leave the sauce a little thin: the couscous drinks it up."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Merga Hamra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Couscous_2018.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Couscous_2018.jpg",
+      "author": "Mohamedaminearb",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of couscous with chickpeas, courgette and carrot in an orange sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Couscous en sauce rouge"
+      },
+      "ar": {
+        "name": "كسكس بالمرق الأحمر"
+      }
+    }
+  },
+  {
+    "id": "algerian-couscous-merga-beida",
+    "name": "Couscous Bel Merga Beida (Couscous in White Sauce)",
+    "description": "A pale, gently spiced couscous with chicken, chickpeas and turnips in a clear onion broth, with sweet raisin onions sometimes spooned on top.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 80,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "white-sauce",
+      "chicken",
+      "chickpeas",
+      "raisins"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "couscous (medium semolina)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "onions",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "turnips",
+        "note": "peeled, quartered"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "courgettes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "raisins",
+        "note": "soaked"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": "for the raisins"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in the couscoussier pot, add the chicken, onions, cinnamon, pepper and salt and cook without browning for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the chickpeas and water, bring to a boil and skim, then simmer for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Moisten the couscous with salted water, rub it loose and steam it over the pot for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the turnips and carrots to the broth. Re-wet and break up the couscous and steam it again for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the courgettes and cook for 15 minutes more until everything is tender.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mix the butter into the couscous and mound it on a dish. Drain a ladle of onions and chickpeas, simmer them with the raisins and sugar for 5 minutes, and spoon over the top. Serve with the broth and vegetables.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [
+      "The sauce stays white because the chicken is not browned and no paprika or tomato goes in."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Merga Beida (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/COUSCOUS3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:COUSCOUS3.jpg",
+      "author": "Sabah HAANA",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: plates of couscous with chicken, carrot and courgette in a light sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Couscous en sauce blanche"
+      },
+      "ar": {
+        "name": "كسكس بالمرق الأبيض"
+      }
+    }
+  },
+  {
+    "id": "algerian-couscous-guedid",
+    "name": "Couscous Bel Guedid (Couscous with Dried Meat)",
+    "description": "A festive couscous in which guedid, sun-dried and preserved meat, is simmered until tender in a rich sauce with chickpeas and vegetables.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 35,
+    "cookTime": 120,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "guedid",
+      "dried-meat",
+      "festive",
+      "eid",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "couscous (medium semolina)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "guedid",
+        "note": "dried lamb or beef, rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "onions",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "turnips",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "courgettes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "go lightly, the meat is salty"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "smen",
+        "note": "or butter"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the guedid in warm water for 30 minutes, then rinse and cut it into pieces.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Fry the chopped onions in the oil in the couscoussier pot, add the guedid, paprika, pepper and tomato paste and stir for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the soaked chickpeas and water and simmer, covered, for 1 hour until the meat starts to soften.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Steam the moistened couscous in the top part for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the carrots and turnips to the pot, re-wet and break up the couscous, steam again for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the courgettes and cook 15 minutes more, tasting for salt only at the end.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Work the smen into the couscous, mound it, and serve the guedid and vegetables over it with the sauce.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Guedid is salty: soak well and add salt only at the end.",
+      "If you cannot find guedid, use salted and sun-dried beef from a halal butcher."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Guedid (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Couscous à la viande séchée"
+      },
+      "ar": {
+        "name": "كسكس بالقديد"
+      }
+    }
+  },
+  {
+    "id": "algerian-mqarna-marqa",
+    "name": "Mqarna Bel Marqa (Macaroni in Meat Sauce)",
+    "description": "A weeknight classic: macaroni tossed in a savoury tomato and minced-beef sauce with a little cinnamon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "macaroni",
+      "sauce",
+      "family",
+      "weeknight"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "macaroni",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": "to finish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the onion in the oil for 5 minutes, then add the beef and brown it for 8 minutes, breaking up lumps.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Stir in the garlic, paprika, cinnamon, pepper and tomato paste, then the tomatoes, salt and water. Simmer 20 minutes until thick.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Meanwhile boil the macaroni in plenty of salted water until just tender and drain.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Toss the pasta with the sauce and let it sit, covered, for 5 minutes. Serve with grated cheese if you like.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [
+      "A splash of the pasta water loosens the sauce if it gets too thick."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mqarna Bel Marqa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Macaroni en sauce"
+      },
+      "ar": {
+        "name": "مقرونة بالمرقة"
+      }
+    }
+  },
+  {
+    "id": "algerian-spaghetti-kefta",
+    "name": "Spaghetti Bel Kefta (Spaghetti with Spiced Meatballs)",
+    "description": "Spaghetti with small coriander-and-cumin meatballs in a smooth tomato sauce, the Algerian family take on a pasta and meatball plate.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "meatballs",
+      "kefta",
+      "family"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "spaghetti",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "breadcrumbs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the beef with half the onion, one crushed garlic clove, parsley, cumin, half the paprika, egg, breadcrumbs, 1 tsp salt and pepper. Roll into walnut-sized balls.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brown the meatballs in 2 tbsp oil in a wide pan for 6 minutes, turning, then set aside.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "In the same pan fry the remaining onion and garlic in the remaining oil for 4 minutes, add the paprika, tomato paste, tomatoes, salt and 200 ml water and simmer for 10 minutes.",
+        "timerMinutes": 14
+      },
+      {
+        "text": "Return the meatballs to the sauce and cook for 12 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Boil the spaghetti until al dente, drain, and serve topped with the meatballs and sauce.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [
+      "Wet hands make the meatballs easier to roll."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Spaghetti Bel Kefta (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spaghetti_and_meatballs_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Spaghetti_and_meatballs_1.jpg",
+      "author": "jeffreyw",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a plate of spaghetti and meatballs in tomato sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Spaghetti aux boulettes de viande"
+      },
+      "ar": {
+        "name": "سباغيتي بالكفتة"
+      }
+    }
+  },
+  {
+    "id": "algerian-spaghetti-sardines",
+    "name": "Spaghetti Bel Sardine (Spaghetti with Sardines)",
+    "description": "A coastal budget supper: spaghetti tossed with sardines, garlic, tomato and a hint of chilli and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "sardines",
+      "fish",
+      "budget",
+      "coastal"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "g",
+        "name": "spaghetti",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": "cleaned, filleted"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "sliced",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil, soften the garlic for 1 minute, then add the paprika, cumin, tomato paste and tomatoes with the salt and cook for 10 minutes until saucy.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Boil the spaghetti in salted water until al dente; drain, keeping a ladle of cooking water.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Lay the sardine fillets in the sauce and cook gently for 5 minutes, breaking them up as you stir.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Toss in the spaghetti with a splash of its water, the parsley, chilli and lemon juice and serve at once.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Canned sardines in oil work well too: drain and add them for the last 2 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Spaghetti Bel Sardine (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sardines_and_green_olives_on_bucatini%2C_with_lemon_essence%2C_oil%2C_and_black_pepper_-_Massachusetts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sardines_and_green_olives_on_bucatini,_with_lemon_essence,_oil,_and_black_pepper_-_Massachusetts.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "verified": "Seen: bucatini with sardines and green olives."
+    },
+    "translations": {
+      "fr": {
+        "name": "Spaghetti aux sardines"
+      },
+      "ar": {
+        "name": "سباغيتي بالسردين"
+      }
+    }
+  },
+  {
+    "id": "algerian-riz-djaj",
+    "name": "Riz Bel Djaj (Rice with Chicken)",
+    "description": "Fragrant long-grain rice cooked with golden chicken pieces, onion, peas and a pinch of turmeric.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "chicken",
+      "one-pot",
+      "family"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "rice",
+        "note": "long-grain"
+      },
+      {
+        "group": null,
+        "quantity": 700.0,
+        "unit": "g",
+        "name": "chicken",
+        "note": "pieces"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "frozen peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": "diced"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the chicken in the oil for 8 minutes, add the onion and spices and cook for 5 minutes.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Add the water and salt, cover and simmer for 20 minutes until the chicken is nearly cooked.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Rinse the rice, add it with the peas and carrot, stir once, cover and cook on low heat until the water is absorbed.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rest, covered, for 10 minutes and fluff with a fork.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [
+      "Do not stir again after adding rice or it turns sticky."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Riz Bel Djaj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Riz au poulet"
+      },
+      "ar": {
+        "name": "أرز بالدجاج"
+      }
+    }
+  },
+  {
+    "id": "algerian-riz-khodra",
+    "name": "Riz Bel Khodra (Rice with Vegetables)",
+    "description": "A bright pilaf of rice with carrots, peas, courgette and peppers, an easy vegan side or light main.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "vegetables",
+      "vegan",
+      "budget",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "rice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "carrots",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "courgette",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "frozen peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 550.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the onion in the oil for 4 minutes, add the carrots and pepper and cook for 5 minutes.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Stir in the tomato paste, paprika, salt and pepper, then add the courgette and peas. Cook 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Add the washed rice and water, bring to a boil, cover, and cook on the lowest heat for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rest for 5 minutes, then fluff and serve.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Riz Bel Khodra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Vegetable_rice_image.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_rice_image.jpg",
+      "author": "safaritravelplus",
+      "license": "CC0",
+      "verified": "Seen: a bowl of rice with diced mixed vegetables."
+    },
+    "translations": {
+      "fr": {
+        "name": "Riz aux légumes"
+      },
+      "ar": {
+        "name": "أرز بالخضرة"
+      }
+    }
+  },
+  {
+    "id": "algerian-riz-thon",
+    "name": "Riz Bel Thon (Rice with Tuna)",
+    "description": "A pantry supper of rice with tuna, tomato and sweetcorn.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "tuna",
+      "quick",
+      "budget"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "rice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "can",
+        "name": "tuna",
+        "note": "in oil, drained"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "sweetcorn",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 550.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the onion in the oil for 5 minutes, add tomato paste and paprika and cook 1 minute.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Add rice, salt and water, cover and cook on low heat for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Fold in the tuna and sweetcorn, cover for 5 minutes, add lemon juice and fluff.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Riz Bel Thon (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Riz au thon"
+      },
+      "ar": {
+        "name": "أرز بالتونة"
+      }
+    }
+  },
+  {
+    "id": "algerian-gratin-macaroni",
+    "name": "Gratin de Macaroni (Baked Pasta Gratin)",
+    "description": "Macaroni and minced beef under a golden béchamel and cheese crust, a party-table favourite.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 5,
+    "prepTime": 20,
+    "cookTime": 30,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "gratin",
+      "cheese",
+      "oven"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "macaroni",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": "gruyere or emmental"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "nutmeg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the macaroni 2 minutes short of the pack time and drain.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Brown the onion and beef in the oil for 10 minutes with the tomato paste, half the salt and the pepper.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Melt the butter, stir in the flour for 1 minute, whisk in the milk and cook until thick, then add nutmeg, remaining salt and half the cheese.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mix pasta, meat and a third of the sauce in a baking dish, spread the rest of the sauce on top, scatter cheese, and bake at 200 C until golden.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [
+      "Rest 5 minutes before slicing so it holds together."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Gratin de Macaroni (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 5 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Macaronigratin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Macaronigratin.jpg",
+      "author": "Kuha455405",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a baked macaroni gratin with a golden cheese crust in an oval dish."
+    },
+    "translations": {
+      "fr": {
+        "name": "Gratin de pâtes"
+      },
+      "ar": {
+        "name": "غراتان المقرونة"
+      }
+    }
+  },
+  {
+    "id": "algerian-gratin-batata",
+    "name": "Gratin de Batata (Potato Gratin)",
+    "description": "Thin potato slices baked in a garlicky creamy milk with melted cheese until bubbling.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 50,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potato",
+      "gratin",
+      "cheese",
+      "oven",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "kg",
+        "name": "potatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "ml",
+        "name": "cream",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 20.0,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "nutmeg",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Peel the potatoes and slice them 3 mm thick. Rub a baking dish with butter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Warm the milk and cream with garlic, salt, pepper and nutmeg for 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Layer potatoes with half the cheese and pour over the milk mix. Cover with foil and bake at 190 C for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Remove the foil, add the remaining cheese and bake 20 minutes more until golden and tender.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Gratin de Batata (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Potato_gratin_on_stove.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Potato_gratin_on_stove.jpg",
+      "author": "Dreamyshade",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a baked sliced-potato gratin in a glass dish."
+    },
+    "translations": {
+      "fr": {
+        "name": "Gratin de pommes de terre"
+      },
+      "ar": {
+        "name": "غراتان البطاطا"
+      }
+    }
+  },
+  {
+    "id": "algerian-batata-mahchiya",
+    "name": "Batata Mahchiya (Stuffed Potatoes in Tomato Sauce)",
+    "description": "Potato halves hollowed and filled with spiced minced beef, then simmered in a light tomato sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potato",
+      "stuffed",
+      "beef",
+      "tomato-sauce"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 8.0,
+        "unit": null,
+        "name": "medium potatoes",
+        "note": "peeled"
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "onions",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cut a slice off each potato's end so it stands, and scoop out the middle with a spoon, leaving a 1 cm wall.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the beef with one grated onion, parsley, half the garlic, egg, spices and 1 tsp salt. Pack into the potatoes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the second onion and remaining garlic in oil for 4 minutes, add tomato paste, tomatoes and water and bring to a simmer.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Settle the potatoes in the sauce, cover and cook on low heat for 40 minutes, until fork tender.",
+        "timerMinutes": 40
+      }
+    ],
+    "tips": [
+      "Save the scooped potato for soup or mash."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Batata Mahchiya (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Stuffed_Potatoes_Curry_-_Kolkata_2011-04-15_2313.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Stuffed_Potatoes_Curry_-_Kolkata_2011-04-15_2313.JPG",
+      "author": "Biswarup Ganguly",
+      "license": "CC BY 3.0",
+      "verified": "Seen: stuffed potatoes in a sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pommes de terre farcies"
+      },
+      "ar": {
+        "name": "بطاطا محشية"
+      }
+    }
+  },
+  {
+    "id": "algerian-batata-marqa",
+    "name": "Batata Bel Marqa (Potatoes in Light Meat Sauce)",
+    "description": "A comforting everyday stew of potatoes and beef in a light, lightly peppery onion and tomato sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potato",
+      "stew",
+      "beef",
+      "family",
+      "sauce"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 700.0,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "thick wedges"
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "beef",
+        "note": "cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the beef with the onion in the oil for 8 minutes, add garlic, paprika, pepper and tomato paste.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Pour in the water, add salt, cover and cook for 30 minutes until the beef softens.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add the potatoes and cook for 20 minutes until tender and the sauce is a little thick.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Scatter parsley and serve with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Batata Bel Marqa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Beef_stew_with_potatoes%2C_carrots%2C_celery%2C_and_peas_-_Massachusetts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beef_stew_with_potatoes,_carrots,_celery,_and_peas_-_Massachusetts.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "verified": "Seen: a bowl of potatoes and meat stewed with peas and carrots."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pommes de terre en sauce"
+      },
+      "ar": {
+        "name": "بطاطا بالمرقة"
+      }
+    }
+  },
+  {
+    "id": "algerian-chtitha-sardine",
+    "name": "Chtitha Sardine (Sardines in Spicy Red Sauce)",
+    "description": "Fresh sardines poached in a spicy garlic, tomato and cumin sauce, served with bread to mop it up.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sardines",
+      "fish",
+      "spicy",
+      "sauce",
+      "coastal"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 700.0,
+        "unit": "g",
+        "name": "fresh sardines",
+        "note": "cleaned"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook garlic in the oil for 1 minute, add paprika, cumin, harissa, tomato paste and tomatoes and simmer 12 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Add water and salt, lay in the sardines and cook gently for 8 minutes without stirring.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Garnish with coriander and serve with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Shake the pan instead of stirring so the sardines stay whole."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chtitha Sardine (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/08769jfCuisine_Foods_Fruits_Philippines_Baliuag_Bulacanfvf_35.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:08769jfCuisine_Foods_Fruits_Philippines_Baliuag_Bulacanfvf_35.jpg",
+      "author": "Judgefloro",
+      "license": "CC0",
+      "verified": "Seen: sardines in a red sauce served in white bowls."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sardines en sauce épicée"
+      },
+      "ar": {
+        "name": "شطيطحة السردين"
+      }
+    }
+  },
+  {
+    "id": "algerian-adas-marqa",
+    "name": "Adas Bel Marqa (Lentil Stew)",
+    "description": "Brown lentils simmered with garlic, tomato and cumin into a thick, soothing stew.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "lentils",
+      "vegan",
+      "budget",
+      "stew",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "brown lentils",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the onion in the oil for 5 minutes, add garlic, tomato paste and spices for 1 minute.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Add the lentils, carrot, water and salt. Boil, then simmer 30 minutes until the lentils collapse.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Stir in coriander and serve with bread and lemon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Adas Bel Marqa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lentil_soup_in_a_bowl.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lentil_soup_in_a_bowl.jpg",
+      "author": "Dmitry Bagrov",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bowl of lentil stew-soup on a decorated cloth."
+    },
+    "translations": {
+      "fr": {
+        "name": "Lentilles en sauce"
+      },
+      "ar": {
+        "name": "عدس بالمرقة"
+      }
+    }
+  },
+  {
+    "id": "algerian-jelbana-lham",
+    "name": "Jelbana Bel Lham (Peas with Beef)",
+    "description": "Tender green peas and carrots slowly stewed with beef in a light sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 50,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "peas",
+      "beef",
+      "stew",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "beef",
+        "note": "cubed"
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "peas",
+        "note": "fresh or frozen"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "carrots",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 700.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the beef and onion in the oil for 8 minutes with the paprika, pepper and tomato paste.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add water and salt, cover and cook for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Add the carrots and peas and cook 15 minutes until soft and the sauce is silky.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Finish with parsley and serve with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Jelbana Bel Lham (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Market_Jelbana.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Market_Jelbana.jpg",
+      "author": "IssamBarhoumi",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: meat with green peas in sauce, labelled Jelbana, with an egg and a red pepper."
+    },
+    "translations": {
+      "fr": {
+        "name": "Petits pois à la viande"
+      },
+      "ar": {
+        "name": "جلبانة باللحم"
+      }
+    }
+  },
+  {
+    "id": "algerian-jelbana-djaj",
+    "name": "Jelbana Bel Djaj (Peas with Chicken)",
+    "description": "Chicken and peas in a gently spiced white-and-gold sauce with a squeeze of lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "peas",
+      "chicken",
+      "stew",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "chicken",
+        "note": "pieces"
+      },
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the chicken with onion, oil, turmeric and pepper for 8 minutes without browning too hard.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add water and salt and simmer covered for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the peas and cook 12 minutes until tender.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Stir in lemon juice and coriander and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Jelbana Bel Djaj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Liat_Portal_for_Foodie_Disorder_-_Majadra_Style_Peas_with_Carrots_and_Chicken.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Majadra_Style_Peas_with_Carrots_and_Chicken.jpg",
+      "author": "HaJunkiyada",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a chicken leg with green peas in sauce on a plate."
+    },
+    "translations": {
+      "fr": {
+        "name": "Petits pois au poulet"
+      },
+      "ar": {
+        "name": "جلبانة بالدجاج"
+      }
+    }
+  },
+  {
+    "id": "algerian-loubia-khadra-marqa",
+    "name": "Loubia Khadra Bel Marqa (Green Beans in Sauce)",
+    "description": "Green beans simmered with a little beef and tomato until silky and savoury.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "green-beans",
+      "stew",
+      "beef",
+      "family"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "green beans",
+        "note": "trimmed"
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "beef",
+        "note": "cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the beef and onion in the oil for 8 minutes, add garlic, paprika, tomato paste and tomatoes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the water and salt and simmer 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the beans and cook 15 minutes until very tender.",
+        "timerMinutes": 15
+      }
+    ],
+    "tips": [
+      "Without meat, it is a simple vegan dish: add 1 tbsp more oil."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Loubia Khadra Bel Marqa (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Green_bean_dish_from_Turkey.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Green_bean_dish_from_Turkey.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bowl of green beans stewed in tomato sauce."
+    },
+    "translations": {
+      "fr": {
+        "name": "Haricots verts en sauce"
+      },
+      "ar": {
+        "name": "لوبيا خضراء بالمرقة"
+      }
+    }
+  }
+]

@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Observable, tap } from 'rxjs';
 import { AuthResponse, User } from '../models';
-import { clearToken, getToken, initializedSignal, isAuthenticated, setToken, userSignal } from './auth-state';
+import { cacheUser, cachedUser, clearToken, getToken, initializedSignal, isAuthenticated, setToken, userSignal } from './auth-state';
 import { environment } from '../../environments/environment';
 
 const API_BASE = environment.apiBaseUrl;
@@ -29,18 +29,26 @@ export class AuthService {
     this.http.get<User>(`${API_BASE}/auth/me`).subscribe({
       next: user => {
         userSignal.set(user);
+        cacheUser(user);
         initializedSignal.set(true);
       },
-      error: () => {
-        clearToken();
+      error: (err: { status?: number }) => {
+        // Offline or server down: keep the session and use the last known profile, so the
+        // cached grocery list still opens in the shop. Only a rejected token logs out.
+        const cached = !err.status || err.status >= 500 ? cachedUser() : null;
+        if (cached) {
+          userSignal.set(cached);
+        } else {
+          clearToken();
+        }
         initializedSignal.set(true);
       }
     });
   }
 
-  register(username: string, password: string, name: string): Observable<AuthResponse> {
+  register(username: string, password: string, name: string, language?: string): Observable<AuthResponse> {
     return this.http
-      .post<AuthResponse>(`${API_BASE}/auth/register`, { username, password, name })
+      .post<AuthResponse>(`${API_BASE}/auth/register`, { username, password, name, ...(language ? { language } : {}) })
       .pipe(tap(res => this.handleAuthResponse(res)));
   }
 
@@ -63,5 +71,6 @@ export class AuthService {
   private handleAuthResponse(res: AuthResponse): void {
     setToken(res.access_token);
     userSignal.set(res.user);
+    cacheUser(res.user);
   }
 }

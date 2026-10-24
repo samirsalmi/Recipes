@@ -1,0 +1,1390 @@
+[
+  {
+    "id": "algerian-chorba-hamra",
+    "name": "Chorba Hamra (Red Lamb and Tomato Soup)",
+    "description": "The tomato-red everyday chorba: lamb, chickpeas, courgette and a handful of pasta in a lightly spiced broth, served at Ramadan sunset.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 60,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lamb",
+      "tomato",
+      "ramadan",
+      "chickpeas"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "lamb",
+        "note": "small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "courgette",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the lamb and onion in the oil for 8 minutes with the paprika, pepper and cinnamon.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add tomato paste, grated tomatoes, chickpeas, salt and water. Boil, skim, cover and simmer for 35 minutes.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Add carrot and courgette and cook 10 minutes, then the vermicelli for 5 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the coriander and serve with lemon wedges and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add a spoonful of the soup to the hot bowl and finish with lemon."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Hamra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Chorba",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Chorba' (opened): a broad family of hearty soups and stews of meat, legumes and vegetables. Proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Chorba_frik_de_T%C3%A9bessa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chorba_frik_de_T%C3%A9bessa.jpg",
+      "author": "Waran18",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a cup of red-orange chorba soup with herbs."
+    },
+    "translations": {
+      "fr": {
+        "name": "Chorba rouge"
+      },
+      "ar": {
+        "name": "شربة حمراء"
+      }
+    }
+  },
+  {
+    "id": "algerian-chorba-fedaouech",
+    "name": "Chorba Bel Fedaouech (Vermicelli Soup)",
+    "description": "A light, quick soup of fine vermicelli in a tomato-tinted vegetable broth, a favourite for cold evenings.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "vermicelli",
+      "quick",
+      "vegetarian",
+      "family",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "potato",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the onion in the oil for 4 minutes, add paprika, pepper, tomato paste and cook 1 minute.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add carrot, potato, water and salt and simmer 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the vermicelli and cook 5 minutes until soft.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Finish with lemon juice and coriander.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Bel Fedaouech (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Soupe aux vermicelles"
+      },
+      "ar": {
+        "name": "شربة فداوش"
+      }
+    }
+  },
+  {
+    "id": "algerian-chorba-adas",
+    "name": "Chorba Bel Adas (Lentil Soup)",
+    "description": "A smooth, humble lentil soup with onion, carrot and cumin, thickened by the lentils themselves.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lentils",
+      "vegan",
+      "budget",
+      "winter",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "name": "red lentils",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "potato",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.4,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften onion, carrot and garlic in the oil for 6 minutes with the spices.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Add lentils, potato, salt and water. Simmer 30 minutes until all is soft.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Blend smooth if you prefer, thin with water, and add lemon juice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with fried croutons or a drizzle of olive oil."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Bel Adas (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Lentil_Soup_-_Lavash_2025-02-10.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "verified": "Seen: a bowl of lentil soup with a spice topping."
+    },
+    "translations": {
+      "fr": {
+        "name": "Soupe de lentilles"
+      },
+      "ar": {
+        "name": "شربة العدس"
+      }
+    }
+  },
+  {
+    "id": "algerian-chorba-khodra",
+    "name": "Chorba Bel Khodra (Vegetable Soup)",
+    "description": "A clear vegetable soup with courgette, carrot, turnip and potato, perfect for a light supper.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "vegetables",
+      "vegan",
+      "light",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "potatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "turnip",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "courgettes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Dice all the vegetables small and soften the onion in the oil for 4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Add the vegetables, water, salt and pepper and simmer for 25 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Add parsley, adjust seasoning and serve, mashing part of the potato for body if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Bel Khodra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Simple_vegetable_soup_2009.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Simple_vegetable_soup_2009.jpg",
+      "author": "Scott Teresi",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a glass bowl of vegetable soup with carrot and leek."
+    },
+    "translations": {
+      "fr": {
+        "name": "Soupe de légumes"
+      },
+      "ar": {
+        "name": "شربة الخضرة"
+      }
+    }
+  },
+  {
+    "id": "algerian-chorba-djaj-simple",
+    "name": "Chorba Bil Djaj Bil Hlib (Creamy Chicken Soup)",
+    "description": "A homely chicken soup with potato, carrot and a little cream, a recovery-day staple.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "chicken",
+      "comforting",
+      "family"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "chicken",
+        "note": "thighs with bone"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "potatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "celery",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the chicken with onion and oil for 5 minutes, add the water, salt and pepper, boil and skim.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Simmer, covered, for 25 minutes; remove the chicken and shred the meat.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Add diced vegetables and cook 15 minutes, return the chicken, pour in the milk and heat through.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Scatter parsley and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Bil Djaj Bil Hlib (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Soupe au poulet"
+      },
+      "ar": {
+        "name": "شربة بالدجاج"
+      }
+    }
+  },
+  {
+    "id": "algerian-djari",
+    "name": "Djari (Constantine Lamb and Chickpea Soup with Vermicelli)",
+    "description": "A thick tomato soup from eastern Algeria with lamb, chickpeas, vermicelli and a swirl of lemon, a Ramadan table essential.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lamb",
+      "chickpeas",
+      "constantine",
+      "ramadan"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "lamb",
+        "note": "cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.6,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60.0,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown lamb and onion in oil 8 minutes with paprika, pepper and cinnamon.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add tomato paste, tomatoes, chickpeas, salt and water, then simmer, covered, for 50 minutes.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Add vermicelli and cook 6 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Stir in coriander and lemon juice before serving.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Djari (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Chorba",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Chorba' (opened): a broad family of hearty soups and stews of meat, legumes and vegetables. Proportions are the author's own for 6 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Djari"
+      },
+      "ar": {
+        "name": "جاري"
+      }
+    }
+  },
+  {
+    "id": "algerian-hssou",
+    "name": "Hssou (Semolina and Spice Porridge Soup)",
+    "description": "A warming porridge-like soup of fine semolina cooked in a spiced milk-and-water broth with a drizzle of olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "semolina",
+      "vegetarian",
+      "traditional",
+      "winter"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "honey",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the water to a boil with salt and cumin.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Pour in the semolina in a thin stream, whisking, and cook for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the milk and olive oil and simmer for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Serve hot with a little honey or a pinch of pepper.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve at once; it thickens quickly as it cools."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Hssou (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Hssou"
+      },
+      "ar": {
+        "name": "حسو"
+      }
+    }
+  },
+  {
+    "id": "algerian-doubara-foul",
+    "name": "Doubara Bel Foul (Broad Bean Chilli Soup)",
+    "description": "A spicy Algiers street-stall stew of mashed broad beans with garlic, cumin and harissa, scooped up with bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "fava",
+      "vegan",
+      "spicy",
+      "street-food",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "dried fava beans",
+        "note": "peeled, soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 5.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the beans in the water for 35 minutes until very soft.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Crush a few with a fork; add garlic, cumin, harissa, paprika, oil and salt and simmer 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve topped with lemon, parsley and more oil.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Doubara Bel Foul (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Broad_Bean_Dish_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Broad_Bean_Dish_2.jpg",
+      "author": "Emnamizouni",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a bowl of broad bean soup with a lemon half."
+    },
+    "translations": {
+      "fr": {
+        "name": "Dobara aux fèves"
+      },
+      "ar": {
+        "name": "دوبارة بالفول"
+      }
+    }
+  },
+  {
+    "id": "algerian-tchicha",
+    "name": "Tchicha (Crushed Barley Soup)",
+    "description": "A rustic soup of crushed barley (or wheat) with chickpeas, onion and turnip, thick enough to eat with a spoon, from eastern Algeria's cold-weather cooking.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 90,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "barley",
+      "traditional",
+      "winter",
+      "vegetarian",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "crushed barley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "turnip",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "carrot",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the barley and drain the chickpeas.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the onion in the oil for 5 minutes, add chickpeas, barley, spices and water.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Simmer, covered, for 60 minutes, then add diced turnip and carrot and cook for 25 minutes until creamy.",
+        "timerMinutes": 85
+      },
+      {
+        "text": "Add water if too thick; season and serve with olive oil.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Tchicha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tchicha.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tchicha.jpg",
+      "author": "Noureddine0101",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a bowl of tchicha, an orange barley soup, with a spoon."
+    },
+    "translations": {
+      "fr": {
+        "name": "Soupe de céréales concassées"
+      },
+      "ar": {
+        "name": "تشيشة"
+      }
+    }
+  }
+]

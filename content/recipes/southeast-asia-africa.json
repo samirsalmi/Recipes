@@ -1,0 +1,2849 @@
+[
+  {
+    "id": "thai-pad-thai",
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles in a sweet, sour and salty tamarind sauce with egg, crunchy bean sprouts and peanuts. Choose shrimp, chicken or tofu; it is on the table in about 30 minutes.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 3,
+    "prepTime": 12,
+    "cookTime": 18,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "noodles",
+      "stir-fry",
+      "street-food",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 225,
+        "unit": "g",
+        "name": "dried flat rice noodles",
+        "note": null
+      },
+      {
+        "group": "Sauce",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "fish sauce",
+        "note": null
+      },
+      {
+        "group": "Sauce",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "white or rice vinegar",
+        "note": null
+      },
+      {
+        "group": "Sauce",
+        "quantity": 75,
+        "unit": "ml",
+        "name": "tamarind juice",
+        "note": "or reconstitute tamarind paste, see tips"
+      },
+      {
+        "group": "Sauce",
+        "quantity": 60,
+        "unit": "g",
+        "name": "palm sugar or granulated sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "dried red chili flakes",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 225,
+        "unit": "g",
+        "name": "shrimp, tofu, chicken, squid or beef",
+        "note": "or a mix; cut into bite-size pieces"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "mixed vegetables",
+        "note": "shredded carrot, sliced onion or pepper",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green onions",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "bean sprouts",
+        "note": null
+      },
+      {
+        "group": "To serve",
+        "quantity": 80,
+        "unit": "g",
+        "name": "unsalted peanuts",
+        "note": "chopped; toast raw ones in a dry pan first"
+      },
+      {
+        "group": "To serve",
+        "quantity": 1,
+        "unit": null,
+        "name": "lime",
+        "note": "cut into wedges"
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "fresh cilantro (coriander) leaves",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cover the rice noodles with boiling water and leave them for about 7 minutes, until flexible but still firm. Drain well.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Stir the fish sauce, vinegar, tamarind juice and sugar together in a small bowl until the sugar dissolves.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a large wok over high heat. Fry the garlic and chili flakes for about 1 minute until the garlic starts to brown.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Add the shrimp, tofu, chicken or other protein. Stir-fry until cooked: 6 to 8 minutes for chicken, beef or tofu, 2 to 3 minutes for shrimp.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Add any vegetables and cook until just tender.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the drained noodles. Push them aside, crack the eggs into the space and let them set for a few seconds, then mix everything together.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour in the sauce, lower the heat to medium and toss until the noodles have absorbed it. Taste and add a little more fish sauce or sugar if you like.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the green onions and bean sprouts and stir-fry for 2 more minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Serve on a large plate topped with the peanuts, with lime wedges and cilantro on the side.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "If you only have tamarind paste, mix 5 tsp of unsweetened paste with 3 tbsp plus 1 tsp of water to make the tamarind juice.",
+      "Cook in two batches if your wok is small, so the noodles fry instead of steam.",
+      "Use tofu and swap the fish sauce for soy sauce for a vegetarian version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Pad Thai",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Pad_Thai&oldid=4581549",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted cups and pounds to metric (225 g noodles, 225 g protein, 200 g sprouts). The page calls itself a family recipe that may not be accurate, so I cut the chili flakes from 2 tbsp to 2 tsp, the bean sprouts from 340 g to 200 g and the peanuts from 175 ml to about 80 g, used the quicker boiling-water noodle soak the page offers, and gave per-protein cooking times (the source only gave one). Sugar given in grams (about 75 ml of palm sugar)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pad_thai_mound.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pad_thai_mound.jpg",
+      "author": "Stu Spivak",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a mound of pad thai noodles with plump shrimp, chopped peanuts on top, green onion pieces and lime wedges on a white and blue plate."
+    }
+  },
+  {
+    "id": "thai-tom-kha-kai",
+    "name": "Tom Kha Kai",
+    "description": "Creamy Thai coconut soup with chicken, mushrooms, galangal and lemongrass, finished with lime juice. Rich, fragrant and ready in under half an hour.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 12,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "coconut",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "ml",
+        "name": "coconut milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 775,
+        "unit": "ml",
+        "name": "chicken stock",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "lemongrass",
+        "note": "stalks, cut into 2.5 cm pieces or split lengthwise"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "piece",
+        "name": "galangal",
+        "note": "about 2.5 cm cubes, sliced thin; ginger can stand in"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "Thai bird chilies",
+        "note": "finely chopped; 3 to 4, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "chicken",
+        "note": "boneless, cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "medium, quartered"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "quartered"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "mushrooms",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "lime juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "chopped cilantro (coriander)",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the chicken stock and coconut milk to a boil in a large pot.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the lemongrass, galangal, chilies, sugar and pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the onion, tomato, chicken and mushrooms and simmer until the chicken is cooked through, about 5 minutes. The source keeps the soup at a rolling boil for 4 minutes; a steady simmer keeps the coconut milk smooth.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Take the pot off the heat and stir in the lime juice and soy sauce.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Ladle into bowls and top with the cilantro and a few extra chili slices.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Lemongrass pieces and galangal slices are for flavor only; leave them on the side of the bowl as you eat.",
+      "Ginger can replace galangal, but the flavor is different. Wash your hands after cutting chilies."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Tom Kha Kai",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Tom_Kha_Kai&oldid=4610527",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted the galangal measure (2 x 1-inch cubes) to about 5 cm total and the mushrooms to 150 g. Source says a 4-minute rolling boil; I wrote 5 minutes at a simmer so the chicken is surely cooked and the coconut milk stays smooth. The tomato peeling instruction was dropped as unnecessary. Soy sauce is wheat-based, so the dish is marked not gluten-free."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flickr_preppybyday_4711943668--Tom_kha_gai.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Flickr_preppybyday_4711943668--Tom_kha_gai.jpg",
+      "author": "Evan Joshua Swigart (TheCulinaryGeek) from Chicago, Illinois, USA; hometown of Ames, Iowa, USA",
+      "license": "CC BY 2.0",
+      "verified": "Seen: white bowl of creamy white coconut soup with shredded chicken, straw mushrooms, ginger or galangal slices, red chili pieces and cilantro leaves on top."
+    }
+  },
+  {
+    "id": "thai-bua-loi",
+    "name": "Bua Loi (Rice Balls in Coconut Milk)",
+    "description": "Little chewy pandan rice-flour balls floating in warm, lightly sweet coconut cream. A classic Thai dessert; add poached eggs or sweet corn if you like.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 8,
+    "prepTime": 25,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "coconut",
+      "pandan",
+      "sweet",
+      "no-oven"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 375,
+        "unit": "g",
+        "name": "glutinous rice flour",
+        "note": "sticky rice flour"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "pandan essence",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": "about; just enough for a stiff dough"
+      },
+      {
+        "group": null,
+        "quantity": 950,
+        "unit": "ml",
+        "name": "coconut cream",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "white sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "poached, one per bowl",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir the pandan essence into the water. Add it little by little to the rice flour and mix to a stiff paste, then knead well until smooth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pinch off bits of dough and roll them into pea-sized balls.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring a large pot of water to a boil. Drop in the balls and lift them out with a slotted spoon once they float. Drain.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "In a clean pot, bring half of the coconut cream to a boil with the sugar and salt, stirring constantly so it does not separate. Add the rice balls.",
+        "timerMinutes": null
+      },
+      {
+        "text": "When it comes back to a boil, take the pot off the heat and stir in the rest of the coconut cream.",
+        "timerMinutes": null
+      },
+      {
+        "text": "If you want eggs: bring water to a simmer in a separate pan, lower the heat and poach the eggs one at a time. Remove and set aside.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Serve warm in small bowls, with one egg per bowl if using.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Thai cooks often add sweet corn kernels at the end.",
+      "The sugar level is up to you: start with 100 g and add more to taste."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Thai Rice Balls in Coconut Milk (Bua Loi)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Thai_Rice_Balls_in_Coconut_Milk_(Bua_Loi)&oldid=4587301",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source lists 3 cups of flour as \"700 g\" (3 cups is about 375 g), so I used 375 g and added the missing water (about 250 ml). The 2 cups (480 g) of sugar in the source would make the dish extremely sweet next to 4 cups of coconut cream, so I reduced it to 150 g and told the cook to adjust. Added the sugar and salt to the cream at the boiling step, since the source never says when they go in."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bualoy_kaiwan_-_Thai_food.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bualoy_kaiwan_-_Thai_food.JPG",
+      "author": "Mattes",
+      "license": "Public domain",
+      "verified": "Seen: close-up of a bowl of white coconut cream with small round pastel balls in green, orange and purple."
+    }
+  },
+  {
+    "id": "vietnamese-pho-ga",
+    "name": "Phở Gà (Vietnamese Chicken Noodle Soup)",
+    "description": "A clear, spiced chicken broth with rice noodles, shredded chicken and fresh herbs, finished at the table with lime, chili and bean sprouts. Comforting and surprisingly simple.",
+    "cuisine": "Vietnamese",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "noodles",
+      "chicken",
+      "herbs"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Spice pouch",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "fennel seeds",
+        "note": null
+      },
+      {
+        "group": "Spice pouch",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black peppercorns",
+        "note": null
+      },
+      {
+        "group": "Spice pouch",
+        "quantity": 3,
+        "unit": "piece",
+        "name": "whole star anise",
+        "note": null
+      },
+      {
+        "group": "Spice pouch",
+        "quantity": 2,
+        "unit": "piece",
+        "name": "dried cardamom pods",
+        "note": null
+      },
+      {
+        "group": "Spice pouch",
+        "quantity": 0.5,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": "Spice pouch",
+        "quantity": 3,
+        "unit": "piece",
+        "name": "whole cloves",
+        "note": null
+      },
+      {
+        "group": "Soup",
+        "quantity": 1.4,
+        "unit": "kg",
+        "name": "whole chicken",
+        "note": "small to medium"
+      },
+      {
+        "group": "Soup",
+        "quantity": 2.8,
+        "unit": "l",
+        "name": "chicken broth",
+        "note": null
+      },
+      {
+        "group": "Soup",
+        "quantity": 4,
+        "unit": "slice",
+        "name": "fresh ginger",
+        "note": null
+      },
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": null,
+        "name": "brown onion",
+        "note": "peeled, left whole"
+      },
+      {
+        "group": "Soup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "salt",
+        "note": "or more to taste"
+      },
+      {
+        "group": "Soup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fish sauce",
+        "note": "to taste, plus more at the table"
+      },
+      {
+        "group": "To serve",
+        "quantity": 400,
+        "unit": "g",
+        "name": "dried flat rice noodles (bánh phở)",
+        "note": null
+      },
+      {
+        "group": "To serve",
+        "quantity": 4,
+        "unit": null,
+        "name": "green onions",
+        "note": "chopped"
+      },
+      {
+        "group": "To serve",
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "cilantro (coriander)",
+        "note": "chopped"
+      },
+      {
+        "group": "To serve",
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh basil",
+        "note": "leaves torn"
+      },
+      {
+        "group": "To serve",
+        "quantity": 200,
+        "unit": "g",
+        "name": "bean sprouts",
+        "note": null
+      },
+      {
+        "group": "To serve",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "thinly sliced"
+      },
+      {
+        "group": "To serve",
+        "quantity": 2,
+        "unit": null,
+        "name": "limes",
+        "note": "cut into wedges"
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "chili peppers (jalapeño or serrano)",
+        "note": "sliced, to taste"
+      },
+      {
+        "group": "To serve",
+        "quantity": 6,
+        "unit": "tsp",
+        "name": "hoisin sauce",
+        "note": "about 1 tsp per bowl",
+        "optional": true
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "sriracha or other chili sauce",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the fennel, peppercorns, star anise, cardamom, cinnamon and cloves in a small strainer or a cheesecloth pouch tied with twine.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a large stock pot, combine the chicken, broth, ginger, whole onion, salt and the spice pouch. Bring to a boil, then simmer gently until the chicken is cooked through, about 45 minutes. Skim off any foam as it rises.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Lift out the chicken and strain the broth back into the pot. Keep it simmering and season with fish sauce and more salt to taste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "When the chicken is cool enough to handle, pull the meat into bite-size pieces and discard the skin and bones.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Boil the rice noodles in a separate pot of water until just tender, 3 to 5 minutes. Do not overcook or they fall apart. Drain, rinse with lukewarm water and let drain.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Divide the noodles between bowls and add the chicken, green onion, cilantro, basil, raw onion and bean sprouts. Ladle over enough hot broth to cover.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve with lime wedges, chilies, hoisin and chili sauce so everyone can season their own bowl.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Rinse the noodles after boiling so they do not clump in the bowl.",
+      "Most ingredients are in Asian markets and some large supermarkets."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Phở Gà (Vietnamese Chicken Noodle Soup)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Ph%E1%BB%9F_G%C3%A0_(Vietnamese_Chicken_Noodle_Soup)&oldid=4518484",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source gives no times or quantities for the chicken, noodles or garnishes. I assumed a 1.4 kg chicken, added a 45-minute simmer plus skimming, set the noodles at about 400 g dry for six bowls, and converted 12 cups of broth to 2.8 l. The source says \"boil\" for the soup; I wrote a gentle simmer for a clearer broth. Hoisin (optional, and often wheat-based) is marked optional; the diet flags describe the soup without it."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pho_ga_%28noodle_soup_with_chicken%29%2C_Hanoi_%286945821707%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pho_ga_(noodle_soup_with_chicken),_Hanoi_(6945821707).jpg",
+      "author": "David McKelvey from Brisbane, Australia",
+      "license": "CC BY 2.0",
+      "verified": "Seen: white bowl of clear chicken noodle soup with shredded chicken, green onion, red chili slices and carrot pieces."
+    }
+  },
+  {
+    "id": "vietnamese-summer-rolls",
+    "name": "Summer Rolls (Gỏi Cuốn)",
+    "description": "Fresh, no-cook rolls of rice paper filled with prawns, vermicelli, cucumber and herbs, served with a bright fish-sauce dip. Light and ready in 25 minutes.",
+    "cuisine": "Vietnamese",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 20,
+    "cookTime": 5,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fresh",
+      "no-fry",
+      "rice-paper",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "rice paper wrappers",
+        "note": "about 22 cm"
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": null,
+        "name": "cooked prawns",
+        "note": "peeled; 4 to 8, halved lengthwise"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "cooked pork or chicken",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "cooked rice vermicelli",
+        "note": "cooked weight; cook per package and drain"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "cut into thin sticks"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "leaf",
+        "name": "leafy lettuce",
+        "note": "such as romaine or cos"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "Chinese cabbage",
+        "note": "halved lengthwise"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fresh herbs",
+        "note": "to taste: coriander, basil, mint"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "warm water",
+        "note": "for soaking the wrappers"
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fish sauce",
+        "note": null
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 180,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "lemon or lime juice",
+        "note": null
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Dipping sauce (nước mắm pha)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "sambal oelek or other chili sauce",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "If your vermicelli is not cooked yet, cook it per the package, rinse in cold water and drain. Have all the fillings cut and laid out next to a board.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix all the dipping sauce ingredients in a small bowl until the sugar dissolves. Set aside.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dip one rice paper wrapper into warm water for a few seconds, just until it is completely wet, and lay it flat on the board.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Near the edge closest to you, make a neat pile of a quarter of the fillings (prawns, meat, vermicelli, lettuce, cabbage, herbs), placing the cucumber sticks roughly parallel to the edge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold the edge over the pile and roll it over once. Fold both sides inward to close the ends, then roll up the rest of the way to seal.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Repeat with the remaining wrappers. Let the rolls rest for 5 minutes to firm up, then serve with the dipping sauce.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [
+      "For a vegetarian version, leave out the prawns and meat and add more greens, bean sprouts or carrot sticks (and use soy sauce in the dip).",
+      "The wrapper keeps absorbing water after you lift it from the bowl, so keep the soak very short."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Summer Rolls",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Summer_Rolls&oldid=4630369",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source lists \"4 to 8 prawns\" and an unspecified cucumber and herbs; I used 8 halved prawns. Added instructions to cook the vermicelli and pre-cooked prawns. The dipping sauce comes from the same cookbook's \"Vietnamese Fish Dipping Sauce (Nước mắm pha)\" page, scaled to half (¼ cup fish sauce and 1½ cups water in the original) to suit 4 rolls, and with sambal oelek kept as in that page. Serves 2 as a light meal, 4 as a starter."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Vietnamese_summer_rolls_%26_peanut_sauce.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_summer_rolls_&_peanut_sauce.jpg",
+      "author": "ZoeShuttleworth",
+      "license": "CC BY 2.0",
+      "verified": "Seen: round white plate of sliced summer rolls showing lettuce, cucumber and chicken through translucent rice paper, with a green bowl of peanut dipping sauce in the middle."
+    }
+  },
+  {
+    "id": "vietnamese-com-chien",
+    "name": "Cơm Chiên (Vietnamese Fried Rice)",
+    "description": "Fried rice with garlic, leek, chili, prawns, carrot and peas, topped with a fried egg. A fast way to turn leftover rice into dinner.",
+    "cuisine": "Vietnamese",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 3,
+    "prepTime": 15,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fried-rice",
+      "leftovers",
+      "quick",
+      "one-pan"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "cooking oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "leeks",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "red chilies",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": "beaten"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "carrot",
+        "note": "diced small"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "prawns",
+        "note": "peeled, diced small"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "green peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "cooked rice",
+        "note": "cold, preferably day-old"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "chicken stock powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "fried, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a large non-stick pan. Stir-fry the garlic, chilies and leeks for about 1 minute.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Add the prawns, carrot and peas, then pour in the beaten eggs and stir until the eggs are scrambled and everything is combined.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Add the cold rice, salt, pepper and chicken stock powder. Break up the rice and stir until well mixed and heated through.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Taste and adjust the seasoning. Fry the 3 eggs separately and serve one on top of each portion.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Day-old rice fries better than fresh because it is drier and separates into grains.",
+      "Seasoning powders vary in saltiness: add them gradually and taste."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Com Chien (Vietnamese Fried Rice)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Com_Chien_(Vietnamese_Fried_Rice)&oldid=4630396",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source says \"600 g rice\", which must mean cooked rice, so the ingredient is named that way. It also calls for 1 tbsp each of salt and pepper and 2 tbsp of chicken powder, which is far too much for 600 g of rice; I reduced these to 1 tsp salt, 1 tsp pepper and 1 tbsp stock powder and told the cook to taste. The page has no timings, so the steps carry my estimates. The fried egg is given as one per portion (3)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/C%C6%A1m_Chi%C3%AAn%2C_Da_Nang%2C_Vietnam.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cơm_Chiên,_Da_Nang,_Vietnam.jpg",
+      "author": "Christopher Crouzet",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: blue-patterned plate of golden fried rice with carrot, spring onion and ham pieces, ringed with cucumber slices."
+    }
+  },
+  {
+    "id": "filipino-chicken-adobo",
+    "name": "Chicken Adobo",
+    "description": "The Philippine national home dish: chicken braised in vinegar, soy sauce, garlic and bay leaf, then browned and reduced to a glossy, tangy sauce. Serve over steamed rice.",
+    "cuisine": "Filipino",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "braise",
+      "chicken",
+      "rice-dish",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken pieces",
+        "note": "6 to 8 pieces, preferably legs and wings"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "ml",
+        "name": "coconut or cane vinegar",
+        "note": "balsamic also works"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "ml",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black peppercorns",
+        "note": "freshly cracked, not ground"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "water",
+        "note": "only if the pan runs dry"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cooking oil",
+        "note": "for browning"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "steamed rice",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken, garlic, peppercorns, soy sauce and vinegar in a pan. Bring to a boil, cover and cook until the chicken is done, about 25 minutes. Add a splash of water if the pan gets dry.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Lift the chicken into a colander to drain and keep the pot of soy and vinegar liquid.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Once the chicken has stopped dripping, heat the oil over medium heat and fry the pieces, covered with a splatter guard or lid ajar, until browned on all sides.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Return the chicken to the pot with the liquid, add the bay leaves and bring to a simmer.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook until most of the sauce has evaporated and the chicken is glazed. Some cooks reduce it until it clings and sizzles.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve over hot steamed rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Adobo tastes even better the next day; the vinegar also helped preserve it in hot climates.",
+      "Traditional sides include sliced tomatoes in fish sauce."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Adobo Chicken (Philippine)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Adobo_Chicken_(Philippine)&oldid=4630209",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted to metric and set 6 to 8 pieces at about 1 kg. The source gives no cooking times or oil amount and starts the chicken in only about 140 ml of liquid; I added a covered 25-minute first cook, a splash of water if it dries out, 2 tbsp of oil for browning and an 8-minute reduction. Soy sauce is wheat-based so gluten-free is not claimed."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Chicken_Adobo_over_rice.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Adobo_over_rice.jpg",
+      "author": "Jack Lawrence",
+      "license": "CC BY 2.0",
+      "verified": "Seen: dark plate of rice topped with glazed brown chicken drumsticks, a bay leaf and chopped parsley, a second plate behind it."
+    }
+  },
+  {
+    "id": "filipino-champorado",
+    "name": "Champorado (Chocolate Rice Porridge)",
+    "description": "Sticky rice simmered into a thick chocolate porridge and swirled with evaporated milk. A Filipino breakfast and merienda favorite, often eaten with salty dried fish.",
+    "cuisine": "Filipino",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "breakfast",
+      "dessert",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "porridge",
+      "chocolate",
+      "comfort-food",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "glutinous (sticky) rice",
+        "note": "rinse twice"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": "about 4 to 6 times the volume of the rice"
+      },
+      {
+        "group": null,
+        "quantity": 125,
+        "unit": "g",
+        "name": "white sugar",
+        "note": "adjust to taste"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "unsweetened cocoa powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "can",
+        "name": "evaporated milk",
+        "note": "12 oz / 354 ml"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the sticky rice twice in cold water and drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the rice and water in a pot, cover and bring to a boil over medium heat.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Uncover and stir in the sugar and cocoa until smooth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Simmer over low heat, stirring regularly, until the rice is tender and the porridge has thickened the way you like, about 25 to 30 minutes.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Stir in about half of the evaporated milk, ladle into bowls and drizzle the rest on top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with salted dried fish (tuyo) for the classic sweet-salty combination.",
+      "The porridge thickens as it cools; loosen with a splash of water or milk when reheating."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Champorado (Chocolate Rice Porridge)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Champorado_(Chocolate_Rice_Porridge)&oldid=4517854",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Halved the rice from the source's 500 g to 250 g. The source uses equal weights of sugar and rice (500 g each) and only \"2 spoons\" of cocoa, which would be cloyingly sweet and barely chocolate; I used 125 g sugar and 4 tbsp cocoa and said to adjust to taste. \"4 to 6 times the rice volume\" of water kept; 1.2 l for 250 g rice. Cooking time was not given: estimated from the sticky rice."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Champorado_with_tuyo_and_milk.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Champorado_with_tuyo_and_milk.jpg",
+      "author": "Jean Claudine Panel",
+      "license": "CC0",
+      "verified": "Seen: round bowl of thick brown chocolate rice porridge with two small dried fish laid on top, next to a small steel jug of milk."
+    }
+  },
+  {
+    "id": "indonesian-nasi-goreng",
+    "name": "Nasi Goreng (Indonesian Fried Rice)",
+    "description": "Wok-fried rice with garlic, shallot, chile and sweet soy sauce, topped with a fried egg and cucumber. A beloved Indonesian breakfast or quick supper made from leftover rice.",
+    "cuisine": "Indonesian",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fried-rice",
+      "leftovers",
+      "quick",
+      "street-food"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "cooked rice",
+        "note": "cold, preferably from the day before"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "shallots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "red chile pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "neutral cooking oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "coconut oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sweet soy sauce (kecap manis)",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salty soy sauce",
+        "note": "or salt, to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "ground black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "chicken fillet",
+        "note": "cut small",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "small prawns",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "green beans",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "cucumber and tomato slices",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the shallots and chile thinly. Peel and finely mince the garlic. Slice the green beans if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oils in a wok over high heat. If using chicken or prawns, stir-fry them until cooked through.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Add the shallots, chile, garlic and beans and stir until the garlic turns golden.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Crack in the eggs and stir-fry until they are half set.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the rice and stir until everything is mixed and hot, breaking up any clumps.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Season with the sweet and salty soy sauces and pepper to taste. Serve on plates with cucumber and tomato slices.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cold rice from the day before is less sticky and fries better.",
+      "Top with a fried egg and serve with prawn crackers for a classic plate.",
+      "For corned-beef or salted-fish variations, leave out the sweet soy sauce."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Nasi Goreng (Indonesian Fried Rice)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Nasi_Goreng_(Indonesian_Fried_Rice)&oldid=4675785",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source gives \"2 servings of steamed rice\" and no quantities for the soy sauces: I used about 400 g of cooked rice and 2 tbsp kecap manis. \"1 Tbsp fish oil\" is almost certainly an error (fish oil is not a cooking oil here), so it became a neutral cooking oil. Optional stink beans replaced by 50 g green beans, as the page itself suggests. Sauces are wheat-based soy, so not marked gluten-free. Vegetarian when the optional chicken and prawns are left out."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Nasi_Goreng_Kampung.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung.jpg",
+      "author": "Supardisahabu",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: brown nasi goreng with fried onions, a crispy-edged fried egg with runny yolk, prawn crackers and a cucumber slice on baking paper in a basket."
+    }
+  },
+  {
+    "id": "indonesian-gado-gado",
+    "name": "Gado-Gado (Vegetable Salad with Peanut Sauce)",
+    "description": "A big plate of blanched and fresh vegetables with potatoes, eggs, tofu and tempeh, covered in a rich, spicy-sweet peanut sauce. Serve with crackers and fried shallots.",
+    "cuisine": "Indonesian",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "salad",
+      "peanut",
+      "vegetables",
+      "tempeh"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Peanut sauce",
+        "quantity": 1,
+        "unit": "g",
+        "name": "terasi (fermented shrimp paste)",
+        "note": "a pea-size piece; omit for vegetarian"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for frying the paste and peanuts"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 150,
+        "unit": "g",
+        "name": "raw peanuts",
+        "note": null
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 2,
+        "unit": null,
+        "name": "fresh or dried chile peppers",
+        "note": "to taste"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 2,
+        "unit": null,
+        "name": "shallots",
+        "note": null
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 60,
+        "unit": "g",
+        "name": "palm sugar (gula jawa)",
+        "note": "grated, plus more to taste"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": "or coconut milk for a richer sauce"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "lime juice",
+        "note": "or rice vinegar"
+      },
+      {
+        "group": "Peanut sauce",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Salad",
+        "quantity": 400,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "whole, boiled or steamed"
+      },
+      {
+        "group": "Salad",
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled and sliced"
+      },
+      {
+        "group": "Salad",
+        "quantity": 200,
+        "unit": "g",
+        "name": "cabbage",
+        "note": "shredded"
+      },
+      {
+        "group": "Salad",
+        "quantity": 150,
+        "unit": "g",
+        "name": "spinach or water spinach",
+        "note": "washed"
+      },
+      {
+        "group": "Salad",
+        "quantity": 100,
+        "unit": "g",
+        "name": "bean sprouts",
+        "note": null
+      },
+      {
+        "group": "Salad",
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "sliced"
+      },
+      {
+        "group": "Salad",
+        "quantity": 200,
+        "unit": "g",
+        "name": "firm tofu",
+        "note": "deep-fried"
+      },
+      {
+        "group": "Salad",
+        "quantity": 200,
+        "unit": "g",
+        "name": "tempeh",
+        "note": "deep-fried"
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "kerupuk (crackers)",
+        "note": "use vegetable crackers (kerupuk sayur or emping) to keep it vegetarian"
+      },
+      {
+        "group": "To serve",
+        "quantity": null,
+        "unit": null,
+        "name": "fried shallots",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry the shrimp paste in a little oil until fragrant. Remove it from the pan.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the peanuts in the same oil until golden brown, then lift them out, drain and let cool.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Grind or blend the peanuts to a paste. Add the chile, garlic, shallots, salt, palm sugar and the fried shrimp paste and grind again until combined.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the paste in a pan and stir in the water or coconut milk to loosen it. Bring to a boil, then simmer until thick, about 10 minutes. Season with lime juice or vinegar and add more sugar or salt to taste.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "For the salad: peel the boiled potatoes, deep-fry them until golden and slice.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring a pan of water to a boil. Cook the cabbage until tender and drain. Use the same water to cook the spinach, then drain. Blanch the bean sprouts for about 30 seconds and drain.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Arrange the potatoes, cabbage, spinach, bean sprouts, cucumber, fried tofu, fried tempeh and sliced eggs on a large plate, randomly or in layers.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour the peanut sauce over the top, scatter with fried shallots and serve with crackers.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "You can substitute chunky peanut butter for the ground peanuts to save time.",
+      "Add a splash of kecap manis (sweet soy sauce) to the sauce if you like it sweeter.",
+      "Some cooks blanch or steam cauliflower, carrot or green beans for variety."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Gado-gado (Indonesian Salad with Peanut Sauce)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Gado-gado_(Indonesian_Salad_with_Peanut_Sauce)&oldid=4582316",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source lists ingredients without any quantities except 300 g peanuts, 125 g palm sugar and 1 g terasi. I set up a recipe for 4 portions: 150 g peanuts, 60 g palm sugar (about half) and an added 250 ml water and 2 tbsp lime juice, and chose amounts for the salad vegetables, eggs, tofu and tempeh. The shrimp paste is kept as in the source, so the dish is not marked vegetarian; it can be left out and the page itself suggests vegetable crackers for a fully vegetarian plate."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gado-gado_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gado-gado_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0",
+      "verified": "Seen: plate of bean sprouts, tempeh, fried tofu cubes, green leaves and cucumber pieces next to a bowl of creamy peanut sauce."
+    }
+  },
+  {
+    "id": "ethiopian-injera",
+    "name": "Injera (Ethiopian Teff Flatbread)",
+    "description": "The spongy, slightly sour fermented flatbread that serves as plate and spoon for Ethiopian and Eritrean stews. Made from teff flour and water.",
+    "cuisine": "Ethiopian",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 735,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "fermented",
+      "teff",
+      "gluten-free"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "teff flour",
+        "note": "about 2 cups"
+      },
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "warm but not hot; about 3 cups"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "kefir or plain yogurt",
+        "note": "starter, if the batter will not ferment alone",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "oil",
+        "note": "to grease the pan very lightly"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the teff flour, warm water and salt together in a large bowl. Stir in the starter if you are using one.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover loosely and leave at room temperature to ferment overnight, or at least 12 hours, until the surface is bubbly and smells pleasantly sour. Up to 2 days gives a tangier flavor.",
+        "timerMinutes": 720
+      },
+      {
+        "text": "Heat a large flat non-stick pan until a drop of water sizzles. Rub it very lightly with oil, just enough to make it shine.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour or ladle in some batter, swirling outwards from the center to make a thin layer, a little thicker than a crêpe.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook until the whole surface is covered with small holes and the edges start to lift from the pan, about 2 minutes. Do not flip it. A lid over the pan helps cook the top.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Slide the injera onto a plate and let it cool. Repeat with the remaining batter, stacking with parchment between if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cheaper teff-wheat mix: ¼ cup of teff flour plus ¾ cup of sorghum or wheat flour for every cup in the original, though it is not gluten-free.",
+      "Baker's yeast alone gives poor flavor; wild bacteria or a spoonful of yogurt or kefir make the sourness.",
+      "Prep time includes the 12-hour fermentation; hands-on work is about 15 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Injera (Ethiopian Teff Flatbread)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Injera_(Ethiopian_Teff_Flatbread)&oldid=4630269",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Doubled the quantities of the source (1 cup teff, 1½ cups water) to give about 6 injera for 4 people and converted to grams and ml. Added the instruction not to flip and the lid tip, plus a 2-minute estimate for cooking; the source only says to cook until the color changes and edges lift. A starter is optional as in the source (kefir or yogurt; wheat-based starters would contain gluten)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Injera_from_ivory_teff.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Injera_from_ivory_teff.jpg",
+      "author": "Edsel Little",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: stack of overlapping injera rounds with the typical pitted surface, resting on a woven basket tray."
+    }
+  },
+  {
+    "id": "ethiopian-yetsom-beyaynetu",
+    "name": "Yetsom Beyaynetu (Ethiopian Vegan Fasting Platter)",
+    "description": "A colorful vegan platter of spiced red lentil stew (misir wot) and a mixed vegetable and greens stew, eaten with injera. A staple on Ethiopian fasting days.",
+    "cuisine": "Ethiopian",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "vegan",
+      "lentils",
+      "berbere",
+      "fasting-food",
+      "platter"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 200,
+        "unit": "g",
+        "name": "red lentils",
+        "note": "rinsed"
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 500,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped"
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable or olive oil",
+        "note": null
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "berbere spice blend",
+        "note": null
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": "Red lentil stew (misir wot)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable or olive oil",
+        "note": null
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "diced"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "berbere spice blend",
+        "note": null
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "diced"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 2,
+        "unit": null,
+        "name": "potatoes",
+        "note": "diced"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 150,
+        "unit": "g",
+        "name": "cabbage",
+        "note": "chopped"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 70,
+        "unit": "g",
+        "name": "collard greens",
+        "note": "chopped"
+      },
+      {
+        "group": "Vegetable and greens stew",
+        "quantity": 60,
+        "unit": "g",
+        "name": "spinach",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "To serve",
+        "quantity": 8,
+        "unit": null,
+        "name": "injera",
+        "note": "to serve; see the injera recipe"
+      }
+    ],
+    "steps": [
+      {
+        "text": "For the lentils: heat 2 tbsp oil in a pot over medium heat. Cook the onion until soft and lightly browned, then add the garlic for another minute.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the berbere, tomato paste, cumin, turmeric and a pinch of salt. Add the rinsed lentils and the water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring to a simmer and cook gently, stirring now and then, until the lentils are soft and thick, about 25 to 30 minutes. Add a splash of water if it catches. Taste for salt.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "For the vegetables: heat the oil in a wide skillet over medium heat. Cook the onion until translucent, then add the garlic and tomatoes and cook until the tomatoes soften.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir in the berbere, cumin, turmeric and salt. Add the carrots, potatoes, cabbage, collard greens and spinach and stir to coat.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and cook for 15 to 20 minutes, stirring occasionally, until the vegetables are tender but still hold their shape.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Arrange the two stews side by side on a large platter, or on injera, and serve with extra injera for scooping.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Adjust the heat by changing the amount of berbere. Buy a ready blend or make your own (see the Wikibooks Berbere page).",
+      "Add green beans or bell pepper to the vegetables if you like.",
+      "Finish with lemon juice or fresh herbs."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Yetsom Beyaynetu (Ethiopian Vegan Platter)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Yetsom_Beyaynetu_(Ethiopian_Vegan_Platter)&oldid=4494321",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Combined two Wikibooks pages: this one for the platter (lentils plus vegetables and greens) and \"Cookbook:Mesir Wat (Spicy Ethiopian Lentil Stew)\" (rev 4518654, same license) for the way the lentils are cooked. The platter page boils the lentils in water and drains them separately and lumps the onion, garlic, spices and oil into one list; I split them between the lentil stew and the vegetable stew, cooked the lentils in their sauce (as Mesir Wat does) and gave amounts in grams. The injera is a separate recipe here, because the source's unfermented 20-minute teff batter is not real injera. Oil: 2 x 2 tbsp instead of the source's ¼ cup."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Veggie_combo_at_Fassil_Restaurant.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Veggie_combo_at_Fassil_Restaurant.jpg",
+      "author": "StoppedTime",
+      "license": "CC0",
+      "verified": "Seen: maroon plate on injera with five stews (red lentils, dark greens, yellow cabbage, yellow split peas and orange lentils), with injera rolls on a side plate."
+    }
+  },
+  {
+    "id": "west-african-jollof-rice",
+    "name": "Jollof Rice (Nigerian Style)",
+    "description": "Party-favorite West African rice cooked in a rich, peppery tomato base until every grain is red-orange. Serve with fried chicken, plantain or salad.",
+    "cuisine": "West African",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "party-food",
+      "nigerian",
+      "one-pot"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "raw, rinsed until the water runs clear"
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "fresh tomatoes",
+        "note": "about 5 large"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "large red bell peppers",
+        "note": "seeded"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "scotch bonnet chile peppers",
+        "note": "use 1 to 4, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "large onions",
+        "note": "roughly chopped, for blending"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "medium, diced"
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "traditionally groundnut (peanut) oil"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "tomato purée",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "chicken or beef pieces",
+        "note": "about 6 to 10 pieces; boiled and fried, traditional",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "stock cubes",
+        "note": "chicken or beef"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "leaf",
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "curry powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "dried thyme",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "grated ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "ground crayfish",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the tomatoes, bell peppers, scotch bonnets and the 2 large onions until smooth. Set aside.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Boil the meat in water with a stock cube and a little salt until tender, 25 to 30 minutes. Lift out and save about 200 ml of the stock. Fry the meat in a little oil until browned and set aside.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Heat the oil in a heavy pot (about 3 liters). Fry the diced onion until soft, add the tomato purée and stir constantly for 3 to 5 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Add the blended pepper mixture and cook for about 10 minutes, stirring, until it has reduced and the oil starts to separate.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the reserved meat stock, stock cubes, bay leaves, curry powder, thyme, cinnamon, ginger, garlic and crayfish. Cook for another 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add about 750 ml of water, season with salt and bring to a boil. Taste: the sauce should be well seasoned.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the washed, drained rice and stir well so none rests on one spot. Cover and cook over low heat, stirring from the bottom now and then, until the rice is tender, about 25 minutes. Add a little more water if the rice is still hard.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Let any remaining liquid cook off on low heat, then fluff with a wooden spoon and serve topped with the fried meat.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Scotch bonnets are very hot; start with one and remove the seeds for less heat.",
+      "The rice cooks in a thick sauce, so avoid stirring too often once it is covered, and check the bottom for sticking.",
+      "Serve with fried plantain, coleslaw or a simple tomato salad."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Nigerian Jollof Rice",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Nigerian_Jollof_Rice&oldid=4514107",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted to metric: 500 g rice, 5 tomatoes to about 600 g. The source uses 300 ml of oil, 4 scotch bonnets and 1.2 liters of water for 500 g of rice; I reduced the oil to 120 ml and the scotch bonnets to a flexible 1 to 4, and the water to about 750 ml to start (the blended base already contains a lot of liquid), telling the cook to add more only if the rice is still hard. The source does not quantify the cinnamon, ginger, garlic, thyme or crayfish: amounts are my estimates. Stock cubes may contain gluten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ghana_Jollof_Rice_with_Chicken.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ghana_Jollof_Rice_with_Chicken.jpg",
+      "author": "Queen Murja10",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate with a mound of brown-orange jollof rice, fried chicken pieces, a small cup of coleslaw and a cup of dark shito sauce."
+    }
+  },
+  {
+    "id": "west-african-nkatenkwan",
+    "name": "Nkatenkwan (Ghanaian Peanut Soup)",
+    "description": "A comforting Ghanaian chicken and peanut-butter soup simmered with tomato, onion, chile and okra. Serve with fufu, banku or rice.",
+    "cuisine": "West African",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "soup",
+      "peanut",
+      "ghanaian",
+      "chicken",
+      "okra"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.4,
+        "unit": "kg",
+        "name": "bone-in chicken pieces",
+        "note": "about 3 lb"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "scotch bonnet chile peppers",
+        "note": "or 6 kpakpo shito peppers; to taste, plus more to blend if you want more heat"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "whole, top and bottom trimmed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "piece",
+        "name": "fresh ginger",
+        "note": "about 2.5 cm"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "large ripe tomatoes",
+        "note": "cores removed"
+      },
+      {
+        "group": null,
+        "quantity": 950,
+        "unit": "ml",
+        "name": "chicken stock",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 130,
+        "unit": "g",
+        "name": "unsweetened peanut butter",
+        "note": "about ½ cup"
+      },
+      {
+        "group": null,
+        "quantity": 480,
+        "unit": "ml",
+        "name": "water",
+        "note": "about 2 cups"
+      },
+      {
+        "group": null,
+        "quantity": 10,
+        "unit": null,
+        "name": "okra pods",
+        "note": "tops and tails trimmed"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "chili powder",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fufu, banku or rice",
+        "note": "to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the chicken in a large pot with the whole onions, whole tomatoes, ginger, garlic, bay leaves, chiles and chicken stock. Bring to a boil, then simmer until the chicken is tender, about 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Meanwhile, in a second pot, whisk the peanut butter with about 120 ml of the water until smooth. Place over high heat and gradually stir in the remaining water. Simmer for about 20 minutes, until the peanut oil rises to the surface.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "When the onions and tomatoes are soft, lift them out with the ginger and garlic and blend until smooth. Add extra chile if you like it hotter. Pour the purée back into the chicken pot and simmer for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Gently pour in the peanut sauce and keep simmering for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the okra and cook for about 5 minutes more, until just tender.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Season with salt and chili powder to taste and serve hot with fufu, banku or rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Wear gloves or wash hands well after handling hot chiles.",
+      "Palm oil, mentioned in the source description, is traditionally used by some cooks but is not in the ingredient list, so it is left out here."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Ghanaian Peanut Soup (Nkatenkwan)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Ghanaian_Peanut_Soup_(Nkatenkwan)&oldid=4518412",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Converted to metric (3 lb = about 1.4 kg, 4 cups stock = 950 ml). The source lists 6 kpakpo shito chiles, a small Ghanaian pepper that is hard to find; I allowed 2 scotch bonnets or the original 6. It gives no simmering times for the chicken or soup: I estimated 40 minutes for the chicken and 5 minutes for the okra. Ginger was listed as \"1-inch piece\" (about 2.5 cm)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Banku_and_groundnut_soup_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Banku_and_groundnut_soup_01.jpg",
+      "author": "Zakaria Tunsung",
+      "license": "CC0",
+      "verified": "Seen: white bowl of creamy orange-brown peanut soup with a piece of meat in the middle beside a plate with a smooth dome of banku or fufu."
+    }
+  },
+  {
+    "id": "east-african-sukuma-wiki",
+    "name": "Sukuma Wiki (East African Greens)",
+    "description": "Kale or collard greens sautéed with onion, tomato, garlic and gentle spices, a daily staple in Kenya and Tanzania. Serve with ugali, rice or chapati.",
+    "cuisine": "East African",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "greens",
+      "kale",
+      "kenyan",
+      "quick",
+      "budget"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cooking oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "medium, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "minced garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "smoked paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "curry powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vegetable bouillon powder",
+        "note": "or 1 cube, crumbled"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "kale or collard greens",
+        "note": "about 500 g, stems removed, leaves sliced thin"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cayenne pepper",
+        "note": "or more to taste"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "lemon",
+        "note": "juiced"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt and pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a medium pot. Fry the onion and garlic for 2 to 3 minutes without letting them burn.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Stir in the tomatoes, coriander, paprika and curry powder and cook for about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the bouillon powder and a splash of water and cook for a few more minutes until the tomatoes break down into a sauce.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Add the greens, cayenne and lemon juice. Cook, stirring, for 5 to 10 minutes until the greens are done to your liking.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Season with salt and pepper to taste and serve hot.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Traditionally eaten with ugali (maize porridge), rice or chapati.",
+      "For a non-vegetarian version, brown 1 to 2 cups of minced beef or chicken after the onions (the source lists it as optional) and cook it for at least 5 minutes before adding the greens."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Sukuma Wiki (East African Greens)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Sukuma_Wiki_(East_African_Greens)&oldid=4513662",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "In the source every ingredient is marked \"optional\" and amounts are loose; I made the vegetarian version as the main recipe, set amounts for 1 bunch (about 500 g) of greens, 1 medium onion and 2 tomatoes, and wrote the meat as a variation in the tips. The source says \"1 tablespoon bouillon powder or cube\": I used vegetable bouillon, which may contain gluten, so gluten-free is not claimed."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Posho_%28Ugali%29%2C_Sukuma_wiki_%2B_kale.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Posho_(Ugali),_Sukuma_wiki_+_kale.jpg",
+      "author": "Catherine Amia",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate with a pile of dark cooked sukuma wiki (kale) with onion and tomato next to a dome of white ugali."
+    }
+  },
+  {
+    "id": "east-african-mandazi",
+    "name": "Mandazi (East African Doughnuts)",
+    "description": "Lightly sweet fried dough, spiced with cloves and lemon zest, served warm with chai for breakfast or as a street-food snack in Kenya, Tanzania and Uganda.",
+    "cuisine": "East African",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "breakfast",
+      "snack"
+    ],
+    "servings": 10,
+    "prepTime": 25,
+    "cookTime": 15,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fried",
+      "doughnut",
+      "tea-time",
+      "street-food"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "all-purpose flour",
+        "note": "about 4 cups, plus extra for rolling"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "baking powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "lemon zest",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "white sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cloves",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "margarine or butter",
+        "note": "at room temperature"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": "about; start with 200 ml"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "vanilla extract",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 750,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "for deep frying"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Sift the flour and baking powder into a bowl. Mix in the salt, lemon zest, sugar and cloves.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Rub in the margarine or butter with your fingertips until the mixture looks like coarse crumbs.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir the vanilla into the water, then add it little by little to the flour mixture until it forms a firm dough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Knead for about 2 minutes until it no longer sticks to your hands. Cover and rest for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "On a floured surface, roll the dough out to about 1.5 cm thick and cut into 10 equal squares or triangles. (The source rolls each square into a ball; either shape works.)",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a deep pan over medium heat. Fry in batches of 5, turning once, for about 4 to 5 minutes until puffed, golden brown all over and cooked through.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Drain on paper towels and serve warm.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "If the oil is too hot, the outside darkens before the inside cooks; test with a small scrap of dough, which should sizzle and float.",
+      "Add the water gradually: flour varies, and the dough should be firm, not sticky."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Mandazi (East African Doughnuts)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/w/index.php?title=Cookbook:Mandazi_(East_African_Doughnuts)&oldid=4517754",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source uses \"4 milk cups\" of flour; I took this as about 500 g. It calls for 2 cups (480 ml) of water, which would make a batter rather than the \"firm dough\" it describes, so I reduced the water to about 250 ml. I raised the baking powder from 1 to 2 tsp for 500 g of flour, shortened the frying time from 10 minutes to about 5 minutes per batch and the 1-inch rolling thickness to 1.5 cm (a 10-minute fry would burn the dough), and gave oil and spice amounts in metric. Sugar ½ cup = 100 g."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mandazis.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mandazis.jpg",
+      "author": "@sadq70",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate of golden-brown, square-shaped fried mandazi next to a cup of milky tea, on a red carpet background."
+    }
+  }
+]

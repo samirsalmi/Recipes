@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "f713849c-a81a-41dc-99b5-9ff2578fec41"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -30,6 +31,13 @@
               }
             ],
             "styles": [
+              "node_modules/@fontsource-variable/fraunces/index.css",
+              "node_modules/@fontsource-variable/inter/index.css",
+              "node_modules/@fontsource-variable/noto-naskh-arabic/index.css",
+              "node_modules/@fontsource/ibm-plex-sans-arabic/arabic-400.css",
+              "node_modules/@fontsource/ibm-plex-sans-arabic/arabic-500.css",
+              "node_modules/@fontsource/ibm-plex-sans-arabic/arabic-600.css",
+              "node_modules/@fontsource/ibm-plex-sans-arabic/arabic-700.css",
               "src/styles.scss"
             ]
           },

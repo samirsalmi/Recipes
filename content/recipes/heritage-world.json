@@ -1,0 +1,2826 @@
+[
+  {
+    "id": "georgian-khachapuri-adjaruli",
+    "name": "Adjaruli Khachapuri",
+    "description": "A boat-shaped Georgian bread filled with melted cheese, topped with a runny egg yolk and a knob of butter. Tear off the crust and swirl it all together.",
+    "cuisine": "Georgian",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 80,
+    "cookTime": 15,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "cheese",
+      "bread",
+      "baked",
+      "georgia"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "bread flour",
+        "note": "plus extra for dusting"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "instant yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "about 35 degrees C"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "mozzarella",
+        "note": "low-moisture, grated; stands in for Georgian sulguni"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "feta",
+        "note": "crumbled; use a mild one"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "egg yolk",
+        "note": "kept whole and unbroken"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": "cut into 4 pieces"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir the flour, yeast, sugar and salt together. Add the warm water and oil and mix to a soft dough. Knead for 8 minutes until smooth and elastic.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Cover and leave in a warm place until doubled in size, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Heat the oven to 240 degrees C (or its highest setting) with a baking tray inside. Mix the mozzarella and feta in a bowl.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Divide the dough into 4. On a floured surface roll each piece into an oval about 25 cm long. Pile a quarter of the cheese in the middle and roll the two long edges inwards to make a boat with a pinched point at each end, leaving a wide cheese-filled well.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Slide the boats onto the hot tray and bake for 12 minutes, until the crust is golden and the cheese is bubbling.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Pull the tray out, quickly press the cheese aside in each boat and drop in an egg yolk. Bake for 2 more minutes so the white of the yolk just sets but the centre stays runny.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Top each boat with a piece of butter and serve immediately. To eat, stir the yolk and butter into the cheese and tear off bread from the crust to dip.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Sulguni is the Georgian cheese; mozzarella with a little feta is the usual substitute outside Georgia.",
+      "For a filled flat khachapuri (Imeruli) instead, seal the cheese inside a round of dough and griddle it."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Khachapuri (Georgian Cheese Bread)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Khachapuri_(Georgian_Cheese_Bread)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Adjaruli preparation after comparing 3 reference recipes (Saveur, America's Test Kitchen, Taras Multicultural Table), which agree on a plain yeasted dough of flour, water, oil, sugar and salt, a mozzarella-and-feta stand-in for Georgian imeruli and sulguni, a very hot oven (about 220-260 degrees C, 15-17 minutes) and the yolk and butter added at the end: the Wikibooks page makes a flat two-layer bread with an egg-enriched dough and feta, smoked provolone and Parmesan, which is not how it is made in Georgia. Replaced with a plain yeasted dough (flour, water, oil), a mozzarella-and-feta cheese blend, the open boat shape, and the yolk and butter added at the end. Cups, ounces and degrees F converted to metric and degrees C; quantities rescaled to 4 boats; salt (missing from the original list) added."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adjarian_Khachapuri.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri.jpg",
+      "author": "Helen Owl",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: golden boat-shaped Adjaruli khachapuri on a wooden board, melted white cheese with a bright orange egg yolk in the centre, a dish of butter beside it."
+    }
+  },
+  {
+    "id": "polish-pierogi-ruskie",
+    "name": "Pierogi Ruskie",
+    "description": "Polish dumplings filled with mashed potato and soft white cheese, boiled and served with fried onion. Simple, filling and made to feed a crowd.",
+    "cuisine": "Polish",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 60,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "dumplings",
+      "potato",
+      "cheese",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "plus extra for rolling"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "melted, or oil"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "add gradually"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "floury potatoes",
+        "note": "peeled"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "twarog",
+        "note": "Polish curd cheese; dry cottage cheese or farmer's cheese also works"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onion",
+        "note": "large, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "sour cream",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the potatoes in salted water until very tender, about 20 minutes. Drain well and mash while hot. Let cool a little.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Fry the onions in the oil over medium heat until soft and golden, about 12 minutes. Set half aside for serving.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Mix the potato, crumbled twarog and the other half of the onion. Season generously with salt and pepper; the filling should taste a little too salty on its own.",
+        "timerMinutes": null
+      },
+      {
+        "text": "For the dough, put the flour and salt in a bowl. Add the egg, melted butter and most of the warm water and mix, adding water as needed until you have a soft, smooth dough. Knead for 5 minutes, then cover and rest for 20 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Roll the dough out thinly (about 2 mm) in two batches and cut 7 cm circles with a glass. Put a heaped teaspoon of filling on each, fold over into a half moon and pinch the edges firmly closed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Boil the pierogi in batches in a large pan of gently boiling salted water. They are ready 3 minutes after they float to the surface.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Lift out with a slotted spoon. Serve with the reserved fried onion and sour cream.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Leftover pierogi are often fried in butter until crisp the next day.",
+      "Freeze uncooked pierogi on a tray, then bag them; boil from frozen, allowing a few extra minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Pierogi I (with Cookbook:Pierogie/Cheese Filling)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Pierogi_I",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Polish pierogi ruskie after comparing 4 Polish-language reference recipes (a Goethe-Institut family recipe, a Wroclaw city recipe, a Lower Silesian regional recipe and a community recipe), which agree on a flour, warm water and egg dough rolled to about 2 mm, 7 cm circles, and a filling of boiled potato, white cheese and fried onion at roughly 2:1 potato to cheese, with water amounts varying (raised from 170 to 200 ml per 400 g flour): the Wikibooks cheese filling is farmer's cheese blended with cream cheese, egg and flour and has no potato, whereas ruskie are filled with potato, twarog and fried onion. Filling quantities written for this recipe. Dough kept from Pierogi I but scaled down to about 30 dumplings with cups converted to grams, the 15-minute kneading shortened to 5 minutes and the 1-to-24-hour fridge rest to a 20-minute rest, which is enough for a pliable dough."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pierogi_ruskie%2C_Pobiedziska.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pierogi_ruskie,_Pobiedziska.jpg",
+      "author": "MOs810",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate of boiled half-moon pierogi topped with fried onion, two cherry tomatoes and a fork."
+    }
+  },
+  {
+    "id": "swiss-roesti",
+    "name": "Rösti",
+    "description": "A crisp, golden cake of grated potato fried in butter, soft in the middle. Swiss comfort food that needs three ingredients.",
+    "cuisine": "Swiss",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potato",
+      "one-pan",
+      "crispy",
+      "gluten-free"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "firm potatoes",
+        "note": "such as Charlotte or Maris Piper, peeled"
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Coarsely grate the potatoes into a bowl. Wring them out in a clean tea towel, squeezing hard to remove as much moisture as possible, then return them to the bowl and toss with the salt and pepper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the butter and oil in a non-stick or well-seasoned 22 cm frying pan over medium heat until the butter foams.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the potato and press it into an even cake with a spatula. Cook, covered, over medium-low heat for 10 minutes without moving it, until the bottom is deep golden.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Slide the rösti onto a plate, add a little more butter to the pan, then flip the rösti back in, browned side up. Cook uncovered for another 8 to 10 minutes until the second side is crisp and the middle is tender.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Slide onto a board, cut into wedges and serve hot, alone or with a fried egg or a green salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Many Swiss cooks parboil the potatoes the day before, chill and then grate them for a creamier middle.",
+      "Do not rinse the grated potato: its starch helps hold the cake together."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Rosti (Swiss Potato Patties)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Rosti_(Swiss_Potato_Patties)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Swiss preparation: the Wikibooks page makes two small patties from a single potato with no fat amount beyond one tablespoon of oil. Rewritten as one large cake for two people in butter (the Swiss fat), with weights for potato and butter, a covered first side so the middle cooks through, and seasoning amounts added."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/R%C3%B6sti_auf_blauem_Teller.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B6sti_auf_blauem_Teller.jpg",
+      "author": "Poupou l'quourouce",
+      "license": "CC BY 4.0",
+      "verified": "Seen: round golden-brown crisp potato rösti on a dark blue plate, three small cooked beetroots beside it."
+    }
+  },
+  {
+    "id": "austrian-kaiserschmarrn",
+    "name": "Kaiserschmarrn",
+    "description": "A fluffy Austrian pancake torn into pieces, caramelised in butter and dusted with icing sugar. Served warm with stewed plums.",
+    "cuisine": "Austrian",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "dessert",
+      "lunch"
+    ],
+    "servings": 3,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancake",
+      "sweet",
+      "quick",
+      "austria"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "egg",
+        "note": "separated"
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "butter",
+        "note": "in total, divided"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "icing sugar",
+        "note": "for dusting"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "raisins",
+        "note": "optional, soaked in warm water or rum",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "plums",
+        "note": "stewed with a little sugar, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the egg yolks with the milk, sugar and salt. Stir in the flour until you have a smooth, thick batter, then stir in the raisins if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Whisk the egg whites to stiff peaks and gently fold them into the batter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Melt half the butter in a large 26 cm frying pan over medium heat. Pour in the batter and cook for 3 to 4 minutes until the underside is golden and the top is nearly set.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Cut the pancake into quarters with a spatula and flip each piece. Cook for another 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the remaining butter and tear the pancake into rough bite-size pieces with two forks. Sprinkle with 1 tablespoon of icing sugar and keep turning for 2 to 3 minutes so the pieces caramelise slightly.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Pile onto warm plates, dust with the rest of the icing sugar and serve with stewed plums or apple compote.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Soaking the raisins in rum is the classic touch.",
+      "Serve at once: the pieces lose their fluffiness as they cool."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Kaiserschmarrn (Austrian Shredded Pancake)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Kaiserschmarrn_(Austrian_Shredded_Pancake)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Quantities corrected after comparing 3 German-language reference recipes (Lecker's Viennese version: 60 g flour and 125 ml milk to 3 eggs; an East Tyrol recipe: 250 g flour and about 500 ml milk to 4 eggs; tirol.at's Tyrolean version), which put flour at roughly 20 to 60 g per egg and milk at about twice the flour weight. The Wikibooks list gives 1 1/2 cups flour as 350 g (a cup is about 125 g, so about 190 g), which would be a stiff dough; I used 120 g flour and 250 ml milk for 3 eggs, between the references. Added a pan size, a second dusting of sugar to caramelise the pieces, and a quantity for the optional plum compote the page suggests as the traditional accompaniment."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hofzuckerb%C3%A4cker_Demel_Kaiserschmarrn_3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hofzuckerb%C3%A4cker_Demel_Kaiserschmarrn_3.jpg",
+      "author": "Geolina163",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: torn golden pieces of Kaiserschmarrn dusted with icing sugar on a white plate, with a small bowl of dark stewed plums beside it."
+    }
+  },
+  {
+    "id": "venezuelan-arepas",
+    "name": "Arepas",
+    "description": "Round cornmeal cakes griddled until crusty outside and soft inside. Split and fill with cheese, beans or eggs, or eat them plain with breakfast.",
+    "cuisine": "Venezuelan",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "cornmeal",
+      "gluten-free",
+      "griddle",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "pre-cooked white cornmeal",
+        "note": "arepa flour such as P.A.N.; not masa harina or polenta"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "add gradually"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for the griddle"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "white cheese",
+        "note": "sliced or grated, for filling",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Stir the salt into the warm water. Gradually add the cornmeal, mixing with your hands, until you have a soft dough that does not crack at the edges when you press it. Add a splash more water if it feels dry.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and rest for 5 minutes. Heat the oven to 210 degrees C.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Divide into 6 balls and flatten each into a disc about 10 cm across and 1.5 cm thick, smoothing the edges so they do not crack.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a griddle or heavy frying pan over medium heat with a little oil. Cook the arepas for 5 minutes on each side until a golden crust forms.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Move them to a baking tray and bake for 10 minutes, until they sound hollow when tapped.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Split each arepa open like a pitta and fill with cheese while they are still hot, or serve plain alongside eggs or beans.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use only pre-cooked arepa flour; other cornmeals will not hold together.",
+      "Wet your hands when shaping to keep the dough from sticking."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Arepa",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Arepa",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Venezuelan preparation after comparing 3 reference recipes (Thyme & Love, Familia Kitchen, Very Veganish), which use about 2 cups (250 g) of pre-cooked P.A.N. flour to 2 to 2.5 cups of water, 4 to 6 minutes a side on the griddle, then an oven finish (about 210 degrees C for 10 minutes in one, 175 degrees C for 14 to 18 minutes in another). The Wikibooks page works cheese into the dough (as in Colombian arepas de queso) and uses equal weights of flour and water. Made plain, as in Venezuela, with cheese as an optional filling; water set at 500 ml per 250 g flour; scaled to 6 arepas."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Arepas_venezolanas.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arepas_venezolanas.jpg",
+      "author": "Periodismodepaz",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: two golden-spotted round arepas in a woven basket lined with paper, on a dark red tablecloth."
+    }
+  },
+  {
+    "id": "malaysian-nasi-lemak",
+    "name": "Nasi Lemak",
+    "description": "Malaysia's national breakfast: fragrant coconut rice with fiery sambal, crispy anchovies, peanuts, cucumber and egg.",
+    "cuisine": "Malaysian",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "coconut-rice",
+      "sambal",
+      "breakfast",
+      "malaysia"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "jasmine rice",
+        "note": "rinsed until the water runs clear"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "coconut milk",
+        "note": "thick"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "leaf",
+        "name": "pandan leaf",
+        "note": "knotted"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "slice",
+        "name": "ginger",
+        "note": "thin, fresh"
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": null,
+        "name": "dried chilli",
+        "note": "large, soaked in hot water for 15 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "shallot",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "belacan",
+        "note": "shrimp paste, toasted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced into rings"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tamarind paste",
+        "note": "mixed with 4 tbsp water, strained"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "dried anchovies",
+        "note": "ikan bilis, heads removed"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "raw peanuts",
+        "note": "skinned"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "egg",
+        "note": "hard-boiled and halved"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "fried chicken",
+        "note": "ayam goreng, bought or home-fried",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the rice, coconut milk, water, salt, pandan leaves and ginger into a pot. Bring to a simmer, stir once, cover and cook on the lowest heat for 15 minutes. Turn off the heat and leave covered for 10 minutes. Fluff with a fork and discard the pandan and ginger.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Meanwhile, dry-roast the peanuts in a pan for about 5 minutes until golden, then set aside. Fry the anchovies in 2 tbsp of the oil over medium heat for about 4 minutes until crisp and lift out onto paper.",
+        "timerMinutes": 9
+      },
+      {
+        "text": "Blend the drained chillies with the shallots, garlic and belacan to a rough paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the remaining 2 tbsp of oil in a pan and fry the paste over medium-low heat for 10 minutes, stirring, until the oil separates and it smells sweet and toasted.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the onion rings, tamarind water, sugar and salt to taste. Simmer for 8 minutes until thick and glossy. Stir in a spoonful of the fried anchovies.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve scoops of the coconut rice with sambal, crispy anchovies, peanuts, cucumber slices and halved eggs, with fried chicken if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The sambal keeps for a week in the fridge and also works with fried eggs or on toast.",
+      "For less heat, remove the seeds from the dried chillies."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Nasi lemak",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Nasi_lemak",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Malaysian preparation after comparing 2 reference recipes (Rasa Malaysia's, and Roti King's from The Happy Foodie): the Wikibooks page covers only the rice (6 cups basmati to 7 cups undiluted coconut milk, far more liquid than either reference). Rice rewritten with fragrant jasmine rice and a liquid-to-rice ratio of about 1.3 ml per gram (references: about 1.3 and 0.8), partly coconut milk, with pandan and ginger; the sambal (dried chilli, shallot, garlic, belacan, onion, tamarind, sugar) and the anchovy, peanut, egg and cucumber accompaniments were added from those references, with quantities written by me for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Nasi_lemak_on_banana_leaf.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Nasi_lemak_on_banana_leaf.jpg",
+      "author": "Jpatokal",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: banana leaf on a dark plate with white coconut rice, fried chicken, crispy anchovies, fried egg roll, cucumber slices and dark red sambal."
+    }
+  },
+  {
+    "id": "senegalese-poulet-yassa",
+    "name": "Poulet Yassa",
+    "description": "Chicken braised in a tangy sauce of lemon, mustard and a mountain of onions, served over white rice. A Senegalese celebration classic.",
+    "cuisine": "Senegalese",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 55,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chicken",
+      "onions",
+      "lemon",
+      "senegal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken thighs",
+        "note": "bone-in, skin on, about 8 pieces"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "onion",
+        "note": "thinly sliced; about 5 large"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": "about 3 lemons"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "Dijon mustard",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "scotch bonnet",
+        "note": "whole or chopped, to taste"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "to serve"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "green olives",
+        "note": "optional",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the onions, garlic, lemon juice, mustard, chilli, salt and pepper in a large bowl. Add the chicken and turn to coat. Cover and marinate for at least 4 hours, or overnight in the fridge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lift the chicken out and scrape off the onions (keep the onions and marinade). Pat the chicken dry. Heat 2 tbsp of oil in a wide heavy pot and brown the chicken for 5 minutes per side. Remove to a plate.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the remaining oil and all the onions and marinade to the pot. Cook over medium heat for 15 minutes, stirring often, until soft and pale golden.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Return the chicken and any juices to the pot, add the water and bay leaf, cover and simmer on low for 30 minutes, until the chicken is very tender and the onions have melted into a sauce. Stir in the olives if using and adjust the seasoning.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Cook the rice in salted water as usual. Spoon the chicken and plenty of onion sauce over the rice and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Fish (yassa poisson) or lamb is cooked the same way.",
+      "The pot should smell sharply of lemon and mustard before you add the water; add more lemon if it tastes flat."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Yassa Poulet (Senegalese Chicken)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Yassa_Poulet_(Senegalese_Chicken)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Senegalese preparation after comparing 4 reference recipes (The Wanderlust Kitchen, Food Network, Eat Well Abi, Chef Lola's Kitchen), which use many onions (4 to 6 per chicken, about 1 to 2 kg), 6 to 8 tablespoons of lemon juice and 2 tablespoons of Dijon mustard per chicken, a 4-hour to overnight marinade and no paprika or bouillon. The Wikibooks version uses 3 onions for 6 thighs, chicken broth, smoked paprika, cayenne and bouillon powder and simmers in 2 cups of stock. Yassa is defined by a very large proportion of onions (about 800 g per kilo of chicken), lemon, mustard and chilli, cooked down with a little water; paprika, bouillon and stock removed, scotch bonnet and optional olives added, onions cooked in the marinade before the chicken returns. Lemon raised to 6 tablespoons and the marinade lengthened. Rice and quantities added; cups converted to metric."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Poulet_yassa_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Poulet_yassa_01.jpg",
+      "author": "Arnaud 25",
+      "license": "CC0",
+      "verified": "Seen: white plate of chicken thighs in a pale golden onion and mustard sauce with a mound of white rice."
+    }
+  },
+  {
+    "id": "south-african-bobotie",
+    "name": "Bobotie",
+    "description": "Cape Malay spiced minced beef with raisins and chutney, baked under a golden egg custard. Sweet, savoury and gently curried.",
+    "cuisine": "South African",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 55,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "baked",
+      "curry-spice",
+      "cape-malay",
+      "minced-meat"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "slice",
+        "name": "white bread",
+        "note": "crusts removed"
+      },
+      {
+        "group": null,
+        "quantity": 125,
+        "unit": "ml",
+        "name": "milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onion",
+        "note": "large, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 750,
+        "unit": "g",
+        "name": "beef mince",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "curry powder",
+        "note": "mild"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fruit chutney",
+        "note": "apricot or mango"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": "white wine or malt"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "flaked almonds",
+        "note": "stirred in or scattered on top",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "milk",
+        "note": "for the custard"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "leaf",
+        "name": "bay leaf",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 180 degrees C and grease a 20 x 28 cm baking dish. Soak the bread in the 125 ml milk.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a large pan and soften the onions with the garlic for 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the mince and cook for 10 minutes, breaking it up, until no longer pink.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the curry powder, turmeric, chutney, vinegar, raisins, salt and pepper and cook for 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Squeeze most of the milk out of the bread (keep the milk) and mash the bread into the meat. Stir in the almonds if using. Spread the mixture in the dish and press it down firmly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Whisk the eggs with the 250 ml milk and the squeezed-out bread milk, season with a pinch of salt and pour over the meat. Lay the bay leaves on top.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 35 to 40 minutes, until the custard is set and golden. Rest for 5 minutes and serve with yellow rice and chutney.",
+        "timerMinutes": 38
+      }
+    ],
+    "tips": [
+      "Yellow rice: simmer rice with a spoon of turmeric, a cinnamon stick and a handful of raisins.",
+      "Lamb mince is equally traditional."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Bobotie",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Bobotie",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Checked against 4 reference recipes (Stellenbosch University's bobotie master class, Hirsch's traditional Cape Malay version, The Cinnamon Jar, Tastes from the Road), which agree on 180 degrees C for 30 to 40 minutes, soaked bread, chutney, raisins and a custard made partly from the milk squeezed from the bread, with 500 g to 1 kg of mince. Changes to the Wikibooks recipe: meat increased from 500 g to 750 g (still 6 servings) so the layer is thick enough to carry the custard; added garlic and optional almonds; the squeezed-out milk is reused in the custard. Wikibooks bake time and temperature kept."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bobotie_South_Africa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bobotie_South_Africa.jpg",
+      "author": "Olivier Lemoine Photographe professionnel vigne / vin, Beaune, Bourgogne,",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a square portion of bobotie with a yellow egg custard crown and almond flakes, beside white rice, fried banana slices and a spoon of dark chutney."
+    }
+  },
+  {
+    "id": "nepali-dal-bhat",
+    "name": "Dal Bhat Tarkari",
+    "description": "Nepal's everyday meal: steamed rice, a pot of tempered lentil soup and a potato and cauliflower curry. Eaten twice a day by millions.",
+    "cuisine": "Nepali",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "lentils",
+      "rice",
+      "vegan",
+      "everyday"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "ml",
+        "name": "water",
+        "note": "for the rice"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "yellow split lentils",
+        "note": "toor or masoor dal, rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 750,
+        "unit": "ml",
+        "name": "water",
+        "note": "for the dal"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for the dal tempering"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "dried chilli",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "waxy, cut into 2 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "cauliflower",
+        "note": "small florets"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for the tarkari"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "fresh ginger",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green chilli",
+        "note": "slit"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "coriander leaves",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "spinach",
+        "note": "stir-fried with garlic as saag",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "yogurt",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the rice and 600 ml water in a pan with a pinch of salt, bring to the boil, cover and cook on low heat for 12 minutes. Turn off the heat and leave covered for 10 minutes.",
+        "timerMinutes": 22
+      },
+      {
+        "text": "For the dal, put the lentils, 750 ml of water, 1/2 tsp turmeric and the salt in a pot. Bring to the boil, skim, then simmer partly covered for 25 minutes until completely soft and soupy. Whisk smooth with a spoon.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "For the tarkari, heat 2 tbsp oil in a wide pan and add the cumin seeds. When they sizzle, add the onion and cook for 5 minutes until soft. Add the tomato, ginger, 1/2 tsp turmeric, chilli and salt and cook for 3 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the potatoes and cauliflower and 100 ml water. Cover and cook on medium-low heat for 15 minutes until both are tender. Stir in the fresh coriander.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Make the tempering (tadka): heat 2 tbsp oil in a small pan over medium-high heat. Add the cumin seeds, then the garlic and dried chillies. When the garlic turns golden (about 30 seconds), pour the sizzling oil straight into the dal.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve the rice with the dal and tarkari alongside, plus saag, cucumber and yogurt if you like. Pour dal over the rice and eat with your hand or a spoon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Nepalis use jimbu, a Himalayan herb, for the tempering; cumin plus garlic is the usual substitute elsewhere.",
+      "Refill the dal as the meal goes: dal bhat is traditionally served with unlimited seconds."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Dal",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Dal",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The Wikibooks Dal page gives only a general method (simmer split pulses in 3 to 4 times their volume of water, then finish with spices fried in oil or ghee) and no quantities or Nepali recipe, so this recipe is mostly my own writing. Quantities and steps were written for this app after comparing 4 reference recipes (Mildly Indian, Archana's Kitchen, Curry-Recipes.co.uk and Wikipedia's dal bhat entry): lentils to water about 1:3 by volume, a cumin, garlic and dried chilli tempering, plain steamed rice at about 1:2 rice to water, and a lightly spiced potato and cauliflower tarkari (cumin, turmeric, ginger). Metric throughout."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dal_Bhat_Tarkari.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dal_Bhat_Tarkari.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: round steel thali with a dome of white rice, a bowl of green-yellow dal, potato curry, greens, pickle, papad, cucumber slice and a small dish of yogurt on a red cloth."
+    }
+  },
+  {
+    "id": "ukrainian-borscht",
+    "name": "Ukrainian Borscht",
+    "description": "Ruby-red beetroot and cabbage soup with potatoes, beans and dill, topped with sour cream. Sharp, sweet and deeply comforting.",
+    "cuisine": "Ukrainian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 50,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "beetroot",
+      "vegetarian",
+      "ukraine"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "beetroot",
+        "note": "peeled and grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrot",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "white cabbage",
+        "note": "shredded"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled and cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "vegetable stock",
+        "note": "or water"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": "white wine or cider"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "dill",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "white beans",
+        "note": "cooked, drained",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "sour cream",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the stock to a boil with the potatoes and bay leaves. Simmer for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Meanwhile heat the oil in a large pan and cook the onion and carrot for 6 minutes until soft. Add the beetroot, vinegar, tomato paste, sugar and a ladle of the hot stock. Cover and stew for 12 minutes, until the beetroot is tender but still bright red.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Add the cabbage to the stock and simmer for 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir the beetroot mixture and beans (if using) into the soup with the salt and pepper. Simmer for 10 more minutes, then add the garlic and half the dill.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Turn off the heat, cover and let the borscht stand for 15 minutes. Taste, adding a splash more vinegar if the colour dulls or it tastes flat.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serve hot, topped with sour cream and the rest of the dill, with dark rye bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add the vinegar to the beetroot early: acid keeps the colour bright.",
+      "Borscht tastes better the next day. Many families add pork ribs to the stock; this is the meatless version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Borscht",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Borscht",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Ukrainian preparation after comparing 2 reference recipes (iFoodReal's Ukrainian borscht and Natasha's Kitchen): both use a pot of broth with potatoes, cabbage added when the potatoes are about half cooked, beet, carrot and onion sauteed separately, tomato paste, bay, and garlic and dill stirred in off the heat with a short rest. They add the vinegar at the end; I stew the beetroot with a little vinegar earlier to keep the colour and taste again at the end. The Wikibooks soup boils the beetroot and potato together and adds only 1 cup of beetroot to a large pot of water. Rewritten with a larger beetroot amount, a separate frying and stewing of the beetroot, onion, carrot and tomato (the zazharka), cabbage added later, optional white beans and garlic and dill at the end, and a resting time. Quantities scaled to 6 servings by me and converted to metric."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Borscht_with_bread.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Borscht_with_bread.jpg",
+      "author": "Juerg Vollmer from Zürich, Schweiz",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: white plate of deep-red borscht with a dollop of sour cream and parsley on a red placemat, with a slice of dark bread, spoon and napkin."
+    }
+  },
+  {
+    "id": "chilean-empanadas-de-pino",
+    "name": "Empanadas de Pino",
+    "description": "Baked Chilean turnovers filled with slow-cooked beef and onion, raisin, olive and egg. A national dish, especially at Independence Day.",
+    "cuisine": "Chilean",
+    "region": "Americas",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 60,
+    "cookTime": 55,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pastry",
+      "baked",
+      "beef",
+      "party"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "plain flour",
+        "note": "plus extra for rolling"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 170,
+        "unit": "ml",
+        "name": "warm milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "onion",
+        "note": "about 3 large, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "beef mince",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried oregano",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "egg",
+        "note": "hard-boiled, each cut into 4 slices"
+      },
+      {
+        "group": null,
+        "quantity": 12,
+        "unit": null,
+        "name": "black olives",
+        "note": "stoned"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg yolk",
+        "note": "beaten, to glaze"
+      }
+    ],
+    "steps": [
+      {
+        "text": "For the dough, mix the flour and salt. Add the melted butter, egg and warm milk and knead for 5 minutes into a smooth, elastic dough, adding a little more milk if dry. Cover and rest for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Meanwhile make the pino. Heat the oil in a wide pan and cook the onions with a pinch of salt over medium-low heat for 20 minutes until completely soft and sweet.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the mince and garlic, break up well and cook for 10 minutes. Stir in the paprika, cumin, oregano, salt and pepper and cook for 3 minutes more. Cool completely, ideally overnight in the fridge; warm filling will tear the dough.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Heat the oven to 200 degrees C. Roll the dough to 3 mm thick and cut twelve 15 cm circles.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put 2 tablespoons of pino on each circle, then a slice of egg, an olive and a few raisins. Brush the edge with water, fold over and press to seal, then crimp with a repulgue twist or a fork.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Place on lined trays, brush with egg yolk and bake for 30 minutes, until golden brown. Serve warm.",
+        "timerMinutes": 30
+      }
+    ],
+    "tips": [
+      "The onion weighs as much as the meat on purpose: it makes the filling juicy.",
+      "Wikibooks mentions frying; the classic empanada de pino horno is baked as here."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Empanada",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Empanada",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Chilean empanada de pino after comparing 3 Spanish-language references (Mi Diario de Cocina, La Tercera's Paula, Calendario Chile): onion to beef from about 1:1 to equal weights, paprika (aji color), cumin, oregano and pepper with no sugar, hard-boiled egg, black olive and raisins, a dough of flour and manteca at about 0.18 to 0.35 fat to flour, and baked (not fried) at a medium-high oven for about 30 minutes, with the pino made ahead and cooled. The Wikibooks pino has no oregano, uses sugar and bakes only 8 to 10 minutes. Scaled to 12 empanadas with 500 g onion to 500 g beef; dough reduced from 1 kg flour to 500 g and cups converted to metric."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Empanada_de_pino.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Empanada_de_pino.jpg",
+      "author": "J B from Champaign, IL, USA",
+      "license": "CC BY 2.0",
+      "verified": "Seen: two baked half-moon empanadas with pale golden, blistered crust on a blue-patterned plate, a piece of butter and a dish of pebre in the background."
+    }
+  },
+  {
+    "id": "portuguese-bolo-de-mel",
+    "name": "Bolo de Mel da Madeira",
+    "description": "Dark, spiced Madeiran honey cake made with cane molasses, walnuts and almonds. Traditionally baked in early December and eaten at Christmas.",
+    "cuisine": "Portuguese",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 8,
+    "prepTime": 30,
+    "cookTime": 50,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": true
+    },
+    "tags": [
+      "cake",
+      "christmas",
+      "molasses",
+      "madeira"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "dark molasses",
+        "note": "cane molasses (mel de cana); British dark treacle is a thinner substitute"
+      },
+      {
+        "group": null,
+        "quantity": 110,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "ml",
+        "name": "Madeira wine",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "bicarbonate of soda",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cloves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground aniseed",
+        "note": "or fennel seed"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "orange",
+        "note": "zest and juice"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "candied citrus peel",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "ground almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "walnut halves",
+        "note": "reserve some for decoration"
+      },
+      {
+        "group": null,
+        "quantity": 15,
+        "unit": "g",
+        "name": "whole almonds",
+        "note": "for decoration"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Gently warm the molasses with the butter in a pan until melted, stirring. Cool until just lukewarm.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dissolve the bicarbonate of soda in the Madeira wine in a small cup.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the flour, sugar, spices, ground almonds, candied peel and chopped walnuts in a large bowl. Pour in the molasses mixture, the wine mixture, the orange juice and zest and knead or stir to a thick, sticky dough.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and leave in a warm place for at least 1 hour. Traditionally the dough rests 3 to 4 days, which makes a darker, more flavoursome cake.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Heat the oven to 175 degrees C and line a 20 cm round tin. Press the dough into the tin and decorate the top with the walnut halves and whole almonds.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake for 50 minutes, until a skewer comes out with only a few moist crumbs. Cool in the tin for 15 minutes before turning out. Wrap and keep for 4 to 7 days before cutting; the flavour improves.",
+        "timerMinutes": 50
+      }
+    ],
+    "tips": [
+      "In Madeira the cake is cut and broken by hand, not with a knife.",
+      "Wrapped well, it keeps for weeks."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Madeira Honey Cake",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Madeira_Honey_Cake",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The Wikibooks page is a bakery-size batch (2.5 kg flour, 2.5 kg molasses, 750 g pork fat, 3 to 4 days' rest), so this is a rescaling that I wrote and checked against 3 reference recipes (Table Journey's bolo de mel de cana, Anne's Kitchen and Rural Ea): they put molasses at 0.55 to 1 times the flour weight, sugar at 0.3 to 0.8, fat at 0.4 to 0.6, with 1 to 2 tsp cinnamon and about 1/2 tsp each of cloves and aniseed, candied peel, walnuts and almonds, 170 to 180 degrees C and 45 to 55 minutes for a 16 to 20 cm cake, and a matured cake. Final per-cake quantities (250 g flour, 250 g molasses, 100 g sugar, 110 g butter) follow Table Journey's ratios. Wikibooks' 69 g bicarbonate per 2.5 kg flour (about 1.5 tsp at this size) was reduced to 1 tsp following Anne's Kitchen, and the wine raised to 40 ml as there. Pork fat replaced by butter only (so the cake is vegetarian) and the 250 g of bakery bread dough left out. The dough rest is shortened to an hour (references rest it up to 48 hours); the baked cake is then matured for a few days."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bolo_de_Mel.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bolo_de_Mel.JPG",
+      "author": "TeWeBs",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a single dark brown, round Madeiran honey cake topped with walnut halves and whole almonds against a white background."
+    }
+  },
+  {
+    "id": "dutch-erwtensoep",
+    "name": "Erwtensoep (Snert)",
+    "description": "Thick Dutch split pea soup with pork, smoked sausage and celeriac, served so thick a spoon stands up in it. Winter ice-skating food.",
+    "cuisine": "Dutch",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 90,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "split-peas",
+      "winter",
+      "smoked-sausage"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "green split peas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "smoked bacon",
+        "note": "or pork belly, in one piece"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "leek",
+        "note": "large, sliced"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "celeriac",
+        "note": "peeled and cubed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrot",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled and cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "smoked sausage",
+        "note": "rookworst, sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "celery leaves",
+        "note": "chopped, to finish"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "slice",
+        "name": "dark rye bread",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "slice",
+        "name": "smoked ham",
+        "note": "to serve on the rye",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the soaked peas, put them in a large pot with the water and the piece of bacon. Bring to the boil, skim off the foam, then simmer partly covered for 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Add the leek, celeriac, carrot, onion, bay leaves, salt and pepper. Simmer for 15 minutes, stirring now and then so the peas do not catch on the bottom.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the potatoes and cook for 20 minutes until everything is very soft and the soup is thick. Lift out the bacon and dice it.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the sliced sausage and diced bacon and simmer for 10 minutes more. Stir well; the soup should be thick enough for a spoon to stand upright. Add a splash of water if too thick.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve with the celery leaves sprinkled on top, and rye bread with ham on the side if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Erwtensoep is even better reheated the next day.",
+      "For a vegetarian soup, leave out the pork and sausage and add smoked paprika."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Erwtensoep (Split Pea Soup)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Erwtensoep_(Split_Pea_Soup)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The Wikibooks page lists ingredients and steps but gives no quantities, servings or total time (and cooks the peas and vegetables in separate pans), so quantities and the single-pot method here are mostly my own writing, checked against 4 Dutch reference recipes (Albert Heijn Allerhande's erwtensoep with rookworst, its London Loy variant, its Oma's erwtensoep, and Koken met Karin): about 300 to 500 g split peas per 4 to 8 people in 1.5 to 2 litres of water, with carrot, celeriac and leek, peas and pork simmered about 30 to 45 minutes before the vegetables go in, sausage added at the end, 1 to 1.5 hours overall. Rye bread with ham as an accompaniment is my addition from general knowledge of how snert is served."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Erwtensoep_roggebrood_katenspek.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Erwtensoep_roggebrood_katenspek.jpg",
+      "author": "Takeaway",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a small white lidded cup of thick green pea soup beside a slice of dark rye bread topped with ham, a lit tealight and salt and pepper mills behind."
+    }
+  },
+  {
+    "id": "bangladeshi-khichuri",
+    "name": "Bhuna Khichuri",
+    "description": "Rice and yellow lentils fried with whole spices and ghee, simmered until thick and topped with golden onions. A rainy-day Bengali favourite.",
+    "cuisine": "Bangladeshi",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 45,
+    "cookTime": 35,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "lentils",
+      "comfort-food",
+      "bengali"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "or gobindobhog rice"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "yellow mung dal",
+        "note": "split, skinless"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green cardamom pods",
+        "note": "lightly crushed"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "cloves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "fresh ginger",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green chilli",
+        "note": "slit"
+      },
+      {
+        "group": null,
+        "quantity": 1.1,
+        "unit": "l",
+        "name": "hot water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "peas",
+        "note": "optional",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced thin, for frying"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": "for the onions"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "coriander leaves",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "egg",
+        "note": "hard-boiled, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the rice and spread it on a tray to dry. Rinse the dal and soak in water for 30 minutes, then drain.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Dry-roast the drained dal in a heavy pan over medium heat for 3 to 4 minutes until fragrant. Tip into a bowl.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Melt 4 tbsp ghee in the same pan. Add the cumin, bay leaves, cardamom, cloves and cinnamon. When they sizzle, add the ginger and cook for 1 minute.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the turmeric, chillies and peas (if using), then the rice and dal. Fry, stirring gently, for 3 minutes so every grain is coated.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Pour in the hot water and the salt. Bring to the boil, cover and cook on low heat for 25 minutes until the rice and dal are soft and thick like a loose porridge, stirring now and then.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "While it cooks, fry the onions in 2 tbsp ghee over medium heat for about 15 minutes until golden brown and crisp.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serve topped with fried onions and coriander, with a boiled egg alongside if you like, plus pickle or fried vegetables.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The consistency should be soft and spoonable, not dry like a pilaf.",
+      "Replace ghee with oil for a vegan dish."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Khichuri",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Khichuri",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Wikibooks recipe scaled from 2 to 4 servings (1 cup rice and 1 cup lentils became 250 g rice and 200 g mung dal, 4 cups of water became 1.1 litres), optional chickpeas dropped, soaking and dry-roasting of the dal kept from the page, and a boiled egg added as an optional serving. Checked against 4 Bengali references (Bongeats, With a Spin, IRRI Rice Today, Kitchen of Debjani), which use about 1.7 to 2.3 times the combined volume or weight of rice and dal in water, a 20 to 25 minute covered simmer, whole spices fried in ghee, and onion fried golden. I lengthened the simmer from 20 to 25 minutes and set ghee at 4 tablespoons in the pot plus 2 for the onions (references use more). Cups converted to metric."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Khichuri%2C_a_bangali_dish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khichuri,_a_bangali_dish.jpg",
+      "author": "Ferdous",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: close-up of yellow turmeric khichuri with carrot flecks, a cinnamon stick and half a boiled egg, on a white plate."
+    }
+  },
+  {
+    "id": "swedish-chokladboll",
+    "name": "Chokladbollar",
+    "description": "No-bake Swedish chocolate balls of oats, butter, cocoa and coffee, rolled in pearl sugar. A fika classic.",
+    "cuisine": "Swedish",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 10,
+    "prepTime": 20,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "no-bake",
+      "fika",
+      "oats",
+      "kids"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "rolled oats",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 140,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "cocoa powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "vanilla sugar",
+        "note": "or 1 tsp vanilla extract"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "butter",
+        "note": "soft"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "strong coffee",
+        "note": "cold"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "pearl sugar",
+        "note": "or desiccated coconut, for rolling"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the oats, sugar, cocoa and vanilla sugar in a large bowl.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the soft butter and work it into the dry mix with your hands or a potato masher until crumbly and evenly mixed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the cold coffee and mix until the dough holds together when squeezed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roll into about 20 balls of 3 cm (a walnut size), then roll each in the pearl sugar.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Chill for at least 1 hour before eating. Keep in the fridge for up to a week.",
+        "timerMinutes": 60
+      }
+    ],
+    "tips": [
+      "Swap the coffee for milk for a version children can eat.",
+      "Roll in desiccated coconut or sprinkles instead of pearl sugar if you like."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Swedish Chokladboll",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Swedish_Chokladboll",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Wikibooks recipe halved (500 g oats, 275 g sugar, 75 g cocoa, 160 g butter, 90 ml coffee for 24 balls) to about 20 balls of walnut size, using rolled oats (havregryn, the oat used in Sweden) rather than quick oats; sugar adjusted slightly upward to match Swedish proportions; pearl sugar chosen as the main coating."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/02_Chokladbollar.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:02_Chokladbollar.jpg",
+      "author": "Arild",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a pile of round dark chocolate balls coated in white pearl sugar on a white plate."
+    }
+  },
+  {
+    "id": "armenian-tolma",
+    "name": "Armenian Tolma",
+    "description": "Grape leaves rolled around spiced beef, rice and fresh herbs, then simmered gently until tender. Served warm with garlicky yogurt.",
+    "cuisine": "Armenian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 60,
+    "cookTime": 50,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stuffed",
+      "grape-leaves",
+      "herbs",
+      "celebration"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "grape leaves",
+        "note": "jarred in brine, about 40, rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "beef mince",
+        "note": "or lamb"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "short-grain rice",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "parsley",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "dill",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fresh mint",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "allspice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus extra for the pot"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "hot water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges, to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "plain yogurt",
+        "note": "mixed with 1 crushed garlic clove, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the brined grape leaves in hot water for 5 minutes, then drain and rinse well. Trim off any hard stems and keep a few torn leaves for lining the pot.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Mix the mince, rice, onions, parsley, dill, mint, salt, pepper, allspice and 1 tbsp of the oil with your hands until well combined.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay a leaf shiny side down with the stem towards you. Put a heaped teaspoon of filling near the base, fold in the sides and roll up tightly like a small cigar. Repeat with the remaining leaves.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Line the bottom of a heavy pot with torn leaves and a drizzle of oil. Pack the rolls closely, seam side down, in tight layers.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour over the remaining oil and the hot water. Put an upturned small plate on top to hold the rolls down. Bring to the boil, then cover and simmer gently for 50 minutes, until the rice is cooked.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Let the tolma rest in the pot for 10 minutes, then serve warm with garlic yogurt.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [
+      "Do not overstuff: the rice swells as it cooks.",
+      "Cabbage leaves or hollowed vegetables can be stuffed with the same mix."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Cookbook:Dolma (Stuffed Grape Leaves)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Dolma_(Stuffed_Grape_Leaves)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Method corrected toward the traditional Armenian preparation of tolma after comparing 3 references (Osharak's meat tolma and vegetarian tolma, a Tasty Lu Armenian dolma recipe and the cookbook 77 Dishes from Armenia): they use beef or lamb, short-grain rice, onion and fresh herbs (parsley, dill, mint, basil or cilantro) with no tomato paste, simmered 45 to 60 minutes in plain water or broth with a plate on top, and served with garlic yogurt. The Wikibooks page makes a mixed-vegetable dolma with chuck roast, jalapeno, allspice-heavy seasoning, citric acid and about 3 cups of rice. Rewritten for grape leaves only, with a lighter rice-to-meat ratio, fresh herbs, no tomato paste or lemon in the pot, and a gentler simmer under a weighted plate; garlic yogurt and optional mint added as the references suggest. Scaled to about 40 rolls for 6 servings; converted to metric."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Armenian_Dolma_with_grape_leaves.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Armenian_Dolma_with_grape_leaves.jpg",
+      "author": "Beko",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: overhead view of a dark round dish filled with tightly packed, spiralled grape-leaf dolma rolls, one whole leaf in the centre, on a wooden surface."
+    }
+  }
+]

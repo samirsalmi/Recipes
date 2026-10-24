@@ -1,0 +1,1699 @@
+[
+  {
+    "id": "algerian-slata-felfel",
+    "name": "Slata Felfel (Roasted Pepper Salad)",
+    "description": "Peppers charred, peeled and dressed with garlic, olive oil and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "peppers",
+      "vegan",
+      "summer",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "bell peppers",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Char the peppers under a hot grill or on a flame, turning, for 15 to 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cover for 10 minutes, then peel and slice, discarding seeds.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Toss with crushed garlic, oil, lemon, salt and cumin.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Felfel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Salade_grill%C3%A9e_%28slata_mechwya%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salade_grill%C3%A9e_(slata_mechwya).jpg",
+      "author": "Nad marci",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bowl of grilled pepper and tomato salad with olives (slata mechouia)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de poivrons"
+      },
+      "ar": {
+        "name": "سلطة الفلفل"
+      }
+    }
+  },
+  {
+    "id": "algerian-zaalouk",
+    "name": "Zaalouk (Aubergine and Tomato Salad)",
+    "description": "A warm, mashed aubergine and tomato salad with garlic, cumin and paprika, scooped with bread; eaten across the Maghreb.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "aubergine",
+      "vegan",
+      "dip",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "aubergines",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Salt the aubergine and drain 15 minutes, then rinse and pat dry.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Cook the aubergine in half the oil for 10 minutes until golden.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add tomatoes, garlic, spices and remaining oil, simmer 20 minutes while mashing with a spoon.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Finish with lemon and coriander and serve warm or cold.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Zaalouk (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Zaalouk",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise; no source wording copied. Dish identity checked against the English Wikipedia article 'Zaalouk' (opened): cooked aubergine and tomato salad with garlic, peppers, herbs, cumin and olive oil. Proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Zaalouk-01.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Zaalouk-01.JPG",
+      "author": "Tamorlan",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a plate of zaalouk, the aubergine and tomato cooked salad, garnished with coriander."
+    },
+    "translations": {
+      "fr": {
+        "name": "Zaalouk d'aubergines"
+      },
+      "ar": {
+        "name": "زعلوك"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-tomatich",
+    "name": "Slata Tomatich (Tomato Salad)",
+    "description": "Ripe tomatoes with onion, parsley and olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "tomato",
+      "vegan",
+      "summer",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 5.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the tomatoes and onion and layer them.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dress with oil, vinegar and salt, scatter parsley and chill 10 minutes.",
+        "timerMinutes": 10
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Tomatich (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Tomato_salad_2.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tomato_salad_2.jpg",
+      "author": "Ferdous",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bowl of chopped tomato and onion salad."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de tomates"
+      },
+      "ar": {
+        "name": "سلطة الطماطم"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-khyar",
+    "name": "Slata Khyar (Cucumber Salad)",
+    "description": "Crunchy cucumber with mint and a light yoghurt-lemon dressing.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "cucumber",
+      "yoghurt",
+      "summer",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "cucumbers",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "yoghurt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "dried mint",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice the cucumbers thinly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix yoghurt, crushed garlic, mint, lemon and salt; toss with the cucumber.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Khyar (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cucumber_Salad_%2830974695127%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cucumber_Salad_(30974695127).jpg",
+      "author": "Jose Nicdao from San Jose, United States",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a bowl of sliced cucumber salad."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de concombre"
+      },
+      "ar": {
+        "name": "سلطة الخيار"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-batata",
+    "name": "Slata Batata (Potato Salad)",
+    "description": "Warm cubed potatoes tossed in a mustardy vinaigrette with onion and parsley.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "potato",
+      "vegan",
+      "picnic",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800.0,
+        "unit": "g",
+        "name": "potatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "mustard",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the whole potatoes for 20 minutes, peel and cut into cubes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Whisk oil, vinegar, mustard and salt, toss with warm potatoes, onion and parsley.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Batata (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Warm_kipfler_potato_salad.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Warm_kipfler_potato_salad.jpg",
+      "author": "jules",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a bowl of warm potato salad with onion and parsley."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de pommes de terre"
+      },
+      "ar": {
+        "name": "سلطة البطاطا"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-chamandar",
+    "name": "Slata Chamandar (Beetroot Salad)",
+    "description": "Sweet cooked beetroot with garlic, cumin and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "beetroot",
+      "vegan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "beetroots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil beetroot 40 minutes until tender, peel and dice.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Toss with garlic, oil, lemon, cumin and salt.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Chamandar (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beetroot_salad_%285938226398%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Beetroot_salad_(5938226398).jpg",
+      "author": "ponafotkas from Kiev, Ukraine",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a bowl of diced beetroot salad with parsley."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de betteraves"
+      },
+      "ar": {
+        "name": "سلطة الشمندر"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-jazar",
+    "name": "Slata Jazar (Carrot Salad)",
+    "description": "Cooked, spiced carrot coins with garlic, vinegar and cumin.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "carrot",
+      "vegan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Slice and steam the carrots for 10 minutes until barely tender.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Toss while warm with garlic, oil, lemon, cumin and salt; add parsley.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Jazar (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/French_grated_carrot_salad.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:French_grated_carrot_salad.jpg",
+      "author": "건복맘",
+      "license": "CC BY 2.0 kr",
+      "verified": "Seen: a bowl of grated carrot salad."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de carottes"
+      },
+      "ar": {
+        "name": "سلطة الجزر"
+      }
+    }
+  },
+  {
+    "id": "algerian-jazar-mcharmel",
+    "name": "Jazar Mcharmel (Carrots in Dersa)",
+    "description": "Sautéed carrots flavoured with garlic-chilli dersa and vinegar.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "carrot",
+      "dersa",
+      "vegan",
+      "spicy",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the carrot sticks in boiling water for 8 minutes and drain.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Pound garlic with harissa, paprika, salt, oil and vinegar to make dersa.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Toss with the warm carrots and marinate 15 minutes.",
+        "timerMinutes": 15
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Jazar Mcharmel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/22-05-2017_Marinated_carrots..jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:22-05-2017_Marinated_carrots..jpg",
+      "author": "Kolforn (Kolforn)",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a dish of marinated cooked carrots with chopped herbs."
+    },
+    "translations": {
+      "fr": {
+        "name": "Carottes à la dersa"
+      },
+      "ar": {
+        "name": "جزر مشرمل"
+      }
+    }
+  },
+  {
+    "id": "algerian-felfel-mcharmel",
+    "name": "Felfel Mcharmel (Peppers in Dersa)",
+    "description": "Fried or grilled peppers marinated with garlic, vinegar and chilli.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "peppers",
+      "dersa",
+      "vegan",
+      "spicy",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 6.0,
+        "unit": null,
+        "name": "green peppers",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Fry whole peppers in 2 tbsp oil for 10 minutes, turning, until blistered.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Crush garlic with harissa, salt, vinegar and remaining oil and pour over the warm peppers.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Marinate for at least 30 minutes.",
+        "timerMinutes": 30
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Felfel Mcharmel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Poivrons marinés"
+      },
+      "ar": {
+        "name": "فلفل مشرمل"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-riz",
+    "name": "Slata Riz (Rice Salad)",
+    "description": "Cold rice with tuna, olives, peppers, sweetcorn and a lemon vinaigrette: a party and lunchbox favourite.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "rice",
+      "tuna",
+      "picnic"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "rice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "can",
+        "name": "tuna",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "sweetcorn",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 12.0,
+        "unit": null,
+        "name": "olives",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard boiled"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice in salted water 12 minutes, rinse under cold water and drain.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Boil the eggs for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mix rice with tuna, olives, corn and diced pepper, dress with oil, lemon and salt and top with egg quarters.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Riz (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rice_salad_01.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rice_salad_01.jpg",
+      "author": "Alessio Sbarbaro User_talk:Yoggysot",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a bowl of rice salad with chickpeas, olives and egg."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade de riz"
+      },
+      "ar": {
+        "name": "سلطة الأرز"
+      }
+    }
+  },
+  {
+    "id": "algerian-slata-khadra",
+    "name": "Slata Khadra (Green Salad)",
+    "description": "Crisp lettuce, cucumber and spring onion with a lemon and olive oil dressing.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "vegan",
+      "lettuce",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lettuce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "cucumber",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "spring onions",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh mint",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Tear the lettuce, slice the cucumber and onions.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dress just before serving.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Khadra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Salad_%284%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salad_(4).jpg",
+      "author": "Poecus",
+      "license": "Public domain",
+      "verified": "Seen: a bowl of green lettuce salad."
+    },
+    "translations": {
+      "fr": {
+        "name": "Salade verte"
+      },
+      "ar": {
+        "name": "سلطة خضراء"
+      }
+    }
+  },
+  {
+    "id": "algerian-foul-zit",
+    "name": "Foul Bil Zit (Broad Beans in Olive Oil)",
+    "description": "Warm tender broad beans with garlic, cumin and a generous pour of olive oil.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fava",
+      "vegan",
+      "breakfast",
+      "olive-oil",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "cooked fava beans",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the beans in a pan with 100 ml water and the salt for 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add crushed garlic, cumin and paprika and mash lightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve with oil, lemon and parsley.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Foul Bil Zit (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Foul_mdammis%2C_Tunisie%2C_30_mars_2017.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Foul_mdammis,_Tunisie,_30_mars_2017.jpg",
+      "author": "Habib M'henni",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of cooked broad beans with olive oil."
+    },
+    "translations": {
+      "fr": {
+        "name": "Fèves à l'huile d'olive"
+      },
+      "ar": {
+        "name": "فول بزيت الزيتون"
+      }
+    }
+  },
+  {
+    "id": "algerian-jazar-kamoun",
+    "name": "Jazar Bil Kamoun (Cumin Carrots)",
+    "description": "Carrots simmered tender in a light garlic, cumin and olive oil sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "carrot",
+      "vegan",
+      "cumin",
+      "side",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "carrots",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "vinegar",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Simmer the carrots with water, oil, garlic, cumin and salt for 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Reduce the sauce, add vinegar and serve warm or cold.",
+        "timerMinutes": 5
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Jazar Bil Kamoun (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cumin_carrot_salad_%2810600999603%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Cumin_carrot_salad_(10600999603).jpg",
+      "author": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: a cumin carrot salad on a plate."
+    },
+    "translations": {
+      "fr": {
+        "name": "Carottes au cumin"
+      },
+      "ar": {
+        "name": "جزر بالكمون"
+      }
+    }
+  },
+  {
+    "id": "algerian-khodra-matboukha",
+    "name": "Khodra Matboukha (Steamed Vegetables)",
+    "description": "Seasonal vegetables steamed until tender and dressed with olive oil and lemon.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "vegetables",
+      "vegan",
+      "steamed",
+      "healthy",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "carrots",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "courgettes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "potatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "cauliflower",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "green beans",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cut vegetables into even pieces.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Steam the potatoes and carrots for 10 minutes, add the rest and steam 10 minutes more.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Serve warm with oil, lemon and salt.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Khodra Matboukha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Steamed_vegetables_in_the_breakfast_buffet_%2843887013644%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Steamed_vegetables_in_the_breakfast_buffet_(43887013644).jpg",
+      "author": "Eric Fischer",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a pan of steamed mixed vegetables (carrots, broccoli)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Légumes cuits"
+      },
+      "ar": {
+        "name": "خضرة مطهوة"
+      }
+    }
+  }
+]

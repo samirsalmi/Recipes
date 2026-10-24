@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "recipe-manager",
   "version": "0.0.0",
   "scripts": {
@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "qa:shots": "node scripts/qa-shots.mjs",
+    "qa:i18n": "node scripts/qa-shots.mjs --langs=fr,ar --only=discover,recipe,plan,groceries,household,recipe-new,login --devices=mobile-360,desktop-1440"
   },
   "prettier": {
     "printWidth": 100,
@@ -30,8 +32,10 @@
     "@angular/forms": "^21.1.0",
     "@angular/platform-browser": "^21.1.0",
     "@angular/router": "^21.1.0",
-    "@fontsource/inter": "^5.3.0",
-    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/noto-naskh-arabic": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -42,6 +46,7 @@
     "autoprefixer": "^10.4.24",
     "jsdom": "^27.1.0",
     "postcss": "^8.5.6",
+    "puppeteer-core": "^23.11.1",
     "tailwindcss": "^3.4.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"

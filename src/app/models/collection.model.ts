@@ -8,13 +8,3 @@ export interface Collection {
   createdAt: string;
   updatedAt: string;
 }
-
-export interface UserRecipeData {
-  recipeId: string;
-  isFavorite: boolean;
-  userRating?: number;
-  notes?: string;
-  lastViewed?: string;
-  viewCount?: number;
-  gatheredIngredients?: string[]; // ingredient IDs
-}

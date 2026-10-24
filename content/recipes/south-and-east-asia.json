@@ -1,0 +1,2613 @@
+[
+  {
+    "id": "indian-chana-masala",
+    "name": "Chana Masala (Masaledaar Chole)",
+    "description": "Chickpeas simmered in a spiced onion and tomato gravy, a North Indian staple. Serve with chapati, paratha or rice.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 50,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "chickpeas",
+      "curry",
+      "pantry",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight; or 2 cans (about 400 g each) cooked chickpeas, drained"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cooking oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "medium, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "chilli powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "Madras curry powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "garam masala",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "turmeric powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "garlic paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ginger paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": "to finish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fresh coriander",
+        "note": "chopped, to garnish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the dried chickpeas overnight in plenty of cold water, then drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook the chickpeas in fresh water until tender: about 20 minutes in a pressure cooker (3 whistles), or 1 to 1½ hours at a gentle simmer in a covered pot. Keep about 300 ml of the cooking water.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Heat the oil in a wide pot (add the cumin seeds first, if using, and let them sizzle for 20 seconds) and sauté the onion until golden brown, about 8 to 10 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir in the ginger paste and garlic paste and cook for about 1 minute, until the raw smell is gone.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Add the tomatoes and cook, stirring and mashing them, for about 5 minutes until they break down into a thick paste and oil begins to separate at the edges.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Stir in the turmeric, chilli powder and curry powder with a splash of water so the spices do not scorch, and cook for another minute.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Add the cooked chickpeas, about 200 ml of the cooking water and salt. Simmer on medium-low heat for 15 to 20 minutes, mashing a few chickpeas to thicken the gravy and adding water if it gets too dry.",
+        "timerMinutes": 18
+      },
+      {
+        "text": "Stir in the garam masala, add the lemon juice if you like and garnish with fresh coriander. Serve with chapati, paratha or rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Using canned chickpeas skips the soaking and the first cooking step: add them with the cooking liquid from the can or water and simmer 10 to 15 minutes.",
+      "Mash a few chickpeas against the side of the pot to thicken the gravy."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Chickpea Curry (Masaledaar Chole)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Chickpea_Curry_(Masaledaar_Chole)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "1 cup dried chickpeas converted to 200 g; '3 whistles' kept with an approximate time added, and a stove-top time added for cooks without a pressure cooker; 'some water' set to about 200 ml of chickpea cooking water; serving count (4) inferred from the quantities; canned-chickpea option added as a tip. The source is a very short method (everything is stirred in together with about 10 minutes of simmering): cross-checked against how chana masala is usually cooked in India (onion browned, ginger-garlic cooked out, tomatoes cooked down until the oil separates, spices bloomed with a splash of water, chickpeas simmered in the masala for 15-20 minutes, garam masala added at the end), so the order was corrected, tomatoes raised from 1 to 2, and optional cumin seeds and lemon juice added."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chana_masala.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chana_masala.jpg",
+      "author": "Simon Law (sfllaw)",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: close-up of a metal serving dish of chickpeas in a thick orange-red tomato gravy, topped with diced fresh tomato and coriander leaves."
+    }
+  },
+  {
+    "id": "indian-tadka-dal",
+    "name": "Tadka Dal (Moong Dal with Tempered Spices)",
+    "description": "Soft split mung beans finished with a sizzling tempering of mustard, cumin, curry leaves, garlic and chilli. An everyday dal, great with rice or chapati.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "dal",
+      "lentils",
+      "vegan",
+      "everyday"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Dal",
+        "quantity": 100,
+        "unit": "g",
+        "name": "split mung beans (moong dal)",
+        "note": "washed"
+      },
+      {
+        "group": "Dal",
+        "quantity": 480,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cooking oil",
+        "note": "up to 3 tbsp for a richer dal"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "onion",
+        "note": "finely diced (about ½ small onion)"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "chopped"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 1,
+        "unit": "piece",
+        "name": "ginger",
+        "note": "a small sliver (about 1 cm), chopped, or ¼ tsp ginger paste"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 5,
+        "unit": null,
+        "name": "curry leaves",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "mustard seeds",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "fenugreek seeds",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "asafoetida",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Tempering",
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "cut into eighths; use 2 for a tangier dal"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 2,
+        "unit": null,
+        "name": "green chillies",
+        "note": "slit lengthwise"
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "turmeric powder",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "red chilli powder",
+        "note": null
+      },
+      {
+        "group": "Tempering",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the dal and water in an open pot over moderate heat and cook until very soft and mushy, stirring now and then and adding water if it gets dry. This takes about 30 minutes; a pressure cooker needs 10 to 12 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Heat the oil in a pan. Add the mustard seeds and stand back, as they spatter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the cumin seeds, fenugreek seeds, curry leaves, green chillies and onion.",
+        "timerMinutes": null
+      },
+      {
+        "text": "When the onion turns translucent, add the garlic and ginger and lower the heat until the garlic turns a darker shade. Do not let it caramelise. Stir in the turmeric, chilli powder and asafoetida.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the tomato and let it fry for 2 to 3 minutes, so it picks up the spice flavours and the hot spiced oil (the tadka) cools down.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Pour in the mushy dal, add salt to taste and simmer for 5 to 10 minutes, stirring occasionally, until the tomato is soft.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve with rice or chapatis.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add a little hot water at the end if the dal thickens too much as it stands.",
+      "Some asafoetida contains wheat flour; check the label if you avoid gluten."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Tadka Dhal (Spiced Lentil Curry) II",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Tadka_Dhal_(Spiced_Lentil_Curry)_II",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "½ cup dal converted to 100 g and 2 cups water to 480 ml; where the source gives a range (oil 2-3 tbsp, tomatoes 1-2, green chillies 1-2) a single value was chosen and the range kept in the note; serves 2 as in the source; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dal_Tadka-Delhi.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dal_Tadka-Delhi.jpg",
+      "author": "AugustineKajur",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white bowl of orange-gold dal tadka topped with two whole dried red chillies and coriander leaves, with onions, a lime half and chillies on a dark wooden table."
+    }
+  },
+  {
+    "id": "indian-khichdi",
+    "name": "Kidgeri (Rice and Dal Khichdi)",
+    "description": "Rice and split lentils cooked together until soft, finished with melted butter and often served with eggs. Comforting one-pot food from the 1917 Khaki Kook Book.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "one-pot",
+      "rice",
+      "lentils",
+      "comfort"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "split yellow mung beans (moong dal)",
+        "note": "or other split lentils; soaked for about 3 hours and drained"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "peeled and halved"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "washed"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": "plus a little hot water if needed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "turmeric powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ghee",
+        "note": "or butter, melted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": "sizzled in the ghee",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "poached, or hard-boiled and sliced, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the dal in cold water for about 3 hours, then drain.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the dal, the onions and about 1 litre of water in a large pot. Bring to a boil, then simmer partly covered until the dal is about half cooked, around 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the rice, turmeric and salt, with enough hot water that the water stands about 5 cm above the dal and rice. Cook gently, stirring occasionally, until the rice and dal are both soft and the water is absorbed, 20 to 25 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Melt the ghee in a small pan (and sizzle the cumin seeds in it for 30 seconds, if using) and pour it over the khichdi. Serve hot, with a poached egg on each portion or sliced hard-boiled eggs laid over the top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Stir from the bottom now and then so the rice does not stick.",
+      "This is the dish that became kedgeree in Britain, where fish was added."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "The Khaki Kook Book: A Collection of a Hundred Cheap and Practical Recipes Mostly from Hindustan",
+      "author": "Mary Kennedy Core",
+      "year": 1917,
+      "url": "https://www.gutenberg.org/ebooks/25914",
+      "license": "Public domain",
+      "adaptation": "Source (No. 49 'Kidgeri') says only: soak a cup of split peas about 3 hours, stew with two whole onions, add a cup of rice when half done, water about two inches above, finish with melted butter, serve with poached or sliced boiled eggs. Cups converted to grams; the 'split peas' read as yellow split mung dal; turmeric, salt, a water amount (1.2 l) and times were added because the source gives none, as in standard khichdi. Cross-checked against how khichdi is normally cooked in India (rice and dal in roughly equal parts, cooked soft with turmeric and salt, finished with a ghee tempering): ghee and an optional cumin tempering were added to the source's melted butter."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Khichdi_%28Khichrri%29.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khichdi_(Khichrri).JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "verified": "Seen: top-down view of a white plate of turmeric-yellow rice and lentil khichdi with a few whole spices on top, on a wooden table."
+    }
+  },
+  {
+    "id": "indian-upma",
+    "name": "Upma (South Indian Semolina Porridge)",
+    "description": "Toasted semolina cooked with mustard seeds, curry leaves, peanuts and vegetables into a soft, savoury breakfast. Ready in about 25 minutes.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "breakfast"
+    ],
+    "servings": 3,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "south-indian",
+      "semolina",
+      "quick",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Base",
+        "quantity": 170,
+        "unit": "g",
+        "name": "semolina",
+        "note": "coarse (rava)"
+      },
+      {
+        "group": "Base",
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Base",
+        "quantity": 100,
+        "unit": "g",
+        "name": "mixed vegetables",
+        "note": "finely chopped: carrots, green beans, peas, potato, capsicum or tomato"
+      },
+      {
+        "group": "Base",
+        "quantity": 2,
+        "unit": null,
+        "name": "green chillies",
+        "note": "small, chopped"
+      },
+      {
+        "group": "Base",
+        "quantity": 1,
+        "unit": "piece",
+        "name": "ginger",
+        "note": "about 1 cm, chopped"
+      },
+      {
+        "group": "Base",
+        "quantity": 1,
+        "unit": "sprig",
+        "name": "fresh coriander",
+        "note": "finely chopped"
+      },
+      {
+        "group": "Base",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "fresh grated coconut",
+        "note": "divided: half for cooking, half for garnish"
+      },
+      {
+        "group": null,
+        "quantity": 350,
+        "unit": "ml",
+        "name": "water",
+        "note": "Base"
+      },
+      {
+        "group": "Base",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": "Base",
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "oil or ghee",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "mustard seeds",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "urad dal (split black gram)",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "peanuts",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cashew halves",
+        "note": null
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "asafoetida",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Seasoning",
+        "quantity": 5,
+        "unit": null,
+        "name": "curry leaves",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Lightly toast the semolina in a dry saucepan over medium heat, stirring, until it turns light brown and smells roasted. Tip it onto a plate to cool.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In the same pan, heat half the oil or ghee for about 1 minute. Add the mustard seeds, cumin seeds, urad dal, peanuts and cashews in that order. When the mustard seeds crackle, add the asafoetida and curry leaves.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Add the ginger, chillies and onion and sauté for 1 minute. Add the remaining vegetables and 1 tbsp of the coconut and sauté for another minute.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Pour in the water, add salt and bring to a boil. Lower to a simmer, cover and cook until the vegetables are tender, a few minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Uncover, stir in the sugar, lower the heat and slowly fold in the toasted semolina, stirring constantly so no lumps form.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and cook for a few minutes until the semolina has absorbed the liquid.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Garnish with the rest of the coconut and the chopped coriander. Serve hot.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Rub the serving spoon with a little of the remaining oil or ghee before serving, to stop the upma sticking and give it a shine.",
+      "Pre-roasted semolina from an Indian grocery saves time.",
+      "Goes well with coconut chutney and sambar."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Upma (Indian Semolina Porridge)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Upma_(Indian_Semolina_Porridge)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "1 cup semolina converted to 170 g, 1½ cups water to 350 ml and 1 cup mixed vegetables to 1 onion plus 100 g other vegetables; serving count (3) inferred; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Vegetable_Upma.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_Upma.JPG",
+      "author": "Priya1Iyer",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: two dome-shaped portions of speckled semolina upma with flecks of onion and carrot, each topped with coriander leaves, on a bright green plate."
+    }
+  },
+  {
+    "id": "srilankan-hoppers",
+    "name": "Hoppers (Appa)",
+    "description": "Fermented rice and coconut pancakes cooked in a small curved pan, with a thick soft centre and thin lacy edges. The classic Sri Lankan breakfast, often with an egg cooked in the middle.",
+    "cuisine": "Sri Lankan",
+    "region": "South Asia",
+    "mealTypes": [
+      "breakfast",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fermented",
+      "coconut",
+      "pancake",
+      "gluten-free"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "white rice",
+        "note": "raw"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "fresh grated coconut",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cooked white rice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "active dry yeast",
+        "note": "or a spoonful of kefir, to start the ferment"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "water",
+        "note": "for grinding, plus water for soaking"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "coconut oil",
+        "note": "for the pan"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "one cracked into the centre of each hopper for egg hoppers",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the raw rice in water for at least 4 hours.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Drain the rice and blend it briefly until only about a quarter of it is ground.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the grated coconut and a little of the water and keep blending.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the sugar, cooked rice and yeast (if using) and keep blending, adding the rest of the water, until completely smooth. The batter should be thinner than pancake batter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pour into a wide open container, cover loosely and leave in a warm place until bubbly and risen: 4 to 6 hours if you added yeast, or overnight (8 to 12 hours) without.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In the morning stir in the salt. The batter can now be cooked, or kept in the refrigerator until needed.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat a small bowl-shaped hopper pan (or a small non-stick wok) and brush it with a little coconut oil. Pour in a full ladle of batter and swirl the pan once so a thin layer coats the sides.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover with a hot lid and cook for 2 to 3 minutes, until the edges are lightly browned and crisp and the centre is thick and soft. For an egg hopper, crack an egg into the centre after swirling. Lift out with a spatula and repeat with the remaining batter.",
+        "timerMinutes": 3
+      }
+    ],
+    "tips": [
+      "The batter should ferment without a starter but often does not, so a little yeast or kefir is a good insurance.",
+      "The batter can be ground in a blender; add enough liquid that everything swirls freely.",
+      "Serve with sambol, curry or coconut milk."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Appam (Fermented Rice Pancake)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Appam_(Fermented_Rice_Pancake)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Cups converted to grams and ml; soaking time (4 hours) and 'ferment 8 to 12 hours' added where the source says only 'soak' and 'overnight'; the source's South Indian name appam is given here as the Sri Lankan hopper/appa (the page notes the Sri Lankan version often has an egg); serves 4 as 12 hoppers; text rewritten. Cross-checked against common Sri Lankan hopper batters (rice flour or ground rice with coconut milk, sugar, salt and yeast, risen 2 to 6 hours, cooked covered in a small bowl-shaped pan, egg cracked into the centre for egg hoppers): the ground rice and grated coconut batter is the source's Kerala-style method and works the same; yeast made standard and the ferment time shortened accordingly."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sri_Kanka_egg_hoppers.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sri_Kanka_egg_hoppers.jpg",
+      "author": "Dan arndt",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: three golden-brown, bowl-shaped hoppers with lacy crisp edges and soft white centres on a white plate over a wooden board."
+    }
+  },
+  {
+    "id": "srilankan-watalappam",
+    "name": "Watalappam",
+    "description": "A Sri Lankan steamed custard of eggs, coconut milk and jaggery, scented with cardamom and topped with cashews. Rich, dark and not too sweet.",
+    "cuisine": "Sri Lankan",
+    "region": "South Asia",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "custard",
+      "coconut",
+      "jaggery",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 480,
+        "unit": "ml",
+        "name": "thick coconut milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 225,
+        "unit": "g",
+        "name": "jaggery or dark brown sugar",
+        "note": "grated or chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "ground cardamom",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "whole cloves",
+        "note": "crushed to a powder",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 12,
+        "unit": null,
+        "name": "cashews",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Beat the eggs until smooth. Add the coconut milk, jaggery or brown sugar, cardamom and cloves and mix until the sugar has dissolved completely.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Strain the mixture into a heatproof dish (or several small ramekins) that fits inside your steamer.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set the dish in a steamer over simmering water, cover and steam gently for about 20 minutes, until the custard is just set.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Top with the cashews. Serve warm or chilled.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Keep the steam gentle: a rolling boil makes the custard curdle and full of holes.",
+      "A deeper dish needs longer than 20 minutes; it is done when a knife comes out clean.",
+      "You can also flavour with thick pandan juice or a little vanilla."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Watalappam (Sri Lankan Coconut Custard)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Watalappam_(Sri_Lankan_Coconut_Custard)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "2 cups coconut milk converted to 480 ml and ½ lb sugar to 225 g; 'transfer to a pot and steam' clarified as a heatproof dish set in a steamer; cloves specified as crushed; straining and the doneness test added; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Watalappan-Sri_Lanka.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Watalappan-Sri_Lanka.jpg",
+      "author": "Ji-Elle",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: white platter of sliced, glossy dark-brown steamed coconut custard pieces, some topped with a cashew or a red glace cherry, on a blue cloth."
+    }
+  },
+  {
+    "id": "chinese-mapo-tofu",
+    "name": "Mapo Tofu",
+    "description": "Silken tofu and minced meat in a fiery, numbing Sichuan sauce of chilli bean paste and Sichuan pepper. Quick to make and best over steamed rice.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": true,
+      "containsNuts": false
+    },
+    "tags": [
+      "sichuan",
+      "spicy",
+      "tofu",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ginger",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried chilli flakes",
+        "note": "crushed dried chilli; use up to 2 tsp for more heat"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "minced beef",
+        "note": "or minced pork"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "silken tofu",
+        "note": "cut into cubes"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "chilli bean paste (doubanjiang)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "Sichuan pepper",
+        "note": "roasted and ground"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "Shaoxing rice wine",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "ml",
+        "name": "water or stock",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "green onions",
+        "note": "cut into 2 cm pieces"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "dried or fresh mushrooms",
+        "note": "sliced; wood ear preferred",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cornstarch",
+        "note": "mixed with 3 tbsp water"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for blanching the tofu",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "If using dried mushrooms, soak them in hot water for 10 minutes, then slice.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Bring a pot of salted water to a gentle simmer, slide in the tofu cubes and leave them for 2 minutes to firm up, then drain carefully.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Heat the oil in a wok or large pan over medium-high heat and fry the minced meat, breaking it up, until it is browned and starting to crisp, 4 to 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Push the meat aside and fry the chilli bean paste in the oil for about 1 minute until the oil turns red. Add the ginger, garlic and chilli flakes and stir for 30 seconds until fragrant.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the soy sauce, rice wine, water and mushrooms and bring to a simmer. Slide in the tofu and stir very gently, pushing the spoon along the pan rather than cutting. Simmer for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Stir the cornstarch mixture and add it in two or three additions, gently stirring, until the sauce coats the tofu with a glossy finish. Fold in half the green onions.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Scatter the ground Sichuan pepper and the remaining green onions on top and serve straight away over steamed rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Sichuan pepper gives a numbing tingle rather than heat. If you cannot find it, extra chilli works but the effect is different.",
+      "A little ground coriander and cumin is a good stand-in for Sichuan pepper.",
+      "For a vegetarian version use textured vegetable protein or finely crumbled tofu instead of the meat, and check the bean paste."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Mapo Tofu",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Mapo_Tofu",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source gives no oil, liquid or thickener and simply stirs everything in together: added 3 tbsp oil, 150 ml water or stock and a cornstarch slurry. Cross-checked against how mapo tofu is made in Sichuan (meat browned until crisp, doubanjiang fried until the oil turns red, tofu blanched in salted water, sauce thickened with starch in stages, ground Sichuan pepper and scallions added at the end), so the method was reordered to follow that; the onion in the source (not used in the traditional dish) was dropped and a salted blanching of the tofu added; meat listed as beef (source: beef or pork); text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chen_Mapo_Tofu.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chen_Mapo_Tofu.jpg",
+      "author": "ZhengZhou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: black stone bowl of glistening red-orange mapo tofu with soft tofu cubes, a mound of minced meat and green onion pieces, on a dark wooden table."
+    }
+  },
+  {
+    "id": "chinese-congee",
+    "name": "Congee (Chinese Rice Porridge)",
+    "description": "Rice simmered for a couple of hours until it breaks down into a silky porridge, then seasoned with soy sauce, sesame oil and white pepper and topped with spring onion, ginger and coriander.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 120,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "porridge",
+      "comfort",
+      "slow-cook",
+      "breakfast"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": "Base",
+        "quantity": 220,
+        "unit": "g",
+        "name": "short-grain rice",
+        "note": "round rice, washed and drained"
+      },
+      {
+        "group": "Base",
+        "quantity": 2.5,
+        "unit": "l",
+        "name": "water",
+        "note": "or chicken broth"
+      },
+      {
+        "group": "Base",
+        "quantity": null,
+        "unit": null,
+        "name": "light soy sauce",
+        "note": "to taste"
+      },
+      {
+        "group": "Base",
+        "quantity": null,
+        "unit": null,
+        "name": "sesame oil",
+        "note": "to taste"
+      },
+      {
+        "group": "Base",
+        "quantity": null,
+        "unit": null,
+        "name": "white pepper",
+        "note": "to taste"
+      },
+      {
+        "group": "Garnish",
+        "quantity": 3,
+        "unit": null,
+        "name": "spring onions",
+        "note": "chopped"
+      },
+      {
+        "group": "Garnish",
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": "Garnish",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "toasted sesame seeds",
+        "note": null
+      },
+      {
+        "group": "Garnish",
+        "quantity": 30,
+        "unit": "g",
+        "name": "ginger",
+        "note": "sliced"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the rice and water (or broth) in a large pan and bring to a boil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Turn the heat down low and leave to simmer, stirring from time to time, for 1 hour 45 minutes to 2 hours, until the rice has completely broken down into a mash.",
+        "timerMinutes": 105
+      },
+      {
+        "text": "Season with soy sauce, sesame oil and white pepper to taste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Ladle into bowls and top with the spring onions, coriander, sesame seeds and ginger.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not wash the rice too much: the starch is what makes the congee thicken.",
+      "To help other kinds of rice break down, drain the washed rice, mix in a teaspoon of oil and add it once the water boils.",
+      "In a hurry, start with a third of the liquid and add the rest as it cooks.",
+      "Very hot plain congee will cook thin slices of raw fish, lean pork or chicken added at the table.",
+      "Traditional partners for breakfast congee are youtiao (fried dough sticks) and plain soy sauce chow mein."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Chinese Rice Porridge (Congee)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Chinese_Rice_Porridge_(Congee)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Quantities unchanged (metric in the source); 'stir from time to time' added; water listed as the default liquid so the dish is vegetarian, with chicken broth as the source's alternative; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Rice_Porridge_in_Texas.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rice_Porridge_in_Texas.jpg",
+      "author": "DFW FAA Brianvators",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: shallow blue-and-white patterned bowl of creamy white rice congee with chopped green onion and coriander, a white spoon resting in it."
+    }
+  },
+  {
+    "id": "chinese-egg-flower-soup",
+    "name": "Egg Flower Soup",
+    "description": "Chicken broth with finely chopped water chestnuts and wisps of beaten egg that set into little 'flowers'. A 10-minute starter from a 1920s Peking tea shop.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "mealTypes": [
+      "side",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "quick",
+      "eggs",
+      "starter"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "chicken broth",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "water chestnuts",
+        "note": "finely chopped; canned is fine"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cornstarch",
+        "note": "mixed with 2 tbsp cold water"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "white pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sesame oil",
+        "note": "to finish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "spring onion",
+        "note": "finely sliced, to garnish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the chicken broth to a boil in a pot. Add the chopped water chestnuts and cook for about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Beat the eggs, yolks and whites together, in a jug.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stir the cornstarch mixture and pour it into the simmering broth, stirring until the soup turns slightly thick and glossy, about 1 minute.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Lower the heat so the broth barely simmers. Pour the egg in slowly in a thin stream while stirring the soup gently, until it forms small flowers.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Season with salt and white pepper to taste, add a few drops of sesame oil if you like and serve hot, with spring onion on top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "A gentle simmer and a thin stream of egg give fine, silky threads; a hard boil makes the egg rubbery.",
+      "Add a few drops of sesame oil or a splash of soy sauce at the end if you want more flavour."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chinese Recipes (Recipes from 'The Only Place in Peking', The Nellie Wong Tea Shop)",
+      "author": "Nellie C. Wong",
+      "year": 1927,
+      "url": "https://www.gutenberg.org/ebooks/76573",
+      "license": "Public domain",
+      "adaptation": "'Egg-Flowers Soup': 1 quart converted to 1 litre, ½ cup chopped water chestnuts to about 80 g; the book's 'six portions' read as small starter bowls and given here as 4 servings; advice to lower the heat before adding the egg, and the optional garnish and tips, added. The source is only broth, water chestnuts and egg: cross-checked against how egg flower (egg drop) soup is normally made in China, where the broth is lightly thickened with a cornstarch slurry before the egg goes in so it forms silky ribbons, and finished with white pepper and sesame oil, so those were added; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Egg_drop_soup_%28cropped%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Egg_drop_soup_(cropped).jpg",
+      "author": "Stu Spivack",
+      "license": "CC BY 2.0",
+      "verified": "Seen: small blue-and-white bowl of pale golden broth with soft ribbons of cooked egg floating through it."
+    }
+  },
+  {
+    "id": "chinese-potstickers",
+    "name": "Pork and Shrimp Potstickers (Guotie)",
+    "description": "Dumplings filled with pork, shrimp, ginger and spring onion, fried until golden on the bottom, then steamed in the pan. Serve with soy sauce and vinegar.",
+    "cuisine": "Chinese",
+    "region": "East Asia",
+    "mealTypes": [
+      "dinner",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 15,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "dumplings",
+      "pan-fried",
+      "make-ahead",
+      "freezable"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Filling",
+        "quantity": 200,
+        "unit": "g",
+        "name": "ground pork",
+        "note": "or ground chicken"
+      },
+      {
+        "group": "Filling",
+        "quantity": 150,
+        "unit": "g",
+        "name": "raw shrimp",
+        "note": "peeled, finely chopped"
+      },
+      {
+        "group": "Filling",
+        "quantity": 60,
+        "unit": "g",
+        "name": "water chestnuts",
+        "note": "peeled and finely chopped"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "spring onion",
+        "note": "minced"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "fresh ginger",
+        "note": "minced"
+      },
+      {
+        "group": "Filling",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "light soy sauce",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Filling",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "white pepper",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": "Assembly",
+        "quantity": 24,
+        "unit": null,
+        "name": "round dumpling (gyoza) wrappers",
+        "note": "or wonton wrappers"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cornstarch",
+        "note": "for dusting and for sealing"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for frying"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 240,
+        "unit": "ml",
+        "name": "water",
+        "note": "for steaming"
+      },
+      {
+        "group": "Assembly",
+        "quantity": null,
+        "unit": null,
+        "name": "soy sauce",
+        "note": "for dipping"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix all the filling ingredients together until evenly combined.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put a small bowl of water on the work surface and stir in a little cornstarch to make a sealing glue. Keep the wrappers covered with a damp cloth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay a wrapper in front of you and moisten its edge with a wet finger. Put a heaped tablespoon of filling in the middle.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold the wrapper over the filling, pinch the edge shut in small pleats and press so it is fully sealed. Stand the potsticker on its flat side. Repeat with the rest.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a large lidded frying pan or wok over high heat. Add the dumplings flat side down and fry until the bottoms are golden brown, 1 to 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Without turning them, pour in the water and cover immediately. Steam until the water has cooked away and the filling is cooked through, 5 to 8 minutes.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Uncover and let the bottoms re-crisp for a minute, then lift out and serve with soy sauce for dipping.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Uncooked potstickers keep in the refrigerator for a day, or frozen for weeks. Cook them from frozen, adding 2 to 3 minutes of steaming.",
+      "Ground chicken works in place of pork.",
+      "Dip in soy sauce mixed with rice vinegar and a little shredded ginger."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Meat and Shrimp Potstickers",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Meat_and_Shrimp_Potstickers",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Filling quantities scaled down from the source (about 600 g of meat for 'about 24' dumplings) to match one heaped tablespoon per wrapper; salt reduced from 1 tbsp to 1 tsp; the source's 1-minute steam then heat-off replaced by 5 to 8 minutes of steaming as in the Wikibooks 'Pot Stickers' page, so the pork is cooked through; wrapper pleating from that page; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pot_stickers_-_Massachusetts.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pot_stickers_-_Massachusetts.jpg",
+      "author": "Daderot",
+      "license": "CC0",
+      "verified": "Seen: a row of pan-fried dumplings with crisp golden-brown bottoms on a white rectangular plate beside slices of yellow and orange pepper, on a blue mat."
+    }
+  },
+  {
+    "id": "japanese-miso-soup",
+    "name": "Miso Soup",
+    "description": "Dashi with miso stirred in, tofu, wakame and spring onion. The everyday Japanese breakfast soup, ready in 10 minutes.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "mealTypes": [
+      "breakfast",
+      "side"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 5,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "quick",
+      "tofu",
+      "seaweed"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "dashi",
+        "note": "homemade, or instant dashi dissolved in hot water following the packet"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "miso",
+        "note": "red, white or a mix"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "silken tofu",
+        "note": "cut into small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "dried wakame",
+        "note": "soaked in cold water for 5 minutes and drained"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "spring onions",
+        "note": "thinly sliced"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the wakame in cold water for about 5 minutes, then drain.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Heat the dashi in a small pot until steaming and barely simmering. Do not let it come to a rolling boil, as that dulls the flavour.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the tofu and wakame and warm through for a minute, then take the pot off the heat.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Put the miso in a ladle or small strainer, lower it into the soup and stir with chopsticks or a spoon until dissolved. Do not boil the soup after this, or the miso loses its nuance.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Scatter the spring onion on top and serve right away.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use about 6 to 10 percent miso to dashi by volume; start low and add more to taste.",
+      "Other good additions: mushrooms, spinach, diced potato or clams. Cook ingredients that need it in the dashi first.",
+      "For a vegetarian soup, make the dashi from kombu alone (soak a 10 cm piece in 500 ml water for 30 minutes, heat gently and remove just before boiling).",
+      "Instant dashi can be salty: taste before adding more miso."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Miso Soup (Traditional)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Miso_Soup_(Traditional)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Source gives only proportions (90 to 94 percent dashi, 6 to 10 percent miso) and a list of garnishes: converted to a 2-serving amount (500 ml dashi, 3 tbsp miso) and the recommended tofu, wakame and scallion chosen; the Wikibooks 'Dashi' page used for the dashi note and the vegetarian kombu tip; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Miso_Soup_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0",
+      "verified": "Seen: red lacquer bowl of cloudy beige miso soup with white tofu cubes and dark green wakame, on a plain white background."
+    }
+  },
+  {
+    "id": "japanese-onigiri",
+    "name": "Onigiri (Japanese Rice Balls)",
+    "description": "Triangles of seasoned short-grain rice around a salty-sour umeboshi plum, wrapped in a strip of nori. Perfect for lunchboxes and picnics.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "mealTypes": [
+      "snack",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "lunchbox",
+      "portable",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "Japanese short-grain rice",
+        "note": "makes about 8 onigiri"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "umeboshi (pickled plums)",
+        "note": "stones removed, halved"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "nori sheets",
+        "note": "cut into 8 strips"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "dissolved in a bowl of water for wetting your hands"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Wash the rice and cook it according to the packet or in a rice cooker, then let it cool just enough to handle with your hands.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Stir the salt into a small bowl of water. Keep it beside you to wet your fingers, so the rice does not stick and is lightly seasoned.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Wet your hands. Take about 80 g of rice (two large spoonfuls) into one palm and gently flatten it. Press a hollow into the middle and put half an umeboshi in it. Take care to keep the filling in the centre.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold the rice over the filling and press gently, rotating the ball and pressing with your palms and fingers to shape a neat triangle. Keep the rice sticky and the pressure light.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Set each onigiri on a clean plate to cool, wetting your hands again between each one.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Wrap each with a strip of nori just before eating so it stays crisp.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "You must use Japanese-style short-grain rice; if the rice is not sticky, the onigiri will not hold together.",
+      "Shape with plastic wrap instead: lay rice and filling in a square of wrap, twist and mould. Less mess and good for children.",
+      "Other fillings: cooked salmon, tuna mixed with a little mayonnaise, katsuobushi moistened with soy sauce, or cooked egg.",
+      "Do not use refrigerated rice and do not refrigerate the onigiri; carry them in a lunch cooler. They can be frozen and microwaved."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Onigiri",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Onigiri",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Scaled the source's ½ cup (100 ml) of rice up to 250 g for about 8 onigiri; one filling (umeboshi, from the source's list) chosen; per-ball rice amount and nori strips added; both shaping methods condensed; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Onigiri_002.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Onigiri_002.jpg",
+      "author": "Ocdp",
+      "license": "CC0",
+      "verified": "Seen: two triangular white rice balls, each with a strip of dark green nori on the front, on a cream rectangular ceramic plate."
+    }
+  },
+  {
+    "id": "japanese-daifuku",
+    "name": "Daifuku (Red Bean Mochi)",
+    "description": "Soft, chewy rice-flour mochi wrapped around sweet red bean paste. Made in the microwave in under 30 minutes if you use ready-made bean paste.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "mealTypes": [
+      "dessert",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 4,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "mochi",
+      "wagashi",
+      "microwave",
+      "gluten-free"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "sweet red bean paste (anko)",
+        "note": "shop-bought, or homemade"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "sweet glutinous rice flour (mochiko)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 160,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 75,
+        "unit": "g",
+        "name": "potato starch (katakuriko)",
+        "note": "for dusting"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Roll the bean paste into 12 marble-sized balls and set aside.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Generously dust a clean board with potato starch: the dough is very sticky.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a large microwave-safe bowl, heat the water and sugar until the sugar dissolves, then stir in the rice flour until smooth.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Microwave, loosely covered, for 2 minutes, stir, then microwave for 2 more minutes, or until the dough puffs up and turns translucent.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Tip the very hot dough onto the starched board. Let it cool for a minute or two, then pat or roll it out thin and cut it into 12 equal pieces.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Coat your palms and fingers in potato starch and stretch each piece into a thin round.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put a ball of bean paste in the middle of each round, wrap the mochi around it and pinch to seal, forming a smooth ball. Roll in potato starch and set on a starched plate.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Serve warm or cool. Store airtight and eat the same day, as daifuku go hard quickly.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Homemade bean paste: soak 200 ml azuki beans for 4 hours, simmer 1½ to 2 hours until soft, mash, then cook with 150 ml sugar and a little oil until thick.",
+      "Chocolate ganache can replace the bean paste; cocoa powder can replace the potato starch for coating.",
+      "Do not refrigerate: mochi hardens. Freeze if needed and thaw at room temperature."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Daifuku (Sweet Filled Mochi)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Daifuku_(Sweet_Filled_Mochi)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "1 cup mochiko converted to 150 g, ⅔ cup water to 160 ml, ¼ cup sugar to 50 g and ½ cup potato starch to 75 g; filling given as 250 g shop-bought paste (the source refers to its Red Bean Paste page); 'loosely covered' and the stand-and-cool step added; serving count inferred (12 pieces); text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Daifuku_001.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Daifuku_001.jpg",
+      "author": "Ocdp",
+      "license": "CC0",
+      "verified": "Seen: two white mochi daifuku on a blue-striped plate, one cut open to show a smooth dark red bean paste filling."
+    }
+  },
+  {
+    "id": "korean-bibimbap",
+    "name": "Bibimbap",
+    "description": "A bowl of steamed rice topped with seasoned carrots, spinach and bean sprouts, savoury beef, a fried egg and gochujang. Mix it all together before eating.",
+    "cuisine": "Korean",
+    "region": "East Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 3,
+    "prepTime": 30,
+    "cookTime": 40,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice bowl",
+      "namul",
+      "one-bowl",
+      "korean-classic"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": "Assembly",
+        "quantity": 200,
+        "unit": "g",
+        "name": "short-grain rice",
+        "note": "cooked until steamed; makes about 3 bowls"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "fried over easy"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 120,
+        "unit": "g",
+        "name": "kimchi",
+        "note": "served on the side"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "cut into strips"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "gochujang",
+        "note": "served on the side"
+      },
+      {
+        "group": "Assembly",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for the eggs"
+      },
+      {
+        "group": "Carrot namul",
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "small, cut into matchsticks"
+      },
+      {
+        "group": "Carrot namul",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": "Carrot namul",
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ground sesame seeds",
+        "note": null
+      },
+      {
+        "group": "Carrot namul",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "garlic",
+        "note": "grated"
+      },
+      {
+        "group": "Carrot namul",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Spinach namul",
+        "quantity": 280,
+        "unit": "g",
+        "name": "fresh spinach",
+        "note": null
+      },
+      {
+        "group": "Spinach namul",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": "Spinach namul",
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground sesame seeds",
+        "note": null
+      },
+      {
+        "group": "Spinach namul",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "garlic",
+        "note": "grated"
+      },
+      {
+        "group": "Bean sprout namul",
+        "quantity": 225,
+        "unit": "g",
+        "name": "bean sprouts",
+        "note": null
+      },
+      {
+        "group": "Bean sprout namul",
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": "Bean sprout namul",
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground sesame seeds",
+        "note": null
+      },
+      {
+        "group": "Bean sprout namul",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "garlic",
+        "note": "grated"
+      },
+      {
+        "group": "Bean sprout namul",
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 450,
+        "unit": "g",
+        "name": "beef steak",
+        "note": "sliced thinly, but not paper-thin"
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 60,
+        "unit": "ml",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "ground sesame seeds",
+        "note": null
+      },
+      {
+        "group": "Beef soboro",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "garlic",
+        "note": "grated"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice and keep it warm.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Carrot namul: boil the carrot matchsticks in a covered pot of salted water for a few minutes. Drain, rinse under cold water until cool and drain again. Toss in a bowl with the sesame oil, ground sesame, garlic and salt.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Spinach namul: put the spinach in a covered pot with about 2.5 cm of water and boil, stirring now and then, until dark green and much reduced. Drain, rinse in cold water, squeeze out the water and cut into 2.5 cm pieces. Mix with the sesame oil, ground sesame and garlic.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Bean sprout namul: blanch the bean sprouts in salted boiling water until they turn translucent. Drain and toss with the sesame oil, ground sesame, garlic and salt.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Beef soboro: heat the oil in a large pan over high heat until hot but not smoking. Stir-fry the beef, adding the sesame oil, ground sesame and garlic as it cooks, until well browned. Add the soy sauce and keep cooking until the liquid has boiled off.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Fry the eggs in the vegetable oil, over easy.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Divide the rice among three bowls. Arrange the carrot, spinach, bean sprouts, beef and cucumber on top in separate sections, with an egg in the middle. Serve the gochujang and kimchi on the side so everyone can add their own.",
+        "timerMinutes": null
+      },
+      {
+        "text": "To eat, add gochujang to taste and stir everything together so the yolk coats the rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For dolsot bibimbap, rub a stone bowl with sesame oil, press the rice in, arrange the toppings, cover and heat on medium-high until the rice crisps on the bottom. Add a raw egg in the centre at the end.",
+      "Sesame seeds expand when ground: 2 to 3 tbsp whole seeds make about ¼ cup ground.",
+      "For a vegetarian bowl, replace the beef with fried tofu or mushrooms.",
+      "Other classic toppings: shiitake, lettuce, doraji or fernbrake namul, nori."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Bibimbap",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Bibimbap",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Ounces and pounds converted to grams; sesame oil in the carrot namul reduced from 2 tbsp to 1 tbsp to match the other namul; the rice amount in the source (¾ to 1½ cup 'steamed') is unclear, so 200 g raw rice (about 3 bowls) was used; step order and timers added; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bibimbap_6.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bibimbap_6.jpg",
+      "author": "Chloe Lim",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a bowl of white rice topped in sections with orange carrot matchsticks, sliced shiitake, green strips, white radish, yellow egg strips, stir-fried pork and a spoonful of red gochujang."
+    }
+  },
+  {
+    "id": "korean-gimbap",
+    "name": "Gimbap (Korean Seaweed Rice Rolls)",
+    "description": "Seaweed rolls of seasoned rice with spinach, carrot, egg and pickled radish, sliced into rounds. A Korean picnic and lunchbox favourite.",
+    "cuisine": "Korean",
+    "region": "East Asia",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "rolls",
+      "picnic",
+      "lunchbox"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "short-grain or sushi rice",
+        "note": "cooked and kept warm; about 4 rolls"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "gim (nori) sheets",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": "divided: some for the rice, some for the spinach"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sesame seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "divided between rice, spinach, carrots and egg"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "strips yellow pickled radish (danmuji)",
+        "note": "about 1 cm thick, cut the length of the gim"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "spinach",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "medium, shredded into 5 cm lengths"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "beaten with salt and pepper"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "for the carrots and the egg"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "ground black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "cooked ham, sausage or canned tuna",
+        "note": "cut into strips; optional extra filling",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the rice. While it is still warm, mix in 1 tbsp sesame oil, the sesame seeds and a pinch of salt, and leave to cool slightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Blanch the spinach in boiling water for about 10 seconds, drain, rinse in cold water and squeeze out all the water. Season with a pinch of salt, 1 tsp sesame oil and a few sesame seeds.",
+        "timerMinutes": 1
+      },
+      {
+        "text": "Stir-fry the shredded carrots in a little vegetable oil with salt and pepper until just softened. They do not need to cook all the way through.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Cook the beaten egg in a hot, lightly oiled skillet like a thin omelette until set. Cut it lengthwise into strips about 1 cm wide.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Put a bamboo rolling mat on a flat surface and lay a sheet of gim on it, shiny side down. Spread a thin layer of rice over it, leaving a 2 cm gap along the far edge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay the pickled radish, spinach, carrots, egg (and ham, sausage or tuna, if using) in long strips across the rice, near the edge closest to you.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Use the mat to roll everything up tightly, pressing as you go, with the fillings inside and the gim outside. Dab a little water on the far edge to seal.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush the roll with sesame oil, then slice into rounds about 2 cm thick with a sharp, wet knife. Wipe the knife between cuts.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not spread the rice too thick on the seaweed: it makes the roll hard to close.",
+      "Gimbap is good packed for lunch and travels well; eat it within a day.",
+      "Any cooked meat or fish makes a good extra filling: ham, sausage, tuna or beef bulgogi."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Gimbap",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Gimbap",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source lists ingredients with almost no quantities: amounts for 4 rolls were supplied from standard proportions (about 75 g raw rice per roll; 4 eggs, the source saying 4-5); the meat or tuna filling made optional; the rice-mixing oil set to 1 tbsp of sesame oil; gap at the far edge, water seal and brushing with sesame oil added; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gimbap_%28pixabay%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg",
+      "author": "changupn (Pixabay)",
+      "license": "CC0",
+      "verified": "Seen: white rectangular plate of sliced gimbap rolls showing spinach, carrot, egg and radish fillings, with a small bowl of soup, a pot and chopsticks beside it."
+    }
+  },
+  {
+    "id": "korean-bulgogi",
+    "name": "Bulgogi (Korean Marinated Beef)",
+    "description": "Paper-thin slices of beef marinated in soy, sesame, garlic and sugar, then seared hot and fast with onion and mushrooms. Serve over rice or in lettuce leaves.",
+    "cuisine": "Korean",
+    "region": "East Asia",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beef",
+      "marinade",
+      "korean-bbq",
+      "pan-fry"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 450,
+        "unit": "g",
+        "name": "beef sirloin or rib-eye",
+        "note": "for grilling, sliced as thinly as possible"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "green onions",
+        "note": "sliced on the bias"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "onion",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "button mushrooms",
+        "note": "sliced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 75,
+        "unit": "ml",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "mirin",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "steamed rice",
+        "note": "to serve"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "lettuce leaves",
+        "note": "for wrapping",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Combine the soy sauce, sugar, sesame oil, pepper, garlic and mirin (if using) in a large bowl and stir until the sugar dissolves.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the beef, green onions, onion and mushrooms and mix well. Cover and marinate in the refrigerator for at least 30 minutes, or overnight for the best flavour and tenderness.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Heat a large heavy frying pan or a grill pan over medium-high heat. Cook the beef and vegetables in batches, so the pan stays hot and the meat sears rather than stews, 2 to 3 minutes per batch until browned and slightly caramelised.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve at once over steamed rice, spooning the pan juices on top, or wrapped in lettuce leaves.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Partly freezing the beef for 30 minutes makes it much easier to slice thinly; many shops also sell beef pre-sliced for bulgogi.",
+      "For a day-ahead marinade, use the lower amount of soy sauce and keep it in the refrigerator.",
+      "Instead of sugar, grate in half a Korean (Asian) pear: it sweetens and tenderises the meat. Cola also works as a tenderising marinade.",
+      "It can be grilled outdoors or cooked on a table-top pan."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Bulgogi",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Bulgogi",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "The source marinade (¾ cup soy sauce, ¼ cup sugar, ¼ cup sesame oil and 4 tsp pepper for 450 g of beef) is about three times the amount used in typical Korean home cooking and its own tips say to reduce the soy sauce: set to 75 ml soy, 2 tbsp sugar, 2 tbsp sesame oil and 1 tsp pepper; garlic 1-2 tbsp minced given as 4 cloves; source serves 6, given here as 4 portions; searing method and batches added; text rewritten."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Bulgogi_%28Marinated_beef._Served_with_rice%29_-_Kogi_2023-09-11.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bulgogi_(Marinated_beef._Served_with_rice)_-_Kogi_2023-09-11.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "verified": "Seen: round brass plate of glossy sliced marinated beef stir-fried with carrot, onion and spinach, sprinkled with sesame seeds, beside a bowl of white rice."
+    }
+  }
+]

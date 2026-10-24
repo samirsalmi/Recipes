@@ -1,0 +1,5158 @@
+[
+  {
+    "id": "algerian-doubara",
+    "name": "Doubara (Biskra Chickpea Soup)",
+    "description": "The street-corner breakfast and supper of Biskra: chickpeas simmered until soft, mashed with garlic, cumin and harissa into a thick, peppery broth, then ladled over torn bread and topped with chopped tomato, chilli and a squeeze of lime.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 100,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "chickpeas",
+      "vegan",
+      "spicy",
+      "street-food",
+      "biskra"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "flatbread",
+        "note": "khobz or matloue, torn in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "finely chopped, to top"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green chili pepper",
+        "note": "finely sliced, to top",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lime",
+        "note": "cut in wedges",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the soaked chickpeas and put them in a pot with the water and 3 cloves of garlic. Bring to a boil, skim, then cover and simmer for about 1 hour 15 minutes until completely soft.",
+        "timerMinutes": 75
+      },
+      {
+        "text": "Crush the remaining garlic with the cumin, harissa, salt and olive oil. Stir it into the pot together with a ladle of the hot broth and simmer 10 more minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "With the back of a ladle or a potato masher, crush about a third of the chickpeas against the side of the pot so the broth turns thick and creamy.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put torn bread in each bowl, ladle the hot chickpeas and broth over it, then top with the chopped tomato, chilli and coriander. Serve with lime wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Doubara should be spoonable but loose; add hot water if it thickens as it stands.",
+      "A pressure cooker cuts the chickpea cooking to 30 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Doubara (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Algerian cuisine' article, which lists dobara as a chickpea soup; the cumin-harissa-garlic seasoning and bread service are written from the author's knowledge of the Biskra preparation. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Dobara.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dobara.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a clay bowl of chickpea soup topped with chopped tomato, herbs, a lime slice and green chilli, with bread behind it."
+    }
+  },
+  {
+    "id": "algerian-dolma",
+    "name": "Dolma (Algerian Stuffed Courgettes and Peppers)",
+    "description": "Small courgettes and green peppers filled with spiced minced beef and rice, simmered in a gentle onion, cinnamon and chickpea broth. A classic Algerian family dish, served with the broth spooned over.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stuffed",
+      "vegetables",
+      "beef",
+      "family",
+      "chickpeas"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "small courgettes",
+        "note": "hollowed with a corer"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "tops cut off and seeded"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "short-grain rice",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated, for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the filling"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced, for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the beef, rice, grated onion, parsley, garlic, cumin, 1 tsp salt and the pepper with your hands until sticky and even.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fill the courgettes and peppers about three-quarters full, as the rice will swell. Plug the open ends of the courgettes with a small piece of the cut-off flesh if you like.",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a wide heavy pot, soften the sliced onion in the olive oil for 5 minutes. Add the cinnamon stick, chickpeas, remaining salt and the water and bring to a gentle simmer.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Lay the stuffed vegetables in the pot, in one or two snug layers, so the liquid comes about halfway up. Cover and simmer very gently for about 50 minutes until the courgettes and peppers are tender and the rice is cooked.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Uncover for the last 10 minutes so the broth reduces to a light, silky sauce. Serve the dolma in shallow bowls with chickpeas and plenty of broth, with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not pack the filling in tight, or the rice will burst the vegetables.",
+      "Add a couple of potato wedges to the pot if you want to stretch the dish."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Dolma (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Algerian cuisine' article, which describes dolma as stuffed vegetables cooked in a stock; filling and light cinnamon-chickpea sauce written from the author's knowledge of Algiers family cooking. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Dolma_felfel_ou_karaa.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dolma_felfel_ou_karaa.JPG",
+      "author": "Auzius",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a stuffed green pepper and a stuffed courgette on a floral plate with chickpeas in a pale broth."
+    }
+  },
+  {
+    "id": "algerian-lham-lahlou",
+    "name": "Lham Lahlou (Lamb with Prunes and Almonds)",
+    "description": "The \"sweet meat\" of Algiers: tender lamb simmered with prunes in a cinnamon and orange blossom syrup, topped with fried almonds and raisins. A festive dish for Ramadan evenings and weddings.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "lamb",
+      "prunes",
+      "sweet-savory",
+      "ramadan",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb shoulder",
+        "note": "cut in large cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "or smen"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "prunes",
+        "note": "pitted"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried apricots",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": "adjust to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "orange blossom water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "blanched almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": "for frying the almonds"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the butter in a heavy pot and add the lamb, onion, cinnamon stick, salt and pepper. Cook over medium heat for 10 minutes, stirring, without browning too hard.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the water, bring to a boil, skim, then cover and simmer for about 1 hour until the lamb is nearly tender.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Add the prunes and apricots, with the sugar, and simmer uncovered for 25 minutes until the sauce is syrupy and the fruit is soft.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Stir in the orange blossom water and cook 3 more minutes. Taste: it should be sweet but balanced by the lamb and cinnamon.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry the almonds in the oil until golden, then add the raisins for a few seconds until they puff. Spoon the lamb and prunes onto a dish, pour over the syrup and scatter with the almonds and raisins.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Traditionally served as a first dish with bread, or as the sweet finish to a feast.",
+      "Prunes vary in sweetness: add the sugar in two steps."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Lham Lahlou (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Lham_hlou",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Lham hlou' (descriptions only); the article names lamb and prunes, optional apricots, raisins and almonds, a sugar and orange-blossom-water syrup and cinnamon, and says it is served in Ramadan and at weddings. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Lham_lahlou_algerien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Lham_lahlou_algerien.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a dark tagine dish of glossy prunes, apricots and toasted almonds, with a purple conical lid behind it."
+    }
+  },
+  {
+    "id": "algerian-trida",
+    "name": "Trida (Chicken, Chickpeas and Hand-cut Pasta)",
+    "description": "Algerian comfort food: soft squares of fresh pasta (trida) layered under tender chicken, chickpeas, vegetables and halved boiled eggs, soaked in a light cinnamon-scented sauce. Served at Yennayer, the Berber New Year.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "chicken",
+      "chickpeas",
+      "yennayer",
+      "comfort",
+      "eggs"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "one grated, one sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "carrots",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "courgettes",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "lasagne sheets",
+        "note": "broken or cut in 4 cm squares, in place of fresh trida"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled and halved"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a large pot and cook the grated onion with the chicken pieces for 8 minutes, turning, until pale gold. Add the cinnamon, salt, pepper and drained chickpeas.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Pour in the water, bring to a boil, skim, then cover and simmer for 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Add the sliced onion, carrots and courgettes and simmer 20 minutes more, until the chickpeas and vegetables are soft and the sauce has reduced to a light, flavourful broth.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Meanwhile cook the pasta squares in salted boiling water for 7 minutes until tender, drain and toss with the butter.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Pile the pasta on a large dish, arrange the chicken, chickpeas and vegetables on top, ladle over some broth and decorate with the boiled eggs and parsley. Serve the rest of the broth alongside.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Fresh trida is rolled out thin and cut or torn by hand; broken lasagne sheets are a fair stand-in.",
+      "Add 1 tbsp of tomato paste for the red-sauce version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Trida (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Trida",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Trida' (descriptions only); the article describes hand-cut square pasta with chicken, meatballs, chickpeas and hard-boiled eggs in a white or red sauce, served at Yennayer; meatballs are left out here. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Trida-Algerienne.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Trida-Algerienne.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a green tagine-style dish with roast chicken pieces, chickpeas, a green pepper and halved boiled eggs on the pasta."
+    }
+  },
+  {
+    "id": "algerian-tlitli",
+    "name": "Tlitli (Constantine Pasta with Chicken and Chickpeas)",
+    "description": "A speciality of Constantine and the east: fine tlitli pasta steamed and buttered, then soaked in a white onion-cinnamon sauce and served under chicken, kefta meatballs and chickpeas, with boiled eggs for luck.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 80,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pasta",
+      "chicken",
+      "meatballs",
+      "constantine",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated, for the meatballs"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped, for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "or smen"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "orzo",
+        "note": "or tlitli, fine short pasta"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "for the pasta"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soften the chopped onions in the butter and oil for 8 minutes. Add the chicken, cinnamon, salt and pepper and stir for 5 minutes.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Add the chickpeas and water, bring to a boil, skim, and simmer covered for 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Mix the minced beef with the grated onion, parsley, a pinch of salt and pepper and shape into walnut-sized meatballs. Drop them into the sauce and simmer 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Meanwhile, rinse the pasta in a little warm water, drain, and cook in salted boiling water for 6 to 7 minutes until just tender. Drain and toss with the 2 tbsp butter. (Traditionally the tlitli is steamed over the pot like couscous.)",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Stir the pasta into the sauce for the last few minutes so it soaks up the broth, then turn it out on a clay dish. Top with the chicken, chickpeas and meatballs and surround with the halved boiled eggs.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Southern and western versions use a red sauce with tomato, paprika and ras el hanout.",
+      "Serve with lben (buttermilk) and fried green chillies."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tlitli (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tlitli",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Tlitli' (descriptions only); the article describes the white sauce with smen, onion, chicken, lamb, kefta and chickpeas, tlitli steamed and buttered then soaked in the sauce, and boiled eggs on top; orzo is offered as an easy substitute. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tl%C3%A9tl%C3%A9_with_vegetables.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tl%C3%A9tl%C3%A9_with_vegetables.JPG",
+      "author": "Romaissa",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white oval platter of fine pasta covered with chickpeas, chunks of meat, courgette and potato."
+    }
+  },
+  {
+    "id": "algerian-chorba-beida",
+    "name": "Chorba Beida (White Lamb and Vermicelli Soup)",
+    "description": "The \"white soup\" of Ramadan tables, silky and lemony: lamb and chickpeas in a delicately spiced broth with vermicelli, thickened at the end with egg yolk and lemon and finished with fresh herbs.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 90,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lamb",
+      "ramadan",
+      "lemon",
+      "vermicelli"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "lamb",
+        "note": "bone-in pieces such as neck or shoulder"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": "broken"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg yolk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the butter in a large pot and add the lamb, onion, cinnamon stick, pepper and chickpeas. Stir over medium heat for 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the water and salt, bring to a boil, skim the foam, then cover and simmer for 1 hour 10 minutes until the lamb and chickpeas are tender.",
+        "timerMinutes": 70
+      },
+      {
+        "text": "Add the vermicelli and cook 7 minutes until soft.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Beat the egg yolk with the lemon juice and a ladle of hot (not boiling) broth, then stir it into the pot off the heat. Add the herbs and serve at once with lemon wedges and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Keep the soup below a simmer once the egg goes in, or it will scramble.",
+      "Chicken works well in place of lamb and cooks in 40 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Algerian White Chicken Vermicelli Soup (Chorba Beida)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Algerian_White_Chicken_Vermicelli_Soup_(Chorba_Beida)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Technique adapted from the English Wikibooks page (opened and read): onion softened in butter, cinnamon stick, soaked chickpeas simmered with the meat, vermicelli cooked in the broth, then an egg-yolk, lemon and parsley liaison tempered with a ladle of hot broth and never boiled. That page uses 500 g chicken, about 1 l of liquid and 50 g vermicelli and gives no servings; this version uses lamb and a larger pot for 6 servings (500 g lamb, 1.5 l water, 60 g vermicelli, 80 g chickpeas). Text rewritten; the quantities for 6 servings are the author's own. Dish identity also checked against the French Wikipedia 'Harira' article."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Tavuklu_%C5%9Fehriye.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tavuklu_%C5%9Fehriye.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white bowl of pale creamy vermicelli and chicken soup with a lemon wedge beside it."
+    }
+  },
+  {
+    "id": "algerian-mloukhia",
+    "name": "Mloukhia (Slow-cooked Mallow Leaf Stew with Lamb)",
+    "description": "A deep green-black, silky stew of dried mallow (molokhia) leaves cooked slowly with lamb, garlic and olive oil until glossy. Eaten with bread or rice, and a taste of the Algerian west and Algiers.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 150,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "lamb",
+      "leafy-greens",
+      "slow-cooked"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder or neck, in big pieces"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "dried molokhia powder",
+        "note": "dried mallow leaves, finely ground"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat 2 tbsp of the oil in a heavy pot and brown the lamb for 8 minutes. Add the onion, half the garlic, tomato paste, coriander, salt and pepper and stir 3 minutes.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Add 800 ml of the water, bring to a boil, skim, then cover and simmer for 1 hour 15 minutes until the lamb is tender.",
+        "timerMinutes": 75
+      },
+      {
+        "text": "Mix the molokhia powder with the remaining cold water in a bowl until smooth, then pour it in slowly, stirring, to avoid lumps.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the remaining oil and garlic and simmer on the lowest heat, partly covered, for 45 minutes, stirring often, until the sauce is dark, glossy and slightly thick.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Serve hot in deep plates with the lamb on top, with bread or rice and a wedge of lemon.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Stir often while the leaves cook: they stick easily.",
+      "A spoonful of dried coriander seeds ground fresh deepens the flavour."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mloukhia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mulukhiyah",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Mulukhiyah' (descriptions only); the article confirms the dish is eaten in Algeria and is made from jute-mallow (Corchorus olitorius) leaves; the Algerian slow-cooked meat version is written from the author's knowledge. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Plat_alg%C3%A9rien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plat_alg%C3%A9rien.jpg",
+      "author": "Charlie010n",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate with a dark green-black glossy sauce and a piece of meat; file description reads \"la mloukhia algérien\"."
+    }
+  },
+  {
+    "id": "algerian-bouzelouf",
+    "name": "Bouzelouf (Roasted Lamb Head with Chickpeas)",
+    "description": "A beloved Algerian feast dish: a whole lamb's head simmered until tender and then roasted until burnished, served on a bed of spicy cumin chickpeas. Order it cleaned from the butcher.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 180,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "lamb",
+      "eid",
+      "festive",
+      "chickpeas",
+      "roasted",
+      "offal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "piece",
+        "name": "lamb head",
+        "note": "cleaned and halved by the butcher, about 1.2 kg"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "lemons",
+        "note": "cut in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rinse the lamb head halves well under cold water and put them in a large pot with the water and half the garlic. Bring to a boil, skim thoroughly, then cover and simmer for 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Add the chickpeas, tomato paste and 1 tsp of the salt and simmer another hour until the chickpeas are tender and the cheeks and tongue are very soft.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Crush the remaining garlic with the cumin, paprika, harissa, remaining salt and oil to a paste. Lift the head halves into a roasting tin and rub them with the paste.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roast at 200 C (180 C fan) for 30 minutes, basting with a little broth, until browned and glossy.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Spoon the chickpeas and their broth into a deep dish, lay the head on top and finish with parsley. Serve with lemon wedges and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Lamb shanks (about 1.5 kg) can replace the head, with the same cooking times.",
+      "Pick out the cheeks and tongue first; they are the prized parts."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Bouzelouf (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Bouzelouf",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Bouzelouf' (descriptions only); the article describes the cleaned head cooked for a long time, then grilled or simmered in a spicy red sauce with tomato, garlic, cumin and chilli and sometimes chickpeas. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bouzelouf.png",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bouzelouf.png",
+      "author": "Teyoxx",
+      "license": "CC0",
+      "verified": "Seen: a lamb head roasted to golden brown on a clay dish of chickpeas with lemon wedges."
+    }
+  },
+  {
+    "id": "algerian-maakouda",
+    "name": "Maakouda (Potato Fritters)",
+    "description": "Golden, spiced potato patties fried until crisp outside and soft inside: a staple of Algerian Ramadan tables and street stalls, often tucked into bread with harissa for a quick dinner.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "snack",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potato",
+      "fritters",
+      "vegetarian",
+      "street-food",
+      "ramadan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "floury, peeled"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the potatoes in salted water for 20 minutes until completely soft. Drain well and let the steam escape for 3 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Mash the potatoes smooth, then mix in the garlic, cumin, paprika, herbs, egg, flour, salt and pepper. The mix should hold a shape; add a little flour if it is sticky.",
+        "timerMinutes": null
+      },
+      {
+        "text": "With floured hands, shape the mix into about 12 flat discs, about 6 cm across.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a wide pan over medium heat and fry the patties in batches for 3 to 4 minutes per side until deep golden. Drain on paper.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve hot with harissa, a tomato salad and bread, or in a split baguette.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Stuff each patty with a spoon of cooked spiced minced beef for a heartier version.",
+      "Dry potatoes well after boiling, otherwise the fritters will fall apart."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Maakouda (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against Wikimedia Commons descriptions of Algerian maakouda photographs and the English Wikipedia 'Algerian cuisine' overview; the method is written from the author's knowledge of the common Maghrebi potato-patty preparation. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Maakouda.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Maakouda.jpg",
+      "author": "Jeouit",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a pile of dark golden round potato fritters on paper towel on a green polka-dot cloth."
+    }
+  },
+  {
+    "id": "algerian-couscous-khodra",
+    "name": "Couscous Bel Khodra (Vegetable Couscous)",
+    "description": "Steamed couscous under a bright broth of chickpeas, carrots, turnips, courgettes and pumpkin: the meatless couscous of Algerian homes, light, fragrant and filling.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 70,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "vegan",
+      "vegetables",
+      "chickpeas",
+      "friday"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus 2 tbsp for the couscous"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted, for the couscous"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "carrots",
+        "note": "in thick sticks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "turnips",
+        "note": "quartered"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "potatoes",
+        "note": "in big chunks"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "pumpkin",
+        "note": "in big chunks"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "courgettes",
+        "note": "halved lengthways"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the couscous with 2 tbsp of the oil, then sprinkle with the warm salted water, rake with your fingers and leave to swell for 10 minutes. Rake again to break up lumps.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "In the bottom of a couscoussier, heat 3 tbsp oil and soften the onion for 5 minutes. Stir in the tomato paste, cinnamon, paprika, pepper and turmeric, then add the chickpeas, water and salt. Bring to a boil and simmer for 30 minutes.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Add the carrots, turnips and potatoes to the pot. Put the couscous in the steamer basket on top and steam, uncovered at first, for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Tip the couscous into a bowl, sprinkle with a little cold salted water, rake it and return it to steam for another 15 minutes while you add the pumpkin and courgettes to the broth.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Simmer the vegetables 15 minutes more until all are tender. Turn the couscous onto a large dish, make a well, and arrange the vegetables and chickpeas on top. Serve the broth separately, with harissa.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "No couscoussier: steam the couscous in a sieve lined with muslin over the pot, or soak it in hot stock and fluff with a fork.",
+      "Leftover broth is excellent the next day as a soup."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Khodra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Couscous' article; the vegetable selection and two-steaming method are written from the author's knowledge of Algerian household couscous (consistent with the existing Mise couscous recipe). Quantities are the author's own for 6 servings. Proportions cross-checked against the French Wikibooks page 'Cuisine algerienne' (opened), whose 'Couscous au mouton' (4 to 6 servings: 800 g lamb, 500 g semolina, 3 onions, carrots, turnips, courgettes, about 1 hour 30 minutes, semolina steamed twice) and 'Couscous montagnard blanc au boeuf' recipes use the same structure; the UNESCO page for the couscous element (opened) describes the dish as rolled, steamed semolina served with regionally varying vegetables and meats."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Couscousalgerienvegetarien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Couscousalgerienvegetarien.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a clay dish of couscous topped with courgettes, carrots, chickpeas and spring onion, with a bowl of broth behind."
+    }
+  },
+  {
+    "id": "algerian-couscous-kefta",
+    "name": "Couscous Bel Kefta (Couscous with Meatballs and Vegetables)",
+    "description": "Couscous crowned with spiced beef meatballs and a colourful stew of potatoes, peppers and aubergine in a red, paprika-rich sauce. A crowd-pleaser from the south-east of Algeria.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "meatballs",
+      "beef",
+      "biskra",
+      "tomato"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus 2 tbsp for the couscous"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated, for the meatballs"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced, for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "in strips"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "eggplant",
+        "note": "in thick slices"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the couscous with 2 tbsp of the oil, sprinkle with the warm salted water and leave to swell for 10 minutes, raking it twice.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Mix the beef with the grated onion, parsley, egg, cumin and 1 tsp of the salt and roll into walnut-sized meatballs.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat 3 tbsp oil in a wide pot and soften the sliced onion with the crushed garlic for 5 minutes. Add the tomato paste, canned tomatoes, paprika, harissa, remaining salt and the water and bring to a boil.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Lower in the meatballs, then the potatoes and carrots. Simmer, covered, for 20 minutes, steaming the couscous over the pot in a steamer for the last 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the peppers and aubergine and cook 15 more minutes until tender. Tip the couscous onto a platter, top with meatballs and vegetables and ladle over the sauce.",
+        "timerMinutes": 15
+      }
+    ],
+    "tips": [
+      "Fry the aubergine slices first if you prefer a richer, firmer result.",
+      "Lamb mince works as well as beef."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Kefta (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Couscous' article and the Wikimedia Commons description of an Algerian couscous photograph from Biskra; meatball and vegetable sauce written from the author's knowledge. Quantities are the author's own for 6 servings. Proportions cross-checked against the French Wikibooks page 'Cuisine algerienne' (opened), whose 'Couscous au mouton' (4 to 6 servings: 800 g lamb, 500 g semolina, 3 onions, carrots, turnips, courgettes, about 1 hour 30 minutes, semolina steamed twice) and 'Couscous montagnard blanc au boeuf' recipes use the same structure; the UNESCO page for the couscous element (opened) describes the dish as rolled, steamed semolina served with regionally varying vegetables and meats."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Algerian_Couscous_from_Biskra.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algerian_Couscous_from_Biskra.jpg",
+      "author": "Nasimanilsen25",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of orange couscous topped with potatoes, peppers, aubergine and meatballs in a red sauce."
+    }
+  },
+  {
+    "id": "algerian-couscous-djaj",
+    "name": "Couscous Bel Djaj (Couscous with Chicken, Vegetables and Eggs)",
+    "description": "A festive platter: couscous topped with tender chicken, carrots, courgettes and halved boiled eggs, with a clear, lightly spiced broth on the side. The couscous for Sunday lunch and celebrations.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 70,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "chicken",
+      "vegetables",
+      "festive",
+      "eggs"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "in total"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "cut in 8 pieces"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "carrots",
+        "note": "in sticks"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "turnips",
+        "note": "quartered"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "courgettes",
+        "note": "in big pieces"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled, halved"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "optional, to finish the couscous",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Swell the couscous: rub it with 2 tbsp of the oil, sprinkle over the warm salted water and rake it every few minutes for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "In the base of a couscoussier, warm the remaining oil and cook the chicken and onions for 8 minutes without browning. Add the chickpeas, cinnamon, turmeric, pepper, salt and the water. Bring to a boil, skim and simmer for 25 minutes.",
+        "timerMinutes": 33
+      },
+      {
+        "text": "Add the carrots and turnips. Place the couscous in the steamer on top and steam, uncovered, for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Tip the couscous into a bowl, rake it with a little salted water and the butter, and steam again for 15 minutes while the courgettes cook in the broth.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Mound the couscous on a big platter, set the chicken and vegetables over it and decorate with boiled eggs. Pass the broth in a bowl so everyone can moisten their couscous.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a deeper broth, start the chicken with the chickpeas at the beginning and let them simmer an extra 15 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Djaj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Couscous' article; this chicken-and-eggs version follows the layout of the Algerian couscous platter shown on Wikimedia Commons, with quantities and method written from the author's knowledge. Quantities are the author's own for 6 servings. Proportions cross-checked against the French Wikibooks page 'Cuisine algerienne' (opened), whose 'Couscous au mouton' (4 to 6 servings: 800 g lamb, 500 g semolina, 3 onions, carrots, turnips, courgettes, about 1 hour 30 minutes, semolina steamed twice) and 'Couscous montagnard blanc au boeuf' recipes use the same structure; the UNESCO page for the couscous element (opened) describes the dish as rolled, steamed semolina served with regionally varying vegetables and meats."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Couscous_avec_l%C3%A9gumes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Couscous_avec_l%C3%A9gumes.jpg",
+      "author": "Sabah HAANA",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a round platter of couscous with chicken pieces, orange carrots, courgette and quail-sized boiled eggs around the edge."
+    }
+  },
+  {
+    "id": "algerian-couscous-foul-lben",
+    "name": "Couscous Bel Foul wa Lben (Fava Bean and Buttermilk Couscous)",
+    "description": "A supper couscous from Algerian homes: soft couscous with fresh or dried fava beans and turnips, melted butter and cold lben (buttermilk) poured over. Light, humble and very comforting.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "fava-beans",
+      "buttermilk",
+      "vegetarian",
+      "light"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "fava beans",
+        "note": "shelled, fresh or frozen"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "turnips",
+        "note": "peeled and quartered"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "whole"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "butter",
+        "note": "melted"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "buttermilk",
+        "note": "cold, lben"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the couscous with 1 tbsp of the oil, sprinkle with the warm salted water and leave for 10 minutes, raking it twice.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Put the water, fava beans, turnips, garlic, salt and the remaining oil into the base of a couscoussier and bring to a boil. Place the couscous in the steamer on top and steam for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Tip the couscous into a bowl, rake in a splash of cold water and half the butter, then steam it again for 15 minutes while the beans and turnips finish cooking.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Serve the couscous in deep bowls with the beans and turnips, drizzle with the rest of the melted butter and pour cold buttermilk over each portion (or serve it alongside).",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Fresh buttermilk is best; thin plain yoghurt with a little water if you cannot find it.",
+      "Dried fava beans must be soaked overnight and cooked 1 hour before steaming."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous Bel Foul wa Lben (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mesfouf",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the Wikimedia Commons description of 'Algerian dairy couscous with fava beans and turnip' and the English Wikipedia 'Mesfouf' article (couscous with beans, served with whey or yoghurt); quantities and method written from the author's knowledge. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Liat_Portal_for_Foodie_Disorder_-_Algerian_dairy_couscous_with_fava_beans_and_turnip.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Algerian_dairy_couscous_with_fava_beans_and_turnip.jpg",
+      "author": "HaJunkiyada",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate of pale couscous with green fava beans and a pale vegetable on a dark table."
+    }
+  },
+  {
+    "id": "algerian-mesfouf-peas",
+    "name": "Mesfouf with Peas (Buttered Couscous with Green Peas)",
+    "description": "Very fine steamed couscous tossed with butter, olive oil and sweet green peas, served warm with cold buttermilk. A Ramadan favourite and a light, quick-to-eat Algerian dinner.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 40,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "peas",
+      "buttermilk",
+      "ramadan",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "fine couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "green peas",
+        "note": "fresh or frozen"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": "optional",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "raisins",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "ml",
+        "name": "buttermilk",
+        "note": "cold, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the couscous in a wide bowl, rub in 1 tbsp of the oil, then sprinkle with the warm salted water. Leave for 10 minutes, raking it every few minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Steam the couscous over simmering water in a couscoussier or a sieve for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Tip it back into the bowl, rake with a little cold water and half the butter, then steam it again for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Steam or boil the peas for 5 minutes until tender, then crush a few of them lightly with a fork.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Tip the couscous onto a platter, work in the remaining butter and oil, the salt, pepper and sugar if using. Fold through the peas (and raisins) and serve hot with cold buttermilk.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use the finest couscous (mesfouf grain) if you can find it: it soaks up the butter better.",
+      "Fresh peas in season give the best flavour."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mesfouf with Peas (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mesfouf",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Mesfouf' (descriptions only); the article says that in Algeria it is a main dish of finely rolled semolina with butter or oil served with peas and beans, drunk with whey or yoghurt, and eaten in Ramadan. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Mesfoufalgerien3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mesfoufalgerien3.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a clay bowl of fine couscous speckled with green peas, with a glass of milk and a lid behind it."
+    }
+  },
+  {
+    "id": "algerian-couscous-lham-courge",
+    "name": "Couscous with Lamb, Pumpkin and Chickpeas",
+    "description": "A winter couscous: lamb on the bone, sweet pumpkin, carrots and chickpeas in a golden broth over steaming couscous. Rich, fragrant with cinnamon, and a staple of the Hauts Plateaux and southern kitchens.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "couscous",
+      "lamb",
+      "pumpkin",
+      "winter",
+      "chickpeas"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "medium couscous",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "in total"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "warm water",
+        "note": "salted"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder or neck on the bone"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "carrots",
+        "note": "in thick sticks"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "halved"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "pumpkin",
+        "note": "in big chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green bell pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "raisins",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Rub the couscous with 2 tbsp of the oil, sprinkle with the warm salted water and leave to swell for 10 minutes, raking occasionally.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "In the base of the couscoussier, brown the lamb in 2 tbsp oil for 8 minutes, add the onions, chickpeas, cinnamon, turmeric, paprika, pepper and salt and stir 3 minutes.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Add the water, bring to a boil, skim, and simmer for 50 minutes.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Add the carrots and potatoes, set the couscous in the steamer on top and steam for 20 minutes. Rake it with a little cold water, steam 15 minutes more while you add the pumpkin and pepper to the broth.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Simmer until everything is tender, about 15 minutes. Pile the couscous on a platter, top with lamb and vegetables (and raisins if you like) and serve the broth alongside.",
+        "timerMinutes": 15
+      }
+    ],
+    "tips": [
+      "The pumpkin should be added late so it keeps its shape.",
+      "Raisins and a spoon of honey in the broth make it a sweeter, festive version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Couscous with Lamb, Pumpkin and Chickpeas (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikibooks.org/wiki/Livre_de_cuisine/Cuisine_alg%C3%A9rienne",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Couscous' article and the Wikimedia Commons photograph of couscous from Laghouat (a bowl of couscous with chickpeas, carrots, potato and pumpkin); method and quantities written from the author's knowledge. Quantities are the author's own for 6 servings. Proportions cross-checked against the French Wikibooks page 'Cuisine algerienne' (opened), whose 'Couscous au mouton' (4 to 6 servings: 800 g lamb, 500 g semolina, 3 onions, carrots, turnips, courgettes, about 1 hour 30 minutes, semolina steamed twice) and 'Couscous montagnard blanc au boeuf' recipes use the same structure; the UNESCO page for the couscous element (opened) describes the dish as rolled, steamed semolina served with regionally varying vegetables and meats."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/COUSCOUSSE_-_LAGHOUAT.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:COUSCOUSSE_-_LAGHOUAT.jpg",
+      "author": "Jemo2200",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a wooden bowl of couscous topped with orange pumpkin, carrots, potatoes, green pepper, chickpeas and a piece of meat."
+    }
+  },
+  {
+    "id": "algerian-hmiss",
+    "name": "Hmiss (Algerian Grilled Pepper and Tomato Salad)",
+    "description": "Grilled green peppers and tomatoes crushed with garlic and olive oil into a smoky, rustic salad. A fixture of the Algerian table, eaten with bread alongside a main dish, or as a light supper on its own.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "peppers",
+      "tomato",
+      "grilled",
+      "vegan",
+      "side"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "long green peppers"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "ripe"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "juice, optional",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Grill the whole peppers and tomatoes under a hot grill or on a barbecue, turning, for 15 minutes until the skins are blistered and charred.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Put the peppers in a covered bowl for 5 minutes, then peel and seed them. Peel the tomatoes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Crush the garlic with the salt in a mortar, add the peppers and tomatoes and crush to a coarse, juicy mash (or chop finely with a knife).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Warm the olive oil in a pan, add the mash with the cumin and harissa if using and cook for 8 minutes, stirring, until the juices are mostly reduced.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve warm or cold, with a squeeze of lemon, with bread or as a side to grilled meat.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Eastern cooks add a handful of olives; in Tlemcen beaten eggs are stirred in at the end.",
+      "Keeps 3 days in the fridge."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Hmiss (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Hmiss",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Hmiss' (descriptions only); the article describes grilled peppers and tomatoes chopped or crushed with garlic and oil, sauteed, and eaten with bread, with regional variations. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Hmisalgerien.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Hmisalgerien.jpg",
+      "author": "Slothtysloth",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a clay dish of green crushed pepper and tomato salad next to a hummus-style dip and flatbread, beside two tagine lids."
+    }
+  },
+  {
+    "id": "algerian-slata-mechouia",
+    "name": "Slata Mechouia (Grilled Vegetable Salad with Egg)",
+    "description": "Smoky grilled tomatoes, peppers and chillies chopped with garlic, caraway and olive oil, topped with boiled egg and black olives. The best-known cold salad of the Algerian coast.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "side",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "salad",
+      "grilled",
+      "peppers",
+      "eggs",
+      "side",
+      "coast"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "fresh, optional for heat",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled"
+      },
+      {
+        "group": null,
+        "quantity": 12,
+        "unit": null,
+        "name": "black olives",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Grill the peppers, chilli and tomatoes on a hot barbecue or under the grill, turning, for about 15 minutes until the skins are charred.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Let them cool in a covered bowl for 5 minutes, then peel and seed the peppers and chilli and peel the tomatoes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Chop everything finely, or crush coarsely in a mortar with the garlic. Season with the cumin, coriander, salt, lemon juice and olive oil. Mix well.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Pile on a shallow dish and top with quartered boiled eggs and the olives. Serve cold, with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Drain a little of the juice for a firmer salad that is easy to scoop with bread.",
+      "Canned tuna is a common extra."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Slata Mechouia (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Slata_m%C3%A9chouia",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Slata méchouia' (descriptions only); the article describes grilled tomatoes, peppers and chillies chopped and seasoned with garlic, coriander and caraway and olive oil, often served with olives, capers and boiled eggs. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Salade_Mechouia.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Salade_Mechouia.jpg",
+      "author": "Bouhezam Mohamed Amine",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate of chopped grilled-vegetable salad topped with quartered boiled eggs and black olives, with the sea behind."
+    }
+  },
+  {
+    "id": "algerian-merguez",
+    "name": "Merguez (Homemade Algerian Lamb Sausages)",
+    "description": "Fiery red lamb and beef sausages seasoned with harissa, cumin and fennel. Grilled over charcoal and served with fries, a tomato salad and bread: the favourite of Algerian grills and street stalls.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 12,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sausage",
+      "lamb",
+      "grill",
+      "harissa",
+      "spicy"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced lamb",
+        "note": "with some fat"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "fennel seeds",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "cold water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "piece",
+        "name": "natural lamb casing",
+        "note": "halal, optional: or shape into logs",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the lamb and beef with the garlic, harissa, paprika, cumin, coriander, fennel, salt, pepper and cold water. Knead for 3 minutes until the mix is sticky and cohesive.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cover and chill for at least 1 hour (or overnight) so the flavours blend.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Stuff into the casing with a funnel or sausage stuffer and twist into 12 cm links; or shape the mix into 12 sausage-shaped logs and thread two on each skewer.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush the grill or a pan with olive oil and cook the merguez over medium heat for 10 to 12 minutes, turning, until browned and cooked through.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Serve hot in bread or with fries, grilled peppers and a chopped tomato salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use only halal, pork-free casings if you stuff them; the log shape needs no casing at all.",
+      "A little ground chilli can replace some harissa for a drier heat."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Merguez (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Merguez",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Merguez' (descriptions only); the article describes a red, spicy lamb or beef fresh sausage seasoned with cumin and chilli or harissa. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Algerian_Merguez.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algerian_Merguez.jpg",
+      "author": "Abdellah zou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: six grilled red merguez sausages on a slate board on a red-and-white checked cloth with a chilli and herbs."
+    }
+  },
+  {
+    "id": "algerian-mechoui",
+    "name": "Mechoui (Slow-roasted Lamb Shoulder)",
+    "description": "The feast-day lamb of Algeria, scaled for a home oven: a shoulder rubbed with butter, garlic and cumin and roasted slowly until it falls off the bone. Traditionally cooked whole over embers; this version keeps the flavour.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 240,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "lamb",
+      "roast",
+      "eid",
+      "festive",
+      "cumin"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "kg",
+        "name": "lamb shoulder",
+        "note": "bone in"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "butter",
+        "note": "softened"
+      },
+      {
+        "group": null,
+        "quantity": 8,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "water",
+        "note": "for the tin"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges, to serve"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mash the butter with the garlic, cumin, paprika, salt, pepper and oil to a paste. Score the lamb all over with a knife and rub the paste deep into the cuts. Leave 2 hours at room temperature, or overnight in the fridge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oven to 160 C (140 C fan). Put the lamb in a roasting tin with the water and cover tightly with foil.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roast for 3 hours 30 minutes, basting every hour with the juices.",
+        "timerMinutes": 210
+      },
+      {
+        "text": "Remove the foil, raise the oven to 220 C (200 C fan) and roast 15 more minutes until the surface is browned and crisp.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Rest for 15 minutes, then pull the meat apart with two forks. Serve with the pan juices, lemon, cumin salt and warm bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Serve with cumin mixed with salt on the side: a classic way to eat mechoui.",
+      "Excellent with hmiss and couscous."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mechoui (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/M%C3%A9choui",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Méchoui' (descriptions only); the article describes lamb or sheep roasted whole on a spit in Algeria and Morocco; the oven shoulder with butter-garlic-cumin rub is a home adaptation written from the author's knowledge. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mechoui_sur_le_feu_du_bois_%C3%A0_Aflou.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mechoui_sur_le_feu_du_bois_%C3%A0_Aflou.jpg",
+      "author": "Mountaflou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a whole lamb lying over glowing wood embers in the desert."
+    }
+  },
+  {
+    "id": "algerian-chtitha-batata",
+    "name": "Chtitha Batata (Spicy Potato and Lamb Stew)",
+    "description": "Potatoes and tender lamb in a fiery red sauce of garlic, cumin and chilli, with a handful of chickpeas and a green pepper. A beloved everyday stew from Ghardaia and across Algeria.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 5,
+    "prepTime": 20,
+    "cookTime": 55,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "potato",
+      "lamb",
+      "spicy",
+      "chtitha"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in small chunks"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "peeled, in large chunks"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "cooked chickpeas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 900,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green chili pepper",
+        "note": "whole"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Crush the garlic with the cumin, paprika, harissa and a pinch of salt to a rough paste, the dersa.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a heavy pot and brown the lamb with the onion for 8 minutes. Stir in the dersa and tomato paste and cook 3 minutes until the oil turns red.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Add the water, bring to a boil, skim, then cover and simmer for 25 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Add the potatoes, chickpeas, salt and whole green chilli, cover and simmer for 20 to 25 minutes until the potatoes are tender and the sauce is thick.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Scatter with coriander and serve hot with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Crush a few potato chunks into the sauce for a thicker texture.",
+      "Chicken can replace the lamb: shorten the first simmer to 15 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chtitha Batata (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Chtitha",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Chtitha' (descriptions only); the article describes the family of chtitha dishes in a red sauce of chickpeas and meat seasoned with derssa; potato is one of the central-ingredient variants. Quantities are the author's own for 5 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Dersa_sauce_with_potatoes.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Dersa_sauce_with_potatoes.jpg",
+      "author": "NachtBel",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: diced potatoes in a red dersa chilli sauce with coriander."
+    }
+  },
+  {
+    "id": "algerian-kefta-matisha",
+    "name": "Kefta Bel Matisha (Meatballs in Tomato Sauce)",
+    "description": "Soft, herby beef meatballs simmered in a garlicky tomato sauce with sweet paprika and cumin. Optional poached eggs go in at the end. A weeknight favourite across the Maghreb.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 35,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "meatballs",
+      "tomato",
+      "beef",
+      "weeknight",
+      "eggs"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "breadcrumbs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced, for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "optional",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the beef with the grated onion, parsley, half the garlic, cumin, black pepper, 1 tsp of the salt and the breadcrumbs. Roll into 20 balls the size of a walnut.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a wide pan and fry the sliced onion for 5 minutes. Add the remaining garlic, the paprika, tomatoes, tomato paste, remaining salt and harissa. Simmer 10 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Lower the meatballs into the sauce, cover and simmer for 20 minutes, turning once.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "If using eggs, make 4 wells in the sauce, crack an egg into each, cover and cook until just set, 4 minutes.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Serve hot, straight from the pan, with crusty bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Brown the meatballs first in a little oil for extra flavour.",
+      "Add a few olives and a spoon of capers for a more tangy version."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kefta Bel Matisha (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Kefta",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Kefta' (descriptions only); the article describes kefta as seasoned minced-meat balls common in the Maghreb. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Tajin_echwa.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tajin_echwa.jpg",
+      "author": "Sahki rami",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: meatballs in a tomato sauce with lemon slices and parsley."
+    }
+  },
+  {
+    "id": "algerian-brochettes-agneau",
+    "name": "Brochettes d'Agneau (Algerian Lamb Skewers)",
+    "description": "Cubes of lamb marinated in grated onion, cumin and paprika, threaded on skewers and grilled over charcoal. Served with fries, a tomato-cucumber salad and bread: the typical Eid and weekend barbecue.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 12,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "lamb",
+      "skewers",
+      "grill",
+      "eid",
+      "barbecue"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "leg or shoulder, in 3 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "diced, for the salad"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "diced, for the salad"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely sliced, for the salad"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "cut in fries, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the lamb with the grated onion, garlic, 2 tbsp of the oil, cumin, paprika, pepper and half the salt. Cover and marinate for at least 2 hours, or overnight in the fridge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Thread the meat on skewers (soak wooden ones in water for 30 minutes), leaving no gaps.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Grill over hot charcoal or in a very hot grill pan for 10 to 12 minutes, turning, until browned outside and juicy inside.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Toss the tomatoes, cucumber and onion with the lemon juice, remaining oil and salt for the salad. Serve the skewers with the salad, fries and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not salt the lamb too early: add salt to the marinade only in the last hour.",
+      "Alternate with pieces of onion and pepper for a mixed skewer."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Brochettes d'Agneau (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia 'Algerian cuisine' overview and the Wikimedia Commons photograph of Eid skewers served with salad and fries; method written from the author's knowledge. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aid_el_adha.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aid_el_adha.jpg",
+      "author": "Amina0095",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate with skewered grilled meat, fries and a green salad on a kitchen counter."
+    }
+  },
+  {
+    "id": "algerian-tajine-khodra",
+    "name": "Tajine Khodra (Baked Vegetable Tajine)",
+    "description": "Potatoes, courgettes, carrots and peppers roasted in a golden turmeric-cumin dressing until tender and slightly caramelised. A simple, meatless Algerian family tray-bake, served with bread and a green salad.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 55,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "vegetables",
+      "vegan",
+      "baked",
+      "tray-bake",
+      "turmeric"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "in 2 cm slices"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "courgettes",
+        "note": "in thick slices"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "carrots",
+        "note": "in sticks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "in strips"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 200 C (180 C fan).",
+        "timerMinutes": null
+      },
+      {
+        "text": "In a large bowl, toss all the vegetables with the garlic, oil, turmeric, cumin, paprika, salt and pepper until evenly coated.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Spread them in one or two layers in a large baking dish and pour the water around. Cover with foil and roast for 25 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Uncover, stir gently and roast 25 to 30 more minutes until the potatoes are soft and the edges are golden.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Scatter with parsley and serve hot with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add a can of chickpeas for extra protein.",
+      "Brown the potatoes in the oil first for a crispier finish."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Tajine Khodra (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Tajine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Tajine' (descriptions only); the article describes the tajine as a slow-cooked Maghrebi stew that can be built from vegetables and olive oil; this baked tray version is written from the author's knowledge. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/%D8%B7%D8%A7%D8%AC%D9%8A%D9%86_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%B7%D8%A7%D8%AC%D9%8A%D9%86_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1.jpg",
+      "author": "Amin27kh",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a large dish of yellow-glazed potato and courgette slices with herbs, baked in a tray."
+    }
+  },
+  {
+    "id": "algerian-hrira",
+    "name": "Hrira Algerienne (Lamb, Lentil and Chickpea Soup)",
+    "description": "Algeria's great Ramadan soup: a tomatoey, herb-heavy broth with lamb, lentils, chickpeas and a thickener of flour and water, finished with a squeeze of lemon. Hearty enough to be a full dinner.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 80,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lamb",
+      "lentils",
+      "chickpeas",
+      "ramadan",
+      "tomato"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "lamb",
+        "note": "in small cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "celery stalks",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "or oil"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated or crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "brown lentils",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 1.8,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "vermicelli",
+        "note": "or rice"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "flour",
+        "note": "for the thickener"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "cold water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the butter in a large pot and cook the lamb with the onion and celery for 8 minutes. Add the tomatoes, tomato paste, chickpeas, salt, pepper, ginger and turmeric and stir for 3 minutes.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Add the 1.8 l water, bring to a boil, skim and simmer, covered, for 50 minutes.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Add the lentils and the vermicelli and cook 15 minutes more until all are tender.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Whisk the flour with the cold water until smooth. Pour it slowly into the soup, stirring, and simmer 5 minutes until lightly thickened.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the chopped coriander and parsley, check the seasoning and serve with lemon wedges and dates or bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For the eastern style, replace the flour with beaten egg stirred in off the heat.",
+      "The soup thickens on standing: loosen with hot water."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Hrira Algerienne (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Harira",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Harira' (descriptions only); the article names hrira as the Algerian form, made from tomatoes, vegetables, meat and onion. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Harira_d%27aflou.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Harira_d%27aflou.jpg",
+      "author": "Mountaflou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: two black bowls with red rims of orange-red soup scattered with herbs, with a red drink behind."
+    }
+  },
+  {
+    "id": "algerian-chakchouka",
+    "name": "Chakchouka Algerienne (Peppers, Tomatoes and Eggs)",
+    "description": "Sweet green peppers and tomatoes slowly cooked with garlic and cumin until jammy, with eggs set in the sauce at the end. Humble, quick, and eaten straight from the pan with bread, for dinner as often as for breakfast.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch",
+      "breakfast"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "eggs",
+      "peppers",
+      "tomato",
+      "vegetarian",
+      "quick"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "green bell peppers",
+        "note": "sliced in strips"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "peeled and chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the oil in a wide pan and cook the peppers and onion over medium heat for 10 minutes until soft.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the garlic, tomatoes, paprika, cumin, salt and harissa, and simmer 15 minutes, stirring now and then, until thick and jammy.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Make 6 hollows in the sauce, crack an egg into each, cover and cook over low heat for 5 minutes until the whites are set but the yolks still soft.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Scatter with parsley and serve from the pan with bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Stir the eggs through the sauce to make a scramble-style version.",
+      "Algerian cooks sometimes add grilled merguez: a nice dinner upgrade."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chakchouka Algerienne (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Chakchouka",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Chakchouka' (descriptions only); the article describes a pan of green or red peppers, tomatoes and onions to which eggs are added at the end, a Maghrebi speciality. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Shakshuka_Dish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Shakshuka_Dish.jpg",
+      "author": "Junbinhuang",
+      "license": "CC BY 4.0",
+      "verified": "Seen: a black cast-iron pan of red tomato sauce with four poached eggs sprinkled with fresh coriander."
+    }
+  },
+  {
+    "id": "algerian-mderbel",
+    "name": "Mderbel (Lamb and Chickpea Stew with Fried Aubergine)",
+    "description": "A tender lamb and chickpea stew in a pale, cinnamon-scented sauce, crowned with slices of fried aubergine that soften into the sauce. A refined dish of Algiers and the centre of the country.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 90,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "stew",
+      "lamb",
+      "aubergine",
+      "chickpeas",
+      "cinnamon"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 700,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in large cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "or smen"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cinnamon stick",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggplants",
+        "note": "in 1.5 cm rounds"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": "optional, for a red sauce",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt the butter in a heavy pot, add the lamb, onion, cinnamon stick, pepper and salt and cook for 8 minutes, stirring.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the chickpeas and water, bring to a boil, skim, and simmer covered for 1 hour 10 minutes until the lamb is tender and the sauce has reduced to a light, creamy broth.",
+        "timerMinutes": 70
+      },
+      {
+        "text": "Meanwhile salt the aubergine rounds, leave for 15 minutes, pat dry, then fry in the hot oil until golden on both sides. Drain on paper.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Lay the aubergine slices on top of the stew (or soak them in the sauce for a few minutes) and simmer 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Scatter with parsley and serve hot with bread or rice.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "In the west and south the sauce is red: add the tomato paste with the onion.",
+      "Fried courgette slices or artichoke hearts can replace the aubergine."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mderbel (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Mderbel",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the French Wikipedia article 'Mderbel' (descriptions only); the article describes a stew of meat and chickpeas garnished with fried slices of aubergine, courgette or artichoke, in a white cinnamon-scented sauce in north-central Algeria and a red sauce elsewhere. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Barania_souris_agneau_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Barania_souris_agneau_1.jpg",
+      "author": "Lalia28",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a braised lamb shank on a platter with chickpeas and slices of fried aubergine."
+    }
+  },
+  {
+    "id": "algerian-kebda-mchermla",
+    "name": "Kebda Mchermla (Liver in Chermoula Sauce)",
+    "description": "Quick-fried lamb liver in a garlicky red chermoula of tomato, cumin, paprika, vinegar and coriander. A classic Algerian offal dish for Ramadan and Eid: ready in half an hour and delicious with warm bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "liver",
+      "offal",
+      "quick",
+      "chermoula",
+      "garlic"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "lamb liver",
+        "note": "in thin slices"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "white vinegar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the garlic, cumin, paprika, harissa, vinegar, 2 tbsp of the oil, the herbs and salt to make the chermoula.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Toss the liver slices in half the chermoula and leave for 15 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the remaining oil in a wide frying pan until very hot and fry the liver for 2 minutes per side until browned outside and still pink inside. Lift out onto a plate.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Pour the rest of the chermoula and the grated tomatoes into the same pan and simmer 6 minutes until thick and red. Return the liver for 1 minute, toss and serve at once with bread and lemon.",
+        "timerMinutes": 7
+      }
+    ],
+    "tips": [
+      "Do not overcook the liver or it will turn grainy.",
+      "Soak the liver in milk for 30 minutes first if you find the flavour strong."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kebda Mchermla (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Kebda_Mchermla",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the French Wikipedia article 'Kebda Mchermla' (opened): a traditional Algerian liver dish based on liver, garlic, olive oil, spices, tomatoes and chillies, linked to Ramadan and Eid el-Kebir, made in a red or white sauce depending on the region. This version is the red one; the cumin, paprika, vinegar and chermoula herbs and all quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/%D8%B7%D8%A8%D9%82_%D9%83%D8%A8%D8%AF%D8%A9_%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D9%86%D8%A7%D8%B1_02.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%B7%D8%A8%D9%82_%D9%83%D8%A8%D8%AF%D8%A9_%D8%B9%D9%84%D9%8A_%D8%A7%D9%84%D9%86%D8%A7%D8%B1_02.jpg",
+      "author": "Hassan Hassoon",
+      "license": "CC0",
+      "verified": "Seen: a frying pan of small browned liver pieces in a sauce, with a spatula."
+    }
+  },
+  {
+    "id": "algerian-paella-oranaise",
+    "name": "Paella Oranaise (Seafood and Chicken Rice)",
+    "description": "The Oran version of paella, a legacy of the Spanish community of western Algeria: saffron-coloured rice with prawns, mussels, squid and chicken, made halal with no sausage or wine.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 45,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "seafood",
+      "chicken",
+      "oran",
+      "festive",
+      "saffron"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "paella rice",
+        "note": "or short-grain rice"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "chicken",
+        "note": "thigh fillets, in pieces"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "prawns",
+        "note": "shell on"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "mussels",
+        "note": "scrubbed"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "squid",
+        "note": "in rings"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "red bell pepper",
+        "note": "in strips"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "saffron threads",
+        "note": "or 1 tsp turmeric"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "fish stock",
+        "note": "hot"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "peas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wide paella pan and brown the chicken for 6 minutes. Add the onion, garlic and pepper and cook 5 minutes.",
+        "timerMinutes": 11
+      },
+      {
+        "text": "Stir in the tomatoes and paprika and cook for 5 minutes until the sauce is thick.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the rice, stirring for 1 minute so it takes on the colour, then pour in the hot stock with the saffron and salt. Bring to a boil and cook, without stirring, for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Nestle the prawns, squid and mussels into the rice and scatter the peas. Cover loosely with foil and cook on low heat for 12 minutes until the rice is tender and the mussels have opened (discard any that stay closed).",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Rest 5 minutes off the heat, scatter with parsley and serve with lemon wedges.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a crunchy base (socarrat), turn the heat up for the last minute until you hear light crackling.",
+      "Use turmeric in place of saffron to keep it economical."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Paella Oranaise (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://fr.wikipedia.org/wiki/Paella",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the Wikimedia Commons category 'Paella of Algeria' and photographs of Oran seafood paella; this recipe is written from the author's knowledge of the Spanish-origin Oran preparation, adapted halal (no chorizo, no wine). Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Oran_-_Paella.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Oran_-_Paella.jpg",
+      "author": "Fayçal Rezkallah",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a white plate of yellow rice with prawns and a fried item with a lime and green side garnish."
+    }
+  },
+  {
+    "id": "algerian-sardines-chermoula",
+    "name": "Sardines Chermoula (Pan-fried Sardines)",
+    "description": "Fresh sardines marinated in garlic, cumin, paprika and lemon, then pan-fried until crisp. A coastal Algerian supper, quick and cheap, served with a tomato salad and bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fish",
+      "sardines",
+      "quick",
+      "coast",
+      "chermoula"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "sardines",
+        "note": "cleaned, heads removed"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "lemon juice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus oil for frying"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "flour",
+        "note": "for dusting"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "in wedges, for the salad"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the garlic, cumin, paprika, lemon juice, 3 tbsp oil, coriander and salt. Rub the sardines inside and out with this chermoula and leave for 30 minutes in the fridge.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Dust the sardines lightly with flour, shaking off the excess.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the frying oil in a wide pan over medium-high heat and fry the sardines for 2 to 3 minutes per side until golden and crisp. Drain on paper.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Serve hot with the tomato wedges, lemon and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Grill them on a barbecue instead for a smoky flavour.",
+      "Ask the fishmonger to scale and gut them to save time."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Sardines Chermoula (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity written from the author's knowledge of Algerian coastal sardine preparations (chermoula marinade), cross-checked with the English Wikipedia 'Algerian cuisine' article, which describes the cuisine as based on both land and sea products, and with the Wikimedia Commons photograph of Algerian sardines served with salad. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Plats_Algeriens_%283%29_Sardines.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plats_Algeriens_(3)_Sardines.jpg",
+      "author": "Flouer",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a plate of small whole fried sardines beside a chopped tomato-lettuce salad."
+    }
+  },
+  {
+    "id": "algerian-chorba-djaj",
+    "name": "Chorba Bel Djaj (Chicken and Vegetable Soup with Pasta)",
+    "description": "A hearty chicken chorba: bone-in chicken, potatoes, carrots and tiny pasta in a golden, peppery broth with a squeeze of lemon. Algerian home comfort food, enough for a full dinner with bread.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 55,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "chicken",
+      "pasta",
+      "vegetables",
+      "comfort"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "chicken drumsticks",
+        "note": "or 800 g thighs"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "carrots",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green bell pepper",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.6,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80,
+        "unit": "g",
+        "name": "orzo",
+        "note": "or other tiny pasta"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a pot and cook the chicken and onion for 8 minutes. Add the tomato paste, paprika, pepper and salt and stir 2 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Add the water, bring to a boil, skim, cover and simmer for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the potatoes, carrots and pepper and simmer 15 minutes.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Add the pasta and cook for 8 minutes until tender, then stir in the herbs.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Serve very hot with lemon wedges and bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Add a handful of chickpeas for extra body.",
+      "Substitute frik (green wheat) for the pasta for a chorba frik shortcut."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chorba Bel Djaj (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Chorba",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and main components checked against the English Wikipedia article 'Chorba' (descriptions only); the article describes chorba as a broad class of North African soups and stews, served with bread. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Chorba.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chorba.jpg",
+      "author": "Atheox",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a white plate of golden soup with a chicken leg, potato cubes, carrot and tiny pasta."
+    }
+  }
+]

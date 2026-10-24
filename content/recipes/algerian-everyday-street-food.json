@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "algerian-sandwich-cachir",
+    "name": "Sandwich Cachir (Halal Beef Sausage Sandwich)",
+    "description": "A baguette filled with sliced halal beef cachir, salad, harissa and mayonnaise, the classic school-gate sandwich. No pork.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 5,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "street-food",
+      "cachir",
+      "quick"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": "split"
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "cachir",
+        "note": "halal beef sausage, sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "lettuce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the baguette. Fry the cachir slices in the oil for 2 minutes per side.",
+        "timerMinutes": 4
+      },
+      {
+        "text": "Spread mayonnaise and harissa, layer lettuce, tomato and cachir. Cut in two.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Buy cachir that is clearly labelled halal beef or turkey."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Cachir (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Sandwich au cachir"
+      },
+      "ar": {
+        "name": "ساندويتش كاشير"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-thon",
+    "name": "Sandwich Thon (Tuna Sandwich)",
+    "description": "Baguette with tuna, mayonnaise, egg, olives and harissa.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "tuna",
+      "street-food",
+      "quick"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "can",
+        "name": "tuna",
+        "note": "drained"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg",
+        "note": "hard boiled, sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 6.0,
+        "unit": null,
+        "name": "olives",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mash the tuna with mayonnaise and harissa.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fill the split baguette with tuna, egg, tomato and olives.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Thon (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tuna_sandwich.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tuna_sandwich.jpg",
+      "author": "Le living and co",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a baguette sandwich filled with tuna on a board with parsley."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich au thon"
+      },
+      "ar": {
+        "name": "ساندويتش تونة"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-omelette",
+    "name": "Sandwich Omelette (Omelette Sandwich)",
+    "description": "A fluffy onion omelette folded in a baguette with tomato, mayonnaise and harissa.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 8,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "eggs",
+      "street-food",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the onion in oil 3 minutes, add salted beaten eggs and cook the omelette 4 minutes.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Fill the baguette with omelette, tomato and mayonnaise.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Omelette (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Entrepanet_de_truita_de_cre%C3%AFlla.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Entrepanet_de_truita_de_cre%C3%AFlla.jpg",
+      "author": "Francesc Fort",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bread roll filled with potato omelette."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich à l'omelette"
+      },
+      "ar": {
+        "name": "ساندويتش أوملات"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-escalope",
+    "name": "Sandwich Escalope (Escalope Sandwich)",
+    "description": "A baguette with a crisp breaded chicken escalope, fries, salad and sauce.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 5,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "chicken",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "chicken breast",
+        "note": "breaded escalope, see Escalope Panée"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "fries",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": null,
+        "name": "lettuce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the baguette and spread with mayonnaise and harissa.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Layer escalope slices, fries, lettuce and tomato and serve hot.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Escalope (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sandwich_escalope_1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandwich_escalope_1.jpg",
+      "author": "Touzrimounir",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a bun sandwich with a breaded escalope and fries."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich à l'escalope"
+      },
+      "ar": {
+        "name": "ساندويتش إسكالوب"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-chawarma",
+    "name": "Sandwich Chawarma (Chicken Shawarma Sandwich)",
+    "description": "Marinated chicken strips with garlic sauce, pickles and salad in a warm wrap.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 15,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "chicken",
+      "shawarma",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600.0,
+        "unit": "g",
+        "name": "chicken breast",
+        "note": "sliced into strips"
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "flatbreads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "yoghurt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "cucumber",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "pickles",
+        "note": "sliced"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Marinate the chicken with half the yoghurt, 2 crushed garlic cloves, spices, salt and oil for at least 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Mix the rest of the yoghurt and garlic into a sauce.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Sear the chicken in a hot pan for 8 minutes until golden.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Fill warm flatbreads with chicken, sauce, tomato, cucumber and pickles and roll tightly.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Chawarma (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sandwich_shawarma.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandwich_shawarma.jpg",
+      "author": "Imene ha",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a shawarma sandwich in a baguette on paper."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich chawarma"
+      },
+      "ar": {
+        "name": "ساندويتش شاورما"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-kebab",
+    "name": "Sandwich Kebab (Kefta Kebab Sandwich)",
+    "description": "Grilled spiced beef skewers tucked into bread with onion, tomato and harissa.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 12,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "kebab",
+      "beef",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "flatbreads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "red onion",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix beef, grated onion, parsley, spices and salt; knead 2 minutes and shape onto skewers.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Grill 3 minutes per side over high heat.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Slide the meat off, tuck into warm bread with tomato, red onion and harissa.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Kebab (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kebab_baguette_from_the_microwave_oven.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kebab_baguette_from_the_microwave_oven.jpg",
+      "author": "JIP",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a baguette sandwich filled with kebab meat."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich kebab"
+      },
+      "ar": {
+        "name": "ساندويتش كباب"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-merguez",
+    "name": "Sandwich Merguez (Merguez Sandwich)",
+    "description": "Grilled lamb or beef merguez in a baguette with fries and harissa.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "merguez",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "merguez",
+        "note": "halal lamb or beef"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "fries",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Grill the merguez for 8 minutes, turning.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Split the baguette, add harissa and mayonnaise, fill with merguez, fries and tomato.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Merguez (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pain_complet%2C_merguez%2C_concombres%2C_carottes%2C_tomates_fra%C3%AEches%2C_huile_d%27olive.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pain_complet,_merguez,_concombres,_carottes,_tomates_fra%C3%AEches,_huile_d%27olive.jpg",
+      "author": "Dereckson",
+      "license": "CC BY 4.0",
+      "verified": "Seen: a wholemeal sandwich with grilled merguez, cucumber and carrot."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich aux merguez"
+      },
+      "ar": {
+        "name": "ساندويتش مرڨاز"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-frites",
+    "name": "Sandwich Frites (Fries Sandwich)",
+    "description": "The ultimate student snack: hot fries in a baguette with harissa, ketchup and mayo.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "fries",
+      "vegetarian",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "fries",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "ketchup",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Prepare the fries (see our Batata Mqliya).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fill the warm baguette with fries, tomato and sauces.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Frites (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sandwich_frites-omelette.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Sandwich_frites-omelette.jpg",
+      "author": "3esban",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a baguette sandwich filled with fries and omelette."
+    },
+    "translations": {
+      "fr": {
+        "name": "Sandwich aux frites"
+      },
+      "ar": {
+        "name": "ساندويتش فريت"
+      }
+    }
+  },
+  {
+    "id": "algerian-sandwich-maakouda",
+    "name": "Sandwich Maakouda (Potato Fritter Sandwich)",
+    "description": "Hot spiced potato fritters crushed into a baguette with harissa and salad.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 0,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "sandwich",
+      "potato",
+      "vegetarian",
+      "street-food",
+      "vegan"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "baguette",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "as maakouda patties, see Maakouda"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "tomato",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "harissa",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": null,
+        "name": "lettuce",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Warm the baguette.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Crush the maakouda slightly, add harissa, tomato and lettuce and serve.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Sandwich Maakouda (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Sandwich à la maakouda"
+      },
+      "ar": {
+        "name": "ساندويتش معقودة"
+      }
+    }
+  },
+  {
+    "id": "algerian-pizza-carree",
+    "name": "Pizza Carrée (Algerian Square Pizza)",
+    "description": "A thick square pizza on a tray with tomato-pepper sauce, olives and light cheese, a bakery-window staple.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "snack"
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pizza",
+      "bakery",
+      "street-food",
+      "tray",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 280.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 12.0,
+        "unit": null,
+        "name": "olives",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried oregano",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Knead the dough ingredients 8 minutes, rise in a covered bowl 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Cook onion, pepper, tomatoes and oregano for 10 minutes into a thick sauce.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Press dough into an oiled tray, add sauce, olives and cheese.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake at 220 C for 20 minutes; cut into squares.",
+        "timerMinutes": 20
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Pizza Carrée (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Algian_Pizza_%28caret%29.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Algian_Pizza_(caret).jpg",
+      "author": "Rachid Hamatou",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a rectangular tray-baked pizza with tomato, olives and herbs."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pizza carrée"
+      },
+      "ar": {
+        "name": "بيتزا مربعة"
+      }
+    }
+  },
+  {
+    "id": "algerian-tacos-halal",
+    "name": "Tacos à la Française (Halal Chicken Tacos)",
+    "description": "A grilled wrap packed with spiced chicken, fries and cheese sauce, a popular street-food hybrid. Made here with halal chicken only.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 2,
+    "prepTime": 15,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "tacos",
+      "wrap",
+      "chicken",
+      "fries",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "large flour tortillas",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "chicken breast",
+        "note": "strips"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "fries",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 80.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "ml",
+        "name": "cream",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "garlic powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the chicken in oil with paprika, garlic powder and salt for 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Melt the cheese into the cream over low heat for 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Fill each tortilla with chicken, fries and sauce, fold in the sides and roll.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Toast seam side down on a hot pan for 2 minutes per side.",
+        "timerMinutes": 4
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Tacos à la Française (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 2 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tacos_fran%C3%A7ais.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Tacos_fran%C3%A7ais.jpg",
+      "author": "Colovia",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: French-style tacos: a grilled wrap filled with chicken, next to fries."
+    },
+    "translations": {
+      "fr": {
+        "name": "Tacos"
+      },
+      "ar": {
+        "name": "تاكوس"
+      }
+    }
+  }
+]

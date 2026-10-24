@@ -1,92 +1,119 @@
-# Backend (FastAPI + MySQL)
+# Backend (FastAPI + PostgreSQL)
 
-API for the Recipe Manager frontend: a public recipe catalog any logged-in account can add
-to (photos hosted on Cloudinary), username/password account auth (JWT), and a generic
-key/value store per account that mirrors what used to live in `localStorage` (favorites,
-ratings, collections, meal plan, shopping list, per-recipe notes). Browsing the recipe
-catalog needs no account; only the account-linked features do.
+API for Mise, the shared kitchen planner: username/password accounts (JWT), households that
+share a meal plan and a live grocery list, a recipe catalog (curated recipes imported from
+`content/recipes/*.json` plus user recipes), Cloudinary photo hosting, and URL import.
 
 ## Setup
 
 ```bash
 cd backend
 python -m venv .venv
-.venv\Scripts\activate        # Windows; use `source .venv/bin/activate` on macOS/Linux
-pip install -r requirements.txt
-copy .env.example .env         # then edit DATABASE_URL, set a real SECRET_KEY, and add
-                                # your Cloudinary credentials (cloudinary.com dashboard:
-                                # Cloud Name, API Key, and API Secret - the secret needs
-                                # "reveal", it is not the same value as the key)
+.venv\Scripts\activate          # Windows; `source .venv/bin/activate` on macOS/Linux
+pip install -r requirements-dev.txt   # app deps + pytest/httpx
+copy .env.example .env           # then set DATABASE_URL, SECRET_KEY and the Cloudinary keys
 ```
 
-Start MySQL (or point `DATABASE_URL` in `.env` at an existing instance):
+### Database (PostgreSQL 18)
+
+The app expects PostgreSQL; locally use a throwaway cluster owned by you on **port 5434** (`initdb -D C:/Users/you/pgdata-recipes --auth=scram-sha-256 --pwfile=...`, then `pg_ctl start -D ... -o "-p 5434"`). Do not reuse another app's server on 5433. Create the
+database and an app role in one command (needs a superuser login, e.g. `postgres`):
 
 ```bash
-docker compose up -d
+python scripts/create_db.py --admin-url postgresql://postgres:ADMIN_PASS@localhost:5434/postgres \
+    --password APP_PASS --with-test-db
 ```
 
-Create the tables via Alembic (schema is migration-managed, not auto-created on startup):
+It creates role `recipe_user`, database `recipe_manager` (and `recipe_manager_test` with
+`--with-test-db`) and prints the `DATABASE_URL` for `.env`:
+
+```
+DATABASE_URL=postgresql+psycopg://recipe_user:APP_PASS@localhost:5434/recipe_manager
+```
+
+Equivalent psql commands, if you prefer:
+
+```sql
+CREATE ROLE recipe_user LOGIN PASSWORD 'APP_PASS';
+CREATE DATABASE recipe_manager OWNER recipe_user ENCODING 'UTF8' TEMPLATE template0;
+```
+
+No local PostgreSQL? `docker compose up -d` starts one on port 5434 (stop the dev cluster first, same port) (user/password
+`recipe_user`/`recipe_pass`) plus Redis; point `DATABASE_URL` at `localhost:5434`.
+
+Create the schema (Alembic; never `create_all`):
 
 ```bash
 alembic upgrade head
 ```
 
-If you already have a database created by an older version of this app (before migrations
-existed), the tables already exist - stamp the baseline instead of creating it, then apply
-everything after it:
+### Recipes and demo data
 
 ```bash
-alembic stamp 84e71ad0e7c3   # baseline revision - matches the schema create_all used to make
-alembic upgrade head
+python -m app.content_import            # validate content/recipes/*.json, upload photos, sync
+python -m app.content_import --dry-run  # validate only
+python -m app.demo                      # alex.demo + amina.demo (password demo-pass-1), one household
 ```
 
-Then load the seed recipes:
+The importer uploads each photo once to Cloudinary as AVIF (`recipes/<id>`, width capped at
+2000 px) and records it in `content/images.lock.json`, so re-runs only upload new or changed
+photos. It only ever inserts/updates/deletes **system** recipes (`owner_id IS NULL`);
+user-created recipes are never touched. Photo order of attempts: Cloudinary fetches the
+original itself; if Wikimedia rate-limits that (429), the importer asks the Commons API for
+the official 1920 px thumbnail (thumb.wikimedia.org, not rate-limited) and uploads it; the
+last resort is downloading the original locally (paced, with retries). If everything fails
+it stops with a clear error and nothing is written to the database - run it again later.
+
+### Run
 
 ```bash
-python -m app.seed
+uvicorn app.main:app --reload --port 8000
 ```
 
-Whenever `backend/app/models.py` changes, generate a new migration and apply it:
+The frontend (`npm start`, http://localhost:4200) expects the API at
+`environment.apiBaseUrl` (`src/environments/environment.ts`).
+
+### Tests
+
+```bash
+python -m pytest                       # in-memory SQLite, no server needed
+# against PostgreSQL (the database name must contain "test"; every test drops all tables):
+set TEST_DATABASE_URL=postgresql+psycopg://recipe_user:APP_PASS@localhost:5434/recipe_manager_test
+python -m pytest
+```
+
+## Changing the schema
+
+Edit `app/models.py`, then:
 
 ```bash
 alembic revision --autogenerate -m "describe the change"
 alembic upgrade head
 ```
 
-Run the API:
+The history starts at `0001_v2_baseline` (the MySQL history was squashed when the project
+moved to PostgreSQL). Use JSONB/TIMESTAMPTZ via the `JSONType`/`TS` aliases in `models.py`.
 
-```bash
-uvicorn app.main:app --reload --port 8000
-```
+## Endpoints (all under /api)
 
-The frontend (`npm start`, http://localhost:4200) expects the API at `http://localhost:8000/api`.
+- Auth: `POST /auth/register` (creates a personal household), `POST /auth/login`, `GET /auth/me`.
+- Recipes: `GET /recipes` (discovery: public + your own, no twists), `GET /recipes/mine`,
+  `GET /recipes/{id}` (no visibility check), `POST /recipes` (only name + ingredients
+  required), `PATCH /recipes/{id}`, `DELETE /recipes/{id}` (owner), `POST /recipes/{id}/twist`
+  ("copy to my recipes"), `POST /recipes/import-url` (schema.org JSON-LD draft, SSRF-guarded),
+  `GET /recipes/{id}/twists`, `PATCH /recipes/{id}/official` (admin).
+- Images: `POST /images` (Cloudinary, stored as AVIF), `GET /images/proxy` (dev helper).
+- Household: `GET/PATCH /household`, `POST /household/invite-code`, `GET /household/invite/{code}`,
+  `POST /household/join`, `POST /household/leave`, `DELETE /household/members/{user_id}`,
+  `GET /household/activity?since=<cursor>`.
+- Plan: `GET /plan?start&end`, `GET /plan/cooked?before`, `POST /plan`, `PATCH /plan/{id}`,
+  `DELETE /plan/{id}`, `POST /plan/copy-week`, `POST /plan/fill-suggestions`.
+- Favorites: `GET /favorites` (whole household), `PUT/DELETE /favorites/{recipe_id}`.
+- Groceries: `GET /groceries?today`, `PUT /groceries/range`, `POST /groceries/mark`,
+  `POST /groceries/unmark`, `POST /groceries/staples`, `POST/PATCH/DELETE /groceries/extras`,
+  `POST /groceries/new-shop`, `GET /groceries/share-text`, `POST /groceries/seen`,
+  `GET /groceries/history`.
+- Storage: `GET/PUT/DELETE /storage/{key}` (small per-user preferences: notes, recent views, collections).
 
-## Endpoints
-
-- `POST /api/auth/register` (`username`, `password`, `name`), `POST /api/auth/login`
-  (`username`, `password`) — both return a JWT plus the user; `GET /api/auth/me` (bearer
-  token required) — current account. No email is collected anywhere.
-- `GET /api/recipes` — discovery/browse catalog: root recipes only (never twists), public
-  ones plus your own if you're logged in. `GET /api/recipes/{id}` — always resolves by id
-  regardless of visibility ("unlisted", not deleted, once private) - used for direct links
-  and for anything that already references the id (favorites, meal plan, a twist's parent).
-  `POST /api/recipes` (bearer token required) — create a recipe, public by default; the id,
-  rating, review count, author, date-added, owner, and official flag are always assigned
-  server-side. `PATCH /api/recipes/{id}` (owner only) — edit any field and/or toggle
-  `isPublic`. `POST /api/recipes/{id}/twist` (bearer token required) — fork a copy into your
-  own book, private by default, linked back via `parentRecipeId`; twists never appear in
-  `GET /api/recipes`. `GET /api/recipes/{id}/twists` — public/your-own twists of a recipe.
-  `GET /api/recipes/mine` (bearer token required) — all of your own recipes, root or twist,
-  any visibility. `PATCH /api/recipes/{id}/official` (admin only - see below) — curate the
-  "official" badge.
-- Recipes are seeded from `src/app/data/mock-recipes.ts` (re-run `python -m app.seed` after
-  regenerating `app/seed_data.json` to add more); seeded recipes have no owner and are
-  `isOfficial: true` by origin. There's no admin UI yet - promote a user to admin by hand:
-  `UPDATE users SET is_admin = 1 WHERE username = '...'`.
-- `POST /api/images` (bearer token required, multipart `file`) — uploads an image to
-  Cloudinary, always converting it to AVIF, and returns `{"url": ...}`. Max 8MB;
-  jpeg/png/webp/heic only.
-- `GET /api/storage/{key}`, `PUT /api/storage/{key}`, `DELETE /api/storage/{key}` — generic
-  JSON store, bearer token required, one row per (account, key), used by `StorageService` on
-  the frontend.
-- `GET /api/health` — liveness check.
+Every household/plan/grocery endpoint resolves the household from the token; no endpoint
+takes a household id from the client.

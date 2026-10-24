@@ -1,0 +1,2555 @@
+[
+  {
+    "id": "turkish-mercimek-corbasi",
+    "name": "Mercimek Çorbası (Turkish Red Lentil Soup)",
+    "description": "A smooth, golden red lentil soup finished with paprika butter and lemon, the everyday soup of Turkish homes and lokantas. Made from a handful of pantry staples.",
+    "cuisine": "Turkish",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "lentils",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "red lentils",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "carrot",
+        "note": "grated or finely diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "potato",
+        "note": "small, peeled and diced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "finely chopped",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.1,
+        "unit": "l",
+        "name": "water",
+        "note": "plus more to thin"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": "for the topping",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "Turkish red pepper flakes",
+        "note": "pul biber or sweet paprika",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Melt 2 tbsp butter in a large pot over medium heat. Cook the onion until soft and translucent, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Stir in the carrot, potato, garlic if using, and tomato paste and cook for 2 minutes, stirring, until the paste darkens slightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the rinsed lentils, cumin if using, 1 tsp salt and the water. Bring to the boil, skim off any foam, then simmer partly covered until the lentils and vegetables are completely soft, about 25 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Blend the soup with a stick blender until smooth. Thin with hot water if it is thicker than single cream, and adjust the salt. Simmer 3 more minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Melt the remaining butter with the pepper flakes until sizzling and spoon over each bowl. Serve with lemon wedges and bread or croutons.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Squeeze lemon in at the table: it lifts the earthy lentils.",
+      "Thickens as it stands; loosen with hot water when reheating. Keeps 4 days in the fridge or freezes well."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Red Lentil Soup",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Red_Lentil_Soup",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Red Lentil Soup' (full page read), and two Turkish recipes on yemek.com ('Mercimek Çorbası (Lokanta Usulü)' and 'Kırmızı Mercimek Çorbası', both full pages read), plus a search-result summary of other yemek.com variants. Used the Wikibooks base (red lentils, onion, carrot, water), converted 1/2 lb and 6 cups to 200 g and about 1.1 l. Changed from the Wikibooks page, as the Turkish pages agree: potato added, soup puréed smooth (the page leaves it chunky), butter and red-pepper finishing sauce poured over each bowl (the page has none), butter in the pot instead of olive oil, lemon at the table. Tomato paste, garlic and cumin are in some of the Turkish variants and kept as small additions. The Turkish pages use about 200 g lentils per litre of water and 30 to 40 minutes of simmering; the water was reduced from 1.3 l to 1.1 l and the time lengthened accordingly."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mercimek_%C3%A7orbas%C4%B1.jpg",
+      "author": "E4024",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white bowl of smooth yellow-green lentil soup with a lemon wedge on a red checked cloth; no other dish in frame.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mercimek_çorbası.jpg"
+    }
+  },
+  {
+    "id": "lebanese-mujaddara",
+    "name": "Mujaddara (Lentils and Rice with Fried Onions)",
+    "description": "Brown lentils and rice cooked together with cumin and crowned with deeply browned onions. A Levantine staple that costs next to nothing and tastes better the next day.",
+    "cuisine": "Lebanese",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 5,
+    "prepTime": 15,
+    "cookTime": 60,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "vegan",
+      "lentils",
+      "rice",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "brown or green lentils",
+        "note": "picked over and rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "large onions",
+        "note": "halved and thinly sliced (about 600 g)"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "divided"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "plus more to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1.1,
+        "unit": "l",
+        "name": "water",
+        "note": "cold"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "plain yoghurt",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "diced, for a quick salad",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the rinsed lentils in a pot with the cold water and bring to the boil. Reduce to a steady simmer, partly covered, for about 20 minutes, until nearly tender.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Meanwhile, heat 4 tbsp oil in a wide frying pan over medium heat. Fry the onions with a pinch of salt, stirring often and lowering the heat as they colour, for 30 to 40 minutes until deep brown and partly crisp. Do not rush this step: the browned onion is the flavour of the dish.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Stir the rinsed rice, cumin, 1 tsp salt, 2 tbsp of the onion-frying oil and a quarter of the onions into the lentils. Cover and cook on the lowest heat for 20 minutes, until the water is absorbed.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Take off the heat and leave covered for 10 minutes, then fluff with a fork.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Pile onto a platter and top with the remaining fried onions and oil. Serve warm or at room temperature, with yoghurt and chopped cucumber if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cook the onions in a wide pan so they brown rather than steam.",
+      "Leftovers are excellent cold or reheated; the flavour deepens overnight."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Lentils and Rice (Mjeddrah)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Lentils_and_Rice_(Mjeddrah)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Lentils and Rice (Mjeddrah)' (full page read; the companion Wikibooks page 'Rice and Lentils (Mejadra)' also read), the Zaatar and Zaytoun 'Lebanese Mujadara' recipe (full page read), and search-result summaries of four other mujadara recipes (The Mediterranean Dish and others; their pages were blocked, so only summaries were available). Changed from the Wikibooks page, as the others agree: white rice at 1:1 with the lentils by volume (the page has about 1:1 volume of brown rice but cooks everything together for up to an hour), about 5 cups of water per cup each of lentils and rice, lentils started first and the rice added once they are nearly tender, and a large pile of slowly browned onions (3 large onions, about 120 ml oil) which the page only touches on. Converted cups to grams and ml; cumin amount (1.5 tsp) sits in the middle of the range found (1/4 to 2 tsp)."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mujaddara.jpg",
+      "author": "Bazel",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: oval platter of lentil-and-rice pilaf covered with caramelised sliced onions; nothing else on the plate.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mujaddara.jpg"
+    }
+  },
+  {
+    "id": "italian-pasta-e-fagioli",
+    "name": "Pasta e Fagioli",
+    "description": "White beans simmered with a soffritto and tomato, then thickened with small pasta cooked right in the pot. A hearty meatless Italian classic that is even better the next day.",
+    "cuisine": "Italian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 90,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "beans",
+      "pasta",
+      "make-ahead",
+      "freezer-friendly"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "dried cannellini beans",
+        "note": "soaked overnight in plenty of water"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": "plus more to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "carrot",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "celery stick",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "sprig",
+        "name": "rosemary",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "g",
+        "name": "ditalini or other small tube pasta",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "black pepper",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "chilli flakes",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "pecorino or Parmesan",
+        "note": "grated, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the soaked beans, put them in a pot with the bay leaf and 1.5 l fresh water and bring to the boil. Skim, then simmer gently, partly covered, until completely tender, 60 to 90 minutes. Salt in the last 15 minutes.",
+        "timerMinutes": 70
+      },
+      {
+        "text": "In a large pot, warm the oil over medium-low heat and cook the onion, carrot and celery until very soft, about 10 minutes. Add the garlic, rosemary and chilli, cook 1 minute, then stir in the tomato paste for 1 minute.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Lift about two thirds of the beans with a slotted spoon into the soffritto pot. Purée the remaining beans with their cooking liquid and stir that in too, adding enough extra bean liquid or water to give a loose soup (about 1.2 l in total).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring to a simmer, add the pasta and cook, stirring often, until just tender, about 10 minutes. Remove the rosemary. Season with salt and plenty of pepper.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Rest 5 minutes: it should be thick enough that a spoon stands for a moment. Serve with a drizzle of olive oil and cheese if you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "It thickens a lot as it stands; add hot water when reheating.",
+      "Two 400 g cans of cannellini (drained) can replace the dried beans: simmer them in 1 l water for 15 minutes."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Pasta and Bean Soup (Pasta e Fagioli)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Pasta_and_Bean_Soup_(Pasta_e_Fagioli)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Pasta and Bean Soup (Pasta e Fagioli)' (full page read), the Love & Lemons pasta e fagioli recipe (full page read), and search-result summaries of the James Beard Foundation/Sara Jenkins version, a Kaiser Permanente recipe and MasterClass (summaries only). Changed from the Wikibooks page, as the others agree: a soffritto of onion, carrot and celery with garlic, tomato paste and rosemary (the page has none of these and drains the pasta separately); part of the beans puréed and the pasta cooked in the soup for about 10 minutes after a 20 minute simmer. Converted 1 lb beans and 1/2 lb pasta to 250 g and 120 g (about 3 cups cooked beans to 1 cup pasta, matching the Love & Lemons ratio); oil reduced from 1 cup to 3 tbsp. Dried-bean simmer time widened to 60-90 minutes after the Kaiser Permanente summary."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Pasta_e_fagioli_cannellini.jpg",
+      "author": "Spinoziano",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate of ribbed tube pasta with white beans in a thick golden sauce; no meat visible.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_cannellini.jpg"
+    }
+  },
+  {
+    "id": "indian-rajma",
+    "name": "Rajma (Kidney Bean Curry)",
+    "description": "Red kidney beans simmered in an onion-tomato masala with ginger and garlic, the Punjabi Sunday favourite served over rice. Cheap, filling and better after a night in the fridge.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 100,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beans",
+      "curry",
+      "vegan",
+      "make-ahead",
+      "freezer-friendly"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "dried red kidney beans",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "baking soda",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "piece",
+        "name": "fresh ginger",
+        "note": "2 cm each, grated"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "tomatoes",
+        "note": "chopped, or 1 can"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "red chilli powder",
+        "note": "Kashmiri for colour, or to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "garam masala",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "green chillies",
+        "note": "slit",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "dried fenugreek leaves",
+        "note": "kasuri methi, crushed, to finish",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh coriander",
+        "note": "chopped, to finish",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Drain the soaked beans, cover with fresh water by 5 cm, add the baking soda if using, and bring to a hard rolling boil. Boil hard for 30 minutes (food-safety guidance for dried kidney beans), then reduce to a simmer, partly covered, until completely soft, about 30 to 40 minutes more. Add 1 tsp salt near the end. Keep the cooking water.",
+        "timerMinutes": 65
+      },
+      {
+        "text": "Heat the oil in a heavy pot over medium heat. Add the cumin seeds and let them sizzle for 10 seconds, then add the onions and cook until golden brown, about 12 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Add the garlic and ginger and cook 1 minute. Stir in the tomatoes, coriander, turmeric and chilli powder and cook, mashing the tomatoes, until the oil separates at the edges, about 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the beans with about 400 ml of their cooking water and the green chillies. Simmer 10 to 15 minutes, crushing a few beans against the side of the pot to thicken the gravy. Adjust salt.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Stir in the garam masala, cook 1 minute, and finish with chopped coriander. Serve with steamed rice or roti.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "A pressure cooker cuts the bean cooking to about 25 minutes after soaking (4 to 5 whistles).",
+      "Never eat undercooked kidney beans, and do not cook dried ones only in a slow cooker: boil them hard on the hob first."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Rajma (Sindhi Kidney Bean Curry)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Rajma_(Sindhi_Kidney_Bean_Curry)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Rajma (Sindhi Kidney Bean Curry)' (full page read), Indian Healthy Recipes' rajma masala (full page read), and search-result summaries of about eight other Punjabi rajma recipes (Whisk Affair, Veg Recipes of India, Sinfully Spicy and others; pages were blocked, so summaries only) plus a search-result summary of US food-safety guidance (Ohio State and K-State extension, FDA steps). Changed from the Wikibooks page: ginger, garlic, cumin, coriander and turmeric added and the 2-3 tbsp of garam masala cut to a finishing teaspoon, as all the Punjabi recipes build the gravy that way; beans simmered in the gravy 10-15 minutes as in the full-page reference; optional kasuri methi added. Kidney-bean boil: my first draft used a 10-minute boil, but the safety guidance found recommends boiling soaked dry kidney beans for at least 30 minutes (10 minutes is the lab figure for destroying the toxin), so the recipe now says 30. Quantities scaled to 250 g beans for 4 servings (the full-page reference uses 200 g); times are estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Rajma_Red_Kidney_Bean_dish_India.jpg",
+      "author": "Scott Veg",
+      "license": "CC BY 2.0",
+      "verified": "Seen: white bowl of dark red kidney beans in thick tomato-onion gravy with a coriander sprig; nothing else on the plate.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rajma_Red_Kidney_Bean_dish_India.jpg"
+    }
+  },
+  {
+    "id": "french-teurgoule",
+    "name": "Teurgoule (Norman Slow-Baked Rice Pudding)",
+    "description": "Rice, milk, sugar and cinnamon baked very slowly until a dark skin forms over a creamy pudding. A Normandy tradition that needs almost no attention.",
+    "cuisine": "French",
+    "region": "Europe",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 300,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice pudding",
+      "slow-cooked",
+      "make-ahead",
+      "normandy"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "l",
+        "name": "whole milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 175,
+        "unit": "g",
+        "name": "round-grain rice",
+        "note": "pudding rice, not rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "caster sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": "a generous Norman measure"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 150 °C (130 °C fan).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the rice, sugar, salt and cinnamon in a large ovenproof dish (about 3 l) and stir in the cold milk.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake, undisturbed and without opening the door, for about 5 hours, until the surface is deep brown and the rice has absorbed about three quarters of the milk and become very creamy.",
+        "timerMinutes": 300
+      },
+      {
+        "text": "Let cool to room temperature before serving: it sets slightly as it cools. Serve in the dish, with some of the skin on every portion.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use a deep, wide dish so the milk does not boil over.",
+      "Serve at room temperature; it keeps 3 days in the fridge."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Teurgoule (Norman Cinnamon Rice Pudding)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Teurgoule_(Norman_Cinnamon_Rice_Pudding)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Teurgoule (Norman Cinnamon Rice Pudding)' (full page read), Pardon Your French's slow-baked rice pudding (full page read: 1 l milk, 65 g rice, 100 g sugar, 1 tsp cinnamon, 150 °C for 3.5 hours), and search-result summaries of La Cuisine de Bernard (2 l milk, 170 g rice, 190 g sugar, 2 tsp cinnamon, 150 °C for 4.5-5 hours) and an eTwinning worksheet (2 l milk, 200 g rice, 250 g sugar, 140 °C for 5 hours); those two pages themselves were blocked, so summaries only. The Wikibooks quantities (2 l milk, 175 g rice, 200 g sugar, 150 °C, 5 hours) sit within the range of the others and were kept. Changed: cinnamon raised from the page's 1/4 tsp to 2 tsp for 2 l, following the 1 tsp per litre in the full-page reference and 2 tsp in the summary of Bernard's recipe. Fan-oven setting and dish size added by the adapter."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Teurgoule_2.jpg",
+      "author": "Raphael Labbé",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: blue oval dish of baked rice pudding with a dark brown skin partly broken by a ladle; photographed indoors, casual.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Teurgoule_2.jpg"
+    }
+  },
+  {
+    "id": "polish-racuszki-z-jablkami",
+    "name": "Racuszki z Jabłkami (Polish Apple Pancakes)",
+    "description": "Thick, fluffy little pancakes with apple pieces, fried until golden and dusted with sugar. A classic Polish breakfast or Sunday treat made with kefir and everyday staples.",
+    "cuisine": "Polish",
+    "region": "Europe",
+    "mealTypes": [
+      "breakfast",
+      "dessert",
+      "snack"
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancakes",
+      "apples",
+      "quick",
+      "breakfast"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "kefir or cultured buttermilk",
+        "note": "at room temperature"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.75,
+        "unit": "tsp",
+        "name": "baking soda",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "cooking apples",
+        "note": "peeled, cored and diced small or coarsely grated (about 400 g)"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "vegetable oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "icing sugar",
+        "note": "to dust",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Whisk the flour, baking soda, sugar and salt together in a bowl.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Beat the eggs into the kefir, pour into the dry ingredients and stir just until you have a thick, lumpy batter. Fold in the apple (and cinnamon).",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat about 1 cm of oil in a wide frying pan over medium heat. Drop in heaped tablespoons of batter, leaving space between them, and flatten very slightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fry until the underside is deep golden, about 3 minutes, turn and fry another 2 to 3 minutes until cooked through and puffed. Keep the pancakes fairly thin so the middle cooks. Drain on paper towels. Fry in batches.",
+        "timerMinutes": 6
+      },
+      {
+        "text": "Dust with icing sugar and serve warm.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Do not replace the kefir with plain milk: the acidity activates the baking soda and makes them fluffy.",
+      "Best eaten straight from the pan; they do not keep well."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Racuszki (Polish Pancakes)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Racuszki_(Polish_Pancakes)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Racuszki (Polish Pancakes)' (full page read), two full-page racuchy recipes (Kwestia Smaku, 150 g flour : 200 ml milk : 1 egg : 2 apples : 1/2 tsp baking soda; and Polonist, about 375 g flour : 500 ml milk : 2 eggs : 850 g apples), and a search-result summary of a Cookidoo kefir version (550 g flour : 650 g kefir : 4 eggs : 900 g apples : 1.5 tsp soda for 7 servings). The Wikibooks proportions (1 l sour milk to 1 cup flour) give a thin batter, so they were replaced with the ratio common to the others (about 250 g flour : 300 ml kefir : 2 eggs); apples raised to about 400 g and made a core ingredient, baking soda lowered to 3/4 tsp, and the pancakes made thinner, as the references advise. The page's raisins were left out. Frying amounts and servings are the adapter's estimates."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Racuchy_-_2023.09.09.jpg",
+      "author": "Aw58",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: five golden apple pancakes dusted with icing sugar on a white plate over a floral cloth; apple visible in the pancakes.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Racuchy_-_2023.09.09.jpg"
+    }
+  },
+  {
+    "id": "mexican-frijoles-refritos",
+    "name": "Frijoles Refritos (Refried Beans)",
+    "description": "Cooked beans mashed and fried with onion until thick and savoury. The humble Mexican side that also makes a breakfast with eggs and tortillas.",
+    "cuisine": "Mexican",
+    "region": "Americas",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "side"
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beans",
+      "quick",
+      "side",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "cooked black or pinto beans",
+        "note": "about 200 g dried; canned is fine, drained"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "ml",
+        "name": "bean cooking liquid or water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": "or lard"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "small, finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "queso fresco",
+        "note": "crumbled, to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "corn tortillas",
+        "note": "warmed, to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a wide frying pan over medium heat. Cook the onion (and garlic) until soft and golden, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Add the beans with about half the liquid. Mash directly in the pan with a potato masher or the back of a heavy spoon, stirring, until mostly smooth with a few whole beans left.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Keep cooking and stirring, adding more liquid a splash at a time, until the beans thicken to a spreadable paste that pulls away from the pan, 8 to 10 minutes. Season with salt.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Serve hot, topped with crumbled cheese, with warm tortillas or alongside eggs.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "To start from dried beans: simmer 200 g soaked beans with half an onion for 1 to 1.5 hours until very soft, keeping the cooking liquid.",
+      "Use lard for the richer traditional flavour (the dish then contains pork fat).",
+      "Keeps 4 days in the fridge; loosen with a little water when reheating."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Refried Beans",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Refried_Beans",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Refried Beans' (full page read), La Cocina de Leslie's refried beans (full page read: 3 cups cooked pinto beans, 2-3 tbsp fat, about 1 cup bean broth, mashed in the pan and cooked about 5 minutes), and a search-result summary of Directo al Paladar, MedlinePlus and Cookpad recipes (summaries only: onion fried in lard until golden, beans and broth added and mashed, about 3-6 tbsp lard per 2-3 cups beans). Changed from the Wikibooks page, which gives no quantities and no onion: 500 g cooked beans (about 3 cups), 3 tbsp fat, 250 ml bean broth, and onion fried first, as the Mexican sources do; lard made optional. The full-page reference has no onion and finishes with cheese and cream; those are left as optional toppings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Frijoles_refritos.jpg",
+      "author": "Karyn Christner",
+      "license": "CC BY 2.0",
+      "verified": "Seen: blue frying pan of mashed dark bean paste being stirred with a wooden spoon on a gas hob; plain, no toppings.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Frijoles_refritos.jpg"
+    }
+  },
+  {
+    "id": "puerto-rican-arroz-con-gandules",
+    "name": "Arroz con Gandules (Puerto Rican Rice with Pigeon Peas)",
+    "description": "Golden rice cooked with pigeon peas and a green sofrito of peppers, garlic and cilantro. Puerto Rico's holiday and everyday one-pot, feeding a crowd for very little.",
+    "cuisine": "Puerto Rican",
+    "region": "Americas",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 35,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "one-pot",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "medium-grain rice",
+        "note": "do not rinse"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "can",
+        "name": "pigeon peas (gandules)",
+        "note": "about 425 g, drained"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": null,
+        "name": "onion",
+        "note": "for the sofrito, roughly chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cubanelle or green pepper",
+        "note": "roughly chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh coriander (cilantro)",
+        "note": "a large handful, including stems"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "seeded and chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "annatto (achiote) seeds",
+        "note": "or 1/2 tsp ground annatto or paprika"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "dried oregano",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "plus more to taste"
+      },
+      {
+        "group": null,
+        "quantity": 650,
+        "unit": "ml",
+        "name": "water or vegetable broth",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "smoked ham or salchichón",
+        "note": "diced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "chopped olives and capers",
+        "note": "alcaparrado",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Blend the onion, pepper, garlic, coriander and tomato with 3 tbsp water to a coarse green purée. This is the sofrito.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Warm the oil with the annatto seeds in a heavy pot over medium heat for 2 minutes until the oil turns orange; scoop out the seeds. Brown the ham now if using.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Add the sofrito, oregano, cumin, bay leaves and 1 tsp salt and cook, stirring, until it thickens and darkens, about 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Stir in the rice and pigeon peas (and olives and capers) until every grain is coated, then add the water. It should cover the rice by about 1 cm. Taste: the liquid should be slightly over-salted.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bring to the boil and boil uncovered, without stirring, until most of the standing water has gone but the rice is still wet. Mound the rice toward the centre, cover tightly and cook on the lowest heat for about 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Rest 5 minutes covered, fluff, and serve. A crisp layer of rice on the bottom (pegao) is a treat to scrape off.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Without the ham it is vegan; with it, it contains pork.",
+      "Use a pot with a tight lid; a clean tea towel under the lid helps keep steam in."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Arroz con Gandules (Puerto Rican Rice and Pigeon Peas)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Arroz_con_Gandules_(Puerto_Rican_Rice_and_Pigeon_Peas)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Arroz con Gandules (Puerto Rican Rice and Pigeon Peas)' (full page read), Sara Moulton's arroz con gandules (full page read: 2 cups medium-grain rice, 1 can pigeon peas, sofrito, annatto oil, olives and capers, water just to cover, boil off then mound and cover), and a search-result summary of Ambitious Kitchen (2 cups rice to 3 cups water plus the can liquid) and Hormel (summaries only; Ambitious Kitchen's page returned an error). The Wikibooks recipe is a party-sized batch (6 cups rice, 3 cups sofrito, 1.5 lb salami); it was scaled to 400 g rice for 6 servings, the sofrito simplified to onion, pepper, garlic, coriander and tomato (as the full-page reference does), and the pork made optional, since the Moulton page gives a vegetarian version. Water set at 650 ml, just covering the rice by about 1 cm; the references vary from 'just cover' to 3 cups per 2 cups rice. Boil-off-then-mound technique added from the Moulton page."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Arroz_con_gandules.jpg",
+      "author": "Jose Kevo",
+      "license": "CC BY-SA 2.0",
+      "verified": "Seen: close view of a large dark pot full of orange-yellow rice with green pigeon peas and flecks of pepper.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Arroz_con_gandules.jpg"
+    }
+  },
+  {
+    "id": "japanese-okonomiyaki",
+    "name": "Okonomiyaki (Cabbage Pancake)",
+    "description": "A griddled batter packed with shredded cabbage and spring onion, brushed with sweet-savoury sauce and mayonnaise. Osaka's cheap and cheerful home and street food, ready in 25 minutes.",
+    "cuisine": "Japanese",
+    "region": "East Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 15,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pancake",
+      "cabbage",
+      "quick",
+      "one-pan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "plain flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 120,
+        "unit": "ml",
+        "name": "water",
+        "note": "cold; or dashi"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "white cabbage",
+        "note": "finely shredded (about a quarter of a small head)"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "spring onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "slice",
+        "name": "thin streaky bacon or pork belly",
+        "note": "halved",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tenkasu (tempura crumbs)",
+        "note": "stirred into the batter",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "tomato ketchup",
+        "note": "for the quick sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "Worcestershire sauce",
+        "note": "for the quick sauce"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "soy sauce",
+        "note": "for the quick sauce"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": "for the quick sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "mayonnaise",
+        "note": "to drizzle"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "aonori or crumbled nori",
+        "note": "to sprinkle",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "bonito flakes",
+        "note": "a handful, to sprinkle",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the ketchup, Worcestershire sauce, soy sauce and sugar in a small bowl for a quick okonomiyaki sauce.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Whisk the flour and water to a smooth batter. Stir in the cabbage and spring onions (and tenkasu if using) and mix gently. Beat the eggs and fold them in last; the mixture should be mostly cabbage held together by batter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat 1 tbsp oil in a large non-stick frying pan over medium-low heat. Pile in two portions of the mixture, shaping each into a thick round about 2 cm high and pressing only lightly. Lay half the bacon on each if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook, covered if you like, until the underside is deep golden, 6 to 7 minutes. Flip with a wide spatula and cook the other side 5 to 6 minutes until the cabbage is tender and the middle is cooked through.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Slide onto plates bacon-side up, brush generously with the sauce, drizzle with mayonnaise and sprinkle with nori and bonito flakes. Serve at once.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Cut the cabbage fine: coarse pieces make a pancake that falls apart.",
+      "Without bacon and bonito it is vegetarian."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Okonomiyaki (Japanese Savory Pancake)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Okonomiyaki_(Japanese_Savory_Pancake)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Okonomiyaki (Japanese Savory Pancake)' (full page read), No Recipes' Osaka okonomiyaki (full page read: 120 g flour, 1/2 cup dashi, 2 eggs, 300 g cabbage, 30 g spring onion, for 3 servings, medium-low heat, 7-9 minutes then 6-7 minutes), and a search-result summary of Kikkoman, the Observatory wiki and others (summaries only: about 150-200 g flour to 200 ml dashi, 2 eggs and 300 g cabbage per 4 servings). The Wikibooks page's 3/4 cup cabbage to 1 cup flour gives a bready pancake, so cabbage was raised to 300 g for 100 g flour, as in the other references, and the mozzarella dropped. Water used instead of dashi (the references say it can stand in) so the dish stays vegetarian; a ketchup-Worcestershire-soy sauce replaces the bottled sauce, similar to the quick sauce in the full-page reference. Cooking times follow the full-page reference, split between two smaller pancakes cooked side by side."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Okonomiyaki_001.jpg",
+      "author": "ume-y",
+      "license": "CC BY 2.0",
+      "verified": "Seen: griddled okonomiyaki glazed with dark sauce, mayonnaise stripes, aonori and bonito flakes.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg"
+    }
+  },
+  {
+    "id": "ghanaian-waakye",
+    "name": "Waakye (Ghanaian Rice and Beans)",
+    "description": "Rice and black-eyed peas simmered together with dried sorghum leaves, which turn the pot a deep reddish-brown. Ghana's best-loved street breakfast, served with shito, stew, egg and gari.",
+    "cuisine": "Ghanaian",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 85,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice",
+      "beans",
+      "one-pot",
+      "street food"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "dried black-eyed peas",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "rinsed"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "dried sorghum leaf sheaths",
+        "note": "waakye leaves, from African groceries"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "baking soda",
+        "note": "deepens the colour and softens the beans"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 950,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled, to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "shito (Ghanaian hot pepper sauce)",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "tomato stew",
+        "note": "fried, to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "gari",
+        "note": "to serve",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fried plantain",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Soak the black-eyed peas overnight in plenty of cold water, then drain. Rinse the rice and the leaves separately.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Put the sorghum leaves in a large pot with the water. Bring to the boil, then simmer, partly covered, for 20 minutes to colour the water. Lift out and discard the leaves.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Add the beans, baking soda and salt, stirring until the soda dissolves. Cover and simmer until the beans are nearly tender and the water is deep red-brown, 30 to 40 minutes.",
+        "timerMinutes": 35
+      },
+      {
+        "text": "Stir in the rinsed rice, adding a splash of hot water if the beans are no longer submerged by about 1 cm. Cover tightly and cook on low until the rice is tender and has absorbed the liquid, 25 to 30 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Fluff with a fork and let it steam 5 minutes. Serve with shito, a spoon of tomato stew, boiled eggs, gari and fried plantain as you like.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Without the leaves the rice stays pale and loses its flavour; some cooks use a little baking soda to deepen the colour.",
+      "Shito is made with dried fish or shrimp, so check it if you need the dish vegetarian."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Waakye (Ghanian Rice and Beans)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Waakye_(Ghanian_Rice_and_Beans)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Waakye (Ghanian Rice and Beans)' (full page read), Dash of Jazz's waakye (full page read: beans soaked overnight, leaves steeped 20-30 minutes then removed, beans with 1/2 tsp baking soda about 30 minutes, then rice about 30 minutes; 3.5 cups water to 1 cup each of beans and rice), and a search-result summary of Eat With Afia, ProVeg and The Canadian African (summaries only; ratios of beans to rice vary from 1:1 to 1:3 and baking soda is standard). Changed from the Wikibooks page, which measures in milk tins: converted its 1:2 bean-to-rice ratio to 150 g beans and 300 g rice; overnight soaking and a separate leaf-steeping step added; baking soda made a standard ingredient instead of optional; water reduced from 1.2 l to 950 ml because the references use about 1.5 to 2 cups of water per cup of dry ingredients. Sides (shito, stew, egg, gari, plantain) are listed as optional; shito normally contains dried fish."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Waakye_with_kelewele%2C_spaghetti%2C_salad%2C_stew_and_shito.jpg",
+      "author": "Maame1Yaa",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white plate with a dome of reddish-brown rice and black-eyed peas, surrounded by spaghetti, fried plantain, tomato stew, shito and shredded cabbage.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Waakye_with_kelewele,_spaghetti,_salad,_stew_and_shito.jpg"
+    }
+  },
+  {
+    "id": "brazilian-feijao-tropeiro",
+    "name": "Feijão Tropeiro (Muleteer's Beans)",
+    "description": "Pinto beans tossed with smoked sausage, bacon, collard greens, boiled eggs and cassava flour. A Minas Gerais one-pan classic that turns a little meat into a feast.",
+    "cuisine": "Brazilian",
+    "region": "Americas",
+    "mealTypes": [
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beans",
+      "one-pan",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "dried pinto or carioca beans",
+        "note": "soaked overnight"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "smoked bacon",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "smoked sausage (linguiça)",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "collard greens",
+        "note": "very thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled and chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "cassava flour (farinha de mandioca)",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "spring onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "fresh parsley",
+        "note": "a handful, chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "pork crackling (torresmo)",
+        "note": "crumbled, to top",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the drained beans in plenty of fresh water until tender but still whole, 45 to 60 minutes. Salt near the end. Drain and set aside. Do not overcook: beans that turn to paste make a pasty dish once the flour goes in.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "In a large frying pan, fry the bacon until the fat renders and it is crisp, about 6 minutes. Add the sausage and brown it for 4 minutes. Lift both out.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "In the same fat, cook the onion and garlic until soft, about 5 minutes. Add the collard greens and toss until wilted, 3 to 4 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Return the bacon and sausage, add the beans and stir gently. Sprinkle in the cassava flour a spoon at a time, stirring so it absorbs the fat and coats the beans.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Fold in the chopped eggs, spring onions and parsley, drizzle with the olive oil, and season. Serve hot, topped with crumbled crackling if you like, with rice and a squeeze of lime.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Use cooked beans whose skins are intact; the flour will make mashed ones pasty.",
+      "Good cold or reheated the next day."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Feijão Tropeiro (Brazilian Beans and Sausage)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Feij%C3%A3o_Tropeiro_(Brazilian_Beans_and_Sausage)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Feijão Tropeiro (Brazilian Beans and Sausage)' (full page read), a Tudo Gostoso recipe (full page read: 500 g cooked beans, 150 g bacon, 250 g calabresa, 4 chopped eggs, 1.5 tbsp cassava flour, onion, garlic, cheiro-verde, for 8 servings), and the Receiteria roundup of seven feijão tropeiro variants (page read; no quantities, but it confirms carioca beans, bacon and sausage, boiled or scrambled eggs, couve in some versions, cassava flour, and the warning not to overcook the beans). A Minas Gerais government article cited in a search summary gave the base as beans, cassava flour, garlic, onion, couve and cheiro-verde (summary only; the article page itself was not found). Changed from the Wikibooks page: cassava flour added (the page omits it, all references include it); 2 lb beans and 2 lb sausage scaled to 300 g dried beans and 150 g sausage for 6 servings; flour set at 3 tbsp, between the full-page reference's 1.5 tbsp and the other versions; pork crackling kept as an optional topping (named in the search summaries). Boiled eggs (page and one reference) rather than scrambled."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Feij%C3%A3o_Tropeiro.jpg",
+      "author": "Márcia Cristina Machado",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: large steel pan of beans, cassava flour, chopped boiled egg, herbs and golden pork crackling, with yellow rice behind.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Feijão_Tropeiro.jpg"
+    }
+  },
+  {
+    "id": "hungarian-rakott-krumpli",
+    "name": "Rakott Krumpli (Layered Potato Bake)",
+    "description": "Sliced potatoes, hard-boiled eggs and sausage layered with sour cream and baked until bubbling. A Hungarian family favourite built from the cheapest ingredients.",
+    "cuisine": "Hungarian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 70,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "potatoes",
+      "bake",
+      "eggs",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "potatoes",
+        "note": "waxy, scrubbed"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled"
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "sour cream",
+        "note": "full fat"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "oil or lard",
+        "note": "to grease and drizzle"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "plus more to taste"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sweet paprika",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "smoked sausage (kolbász)",
+        "note": "thinly sliced",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Boil the whole potatoes in salted water until just tender, 20 to 25 minutes. Drain, cool slightly, then peel and slice 5 mm thick. Peel and slice the eggs. Heat the oven to 200 °C (180 °C fan).",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Grease a baking dish (about 25 cm) with a little oil. Arrange a layer of potatoes, sprinkle with salt, then add a layer of egg slices and sausage, and spread with a third of the sour cream.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Repeat the layers twice more, finishing with potato, then spread the remaining sour cream over the top and drizzle with oil. Dust with paprika if using.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Bake until the top is bubbling and flecked with brown, 40 to 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Rest 5 to 10 minutes and serve with pickles or a cabbage salad.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Slice the potatoes while still warm: they slice cleanly but are not falling apart.",
+      "Thin the sour cream with a spoonful of milk if it is very stiff."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Potato Casserole (Rakott Krumpli)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Potato_Casserole_(Rakott_Krumpli)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Potato Casserole (Rakott Krumpli)' (full page read), the Splendid Table 'Hungarian Potato and Egg Casserole' (full page read: boiled potatoes, 12 eggs, 3 cups sour cream, 175 °C for about 45 minutes), and search-result summaries of SBS, Pénzcentrum and a kosher.com recipe (summaries only: 180-200 °C for 40-60 minutes, potatoes pre-boiled in their skins, sour cream between every layer, sausage usual in Hungarian homes). Changed from the Wikibooks page: eggs raised from 4 to 6 for 800 g potatoes, in line with the egg-heavy references; baking time lengthened from 35 to 40-45 minutes; potato boiling time lengthened; paprika added; sausage kept optional (the Splendid Table version has none). Quantities of potatoes and sour cream scaled to 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Rakott_krumpli_2.jpg",
+      "author": "Christo",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: black plate of sliced potato, egg and sausage coins with sour cream, small cucumber salad beside it.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Rakott_krumpli_2.jpg"
+    }
+  },
+  {
+    "id": "nigerian-ewa-agoyin",
+    "name": "Ewa Agoyin (Mashed Beans with Agoyin Pepper Sauce)",
+    "description": "Honey beans cooked until they collapse, mashed and served with a dark, smoky, slow-fried pepper sauce. Lagos street food, eaten with soft bread or fried plantain for breakfast or lunch.",
+    "cuisine": "Nigerian",
+    "region": "Sub-Saharan Africa",
+    "mealTypes": [
+      "breakfast",
+      "lunch"
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "beans",
+      "street food",
+      "spicy",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "g",
+        "name": "dried brown beans",
+        "note": "honey beans or brown cowpeas, rinsed, soaked 1 hour"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "dried red chillies",
+        "note": "stemmed; use fewer for mild"
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": null,
+        "name": "onions",
+        "note": "one chopped for the sauce, half sliced for frying"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "ml",
+        "name": "palm oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "locust beans (iru)",
+        "note": "optional, mashed",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "red bell peppers",
+        "note": "roughly chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground ginger",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "ground crayfish",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "soft bread or fried plantain",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the drained beans in a pot with 1.2 l water and bring to the boil. Simmer, partly covered, until the beans are falling apart, about 1 hour, adding hot water only if the pot dries out. Salt near the end.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Mash the beans while hot with a wooden spoon or masher until thick and porridge-like, cooking off any extra liquid. Keep warm.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Blitz the dried chillies, red bell peppers, the chopped onion and ginger to a slightly coarse paste. Do not add water.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the palm oil in a heavy pan over medium heat for 5 to 7 minutes until it darkens and smells nutty. Fry the sliced onion until browned, 5 to 7 minutes.",
+        "timerMinutes": 7
+      },
+      {
+        "text": "Add the pepper paste, locust beans and crayfish if using. Fry slowly on low heat, stirring often, until very dark, thick and smoky and the oil rises to the top, 25 to 30 minutes. Salt to taste.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Serve the mashed beans in bowls with a large spoonful of the pepper sauce, with soft bread or fried plantain.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Fry the sauce patiently; the dark, almost-burnt flavour is the signature of ewa agoyin.",
+      "Honey beans are a small brown Nigerian variety; brown cowpeas or any soft brown beans work."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Nigerian Ewa Agoyin",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Nigerian_Ewa_Agoyin",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Nigerian Ewa Agoyin' (full page read; it is marked incomplete), Sim's Home Kitchen's ewa agoyin (full page read: 450 g beans cooked about 1 hour and mashed; soaked dried chillies, 4 red bell peppers, onion and ginger blended; 1 cup palm oil heated 5-7 minutes, half an onion browned, sauce cooked 25-30 minutes), and a search-result summary of Chef Lola's Kitchen, My Active Kitchen and Nigerian Food TV (summaries only). Changed from the Wikibooks page: red bell peppers and ginger added to the pepper paste, oil heated first and onion browned in it, no water added to the sauce, and 25-30 minute frying time, all following the full-page reference; quantities scaled to 300 g beans for 4 servings with 150 ml palm oil (the references use about 240 ml per 450 g beans); the page's seasoning cube and its odd '2 cups water' for the beans were dropped; crayfish and locust beans kept optional."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ewa_agoyin.jpg",
+      "author": "Atimukoh",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: white dish of mashed brown beans with a fresh mint leaf; a dark red-brown sauce visible in a second dish behind.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ewa_agoyin.jpg"
+    }
+  },
+  {
+    "id": "indian-kheer",
+    "name": "Kheer (Indian Rice Pudding)",
+    "description": "Rice simmered slowly in milk with sugar and cardamom until thick and creamy. A festival and everyday dessert across India made from three pantry ingredients.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": [
+      "dessert"
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 45,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "rice pudding",
+      "dessert",
+      "make-ahead"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "l",
+        "name": "whole milk",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "rinsed and soaked 20 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 70,
+        "unit": "g",
+        "name": "sugar",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": null,
+        "name": "cardamom pods",
+        "note": "seeds crushed"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "raisins",
+        "note": "or sultanas",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "slivered almonds or pistachios",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "rose water",
+        "note": null,
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Bring the milk to a gentle boil in a heavy-bottomed pot, stirring so it does not catch.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Drain the soaked rice and add it. Reduce the heat to low and simmer, stirring every few minutes and scraping the bottom, until the rice is very soft and the milk has thickened, 30 to 35 minutes.",
+        "timerMinutes": 33
+      },
+      {
+        "text": "Stir in the sugar (and raisins) and cook 5 to 8 more minutes until dissolved. Add the crushed cardamom for the last 3 minutes. It thickens further as it cools, so stop while still a little looser than you want.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Stir in the rose water if using. Serve warm or chilled, topped with nuts.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Break some of the rice grains against the pot with the back of your spoon for a creamier pudding.",
+      "Keeps 3 days refrigerated; loosen with milk."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Kheer (Rice Pudding)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Kheer_(Rice_Pudding)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Kheer (Rice Pudding)' (full page read), the Tasting Table kheer (full page read: 1/4 cup basmati, 4 cups milk, 4 tbsp sugar, rice simmered 25-30 minutes, sugar 10 minutes, cardamom and nuts 5 minutes), and a search-result summary of Veg Recipes of India and Nik Sharma (summaries only: rice soaked 15-20 minutes, sugar added once the rice is soft, longer cooking for lower rice-to-milk ratios). The Wikibooks page uses 250 ml rice to 1 l milk, a very stiff pudding finished in about 25 minutes; the rice was reduced to 60 g and sugar to 70 g per litre to match the references, cooking time lengthened to about 45 minutes, and the order changed so sugar and cardamom go in near the end. Raisins, nuts and rose water kept optional as in the page."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kheer_Special.JPG",
+      "author": "Miansari66",
+      "license": "Public domain",
+      "verified": "Seen: white plate of creamy white rice pudding garnished with almonds, raisins, pistachios and coconut slivers on a red cloth.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kheer_Special.JPG"
+    }
+  },
+  {
+    "id": "ukrainian-kapusniak",
+    "name": "Kapusniak (Ukrainian Sauerkraut Soup)",
+    "description": "A tangy, hearty soup of sauerkraut, potatoes and smoked pork, thickened with millet in some homes. A winter staple that turns a single smoked bone into a pot of dinners.",
+    "cuisine": "Ukrainian",
+    "region": "Europe",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 90,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "soup",
+      "cabbage",
+      "make-ahead",
+      "freezer-friendly"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "smoked pork ribs or hock",
+        "note": "bone-in"
+      },
+      {
+        "group": null,
+        "quantity": 2.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 450,
+        "unit": "g",
+        "name": "sauerkraut",
+        "note": "taste it; rinse a third if very sour, then squeeze lightly"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "about 450 g, peeled and cut in 2 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "carrot",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "sunflower oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 60,
+        "unit": "tbsp",
+        "name": "millet",
+        "note": "rinsed, scalded 5 minutes with boiling water and drained",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black peppercorns",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "bunch",
+        "name": "fresh dill",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 5,
+        "unit": null,
+        "name": "allspice berries",
+        "note": null,
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "finely chopped, stirred in at the end"
+      },
+      {
+        "group": null,
+        "quantity": null,
+        "unit": null,
+        "name": "salt",
+        "note": "to taste"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "sour cream",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the smoked pork in a large pot with the water, bay leaves, allspice and peppercorns. Bring to the boil, skim, and simmer very gently, not tightly covered, until the meat is tender, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Meanwhile, heat the oil in a pan and cook the onion until soft, about 5 minutes, add the carrot for 5 minutes, then stir in the tomato paste for 2 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Lift the pork out, pull the meat off the bones and return it to the broth. Add the potatoes and simmer 10 minutes, then add the millet if using and simmer 10 more minutes, until both are nearly tender.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Stir in the sauerkraut (its acid slows the potatoes, so it goes in last) and the onion mixture. Simmer 10 minutes. Taste, and add salt only now if needed: the pork and sauerkraut are salty.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Stir in the dill and garlic, take off the heat and rest, covered, for 15 minutes. Serve with sour cream and dark bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Sauerkraut varies in saltiness and sourness; taste it first.",
+      "Millet thickens the soup as it stands; thin with hot water when reheating."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Kapusniak (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://www.recipesfromeurope.com/?p=20008",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. The Wikibooks page 'Ukrainian Cabbage Soup (Kapusniak)' was read in full but describes a raw-cabbage soup (it says itself that it is not the sauerkraut kapusniak), so it was not used. Compared against 3 references: Recipes from Europe's kapustnyak (full page read: pork ribs simmered 40 minutes, potatoes and sauerkraut added, 15-20 minutes), recepty.mobi's Ukrainian kapusniak (full page read: 800 g ribs, 3 l water, 600 g sauerkraut, 500 g potatoes, 80 g millet for 8 servings; potatoes cooked before the sauerkraut because its acid slows them, millet scalded first, salt added last), and search-result summaries of Budget Bytes and a Zaporizhzhia millet version (summaries only; Budget Bytes was blocked). Method follows those references: smoked pork broth, vegetable fry with tomato paste, potatoes then millet, sauerkraut near the end, salt late, a rest before serving. Quantities are scaled to 6 servings by the author and kept at a smoked-bone amount of meat; the references use more ribs."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kapustnjak_017.jpg",
+      "author": "Kagor",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: blue-and-white plate of pale soup with sauerkraut, potato, carrot, smoked meat and herbs.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kapustnjak_017.jpg"
+    }
+  },
+  {
+    "id": "thai-khao-phat-mu",
+    "name": "Khao Phat Mu (Thai Pork Fried Rice)",
+    "description": "Cold leftover rice fried with garlic, egg and thin slices of pork, seasoned with fish and soy sauce and served with cucumber and lime. Ready in 20 minutes from the fridge.",
+    "cuisine": "Thai",
+    "region": "Southeast Asia",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 3,
+    "prepTime": 10,
+    "cookTime": 10,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": true,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "fried rice",
+      "quick",
+      "leftovers",
+      "one-pan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "cooked jasmine rice",
+        "note": "cold, day-old, about 250 g raw"
+      },
+      {
+        "group": null,
+        "quantity": 200,
+        "unit": "g",
+        "name": "pork loin",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "vegetable oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "eggs",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "name": "fish sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "soy sauce",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "white or black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "spring onions",
+        "note": "sliced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "tomato",
+        "note": "cut in wedges",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "cucumber",
+        "note": "sliced, to serve"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lime",
+        "note": "cut in wedges, to serve"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bird's-eye chillies",
+        "note": "sliced in fish sauce, to serve (prik nam pla)",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Break up any clumps in the cold rice with your fingers. Mix the fish sauce, soy sauce, sugar and pepper in a small bowl.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Heat the oil in a wok or large frying pan over high heat. Fry the garlic for 15 seconds, then add the pork and stir-fry until just cooked, about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Push everything to one side, crack in the eggs and scramble until nearly set, then stir them through the pork.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Add the rice and stir-fry, pressing and tossing so the grains separate and begin to toast, about 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Pour the seasoning around the edge of the pan, add the tomato and spring onions, and toss for 1 minute. Serve at once with cucumber, lime and chilli-fish sauce.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Day-old rice is the secret: fresh rice steams and clumps.",
+      "Swap the pork for any leftover cooked meat or extra egg."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Wikibooks Cookbook: Khao Pad (Thai Fried Rice)",
+      "author": "Wikibooks contributors",
+      "year": null,
+      "url": "https://en.wikibooks.org/wiki/Cookbook:Khao_Pad_(Thai_Fried_Rice)",
+      "license": "CC BY-SA 4.0",
+      "adaptation": "Compared against 3 references: the Wikibooks page 'Khao Pad (Thai Fried Rice)' (full page read), Cooking with Nart's Thai pork fried rice (full page read: 4 cups cold rice, 250 g pork, 2 eggs, 4 garlic cloves, 3 tbsp oil, soy sauces, prik nam pla and lime to serve, 3 servings), and a search-result summary of the Food.com Khao Phat Mu recipe (summary only: fish sauce, tomato and cucumber garnish, serves 4). Changed from the Wikibooks page, whose '1 cup cooked meat' was replaced by 200 g raw sliced pork cooked first, as in both other references; eggs set at 2 and scrambled to one side of the wok; tomato, cucumber, lime and chilli-fish sauce added as serving elements. Fish sauce, sugar and white pepper come from the Wikibooks page and the Food.com summary; the Nart recipe seasons with soy sauces only."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Khao_Phat_Mu.jpg",
+      "author": "Mattes",
+      "license": "Public domain",
+      "verified": "Seen: white plate of fried rice with egg, thin pork slices, spring onion, cucumber slices and a lime wedge.",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Khao_Phat_Mu.jpg"
+    }
+  }
+]

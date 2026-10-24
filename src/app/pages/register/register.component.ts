@@ -1,21 +1,25 @@
 import { Component, inject, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router, RouterLink } from '@angular/router';
-import { AuthService } from '../../services';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { LanguageSwitcherComponent } from '../../components/language-switcher/language-switcher.component';
+import { I18nService } from '../../i18n/i18n.service';
+import { AuthService, safeReturnUrl } from '../../services';
 
 const USERNAME_PATTERN = /^[a-zA-Z0-9_.-]+$/;
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [CommonModule, FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, LanguageSwitcherComponent],
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent {
+  protected readonly i18n = inject(I18nService);
+  protected readonly t = this.i18n.t;
   private authService = inject(AuthService);
   private router = inject(Router);
+  /** Invite links survive sign-up: /join/CODE -> register -> back to the join page. */
+  readonly returnUrl = safeReturnUrl(inject(ActivatedRoute).snapshot.queryParamMap.get('returnUrl'));
 
   name = '';
   username = '';
@@ -37,13 +41,11 @@ export class RegisterComponent {
     this.isSubmitting.set(true);
     this.errorMessage.set('');
 
-    this.authService.register(this.username, this.password, this.name).subscribe({
-      next: () => this.router.navigate(['/']),
+    this.authService.register(this.username, this.password, this.name, this.i18n.language()).subscribe({
+      next: () => this.router.navigateByUrl(this.returnUrl ?? '/onboarding'),
       error: err => {
         this.isSubmitting.set(false);
-        this.errorMessage.set(
-          err.status === 409 ? 'That username is already taken.' : 'Something went wrong. Please try again.'
-        );
+        this.errorMessage.set(err.status === 409 ? this.t('auth.usernameTaken') : this.i18n.apiError(err, 'auth.generic'));
       }
     });
   }

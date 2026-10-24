@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "algerian-khobz-dar",
+    "name": "Khobz Dar (Algerian Homemade Round Bread)",
+    "description": "The everyday Algerian loaf: a soft, semolina-dusted round with a golden crust, made at home or taken to the neighbourhood oven.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 8,
+    "prepTime": 20,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "semolina",
+      "yeast",
+      "oven",
+      "baking",
+      "vegetarian",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "nigella seeds",
+        "note": "or sesame, optional"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the flour, semolina, yeast, sugar and salt, add the water and oil, and knead for 10 minutes into a smooth soft dough.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cover and rise until doubled, about 1 hour.",
+        "timerMinutes": 60
+      },
+      {
+        "text": "Shape into two rounds, rest on a semolina-dusted tray covered for 30 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Prick, brush with water, sprinkle seeds and bake at 220 C for 25 to 30 minutes until hollow-sounding.",
+        "timerMinutes": 28
+      },
+      {
+        "text": "Cool on a rack.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Khobz Dar (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 8 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Pain maison algérien"
+      },
+      "ar": {
+        "name": "خبز الدار"
+      }
+    }
+  },
+  {
+    "id": "algerian-matlou",
+    "name": "Matlou (Algerian Griddle Bread)",
+    "description": "A fluffy flat round of semolina dough baked on a heavy griddle, served warm with butter, sauce or soup.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 20,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "semolina",
+      "griddle",
+      "ramadan",
+      "vegetarian",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the dry ingredients, add the water and oil and knead 10 minutes into a soft dough.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cover and rise 45 minutes.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Divide into 4 balls, flatten into 1.5 cm rounds and rest 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cook on a medium hot, ungreased griddle 5 to 6 minutes per side.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Wrap in a cloth to keep soft.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Matlou (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Matlou3.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Matlou3.jpg",
+      "author": "Heeculemdd",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: three round, flat griddle-cooked breads with a spotted golden crust."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pain matlou"
+      },
+      "ar": {
+        "name": "المطلوع"
+      }
+    }
+  },
+  {
+    "id": "algerian-mahjouba",
+    "name": "Mahjouba (Folded Pancake with Tomato and Onion Filling)",
+    "description": "Thin semolina dough folded around a soft tomato, onion and pepper filling and griddled until golden.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 40,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "flatbread",
+      "street-food",
+      "vegan",
+      "tomato",
+      "semolina",
+      "vegetarian"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": null,
+        "name": "onions",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "bell pepper",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "clove",
+        "name": "garlic",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix semolina, flour, 1 tsp salt and water into a soft dough, knead 10 minutes, cover and rest 20 minutes.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "For the filling, soften the onions in 2 tbsp oil, add pepper, garlic, tomatoes and spices and cook 15 minutes until thick.",
+        "timerMinutes": 15
+      },
+      {
+        "text": "Oil the surface and stretch pieces of dough very thin on it, spread a spoon of filling, fold into a square.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook on a hot griddle 2 minutes per side until crisp and browned.",
+        "timerMinutes": 4
+      }
+    ],
+    "tips": [
+      "Closely related to mhadjeb, which is filled in much the same way."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mahjouba (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D8%A7%D9%84%D9%85%D8%AD%D8%AC%D9%88%D8%A8%D9%87_%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D8%B1%D9%8A%D9%87.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%AD%D8%AC%D9%88%D8%A8%D9%87_%D8%A7%D9%84%D8%A8%D8%B3%D9%83%D8%B1%D9%8A%D9%87.jpg",
+      "author": "Nassima1Nilsen",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: folded thin pancakes with a red tomato and onion filling, labelled Mahjouba Biskriya."
+    },
+    "translations": {
+      "fr": {
+        "name": "Mahjouba"
+      },
+      "ar": {
+        "name": "المحجوبة"
+      }
+    }
+  },
+  {
+    "id": "algerian-chapati",
+    "name": "Chapati Algérien (Soft Griddle Flatbread)",
+    "description": "A quick, soft wholemeal-and-white flatbread cooked on a dry pan, handy for wraps and for scooping up stews.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "flatbread",
+      "griddle",
+      "quick",
+      "vegan",
+      "vegetarian"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "wholemeal flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 250.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the flours and salt, add water and oil, and knead 8 minutes. Rest 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Divide into 8, roll into thin rounds.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook in a hot dry pan 1 to 2 minutes per side until speckled, and keep warm in a cloth.",
+        "timerMinutes": 12
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Chapati Algérien (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Chapati-1.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chapati-1.jpg",
+      "author": "safaritravelplus",
+      "license": "CC0",
+      "verified": "Seen: a stack of soft round griddled flatbreads on a plate."
+    },
+    "translations": {
+      "fr": {
+        "name": "Chapati algérien"
+      },
+      "ar": {
+        "name": "الشباتي"
+      }
+    }
+  },
+  {
+    "id": "algerian-aghroum",
+    "name": "Aghroum (Kabyle Tajine-baked Bread)",
+    "description": "The traditional Kabyle round bread of semolina dough, cooked on a clay or iron plate over embers, and the same method gives the classic \"pain cuit au tajine\".",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "kabyle",
+      "semolina",
+      "griddle",
+      "traditional",
+      "vegetarian",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 500.0,
+        "unit": "g",
+        "name": "semolina",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix everything and knead for 10 minutes into a soft, slightly sticky dough.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Rise covered 1 hour, shape into two 2 cm rounds and rest 20 minutes.",
+        "timerMinutes": 80
+      },
+      {
+        "text": "Cook on a medium hot flat griddle, covered with an upturned pot lid if you like, for 8 minutes per side.",
+        "timerMinutes": 16
+      }
+    ],
+    "tips": [
+      "Tap the underside: it should sound hollow when done."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Aghroum (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aghroum_Akouren.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Aghroum_Akouren.jpg",
+      "author": "Fayçal Rezkallah",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a round of flat bread with a golden crust held on a baking stone, Kabyle bread."
+    },
+    "translations": {
+      "fr": {
+        "name": "Aghroum"
+      },
+      "ar": {
+        "name": "أغروم"
+      }
+    }
+  },
+  {
+    "id": "algerian-khobz-chaair",
+    "name": "Khobz Chaair (Barley Bread)",
+    "description": "A dense, nutty barley-and-wheat loaf, a heritage bread of the highlands and Sahara oases.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner",
+      "side"
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 30,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "barley",
+      "wholegrain",
+      "traditional",
+      "vegetarian",
+      "vegan"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "barley flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 200.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 350.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix both flours with yeast, salt and sugar; add water and oil and knead for 10 minutes.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Cover and rise 90 minutes.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "Shape two loaves, rest for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Bake at 210 C for 30 minutes until browned and hollow-sounding.",
+        "timerMinutes": 30
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Khobz Chaair (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pwin_oidje.JPG",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Pwin_oidje.JPG",
+      "author": "Lucyin",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a torn round loaf of dark whole-grain barley bread showing its crumb."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pain d'orge"
+      },
+      "ar": {
+        "name": "خبز الشعير"
+      }
+    }
+  },
+  {
+    "id": "algerian-matlou-mahchi",
+    "name": "Matlou Mahchi (Stuffed Matlou)",
+    "description": "Split rounds of fresh matlou filled with spiced minced beef, onion and herbs and crisped on the griddle.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "bread",
+      "stuffed",
+      "beef",
+      "street-food"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "piece",
+        "name": "bread",
+        "note": "matlou rounds or pitta"
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "grated"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Cook the beef and onion in 1 tbsp oil with the spices for 10 minutes until dry, then add parsley.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Slit a pocket in each bread and fill with meat and a little cheese.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Brush with oil and griddle 3 minutes per side until crisp.",
+        "timerMinutes": 6
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Matlou Mahchi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kesra_farcie.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Kesra_farcie.jpg",
+      "author": "Indif",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a flat round bread filled with a savoury stuffing on a table of Algerian dishes (kesra farcie)."
+    },
+    "translations": {
+      "fr": {
+        "name": "Pain matlou farci"
+      },
+      "ar": {
+        "name": "خبز المطلوع المحشي"
+      }
+    }
+  },
+  {
+    "id": "algerian-fatira-mahchiya",
+    "name": "Fatira Mahchiya (Stuffed Savoury Galette)",
+    "description": "A flaky round pastry sealed around spiced minced beef, onion and olives, baked or griddled until golden.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 40,
+    "cookTime": 25,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pastry",
+      "galette",
+      "stuffed",
+      "beef",
+      "street-food"
+    ],
+    "traditional": false,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 220.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "name": "oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 8.0,
+        "unit": null,
+        "name": "olives",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": null,
+        "name": "egg yolk",
+        "note": "to glaze"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Knead flour, salt, water and 2 tbsp oil into a smooth dough; rest for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Cook beef and onion with spices for 10 minutes, cool, then mix with olives and parsley.",
+        "timerMinutes": 10
+      },
+      {
+        "text": "Roll the dough into two thin circles, brushing the first with oil, layer filling, cover with the second and seal the edges.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Glaze with yolk and bake at 200 C for 25 minutes.",
+        "timerMinutes": 25
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Fatira Mahchiya (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Fatayer.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Fatayer.jpg",
+      "author": "Joe Foodie",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a golden savoury turnover cut open to show a minced-meat filling."
+    },
+    "translations": {
+      "fr": {
+        "name": "Galette farcie"
+      },
+      "ar": {
+        "name": "فطيرة محشية"
+      }
+    }
+  },
+  {
+    "id": "algerian-fatira-jben",
+    "name": "Fatira Bel Jben (Cheese Galette)",
+    "description": "A golden pan-baked round of soft dough with melted cheese inside.",
+    "cuisine": "Algerian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 30,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "diet": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "pastry",
+      "galette",
+      "cheese",
+      "vegetarian",
+      "quick"
+    ],
+    "traditional": false,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "sugar",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.0,
+        "unit": "tsp",
+        "name": "dried yeast",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 230.0,
+        "unit": "ml",
+        "name": "warm water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 150.0,
+        "unit": "g",
+        "name": "grated cheese",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 100.0,
+        "unit": "g",
+        "name": "fresh cheese",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "nigella seeds",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Knead flour, salt, sugar, yeast, water and oil for 8 minutes; rise 40 minutes.",
+        "timerMinutes": 40
+      },
+      {
+        "text": "Mix both cheeses, divide the dough in 4, flatten each, fill, fold over and flatten again.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Cook in a hot greased pan for 4 minutes per side until golden.",
+        "timerMinutes": 8
+      }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": {
+      "title": "Fatira Bel Jben (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "license": "Original",
+      "adaptation": "Original text, quantities and method written for Mise from the traditional home preparation; no source wording copied. Dish identity checked against the English Wikipedia article 'Algerian cuisine' (opened), which lists the dish family but gives no recipe; proportions are the author's own for 4 servings."
+    },
+    "image": null,
+    "translations": {
+      "fr": {
+        "name": "Galette au fromage"
+      },
+      "ar": {
+        "name": "فطيرة بالجبن"
+      }
+    }
+  }
+]

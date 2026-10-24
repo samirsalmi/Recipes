@@ -6,6 +6,13 @@ export interface Toast {
   id: number;
   message: string;
   type: ToastType;
+  /** Optional one-tap action ("Undo"); the toast closes when it runs. */
+  action?: ToastAction;
+}
+
+export interface ToastAction {
+  label: string;
+  run: () => void;
 }
 
 // Simple in-app replacement for native alert()/confirm() feedback - shows briefly and
@@ -19,9 +26,9 @@ export class ToastService {
 
   private nextId = 0;
 
-  show(message: string, type: ToastType = 'success', durationMs = 3000): void {
+  show(message: string, type: ToastType = 'success', durationMs = 3000, action?: ToastAction): void {
     const id = this.nextId++;
-    this.toastsSignal.update(toasts => [...toasts, { id, message, type }]);
+    this.toastsSignal.update(toasts => [...toasts, { id, message, type, action }]);
     setTimeout(() => this.dismiss(id), durationMs);
   }
 

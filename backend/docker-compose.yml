@@ -1,16 +1,19 @@
+# Optional: docker alternative to the local dev cluster (both use port 5434, run only one)
+# (see README). This compose file is an alternative for machines without it: a throwaway
+# PostgreSQL on port 5434 (so it never clashes with a local server) plus Redis for the
+# recipe cache (the API works without Redis).
 services:
-  mysql:
-    image: mysql:8.4
+  postgres:
+    image: postgres:18
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: recipe_manager
-      MYSQL_USER: recipe_user
-      MYSQL_PASSWORD: recipe_pass
-      MYSQL_ROOT_PASSWORD: root_pass
+      POSTGRES_DB: recipe_manager
+      POSTGRES_USER: recipe_user
+      POSTGRES_PASSWORD: recipe_pass
     ports:
-      - "3306:3306"
+      - "5434:5432"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - postgres_data:/var/lib/postgresql
   redis:
     image: redis:7-alpine
     restart: unless-stopped
@@ -20,5 +23,5 @@ services:
       - redis_data:/data
 
 volumes:
-  mysql_data:
+  postgres_data:
   redis_data:

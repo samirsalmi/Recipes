@@ -32,7 +32,28 @@ export function setToken(token: string): void {
 export function clearToken(): void {
   try {
     localStorage.removeItem(TOKEN_KEY);
+    localStorage.removeItem('recipe_manager_cached_user');
   } catch {
     // ignore
+  }
+}
+
+const USER_KEY = 'recipe_manager_cached_user';
+
+/** Last known profile, so an offline start keeps the session (see AuthService). */
+export function cacheUser(user: User): void {
+  try {
+    localStorage.setItem(USER_KEY, JSON.stringify(user));
+  } catch {
+    // ignore
+  }
+}
+
+export function cachedUser(): User | null {
+  try {
+    const raw = localStorage.getItem(USER_KEY);
+    return raw ? (JSON.parse(raw) as User) : null;
+  } catch {
+    return null;
   }
 }

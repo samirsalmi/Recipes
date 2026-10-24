@@ -1,273 +1,315 @@
-/**
- * Global Styles
- * 
- * This file uses PostCSS directives (@tailwind, @layer) for Tailwind CSS integration.
- * These directives are processed by PostCSS before SCSS compilation.
- * 
- * Note: The @tailwind directives are valid PostCSS directives and will be processed
- * by the Tailwind CSS PostCSS plugin. The SCSS linter may show warnings about
- * unknown at-rules, which can be safely ignored.
+/*
+ * Mise design system (docs/rework-plan.md section 6): warm editorial, photo-led, calm.
+ * Tokens are RGB triplets so Tailwind can apply opacity (`bg-primary/10`); tailwind.config.js
+ * maps them to utilities. Light set on :root, dark set on html.dark (ThemeService toggles it).
+ * Fonts (Fraunces + Inter, variable) are loaded from @fontsource-variable via angular.json; Arabic text
+ * falls through to IBM Plex Sans Arabic (body) and Noto Naskh Arabic (headings), see tailwind.config.js.
+ * Layout uses logical properties (ms-/me-/ps-/pe-/start-/end-, text-start) so it mirrors under dir="rtl".
  */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
-
 @layer base {
+  :root {
+    --paper: 250 247 242;        /* #FAF7F2 page background */
+    --surface: 255 255 255;      /* cards, sheets */
+    --sunken: 243 238 230;       /* chips, inputs, quiet fills */
+    --ink: 30 27 22;             /* #1E1B16 text */
+    --muted: 107 100 90;         /* #6B645A secondary text (AA on paper) */
+    --hairline: 233 227 216;     /* #E9E3D8 borders */
+    --primary: 31 77 58;         /* #1F4D3A deep herb green */
+    --primary-hover: 23 59 44;   /* #173B2C */
+    --primary-tint: 227 237 231; /* #E3EDE7 */
+    --on-primary: 255 255 255;
+    --accent: 217 83 43;         /* #D9532B paprika: badges, "new" dots, active tab dot */
+    --saffron: 232 176 75;       /* #E8B04B tags, "tonight" */
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+    --safe-top: env(safe-area-inset-top, 0px);
+    color-scheme: light;
+  }
+
+  html.dark {
+    --paper: 21 20 18;           /* #151412 warm charcoal */
+    --surface: 31 29 26;         /* #1F1D1A */
+    --sunken: 41 38 34;
+    --ink: 243 238 230;          /* #F3EEE6 */
+    --muted: 168 160 148;
+    --hairline: 52 48 43;
+    --primary: 127 184 154;      /* #7FB89A lifted for contrast on charcoal */
+    --primary-hover: 152 202 175;
+    --primary-tint: 34 54 45;
+    --on-primary: 21 20 18;
+    --accent: 234 116 80;
+    --saffron: 232 176 75;
+    color-scheme: dark;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   body {
-    background-color: #f9fafb;
-    color: #111827;
-    font-family: 'Inter', system-ui, sans-serif;
+    @apply bg-paper text-ink font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
-  .dark body {
-    background-color: #111827;
-    color: #f9fafb;
+  h1, h2, h3 {
+    @apply font-display text-ink;
+    font-optical-sizing: auto;
+    letter-spacing: -0.01em;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+  /* Arabic: letter-spacing breaks the joined script, and the glyphs want a taller line. */
+  html[lang='ar'] * {
+    letter-spacing: normal !important;
+  }
+  html[lang='ar'] body {
+    line-height: 1.75;
+  }
+  html[lang='ar'] .page-title,
+  html[lang='ar'] .section-title {
+    line-height: 1.5;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--primary));
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: rgb(var(--primary-tint));
   }
 }
 
 @layer components {
+  /* Page container: 16 px gutters on mobile, room for the bottom tab bar + safe area. */
+  .page {
+    @apply mx-auto w-full max-w-6xl px-4 pt-4 sm:px-6 lg:px-8 lg:pt-8;
+    padding-bottom: calc(5.5rem + var(--safe-bottom));
+  }
+  @media (min-width: 1024px) {
+    .page {
+      padding-bottom: 3rem;
+    }
+  }
+
+  .page-title {
+    @apply font-display text-3xl font-semibold leading-tight sm:text-4xl;
+  }
+
+  .section-title {
+    @apply font-display text-xl font-semibold;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-wider text-muted;
+  }
+
+  /* Buttons: 44 px min tap target. */
   .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-weight: 500;
-    transition: all 0.2s;
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 text-sm font-semibold
+      transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-50;
   }
-
-  .btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
-  }
-
-  .btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-
   .btn-primary {
-    background-color: #ea580c;
-    color: #ffffff;
+    @apply btn bg-primary text-primary-on hover:bg-primary-hover;
   }
-
-  .btn-primary:hover {
-    background-color: #c2410c;
-  }
-
-  .btn-primary:focus {
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
-  }
-
-  .dark .btn-primary {
-    background-color: #f97316;
-  }
-
-  .dark .btn-primary:hover {
-    background-color: #ea580c;
-  }
-
   .btn-secondary {
-    background-color: #e5e7eb;
-    color: #111827;
+    @apply btn border border-hairline bg-surface text-ink hover:bg-sunken;
+  }
+  .btn-ghost {
+    @apply btn text-primary hover:bg-primary-tint;
+  }
+  .btn-danger {
+    @apply btn bg-accent text-white hover:opacity-90;
+  }
+  .btn-icon {
+    @apply inline-flex h-11 w-11 items-center justify-center rounded-full text-ink transition-colors hover:bg-sunken;
   }
 
-  .btn-secondary:hover {
-    background-color: #d1d5db;
+  /* Chips: pill filters / tags. */
+  .chip {
+    @apply inline-flex min-h-[36px] items-center gap-1.5 whitespace-nowrap rounded-full border border-hairline bg-surface px-3.5
+      text-sm font-medium text-ink transition-colors hover:border-primary/40;
   }
-
-  .btn-secondary:focus {
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #6b7280;
+  .chip-active {
+    @apply border-primary bg-primary text-primary-on hover:border-primary;
   }
-
-  .dark .btn-secondary {
-    background-color: #374151;
-    color: #f3f4f6;
-  }
-
-  .dark .btn-secondary:hover {
-    background-color: #4b5563;
-  }
-
-  .btn-accent {
-    background-color: #ef4444;
-    color: #ffffff;
-  }
-
-  .btn-accent:hover {
-    background-color: #dc2626;
-  }
-
-  .btn-accent:focus {
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ef4444;
-  }
-
-  .btn-outline {
-    border: 2px solid #ea580c;
-    color: #ea580c;
-    background-color: transparent;
-  }
-
-  .btn-outline:hover {
-    background-color: #fff7ed;
-  }
-
-  .btn-outline:focus {
-    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #ea580c;
-  }
-
-  .dark .btn-outline {
-    border-color: #fb923c;
-    color: #fb923c;
-  }
-
-  .dark .btn-outline:hover {
-    background-color: rgba(234, 88, 12, 0.2);
-  }
-
-  .card {
-    background-color: #ffffff;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    border: 1px solid #e5e7eb;
-  }
-
-  .dark .card {
-    background-color: #1f2937;
-    border-color: #374151;
-  }
-
-  .input {
-    width: 100%;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid #d1d5db;
-  }
-
-  .input:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #ea580c;
-    border-color: transparent;
-  }
-
-  .dark .input {
-    background-color: #374151;
-    border-color: #4b5563;
-    color: #ffffff;
+  .chip-quiet {
+    @apply inline-flex items-center gap-1 rounded-full bg-sunken px-2.5 py-1 text-xs font-medium text-muted;
   }
 
   .badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.125rem 0.625rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 500;
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold;
   }
-
-  .badge-primary {
-    background-color: #ffedd5;
-    color: #9a3412;
+  .badge-saffron {
+    @apply badge bg-saffron/20 text-ink;
   }
-
-  .dark .badge-primary {
-    background-color: rgba(124, 45, 18, 0.3);
-    color: #fed7aa;
-  }
-
-  .badge-secondary {
-    background-color: #dcfce7;
-    color: #166534;
-  }
-
-  .dark .badge-secondary {
-    background-color: rgba(20, 83, 45, 0.3);
-    color: #bbf7d0;
-  }
-
   .badge-accent {
-    background-color: #fee2e2;
-    color: #991b1b;
+    @apply badge bg-accent text-white;
+  }
+  /* On/off switch for boolean settings: <input type="checkbox" class="switch"> */
+  .switch {
+    @apply relative h-7 w-12 shrink-0 cursor-pointer appearance-none rounded-full bg-hairline transition-colors duration-200 checked:bg-primary;
+  }
+  .switch::before {
+    content: '';
+    @apply absolute start-0.5 top-0.5 h-6 w-6 rounded-full bg-white shadow transition-transform duration-200;
+  }
+  .switch:checked::before {
+    transform: translateX(1.25rem);
+  }
+  /* The thumb slides toward the line start in right-to-left layouts. */
+  html[dir='rtl'] .switch:checked::before {
+    transform: translateX(-1.25rem);
   }
 
-  .dark .badge-accent {
-    background-color: rgba(127, 29, 29, 0.3);
-    color: #fecaca;
+  /* Pills placed over photos: solid surface so they stay legible on any image. */
+  .photo-pill {
+    @apply inline-flex items-center gap-1 rounded-full bg-surface/95 px-2.5 py-1 text-xs font-semibold text-ink shadow-soft backdrop-blur-sm;
   }
-}
 
-@layer utilities {
-  .scrollbar-hide {
-    -ms-overflow-style: none;
+  /* Loading placeholders. */
+  .skeleton {
+    @apply animate-pulse rounded-2xl bg-sunken;
+  }
+
+  .new-dot {
+    @apply inline-block h-2 w-2 rounded-full bg-accent;
+  }
+
+  .card {
+    @apply overflow-hidden rounded-card border border-hairline bg-surface shadow-soft;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ink;
+  }
+  .input,
+  .textarea,
+  .select {
+    @apply w-full rounded-2xl border border-hairline bg-surface px-4 text-base text-ink placeholder:text-muted/70
+      focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+  .input,
+  .select {
+    @apply min-h-[48px];
+  }
+  .textarea {
+    @apply py-3 leading-relaxed;
+  }
+
+  /* Photo with a bottom gradient scrim for overlaid titles. */
+  .scrim {
+    background: linear-gradient(to top, rgb(0 0 0 / 0.65), rgb(0 0 0 / 0.15) 55%, transparent);
+  }
+
+  /* Bottom sheet (mobile-first replacement for modals). */
+  .sheet-backdrop {
+    @apply fixed inset-0 z-40 bg-black/40 animate-fade-in;
+  }
+  .sheet {
+    @apply fixed inset-x-0 bottom-0 z-50 mx-auto max-h-[88vh] w-full max-w-lg overflow-y-auto rounded-t-sheet bg-surface
+      shadow-sheet animate-sheet-up;
+    padding-bottom: calc(1.25rem + var(--safe-bottom));
+  }
+  /* On desktop the sheet becomes a centred dialog. */
+  @media (min-width: 1024px) {
+    .sheet {
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: fit-content;
+      border-radius: 24px;
+      padding-bottom: 1.25rem;
+      animation: riseIn 0.2s ease-out;
+    }
+    .sheet-handle {
+      visibility: hidden;
+    }
+  }
+  @keyframes riseIn {
+    0% { transform: translateY(8px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  /* Sticky action row at the bottom of a sheet: covers the sheet's bottom padding so the
+     content scrolling underneath never shows below it. */
+  .sheet-footer {
+    bottom: calc(-1.25rem - var(--safe-bottom));
+    padding-bottom: calc(1.25rem + var(--safe-bottom));
+  }
+  .sheet-handle {
+    @apply mx-auto mb-3 mt-2.5 h-1.5 w-10 rounded-full bg-hairline;
+  }
+
+  /* Mobile bottom tab bar (hidden >= lg, where the top nav takes over). */
+  .tab-bar {
+    @apply fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-hairline bg-surface/95 backdrop-blur-sm lg:hidden;
+    padding-bottom: var(--safe-bottom);
+  }
+  .tab-item {
+    @apply relative flex min-h-[56px] flex-col items-center justify-center gap-0.5 text-[11px] font-medium text-muted;
+  }
+  .tab-item-active {
+    @apply text-primary;
+  }
+  .tab-item-active::after {
+    content: '';
+    @apply absolute top-1 h-1 w-1 rounded-full bg-accent;
+  }
+
+  .scroll-row {
+    @apply -mx-4 flex gap-3 overflow-x-auto px-4 pb-1 sm:-mx-6 sm:px-6 lg:mx-0 lg:px-0;
     scrollbar-width: none;
   }
-
-  .scrollbar-hide::-webkit-scrollbar {
+  .scroll-row::-webkit-scrollbar {
     display: none;
   }
 
-  .glass {
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(12px);
-  }
-
-  .dark .glass {
-    background-color: rgba(17, 24, 39, 0.8);
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* Print: just the recipe (recipe detail adds .print-hide to chrome it doesn't want). */
+@media print {
+  app-nav, app-toast, app-timer-tray, .tab-bar, .print-hide {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  .page {
+    padding: 0;
+  }
 }
 
-::-webkit-scrollbar-track {
-  background-color: #f3f4f6;
+/* Router view transitions: a quick cross-fade; the recipe photo morphs into the detail hero
+   via a shared view-transition-name set on both images. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 180ms;
 }
 
-.dark ::-webkit-scrollbar-track {
-  background-color: #1f2937;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #9ca3af;
-  border-radius: 9999px;
-}
-
-.dark ::-webkit-scrollbar-thumb {
-  background-color: #4b5563;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #6b7280;
-}
-
-.dark ::-webkit-scrollbar-thumb:hover {
-  background-color: #6b7280;
-}
-
-/* Smooth transitions */
-* {
-  transition-property: color, background-color, border-color;
-  transition-duration: 0.2s;
-}
-
-/* Animation utilities */
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.animate-on-scroll.visible {
-  opacity: 1;
-  transform: translateY(0);
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }

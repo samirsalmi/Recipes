@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    database_url: str = "mysql+pymysql://recipe_user:recipe_pass@localhost:3306/recipe_manager"
+    database_url: str = "postgresql+psycopg://recipe_user:recipe_pass@localhost:5433/recipe_manager"
     cors_origins: str = "http://localhost:4200"
     secret_key: str = "dev-only-secret-change-me"
     access_token_expire_minutes: int = 60 * 24 * 30
@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     cloudinary_api_key: str = ""
     cloudinary_api_secret: str = ""
 
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8-sig")
 
     @property
     def cors_origin_list(self) -> list[str]:

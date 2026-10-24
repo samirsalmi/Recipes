@@ -1,4 +1,5 @@
-import { Injectable, signal, computed, inject } from '@angular/core';
+import { Injectable, signal, computed, inject, effect, untracked } from '@angular/core';
+import { isAuthenticated } from './auth-state';
 import { Collection } from '../models';
 import { StorageService } from './storage.service';
 import { RecipeService } from './recipe.service';
@@ -15,12 +16,16 @@ export class CollectionService {
   readonly collections = this.collectionsSignal.asReadonly();
 
   constructor() {
-    this.loadCollections();
+    // Collections are per account (app_storage): load on login, clear on logout.
+    effect(() => {
+      const authed = isAuthenticated();
+      untracked(() => (authed ? this.loadCollections() : this.collectionsSignal.set([])));
+    });
   }
 
   private loadCollections(): void {
     this.storageService.getCollections().subscribe(collections => {
-      this.collectionsSignal.set(collections || []);
+      this.collectionsSignal.set((collections as Collection[] | null) || []);
     });
   }
 

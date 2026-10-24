@@ -1,80 +1,70 @@
 /** @type {import('tailwindcss').Config} */
+// Design tokens live as CSS variables (RGB triplets) in src/styles.scss - a light set on
+// :root and a dark set on html.dark - and are mapped here so Tailwind utilities like
+// `bg-paper`, `text-ink`, `border-hairline`, `bg-primary/10` follow the theme automatically.
+const token = (name) => `rgb(var(--${name}) / <alpha-value>)`;
+
 export default {
-  content: [
-    "./src/**/*.{html,ts,scss,css}",
-  ],
+  content: ['./src/**/*.{html,ts,scss,css}'],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
+        paper: token('paper'),
+        surface: token('surface'),
+        sunken: token('sunken'),
+        ink: token('ink'),
+        muted: token('muted'),
+        hairline: token('hairline'),
         primary: {
-          50: '#fff7ed',
-          100: '#ffedd5',
-          200: '#fed7aa',
-          300: '#fdba74',
-          400: '#fb923c',
-          500: '#f97316',
-          600: '#ea580c',
-          700: '#c2410c',
-          800: '#9a3412',
-          900: '#7c2d12',
+          DEFAULT: token('primary'),
+          hover: token('primary-hover'),
+          tint: token('primary-tint'),
+          on: token('on-primary'),
         },
-        secondary: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-        },
-        accent: {
-          50: '#fef2f2',
-          100: '#fee2e2',
-          200: '#fecaca',
-          300: '#fca5a5',
-          400: '#f87171',
-          500: '#ef4444',
-          600: '#dc2626',
-          700: '#b91c1c',
-          800: '#991b1b',
-          900: '#7f1d1d',
-        },
+        accent: token('accent'),
+        saffron: token('saffron'),
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        // Latin glyphs come from Inter / Fraunces; Arabic glyphs fall through to IBM Plex Sans Arabic
+        // (body) and Noto Naskh Arabic (display headings), loaded from @fontsource via angular.json.
+        sans: ['"Inter Variable"', 'Inter', '"IBM Plex Sans Arabic"', 'system-ui', 'sans-serif'],
+        display: ['"Fraunces Variable"', 'Fraunces', '"Noto Naskh Arabic Variable"', 'Georgia', 'serif'],
       },
-      animation: {
-        'fade-in': 'fadeIn 0.3s ease-in-out',
-        'slide-up': 'slideUp 0.4s ease-out',
-        'slide-down': 'slideDown 0.3s ease-out',
-        'scale-in': 'scaleIn 0.2s ease-out',
-        'bounce-slow': 'bounce 2s infinite',
-        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      borderRadius: {
+        card: '20px',
+        sheet: '24px',
+      },
+      boxShadow: {
+        soft: '0 1px 2px rgb(30 27 22 / 0.04), 0 8px 24px -12px rgb(30 27 22 / 0.18)',
+        sheet: '0 -8px 32px -12px rgb(30 27 22 / 0.25)',
+      },
+      spacing: {
+        'tab-bar': '4.5rem',
+      },
+      transitionTimingFunction: {
+        sheet: 'cubic-bezier(0.32, 0.72, 0, 1)',
       },
       keyframes: {
+        sheetUp: {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
-        slideUp: {
-          '0%': { transform: 'translateY(20px)', opacity: '0' },
+        riseIn: {
+          '0%': { transform: 'translateY(8px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
-        slideDown: {
-          '0%': { transform: 'translateY(-20px)', opacity: '0' },
-          '100%': { transform: 'translateY(0)', opacity: '1' },
-        },
-        scaleIn: {
-          '0%': { transform: 'scale(0.95)', opacity: '0' },
-          '100%': { transform: 'scale(1)', opacity: '1' },
-        },
+      },
+      animation: {
+        'sheet-up': 'sheetUp 0.32s cubic-bezier(0.32, 0.72, 0, 1)',
+        'fade-in': 'fadeIn 0.2s ease-out',
+        'rise-in': 'riseIn 0.25s ease-out',
       },
     },
   },
   plugins: [],
-}
+};

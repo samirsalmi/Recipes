@@ -1,23 +1,25 @@
 import { TestBed } from '@angular/core/testing';
-import { App } from './app';
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { provideRouter } from '@angular/router';
+import { AppComponent } from './app';
+import { NAV_ITEMS } from './components';
+import { en } from './i18n/en';
 
-describe('App', () => {
+describe('AppComponent shell', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [App],
+      imports: [AppComponent],
+      providers: [provideRouter([]), provideHttpClient(), provideHttpClientTesting()],
     }).compileComponents();
   });
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(App);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
-  });
-
-  it('should render title', async () => {
-    const fixture = TestBed.createComponent(App);
+  it('renders the five destinations in the mobile tab bar', async () => {
+    const fixture = TestBed.createComponent(AppComponent);
     await fixture.whenStable();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, recipe-manager');
+    const tabBar = (fixture.nativeElement as HTMLElement).querySelector('nav.tab-bar');
+    expect(tabBar).toBeTruthy();
+    const labels = Array.from(tabBar!.querySelectorAll('a')).map(a => a.textContent?.trim());
+    expect(labels).toEqual(NAV_ITEMS.map(i => (en as Record<string, string>)[i.label]));
   });
 });

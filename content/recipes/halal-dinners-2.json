@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "libyan-bazin",
+    "name": "Bazin (Libyan Barley Dough Dome with Lamb Stew and Eggs)",
+    "description": "Libya's national dish: a smooth dome of beaten barley dough surrounded by a tomato, lamb and potato stew and boiled eggs, eaten communally by crumbling the dough into the sauce.",
+    "cuisine": "Libyan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 130,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "libyan",
+      "barley",
+      "lamb",
+      "traditional",
+      "communal"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "barley flour",
+        "note": "fine"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "g",
+        "name": "flour",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the dough"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": "for the dough"
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, cubed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "tbsp",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "potatoes",
+        "note": "peeled, halved"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "green bell pepper",
+        "note": "diced"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "chili powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": "for the stew"
+      },
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "l",
+        "name": "water",
+        "note": "for the stew"
+      },
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "eggs",
+        "note": "hard-boiled"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Brown the lamb in the oil for 8 minutes, add the onion and garlic and cook 5 minutes. Stir in the cumin, turmeric, chilli and salt.",
+        "timerMinutes": 13
+      },
+      {
+        "text": "Add the tomatoes, tomato paste and water, bring to a boil, cover and simmer 1 hour 15 minutes. Add the potatoes and pepper for the last 30 minutes.",
+        "timerMinutes": 75
+      },
+      {
+        "text": "Make the dough: bring 800 ml salted water to a boil in a wide, heavy pot. Pour in both flours at once and beat vigorously with a sturdy wooden spoon over low heat for 10 to 12 minutes until a smooth, firm, shiny dough forms.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Wet your hands, shape the dough into a smooth dome and place it in the middle of a deep platter.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Surround with the stew, potatoes and halved boiled eggs, and pour some of the sauce over the dome. Serve at once; eat by tearing off pieces of dough and dipping them in the sauce.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Wetting the spoon and hands stops the dough sticking.",
+      "Traditionally bazin is made with barley flour only; the added wheat flour makes it easier to handle."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Bazin (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Bazin_(bread)",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and method outline (unleavened barley or wheat flour boiled in water and beaten into a dome-shaped dough, served with a tomato sauce or a meat-and-potato stew and hard-boiled eggs; a national dish of Libya) checked against the English Wikipedia article 'Bazin (bread)'. Stew ingredients cross-checked against the Wikibooks 'Cookbook:Bazeen bil Lahm (Libyan Meat Bazeen)' page (about 500 g meat, onion, garlic, tomato, potato, carrots, peppers, cumin, coriander, turmeric, 4 cups water, 1.5 to 2 hours; the dough had no quantities there). Dough and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Bazin.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Bazin.jpg",
+      "author": "Libiya11",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a shallow bowl with a round dome of beaten dough in the centre, surrounded by red sauce, hard-boiled eggs, potatoes and mushrooms."
+    }
+  },
+  {
+    "id": "libyan-mafrum",
+    "name": "Mafrum (Libyan Stuffed Potatoes in Tomato Sauce)",
+    "description": "Thick potato rounds hollowed and filled with spiced minced beef, fried until crisp-edged, then simmered in a tomato sauce. Served with couscous or bread.",
+    "cuisine": "Libyan",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 5,
+    "prepTime": 40,
+    "cookTime": 50,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "libyan",
+      "potatoes",
+      "minced-beef",
+      "tomato",
+      "stuffed"
+    ],
+    "traditional": true,
+    "budget": "low",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 6,
+        "unit": null,
+        "name": "potatoes",
+        "note": "large, peeled, halved crosswise"
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "minced beef",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "minced"
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "paprika",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "chili powder",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 300,
+        "unit": "ml",
+        "name": "oil",
+        "note": "for frying"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "canned tomatoes",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "ml",
+        "name": "water",
+        "note": null
+      }
+    ],
+    "steps": [
+      {
+        "text": "Scoop a hollow from the cut side of each potato half with a small spoon or melon baller, leaving walls about 1 cm thick. Salt lightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Mix the beef with the onion, garlic, parsley, egg, cumin, paprika, chilli, 1 teaspoon salt and the pepper. Press the filling into the hollows, mounding it slightly.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Shallow-fry the stuffed potatoes in hot oil, filling side down first, 4 minutes, then turn and fry 4 minutes more until golden. Drain.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Mix the tomatoes, tomato paste, water and remaining salt in a wide pan and bring to a simmer. Arrange the potatoes in a single layer, cover and simmer on low heat for 30 minutes until tender.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Uncover for the last 5 minutes to thicken the sauce, and serve with couscous or bread.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Bake the fried potatoes in the sauce at 180 C for 40 minutes for a hands-off version.",
+      "Eggplant halves or courgette boats can be stuffed the same way."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mafrum (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mafrum",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and method outline (hollowed vegetables, usually potatoes, filled with ground meat and spices, fried and simmered in a tomato-based sauce, served with couscous) checked against the English Wikipedia article 'Mafrum'. Proportions cross-checked against the Wikibooks 'Cookbook:Mafrum bil Lahm (Libyan Baked Meat and Potatoes)' page (4 to 6 servings, 500 g ground meat, 400 g canned tomatoes, cumin, paprika, cayenne). Method and quantities are the author's own. Quantities are the author's own for 5 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%D7%9E%D7%A4%D7%A8%D7%95%D7%9D_%D7%91%D7%99%D7%AA%D7%99_%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:%D7%9E%D7%A4%D7%A8%D7%95%D7%9D_%D7%91%D7%99%D7%AA%D7%99_%D7%9E%D7%A1%D7%95%D7%A8%D7%AA%D7%99.jpg",
+      "author": "אריק",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a browned stuffed potato in tomato sauce on a bed of couscous on a white plate."
+    }
+  },
+  {
+    "id": "palestinian-musakhan",
+    "name": "Musakhan (Sumac Roast Chicken on Flatbread)",
+    "description": "Palestine's national dish: chicken roasted with sumac and allspice on a bed of onions slowly cooked in olive oil, piled on flatbread to soak up the juices and scattered with fried pine nuts.",
+    "cuisine": "Palestinian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "palestinian",
+      "chicken",
+      "sumac",
+      "onions",
+      "olive-oil",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs, bone-in"
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "onions",
+        "note": "thinly sliced"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "ml",
+        "name": "olive oil",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "tbsp",
+        "name": "sumac",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground allspice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "saffron threads",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "flatbread",
+        "note": "taboon, lavash or large pita"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "pine nuts",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "lemon",
+        "note": "cut in wedges"
+      },
+      {
+        "group": null,
+        "quantity": 250,
+        "unit": "g",
+        "name": "plain yoghurt",
+        "note": "to serve",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oven to 210 C. Rub the chicken with 2 tablespoons sumac, the allspice, 1 teaspoon salt, the pepper and 3 tablespoons of the oil. Marinate 15 minutes.",
+        "timerMinutes": null
+      },
+      {
+        "text": "Roast the chicken on a tray, skin side up, for 45 minutes until golden and cooked through.",
+        "timerMinutes": 45
+      },
+      {
+        "text": "Meanwhile cook the onions with the remaining oil, salt and sumac, and the saffron if using, in a wide pan over medium-low heat for 25 minutes until completely soft and reduced.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Fry the pine nuts in a dry pan until golden, about 2 minutes.",
+        "timerMinutes": 2
+      },
+      {
+        "text": "Spread the flatbreads on a large tray, cover with the onions and juices from the roasting tray, then place the chicken on top and scatter with pine nuts. Serve with lemon and yoghurt.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Dip the bread briefly in the chicken juices before piling the onions on.",
+      "Use the best, fruitiest olive oil you have: it is the sauce."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Musakhan (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Musakhan",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (roasted chicken baked with onions, sumac, allspice, saffron and fried pine nuts, served over taboon bread; Palestinian, from the Tulkarm and Jenin area, cooked in olive-harvest season) checked against the English Wikipedia article 'Musakhan'. Quantities and method are the author's own. Quantities are the author's own for 4 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mushakhan_Dish.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mushakhan_Dish.jpg",
+      "author": "Kokaly",
+      "license": "CC BY-SA 3.0",
+      "verified": "Seen: a tray of roasted chicken pieces on flatbread scattered with pine nuts."
+    }
+  },
+  {
+    "id": "yemeni-chicken-mandi",
+    "name": "Chicken Mandi (Yemeni Spiced Chicken and Rice)",
+    "description": "Yemen's celebration dish: spice-rubbed chicken roasted until tender, laid on rice scented with whole spices and served with a hot tomato-chilli sauce. The oven version gets a smoky note from a hot coal.",
+    "cuisine": "Yemeni",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 60,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "yemeni",
+      "chicken",
+      "rice",
+      "spiced",
+      "festive",
+      "oven"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.6,
+        "unit": "kg",
+        "name": "chicken",
+        "note": "legs and thighs"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "plain yoghurt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground cumin",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "ground coriander",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cardamom",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "ground cloves",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "ghee",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": "rinsed, soaked 30 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "onions",
+        "note": "finely chopped"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "crushed"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "cardamom pods",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "stick",
+        "name": "cinnamon",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "dried limes",
+        "note": "pierced",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "chicken stock",
+        "note": "hot"
+      },
+      {
+        "group": null,
+        "quantity": 50,
+        "unit": "g",
+        "name": "raisins",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "tomatoes",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "for the sauce"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "clove",
+        "name": "garlic",
+        "note": "for the sauce"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Mix the yoghurt with the cumin, coriander, turmeric, pepper, ground cardamom, cloves and 1 teaspoon salt. Coat the chicken and marinate at least 30 minutes (overnight is better).",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Heat the oven to 200 C. Roast the chicken on a rack over a tray, skin up, for 50 minutes until deep golden and tender.",
+        "timerMinutes": 50
+      },
+      {
+        "text": "Fry the onions in the ghee for 8 minutes, add the garlic, cardamom pods, cinnamon and dried limes and cook 2 minutes. Add the drained rice and stir 2 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Pour in the hot stock, add 1 teaspoon salt and the raisins, bring to a boil, cover tightly and cook over lowest heat for 15 minutes. Rest 10 minutes off the heat.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Blitz the tomatoes, chillies, garlic and a pinch of salt to a fresh sauce and simmer 5 minutes.",
+        "timerMinutes": 5
+      },
+      {
+        "text": "Heap the rice on a platter, lay the chicken on top and serve with the sauce.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "For a smoky mandi, put a piece of hot charcoal in a foil cup in the covered rice pot with a spoon of oil on top for 5 minutes.",
+      "Lamb shoulder works too: roast it 2 hours covered in foil."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Chicken Mandi (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mandi_(food)",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (meat and rice with a spice blend, traditionally pit-cooked, strongly associated with Yemen) checked against the English Wikipedia article 'Mandi (food)' (description only). The oven method and quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Yemeni_food_-_Mandi_-_2011.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Yemeni_food_-_Mandi_-_2011.jpg",
+      "author": "Evan Bench",
+      "license": "CC BY 2.0",
+      "verified": "Seen: a plate of rice with a glazed chicken breast on top, small dishes of sauce and salad around it."
+    }
+  },
+  {
+    "id": "uzbek-lamb-plov",
+    "name": "Uzbek Plov (Lamb and Carrot Pilaf)",
+    "description": "Central Asia's feast rice: lamb, onions and yellow carrots browned in plenty of oil with cumin, rice layered on top and steamed with a whole head of garlic until every grain is separate.",
+    "cuisine": "Uzbek",
+    "region": "South Asia",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 100,
+    "difficulty": "medium",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": true,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": false
+    },
+    "tags": [
+      "uzbek",
+      "pilaf",
+      "lamb",
+      "carrots",
+      "rice",
+      "central-asian",
+      "festive"
+    ],
+    "traditional": true,
+    "budget": "medium",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "lamb",
+        "note": "shoulder, in 4 cm cubes"
+      },
+      {
+        "group": null,
+        "quantity": 150,
+        "unit": "ml",
+        "name": "oil",
+        "note": "sunflower or vegetable"
+      },
+      {
+        "group": null,
+        "quantity": 3,
+        "unit": null,
+        "name": "onions",
+        "note": "sliced into half rings"
+      },
+      {
+        "group": null,
+        "quantity": 600,
+        "unit": "g",
+        "name": "carrots",
+        "note": "cut in matchsticks"
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "cumin seeds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.5,
+        "unit": "tsp",
+        "name": "black pepper",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 500,
+        "unit": "g",
+        "name": "long-grain rice",
+        "note": "rinsed until clear, soaked 30 minutes"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "garlic",
+        "note": "whole head, unpeeled, top trimmed"
+      },
+      {
+        "group": null,
+        "quantity": 100,
+        "unit": "g",
+        "name": "dried chickpeas",
+        "note": "soaked overnight",
+        "optional": true
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "ml",
+        "name": "water",
+        "note": "boiling"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "chili pepper",
+        "note": "whole",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "text": "Heat the oil in a heavy casserole or kazan until very hot. Brown the lamb on all sides for 8 minutes.",
+        "timerMinutes": 8
+      },
+      {
+        "text": "Add the onions and cook 10 minutes until deep golden. Add the carrots, cumin, salt, pepper and chickpeas (if using) and cook 10 minutes more, stirring.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Pour in 300 ml of the boiling water, cover and simmer on low 30 minutes, until the lamb is nearly tender and the carrots are soft.",
+        "timerMinutes": 30
+      },
+      {
+        "text": "Level the contents, tuck the garlic head and chilli in the centre and spread the drained rice evenly on top without stirring. Pour in the remaining boiling water (about 1 cm above the rice) and cook uncovered on high until the water is absorbed, about 12 minutes.",
+        "timerMinutes": 12
+      },
+      {
+        "text": "Gather the rice into a mound over the meat, poke a few holes with a spoon handle, cover tightly and steam on the lowest heat for 20 minutes.",
+        "timerMinutes": 20
+      },
+      {
+        "text": "Rest 10 minutes, then stir gently from the bottom up and serve on a platter with the meat and garlic on top.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "The oil is not a mistake: it carries the flavour of the carrots and keeps the grains separate.",
+      "Rinse the rice until the water runs clear."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Uzbek Plov (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Pilaf",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity checked against the English Wikipedia articles 'Pilaf' (a rice dish cooked in stock with spices and other ingredients, common across Central Asia) and 'Uzbek cuisine'. The method (zirvak of meat, onions and carrots, rice steamed on top) and all quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Plov_with_lamb_and_carrots_in_ceramic_bowl.jpg",
+      "author": "Postovalov",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a ceramic bowl of rice with orange carrot strips and chunks of lamb."
+    }
+  },
+  {
+    "id": "jordanian-lamb-mansaf",
+    "name": "Mansaf (Jordanian Lamb in Yoghurt Sauce on Rice)",
+    "description": "Jordan's national dish: tender lamb in a tangy, cooked yoghurt sauce, served on turmeric rice over thin bread and finished with fried almonds and pine nuts. A home-kitchen version using strained yoghurt in place of dried jameed.",
+    "cuisine": "Jordanian",
+    "region": "North Africa & Middle East",
+    "mealTypes": [
+      "dinner"
+    ],
+    "servings": 6,
+    "prepTime": 30,
+    "cookTime": 130,
+    "difficulty": "hard",
+    "diet": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "containsPork": false,
+      "containsAlcohol": false,
+      "containsNuts": true
+    },
+    "tags": [
+      "jordanian",
+      "lamb",
+      "yoghurt",
+      "rice",
+      "festive",
+      "celebration"
+    ],
+    "traditional": true,
+    "budget": "high",
+    "ingredients": [
+      {
+        "group": null,
+        "quantity": 1.2,
+        "unit": "kg",
+        "name": "lamb",
+        "note": "shoulder on the bone, in chunks"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "onion",
+        "note": "halved"
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "cardamom pods",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": null,
+        "name": "bay leaf",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1.5,
+        "unit": "l",
+        "name": "water",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tsp",
+        "name": "salt",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 800,
+        "unit": "g",
+        "name": "plain yoghurt",
+        "note": "full-fat, Greek style"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": null,
+        "name": "egg",
+        "note": "white only, lightly beaten"
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tbsp",
+        "name": "cornflour",
+        "note": "dissolved in 2 tbsp cold water"
+      },
+      {
+        "group": null,
+        "quantity": 400,
+        "unit": "g",
+        "name": "basmati rice",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 1,
+        "unit": "tsp",
+        "name": "ground turmeric",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 2,
+        "unit": "tbsp",
+        "name": "butter",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 4,
+        "unit": "piece",
+        "name": "thin flatbread",
+        "note": "shrak or lavash"
+      },
+      {
+        "group": null,
+        "quantity": 40,
+        "unit": "g",
+        "name": "blanched almonds",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 30,
+        "unit": "g",
+        "name": "pine nuts",
+        "note": null
+      },
+      {
+        "group": null,
+        "quantity": 0.25,
+        "unit": "bunch",
+        "name": "fresh parsley",
+        "note": "chopped"
+      }
+    ],
+    "steps": [
+      {
+        "text": "Put the lamb, onion, cardamom, bay leaves and water in a pot, bring to a boil, skim, add 1 teaspoon salt and simmer covered 1 hour 30 minutes until tender. Strain, keeping 1 litre of broth.",
+        "timerMinutes": 90
+      },
+      {
+        "text": "For the sauce, whisk the yoghurt with the egg white and cornflour paste in a pot. Heat over medium heat, stirring in one direction only, until it just comes to a boil. Gradually stir in 500 ml of the hot broth and simmer gently 10 minutes. Add the lamb and simmer 15 minutes.",
+        "timerMinutes": 25
+      },
+      {
+        "text": "Meanwhile cook the rice: fry it in the butter with the turmeric for 1 minute, add 700 ml of the remaining broth (topped up with water) and the remaining salt, cover and cook 15 minutes on low.",
+        "timerMinutes": 16
+      },
+      {
+        "text": "Toast the almonds and pine nuts in a little butter until golden, about 3 minutes.",
+        "timerMinutes": 3
+      },
+      {
+        "text": "Layer the flatbread on a large platter, top with the rice and lamb, and pour over some sauce. Scatter with nuts and parsley, and serve the rest of the sauce in a bowl.",
+        "timerMinutes": null
+      }
+    ],
+    "tips": [
+      "Stirring the yoghurt in one direction and stabilising it with egg white and cornflour keeps it from splitting.",
+      "Authentic mansaf uses jameed (dried fermented yoghurt), sold in Middle Eastern shops; rehydrate it overnight and blend it for the sauce if you can find it."
+    ],
+    "nutrition": null,
+    "source": {
+      "title": "Mansaf (written for Mise)",
+      "author": "Mise kitchen",
+      "year": null,
+      "url": "https://en.wikipedia.org/wiki/Mansaf",
+      "license": "Original",
+      "adaptation": "Original text written for Mise from the traditional preparation; no source wording copied. Dish identity and components (lamb cooked in a sauce of fermented dried yoghurt (jameed), served with rice or bulgur; the national dish of Jordan) checked against the English Wikipedia article 'Mansaf'. The yoghurt-stabilising method, the toppings and all quantities are the author's own. Quantities are the author's own for 6 servings."
+    },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Mansaf,_the_traditional_dish_of_Jordan.jpg",
+      "author": "Jktab",
+      "license": "CC BY-SA 4.0",
+      "verified": "Seen: a large round tray of rice and lamb pieces topped with toasted nuts."
+    }
+  }
+]

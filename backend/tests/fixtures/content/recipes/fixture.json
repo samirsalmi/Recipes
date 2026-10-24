@@ -1,0 +1,112 @@
+[
+  {
+    "id": "fixture-chana-masala",
+    "name": "Chana Masala (fixture)",
+    "description": "Chickpeas simmered in a spiced onion and tomato sauce. Test fixture for the content importer.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": ["dinner", "lunch"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "difficulty": "easy",
+    "traditional": true,
+    "budget": "low",
+    "diet": { "vegetarian": true, "vegan": true, "glutenFree": true, "dairyFree": true,
+              "containsPork": false, "containsAlcohol": false, "containsNuts": false },
+    "tags": ["chickpeas", "one-pot"],
+    "ingredients": [
+      { "group": null, "quantity": 2, "unit": "tbsp", "name": "vegetable oil", "note": null },
+      { "group": null, "quantity": 1, "unit": null, "name": "onion", "note": "finely chopped" },
+      { "group": null, "quantity": 2, "unit": "clove", "name": "garlic", "note": "crushed" },
+      { "group": null, "quantity": 400, "unit": "g", "name": "tomatoes", "note": "chopped" },
+      { "group": "Spices", "quantity": 1, "unit": "tsp", "name": "ground cumin", "note": null },
+      { "group": "Spices", "quantity": 2, "unit": "tsp", "name": "garam masala", "note": null },
+      { "group": null, "quantity": 480, "unit": "g", "name": "chickpeas", "note": "cooked, drained" },
+      { "group": null, "quantity": null, "unit": null, "name": "salt", "note": "to taste" },
+      { "group": "To serve", "quantity": 1, "unit": "bunch", "name": "cilantro", "note": "chopped", "optional": true }
+    ],
+    "steps": [
+      { "text": "Warm the oil and soften the onion for about 8 minutes.", "timerMinutes": 8 },
+      { "text": "Add the garlic and spices, then the tomatoes; simmer 10 minutes.", "timerMinutes": 10 },
+      { "text": "Stir in the chickpeas, simmer 5 minutes more and season with salt.", "timerMinutes": 5 }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": { "title": "Importer test fixture", "author": "Mise", "year": 2026,
+                "url": "https://example.org/fixture", "license": "Public domain", "adaptation": null },
+    "image": {
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chana_masala.jpg",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Chana_masala.jpg",
+      "author": "Wikimedia Commons contributor",
+      "license": "CC BY-SA",
+      "verified": "Fixture only: reuses the chana masala photo from the south-and-east-asia batch."
+    }
+  },
+  {
+    "id": "fixture-buttered-eggs",
+    "name": "Buttered Eggs (fixture)",
+    "description": "Soft scrambled eggs on toast. Test fixture without a photo.",
+    "cuisine": "British",
+    "region": "Europe",
+    "mealTypes": ["breakfast"],
+    "servings": 2,
+    "prepTime": 2,
+    "cookTime": 6,
+    "difficulty": "easy",
+    "traditional": false,
+    "budget": "low",
+    "diet": { "vegetarian": true, "vegan": false, "glutenFree": false, "dairyFree": false,
+              "containsPork": false, "containsAlcohol": false, "containsNuts": false },
+    "tags": ["eggs", "quick"],
+    "ingredients": [
+      { "group": null, "quantity": 4, "unit": null, "name": "eggs", "note": null },
+      { "group": null, "quantity": 20, "unit": "g", "name": "butter", "note": null },
+      { "group": null, "quantity": 2, "unit": "slice", "name": "bread", "note": "toasted" },
+      { "group": null, "quantity": null, "unit": null, "name": "salt", "note": "to taste" }
+    ],
+    "steps": [
+      { "text": "Melt the butter over low heat, add the beaten eggs and stir gently until just set, about 5 minutes.", "timerMinutes": 5 },
+      { "text": "Season and serve on the toast.", "timerMinutes": null }
+    ],
+    "tips": ["Take the pan off the heat while the eggs still look slightly wet."],
+    "nutrition": null,
+    "source": { "title": "Importer test fixture", "author": "Mise", "year": 2026,
+                "url": "https://example.org/fixture", "license": "Public domain", "adaptation": null },
+    "image": null
+  },
+  {
+    "id": "fixture-lemon-rice",
+    "name": "Lemon Rice (fixture)",
+    "description": "Rice tossed with lemon, mustard seeds and turmeric. Test fixture without a photo.",
+    "cuisine": "Indian",
+    "region": "South Asia",
+    "mealTypes": ["lunch", "side"],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 20,
+    "difficulty": "easy",
+    "traditional": true,
+    "budget": "low",
+    "diet": { "vegetarian": true, "vegan": true, "glutenFree": true, "dairyFree": true,
+              "containsPork": false, "containsAlcohol": false, "containsNuts": true },
+    "tags": ["rice"],
+    "ingredients": [
+      { "group": null, "quantity": 300, "unit": "g", "name": "rice", "note": null },
+      { "group": null, "quantity": 1, "unit": "tbsp", "name": "vegetable oil", "note": null },
+      { "group": null, "quantity": 1, "unit": "tsp", "name": "mustard seeds", "note": null },
+      { "group": null, "quantity": 0.5, "unit": "tsp", "name": "turmeric", "note": null },
+      { "group": null, "quantity": 1, "unit": null, "name": "lemon", "note": "juiced" },
+      { "group": null, "quantity": 30, "unit": "g", "name": "peanuts", "note": "roasted", "optional": true }
+    ],
+    "steps": [
+      { "text": "Cook the rice and let it cool a little.", "timerMinutes": 15 },
+      { "text": "Fry the mustard seeds and turmeric in the oil, then toss with the rice and lemon juice.", "timerMinutes": null }
+    ],
+    "tips": [],
+    "nutrition": null,
+    "source": { "title": "Importer test fixture", "author": "Mise", "year": 2026,
+                "url": "https://example.org/fixture", "license": "Public domain", "adaptation": null },
+    "image": null
+  }
+]

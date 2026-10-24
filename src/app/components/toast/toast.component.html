@@ -1,19 +1,16 @@
-<div class="fixed bottom-4 right-4 z-50 flex flex-col gap-2 max-w-sm">
-  <div
-    *ngFor="let toast of toasts()"
-    class="card px-4 py-3 flex items-start gap-3 shadow-lg animate-slide-up"
-    [class.border-l-4]="true"
-    [class.border-green-500]="toast.type === 'success'"
-    [class.border-red-500]="toast.type === 'error'"
-    [class.border-blue-500]="toast.type === 'info'"
-  >
-    <p class="text-sm text-gray-800 dark:text-gray-200 flex-grow">{{ toast.message }}</p>
-    <button
-      (click)="dismiss(toast.id)"
-      class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 flex-shrink-0"
-      aria-label="Dismiss"
-    >
-      &times;
-    </button>
-  </div>
+<div class="pointer-events-none fixed inset-x-0 z-50 flex flex-col items-center gap-2 px-4 lg:bottom-6 lg:items-end lg:px-8"
+     style="bottom: calc(5rem + var(--safe-bottom))" aria-live="polite">
+  @for (toast of toasts(); track toast.id) {
+    <div class="pointer-events-auto flex w-full max-w-sm items-start gap-3 rounded-2xl px-4 py-3 shadow-soft animate-rise-in"
+         [class.bg-ink]="toast.type !== 'error'" [class.text-paper]="toast.type !== 'error'"
+         [class.bg-accent]="toast.type === 'error'" [class.text-white]="toast.type === 'error'"
+         role="status" data-qa="toast">
+      <p class="flex-grow self-center text-sm">{{ toast.message }}</p>
+      @if (toast.action; as action) {
+        <button type="button" class="min-h-[44px] shrink-0 self-center rounded-full px-3 text-sm font-semibold underline underline-offset-2" data-qa="undo-toast"
+                (click)="run(toast.id, action.run)">{{ action.label }}</button>
+      }
+      <button type="button" (click)="dismiss(toast.id)" class="-my-2 -me-3 flex h-11 w-11 shrink-0 items-center justify-center text-lg opacity-70 hover:opacity-100" [attr.aria-label]="t('toast.dismiss')">&times;</button>
+    </div>
+  }
 </div>

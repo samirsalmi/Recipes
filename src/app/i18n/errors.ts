@@ -1,0 +1,35 @@
+import type { TranslationKey } from './en';
+
+/** API `detail` strings (backend HTTPException messages) -> translation keys. Anything not
+ *  listed falls back to the caller's generic message. */
+export const ERROR_KEYS: Record<string, TranslationKey> = {
+  'A plan entry needs a recipe or a title': 'err.planNeedsTitle',
+  'Admin access required': 'err.adminOnly',
+  'Could not fetch image': 'err.imageFetch',
+  'Image is too large (max 8MB)': 'err.imageTooLarge',
+  'Ingredient name is empty': 'err.ingredientEmpty',
+  'Invalid date range': 'err.dateRange',
+  'Invalid username or password': 'err.badLogin',
+  'Invite code not found': 'err.inviteNotFound',
+  'Item not found': 'err.itemNotFound',
+  'Item not on the list': 'err.itemNotOnList',
+  'Member not found': 'err.memberNotFound',
+  'No open shop - load the grocery list first': 'err.noOpenShop',
+  'Not authenticated': 'err.notAuthenticated',
+  'Not found': 'err.notFound',
+  'Only Cloudinary image URLs can be proxied': 'err.imageProxy',
+  'Only the owner can delete this recipe': 'err.ownerDelete',
+  'Only the owner can edit this recipe': 'err.ownerEdit',
+  'Only the owner can regenerate the invite code': 'err.ownerInvite',
+  'Only the owner can remove members': 'err.ownerRemove',
+  'Pick a different week to copy from': 'err.copyWeek',
+  'Plan entry not found': 'err.planEntryNotFound',
+  'Recipe not found': 'err.recipeNotFound',
+  'Unknown part for this item': 'err.unknownPart',
+  'Unknown recipe': 'err.unknownRecipe',
+  'Unsupported image type': 'err.imageType',
+  'Use leave to remove yourself': 'err.useLeave',
+  'Username already taken': 'err.usernameTaken',
+  'You are already in this household': 'err.alreadyMember',
+  "You're the only member - there is nothing to leave": 'err.onlyMember',
+};
