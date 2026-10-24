@@ -21,7 +21,7 @@ from ..models import (
     UserRow,
 )
 from ..localization import localized_names, valid_language
-from ..recipe_data import apply_update, build_data, to_response
+from ..recipe_data import apply_update, build_data, to_response, twist_counts
 from ..schemas import (
     ImportUrlIn,
     IngredientAisleIn,
@@ -61,7 +61,8 @@ def list_recipes(
     recipes = cache_get("roots")
     if recipes is None:
         rows = db.execute(select(RecipeRow).where(RecipeRow.parent_recipe_id.is_(None))).scalars().all()
-        recipes = [to_response(row, db) for row in rows]
+        counts = twist_counts(db, [row.id for row in rows])
+        recipes = [to_response(row, db, twist_count=counts.get(row.id, 0)) for row in rows]
         cache_set("roots", recipes)
     return [
         r for r in recipes
@@ -77,7 +78,8 @@ def list_my_recipes(
     """All of the current user's own recipes - root or twist, public or private.
     Declared before /{recipe_id} so FastAPI doesn't match "mine" as a recipe id."""
     rows = db.execute(select(RecipeRow).where(RecipeRow.owner_id == current_user.id)).scalars().all()
-    return [to_response(row, db) for row in rows]
+    counts = twist_counts(db, [row.id for row in rows])
+    return [to_response(row, db, twist_count=counts.get(row.id, 0)) for row in rows]
 
 
 @router.post("/import-url")
@@ -225,7 +227,9 @@ def list_twists(
     current_user: UserRow | None = Depends(get_current_user_optional),
 ):
     rows = db.execute(select(RecipeRow).where(RecipeRow.parent_recipe_id == recipe_id)).scalars().all()
-    return [to_response(row, db) for row in rows if _visible_to(row, current_user)]
+    visible = [row for row in rows if _visible_to(row, current_user)]
+    counts = twist_counts(db, [row.id for row in visible])
+    return [to_response(row, db, twist_count=counts.get(row.id, 0)) for row in visible]
 
 
 @router.post("")

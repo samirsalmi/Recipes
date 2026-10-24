@@ -117,12 +117,28 @@ def apply_update(
     return merged
 
 
-def to_response(row: RecipeRow, db: Session) -> dict[str, Any]:
+def twist_counts(db: Session, recipe_ids: list[str]) -> dict[str, int]:
+    """Brute-force list endpoints need counts for many recipes at once; one grouped query
+    instead of one COUNT per row (which is ~300 round-trips on a remote database)."""
+    if not recipe_ids:
+        return {}
+    rows = db.execute(
+        select(RecipeRow.parent_recipe_id, func.count())
+        .where(RecipeRow.parent_recipe_id.in_(recipe_ids))
+        .group_by(RecipeRow.parent_recipe_id)
+    ).all()
+    return {parent_id: count for parent_id, count in rows}
+
+
+def to_response(
+    row: RecipeRow, db: Session, *, twist_count: int | None = None
+) -> dict[str, Any]:
     """One flat Recipe shape for the frontend: the data blob plus the ownership/visibility/
-    curation/lineage columns and a live twist count."""
-    twist_count = db.execute(
-        select(func.count()).select_from(RecipeRow).where(RecipeRow.parent_recipe_id == row.id)
-    ).scalar_one()
+    curation/lineage columns and a live twist count (pass `twist_count` to avoid a query)."""
+    if twist_count is None:
+        twist_count = db.execute(
+            select(func.count()).select_from(RecipeRow).where(RecipeRow.parent_recipe_id == row.id)
+        ).scalar_one()
     data = dict(row.data)
     data["ingredients"] = [enrich_ingredient(i) for i in data.get("ingredients") or []]
     data.setdefault("translations", None)
